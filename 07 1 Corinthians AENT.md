@@ -1,3 +1,7 @@
+---
+layout: default
+title: 1 Corinthians
+---
 1 Corinthians Chapter 1
 A Friendly, Plain American English Translation 
 (AENT) Accessible English New Testament
