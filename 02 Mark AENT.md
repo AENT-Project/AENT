@@ -3,9 +3,12 @@ layout: default
 title: Mark
 ---
 The Gospel Of Mark
-A Friendly, Plain American English Translation (AENT) Accessible English New Testament
-This version is written for everyone. We use familiar names like "Jesus" and "God" rather than the original Aramaic or Hebrew names (like Y'shua or Elohim) because our goal is to make the Bible easy to read and understand. This translation focuses on making the meaning clear so you can understand what was actually being said.
-A quick tip for the reader: Whenever you see "THE LORD" in all capital letters, it refers to the personal, sacred name of God. When you see "Lord" in normal letters, it is usually a title of respect, similar to calling someone "Sir" or "Master."
+(AENT) Accessible English New Testament
+This version is written for everyone. We use familiar names like "Jesus" and "God" rather than the original Aramaic or Hebrew names because our goal is simple — make the Bible easy to read and understand.
+A quick note: Whenever you see THE LORD in all capitals, it refers to the personal, sacred name of God. When you see Lord in normal letters, it is a title of respect, similar to calling someone "Sir" or "Master."
+This text is meant as a companion to your current favorite version of the New Testament — not a replacement. Nourish your soul in the Word, every way and every chance you get.
+Grace & Peace.
+
 Mark 1
 John the Baptist
 The beginning of the Good News of Jesus the Messiah, the Son of God. The prophets wrote, "Look, I am sending my messenger ahead of you. He will prepare your way. A voice shouts in the wilderness, 'Prepare the way for THE LORD! Make his paths straight!'"
