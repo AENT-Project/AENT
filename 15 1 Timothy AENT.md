@@ -10,7 +10,6 @@ A quick note: Whenever you see THE LORD in all capitals, it refers to the person
 This text is meant as a companion to your current favorite version of the New Testament — not a replacement. Nourish your soul in the Word, every way and every chance you get.
 Grace & Peace.
 
-
 1 Timothy Chapter 1
 Opening Greeting
 Paul, an apostle of Jesus the Messiah by the command of God our Savior and of Jesus the Messiah our hope — to Timothy, my true son in the faith. Grace, mercy, and peace to you from God the Father and our Master Jesus the Messiah.
