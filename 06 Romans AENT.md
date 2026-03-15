@@ -1,3 +1,7 @@
+---
+layout: default
+title: Romans
+---
 The Book Of Romans
 A Friendly, Plain American English Translation 
 (AENT) Accessible English New Testament
