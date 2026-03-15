@@ -1,3 +1,7 @@
+---
+layout: default
+title: 2 Timothy
+---
 2 Timothy
 A Friendly, Plain American English Translation
 (AENT) Accessible English New Testament
