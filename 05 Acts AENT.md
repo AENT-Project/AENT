@@ -1,3 +1,7 @@
+---
+layout: default
+title: Acts
+---
 The Book Of Acts
 A Friendly, Plain American English Translation 
 (AENT) Accessible English New Testament
