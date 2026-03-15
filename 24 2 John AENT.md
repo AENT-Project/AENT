@@ -1,3 +1,7 @@
+---
+layout: default
+title: 2 John
+---
 2 John
 A Friendly, Plain American English Translation
 (AENT) Accessible English New Testament
