@@ -1,3 +1,7 @@
+---
+layout: default
+title: 1 Thessalonians
+---
 1 Thessalonians
 A Friendly, Plain American English Translation
 (AENT) Accessible English New Testament
