@@ -3,10 +3,12 @@ layout: default
 title: 1 Corinthians
 ---
 1 Corinthians Chapter 1
-A Friendly, Plain American English Translation 
 (AENT) Accessible English New Testament
-This version is written for everyone. We use familiar names like "Jesus" and "God" rather than the original Aramaic or Hebrew names (like Y'shua or God) because our goal is to make the Bible easy to read and understand. This translation focuses on making the meaning clear so you can understand what was actually being said.
-A quick tip for the reader: Whenever you see "THE LORD" in all capital letters, it refers to the personal, sacred name of God. When you see "Lord" in normal letters, it is usually a title of respect, similar to calling someone "Sir" or "Master."
+This version is written for everyone. We use familiar names like "Jesus" and "God" rather than the original Aramaic or Hebrew names because our goal is simple — make the Bible easy to read and understand.
+A quick note: Whenever you see THE LORD in all capitals, it refers to the personal, sacred name of God. When you see Lord in normal letters, it is a title of respect, similar to calling someone "Sir" or "Master."
+This text is meant as a companion to your current favorite version of the New Testament — not a replacement. Nourish your soul in the Word, every way and every chance you get.
+Grace & Peace.
+
 1 Corinthians Chapter 1
 Greeting to the Church in Corinth
 From Paul, called by the will of God to be an apostle of Jesus the Messiah, and from our brother Sosthenes. To the church of God in Corinth — to those who have been set apart in Jesus the Messiah and called to be his holy people. This includes everyone everywhere who calls on the name of our Master, Jesus the Messiah, who is both their Master and ours. May grace and peace be yours from God our Father and from the Master Jesus the Messiah.
