@@ -1,4 +1,8 @@
-﻿The Gospel Of Matthew
+---
+layout: default
+title: Matthew
+---
+ The Gospel Of Matthew
 A Friendly, Plain American English Translation 
 (AENT) Accessible English New Testament
 This version is written for everyone. We use familiar names like "Jesus" and "God" rather than the original Aramaic or Hebrew names (like Y'shua or God) because our goal is to make the Bible easy to read and understand. This translation focuses on making the meaning clear so you can understand what was actually being said.
