@@ -1,3 +1,7 @@
+---
+layout: default
+title: Luke
+---
 The Gospel Of Luke
 A Friendly, Plain American English Translation 
 (AENT) Accessible English New Testament
