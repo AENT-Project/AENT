@@ -9,6 +9,7 @@ This version is written for everyone. We use familiar names like "Jesus" and "Go
 A quick note: Whenever you see THE LORD in all capitals, it refers to the personal, sacred name of God. When you see Lord in normal letters, it is a title of respect, similar to calling someone "Sir" or "Master."
 This text is meant as a companion to your current favorite version of the New Testament — not a replacement. Nourish your soul in the Word, every way and every chance you get.
 Grace & Peace.
+
 2 Corinthians Chapter 1
 Opening Greeting
 Paul, an apostle of Jesus the Messiah by the will of God, and brother Timothy — to the church of God in Corinth, along with all of God's people throughout Achaia. Grace and peace to you from God our Father and from our Master Jesus the Messiah.
