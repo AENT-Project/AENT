@@ -1,3 +1,7 @@
+---
+layout: default
+title: 3 John
+---
 3 John
 A Friendly, Plain American English Translation
 (AENT) Accessible English New Testament
