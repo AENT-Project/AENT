@@ -1,3 +1,7 @@
+---
+layout: default
+title: 2 Corinthians
+---
 2 Corinthians
 A Friendly, Plain American English Translation
 (AENT) Accessible English New Testament
