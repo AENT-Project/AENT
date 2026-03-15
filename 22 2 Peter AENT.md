@@ -1,3 +1,7 @@
+---
+layout: default
+title: 2 Peter
+---
 2 Peter
 A Friendly, Plain American English Translation
 (AENT) Accessible English New Testament
