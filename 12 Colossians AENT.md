@@ -1,3 +1,7 @@
+---
+layout: default
+title: Colossians
+---
 Colossians
 A Friendly, Plain American English Translation
 (AENT) Accessible English New Testament
