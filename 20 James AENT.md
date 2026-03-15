@@ -1,3 +1,7 @@
+---
+layout: default
+title: James
+---
 James
 A Friendly, Plain American English Translation
 (AENT) Accessible English New Testament
