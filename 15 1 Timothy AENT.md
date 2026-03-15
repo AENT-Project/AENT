@@ -1,3 +1,7 @@
+---
+layout: default
+title: 1 Timothy
+---
 1 Timothy
 A Friendly, Plain American English Translation
 (AENT) Accessible English New Testament
