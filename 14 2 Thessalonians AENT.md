@@ -11,7 +11,6 @@ A quick note: Whenever you see THE LORD in all capitals, it refers to the person
 This text is meant as a companion to your current favorite version of the New Testament — not a replacement. Nourish your soul in the Word, every way and every chance you get.
 Grace & Peace.
 
-
 2 Thessalonians Chapter 1
 Opening Greeting
 Paul, Silvanus, and Timothy — to the church of the Thessalonians in God our Father and our Master Jesus the Messiah. Grace and peace to you from God our Father and from our Master Jesus the Messiah.
