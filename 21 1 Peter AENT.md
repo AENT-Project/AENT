@@ -1,4 +1,8 @@
-1 Peter
+
+---
+layout: default
+title: 1 Peter
+---1 Peter
 A Friendly, Plain American English Translation
 (AENT) Accessible English New Testament
 This version is written for everyone. We use familiar names like "Jesus" and "God" rather than the original Aramaic or Hebrew names because our goal is simple — make the Bible easy to read and understand.
