@@ -1,3 +1,7 @@
+---
+layout: default
+title: Philippians
+---
 Philippians
 A Friendly, Plain American English Translation
 (AENT) Accessible English New Testament
