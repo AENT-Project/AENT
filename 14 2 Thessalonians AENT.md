@@ -1,3 +1,7 @@
+---
+layout: default
+title: 2 Thessalonians
+---
 2 Thessalonians
 
 A Friendly, Plain American English Translation
