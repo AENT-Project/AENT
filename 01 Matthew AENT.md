@@ -2,17 +2,14 @@
 layout: default
 title: Matthew
 ---
- The Gospel Of Matthew
+The Gospel Of Matthew
+A Friendly, Plain American English Translation
 (AENT) Accessible English New Testament
 This version is written for everyone. We use familiar names like "Jesus" and "God" rather than the original Aramaic or Hebrew names because our goal is simple — make the Bible easy to read and understand.
 A quick note: Whenever you see THE LORD in all capitals, it refers to the personal, sacred name of God. When you see Lord in normal letters, it is a title of respect, similar to calling someone "Sir" or "Master."
 This text is meant as a companion to your current favorite version of the New Testament — not a replacement. Nourish your soul in the Word, every way and every chance you get.
 Grace & Peace.
-
-
-The Gospel Of Matthew Chapter 1
-
-
+Matthew Chapter 1
 The Lineage of Jesus the Messiah
 This is the record of the family line of Jesus the Messiah, the son of David and the son of Abraham.
 Abraham was the father of Isaac, Isaac was the father of Jacob, and Jacob was the father of Judah and his brothers. Judah was the father of Perez and Zerah (their mother was Tamar), Perez was the father of Hezron, and Hezron was the father of Ram. Ram was the father of Amminadab, Amminadab was the father of Nahshon, and Nahshon was the father of Salmon. Salmon was the father of Boaz (his mother was Rahab), Boaz was the father of Obed (his mother was Ruth), and Obed was the father of Jesse. Jesse was the father of David, the King.
@@ -25,17 +22,13 @@ This is how the birth of Jesus the Messiah happened. His mother, Mary, was engag
 Joseph, her husband-to-be, was a man of high integrity. He didn't want to disgrace her publicly, so he decided to break off the engagement quietly. While he was thinking this over, an angel of THE LORD appeared to him in a dream and said, “Joseph, son of David, do not be afraid to take Mary as your wife. The child conceived in her is from the Holy Spirit. She will give birth to a son, and you are to name him Jesus (which means ‘Salvation’), because he is the one who will save his people from their sins.”
 All of this took place to fulfill what THE LORD had said through the prophet: “Look! The virgin will be with child and will give birth to a son, and they will call him Immanuel,” which means “God is with us.”
 When Joseph woke up, he did exactly what the angel of THE LORD commanded him and took Mary as his wife. But he did not have intimate relations with her until she gave birth to her son. And he named the boy Jesus.
-________________
 
-
-The Gospel Of Matthew Chapter 2
-
-
+Matthew Chapter 2
 The Visit of the Wise Men
 After Jesus was born in Bethlehem in the land of Judah, during the time when Herod was king, some wise men from the east arrived in Jerusalem. They asked, “Where is the baby who has been born to be the King of the Jews? We saw his star when it rose in the east, and we have come to honor him.”
 When King Herod heard this, he was deeply disturbed, and so was everyone else in Jerusalem. He called a meeting of all the high priests and the religious scholars of the people. He asked them exactly where the Messiah was supposed to be born.
 They told him, “In Bethlehem, in the land of Judah. The prophet wrote about it:
-‘Bethlehem, in the land of Judah, you are certainly not the least important among the towns of Judah. A leader will come from you who will shepherd my people, the people of Israel.’” 
+ ‘Bethlehem, in the land of Judah, you are certainly not the least important among the towns of Judah. A leader will come from you who will shepherd my people, the people of Israel.’” 
 Then Herod called the wise men to a private meeting. He found out from them the exact time the star had first appeared. He sent them to Bethlehem and said, “Go and search carefully for the child. As soon as you find him, come back and tell me, so that I can go and honor him too.”
 After they heard the king, they went on their way. The star they had seen in the east went ahead of them until it stopped right over the place where the child was. When they saw the star, they were filled with huge, overwhelming joy.
 They went into the house and saw the child with his mother, Mary. They bowed down and honored him. Then they opened their treasure chests and gave him gifts: gold, frankincense, and myrrh. But because they were warned in a dream not to go back to Herod, they returned to their own country by a different route.
@@ -48,12 +41,8 @@ The Return to Nazareth
 After Herod died, an angel of THE LORD appeared in a dream to Joseph while he was still in Egypt. The angel said, “Get up! Take the child and his mother and go back to the land of Israel. Those who were trying to kill the child are dead.”
 So Joseph got up, took the child and his mother, and entered the land of Israel. But when he heard that Archelaus was ruling over Judah in place of his father Herod, he was afraid to go there. Having been warned in another dream, he went to the region of Galilee instead.
 He went and lived in a town called Nazareth. This fulfilled what the prophets had said: “He will be called a Nazarene.”
-________________
 
-
-The Gospel Of Matthew Chapter 3
-
-
+Matthew Chapter 3
 John the Baptist
 In those days, John the Baptist appeared in the wilderness of Judah, preaching to the people. He said, "Turn away from your sins and change your life, because the Kingdom of Heaven is here!"
 John is the one the prophet Isaiah was talking about when he said: "A voice is calling out in the desert, 'Clear the way for THE LORD! Make a straight path for him!'"
@@ -64,12 +53,8 @@ The Baptism of Jesus
 Then Jesus came from Galilee to the Jordan River so that John could baptize him. But John tried to stop him, saying, "I’m the one who needs to be baptized by you! Why are you coming to me?"
 Jesus answered, "Let it be this way for now. It is right for us to do this to fulfill everything that is written." Then John agreed and baptized him.
 As soon as Jesus was baptized, he came up out of the water. Suddenly, the heavens were opened, and he saw the Spirit of God coming down like a dove and lighting on him. And a voice spoke from heaven, saying, "This is my Son, whom I love; I am very pleased with him."
-________________
 
-
-The Gospel Of Matthew Chapter 4
-
-
+Matthew Chapter 4
 The Testing of Jesus
 Then the Spirit led Jesus into the wilderness to be tested by the Evil One. After fasting for forty days and forty nights, he was very hungry. The Tempter came to him and said, "If you are the Son of God (God), tell these stones to become loaves of bread."
 But Jesus answered, "It is written: 'A person does not live on bread alone, but on every word that comes from the mouth of THE LORD.'"
@@ -87,11 +72,8 @@ As Jesus was walking by the Sea of Galilee, he saw two brothers: Simon (who is c
 Going on from there, he saw two other brothers: James and John, the sons of Zebedee. They were in a boat with their father, Zebedee, fixing their nets. Jesus called them, and they immediately left the boat and their father and followed him.
 Healing the Crowds
 Jesus went all over Galilee, teaching in the synagogues, preaching the Good News of the Kingdom, and healing every kind of disease and sickness among the people. News about him spread all the way to Syria. People brought to him everyone who was suffering from various diseases, those in great pain, those possessed by demons, those having seizures, and the paralyzed—and he healed them all. Large crowds followed him from Galilee, from Jerusalem and all of Judah, and from the lands of the Ten Cities across the Jordan River.
-________________
 
-
-The Gospel Of Matthew Chapter 5
-
+Matthew Chapter 5
 
 The Sermon on the Mount: The Beatitudes
 When Jesus saw the crowds, he went up on a mountainside and sat down. His disciples came to him, and he began to teach them, saying:
@@ -124,12 +106,8 @@ Love for Enemies
 "You have heard it said, 'An eye for an eye and a tooth for a tooth.' But I tell you, don't resist an evil person. If someone slaps you on your right cheek, turn the other one to them as well. If someone wants to sue you for your shirt, let them have your coat too. If someone forces you to go one mile, go two miles with them. Give to the person who asks you, and don't turn away from someone who wants to borrow from you.
 You have heard it said, 'Love your neighbor and hate your enemy.' But I tell you: Love your enemies and pray for those who persecute you. This way, you will be acting like true sons of your Father in heaven. He makes His sun rise on both the evil and the good, and sends rain on both the righteous and the unrighteous.
 If you only love those who love you, what reward do you get? Even the tax collectors do that! And if you are only kind to your brothers, what are you doing that is so special? Even the pagans do that. So be complete in love, just as your heavenly Father is complete in love."
-________________
 
-
-The Gospel Of Matthew Chapter 6
-
-
+Matthew Chapter 6
 Doing Good in Secret
 "Be careful not to practice your righteousness in front of people just to be seen by them. If you do, you won’t have any reward from your Father in heaven.
 So, when you give to the poor, don't blow a trumpet to announce it, like the hypocrites do in the synagogues and on the streets to be praised by others. I tell you the truth, they have already received their reward in full. But when you give to the needy, don't let your left hand know what your right hand is doing, so that your giving may be in secret. Then your Father, who sees what is done in secret, will reward you."
@@ -155,11 +133,8 @@ Do Not Worry
 "This is why I tell you: do not worry about your life, or what you will eat and drink, or about your body, or what you will wear. Isn't life more than food, and the body more than clothes? Look at the birds in the sky; they don't sow or reap or store food in barns, yet your heavenly Father feeds them. Aren't you much more valuable than they are? Can any of you, by worrying, add a single hour to your life?
 And why do you worry about clothes? See how the lilies of the field grow. They don't work or spin thread. Yet I tell you that not even Solomon in all his glory was dressed as beautifully as one of these. If God clothes the grass of the field like that, which is here today and thrown into the oven tomorrow, won't He much more clothe you, you of little faith?
 So don't worry, saying, 'What will we eat?' or 'What will we drink?' or 'What will we wear?' For the pagans run after all these things, and your heavenly Father knows that you need them. But seek first the Kingdom of God and His righteousness, and all these things will be given to you as well. Therefore, do not worry about tomorrow, for tomorrow will worry about itself. Each day has enough trouble of its own."
-________________
 
-
-The Gospel Of Matthew Chapter 7
-
+Matthew Chapter 7
 
 Judging Others
 "Do not judge, so that you won’t be judged. For the same way you judge others, you will be judged, and the standard you use to measure others will be used to measure you.
@@ -182,11 +157,8 @@ The Two Builders
 But everyone who hears these words of mine and does not put them into practice is like a foolish man who built his house on sand. The rain fell, the floods rose, and the winds blew and beat against that house, and it fell with a great crash."
 The Authority of Jesus
 When Jesus had finished saying these things, the crowds were amazed at his teaching, because he taught them as one who had authority, and not like their legal scholars.
-________________
 
-
-The Gospel Of Matthew Chapter 8
-
+Matthew Chapter 8
 
 Healing a Leper
 When Jesus came down from the mountain, large crowds followed him. Right then, a man with leprosy came up and knelt before him, saying, "Master, if you are willing, you can make me clean."
@@ -213,11 +185,8 @@ The Gadarene Demoniacs
 When he arrived at the other side in the region of the Gadarenes, two demon-possessed men coming from the tombs met him. They were so violent that no one could pass that way. "What do you want with us, Son of God?" they shouted. "Have you come here to torture us before the appointed time?"
 A large herd of pigs was feeding some distance from them. The demons begged Jesus, "If you drive us out, send us into the herd of pigs."
 He said to them, "Go!" So they came out and went into the pigs, and the whole herd rushed down the steep bank into the lake and died in the water. Those tending the pigs ran off, went into town, and reported everything, including what had happened to the demon-possessed men. Then the whole town went out to meet Jesus. And when they saw him, they pleaded with him to leave their region.
-________________
 
-
-The Gospel Of Matthew Chapter 9
-
+Matthew Chapter 9
 
 Healing and Forgiveness
 Jesus got into a boat, crossed back over the lake, and came to his own town. Some people brought to him a paralyzed man lying on a mat. When Jesus saw their faith, he said to the man, "Take heart, son; your sins are forgiven."
@@ -244,11 +213,8 @@ While they were going out, a man who was demon-possessed and could not talk was 
 But the Pharisees said, "It is by the prince of demons that he drives out demons."
 The Harvest is Great
 Jesus went through all the towns and villages, teaching in their synagogues, proclaiming the Good News of the Kingdom and healing every disease and sickness. When he saw the crowds, he had compassion on them, because they were harassed and helpless, like sheep without a shepherd. Then he said to his disciples, "The harvest is plentiful but the workers are few. Ask the Master of the harvest to send out workers into his harvest field."
-________________
 
-
-The Gospel Of Matthew Chapter 10
-
+Matthew Chapter 10
 
 The Twelve Apostles
 Jesus called his twelve disciples to him and gave them authority to drive out unclean spirits and to heal every kind of disease and sickness. These are the names of the twelve apostles:
@@ -279,11 +245,8 @@ Do not suppose that I have come to bring peace to the earth. I did not come to b
 Anyone who loves their father or mother more than me is not worthy of me; anyone who loves their son or daughter more than me is not worthy of me. Whoever does not take up their cross and follow me is not worthy of me. Whoever finds their life will lose it, and whoever loses their life for my sake will find it.
 Rewards
 Anyone who welcomes you welcomes me, and anyone who welcomes me welcomes the One who sent me. Whoever welcomes a prophet as a prophet will receive a prophet’s reward, and whoever welcomes a righteous person as a righteous person will receive a righteous person’s reward. And if anyone gives even a cup of cold water to one of these little ones who is my disciple, truly I tell you, that person will certainly not lose their reward."
-________________
 
-
-The Gospel Of Matthew Chapter 11
-
+Matthew Chapter 11
 
 Messengers from John
 After Jesus finished giving these instructions to his twelve disciples, he left that place to teach and preach in the surrounding towns of Galilee.
@@ -300,11 +263,8 @@ Rest for the Weary
 At that time Jesus said, “I praise you, Father, Lord of heaven and earth, because you have hidden these things from the wise and learned, and revealed them to little children. Yes, because you were pleased to do this Father.”
 “My Father has given everything to me. No one truly knows the Son without the Father, and no one truly knows the Father without the Son and those the Son chooses to show him to.”
 “Come to me, all you who are weary and burdened, and I will give you rest. Take my yoke upon you and learn from me, for I am gentle and humble in heart, and you will find rest for your souls. For my yoke is easy and my burden is light.”
-________________
 
-
-The Gospel Of Matthew Chapter 12
-
+Matthew Chapter 12
 
 Lord of the Sabbath
 Around that time, Jesus was walking through some grainfields on the Sabbath. His disciples were hungry, so they began to pick some heads of grain and eat them. When the Pharisees saw this, they said to him, "Look! Your disciples are doing what is forbidden on the Sabbath."
@@ -328,35 +288,31 @@ When an impure spirit comes out of a person, it goes through arid places seeking
 Jesus’s Mother and Brothers
 While Jesus was still talking to the crowd, his mother and brothers stood outside, wanting to speak to him. Someone told him, "Your mother and brothers are standing outside, wanting to speak to you."
 He replied to him, "Who is my mother, and who are my brothers?" Pointing to his disciples, he said, "Here are my mother and my brothers. For whoever does the will of my Father in heaven is my brother and sister and mother."
-________________
 
-
-The Gospel Of Matthew Chapter 13
-
+Matthew Chapter 13
 
 The Parable of the Sower
 That same day Jesus left the house and sat by the lake. Such large crowds gathered around him that he got into a boat and sat in it, while all the people stood on the shore. Then he told them many things in parables, saying: “Listen! A sower went out to sow his seed. As he was scattering the seed, some fell along the path, and the birds came and ate them up. Some fell on rocky places, where they did not have much soil. They sprang up quickly, because the soil was shallow. But when the sun came up, the plants were scorched, and they withered because they had no root. Other seed fell among thorns, which grew up and choked the plants. Still other seed fell on good soil, where they produced a crop—a hundred, sixty or thirty times what was sown. Whoever has ears, let them hear.”
 Why Parables?
 The disciples came to Jesus and asked, “Why do you speak to the people using parables?”
 He answered,
-“Because you have been given the understanding of the secrets of the Kingdom of Heaven, but they have not.
-Whoever has understanding will be given more, and they will have plenty.
-But whoever does not have understanding will lose even what they think they have.
+ “Because you have been given the understanding of the secrets of the Kingdom of Heaven, but they have not.
+ Whoever has understanding will be given more, and they will have plenty.
+ But whoever does not have understanding will lose even what they think they have.
 “This is why I speak to them in parables:
-They look, but they do not really see.
-They listen, but they do not really hear or understand.
+ They look, but they do not really see.
+ They listen, but they do not really hear or understand.
 “What Isaiah said about them is coming true:
 ‘You will keep hearing, but you will never understand.
-You will keep seeing, but you will never truly see.
-These people have become hard in their hearts.
-They hardly listen with their ears,
-and they have closed their eyes.
-Otherwise, they might see with their eyes,
-hear with their ears,
-understand in their hearts,
-turn back to me,
-and I would heal them.’”
-
+ You will keep seeing, but you will never truly see.
+ These people have become hard in their hearts.
+ They hardly listen with their ears,
+ and they have closed their eyes.
+ Otherwise, they might see with their eyes,
+ hear with their ears,
+ understand in their hearts,
+ turn back to me,
+ and I would heal them.’”
 
 But blessed are your eyes because they see, and your ears because they hear. For truly I tell you, many prophets and righteous people longed to see what you see but did not see it, and to hear what you hear but did not hear it.
 The Sower Explained
@@ -385,11 +341,8 @@ He said to them, “Therefore every teacher of the Law who has become a disciple
 A Prophet Without Honor
 When Jesus had finished these parables, he moved on from there. Coming to his hometown, he began teaching the people in their synagogue, and they were amazed. “Where did this man get this wisdom and these miraculous powers?” they asked. “Isn’t this the carpenter’s son? Isn’t his mother’s name Mary, and aren’t his brothers James, Joseph, Simon and Judas? Aren’t all his sisters with us? Where then did this man get all these things?” And they took offense at him.
 But Jesus said to them, “A prophet is not without honor except in his own town and in his own home.” And he did not do many miracles there because of their lack of faith.
-________________
 
-
-The Gospel Of Matthew Chapter 14
-
+Matthew Chapter 14
 
 The Death of John the Baptist
 At that time, Herod the tetrarch heard reports about Jesus and said to his attendants, “This is John the Baptist; he has risen from the dead! That is why miraculous powers are at work in him.”
@@ -412,12 +365,8 @@ Immediately Jesus reached out his hand and caught him. “You of little faith,�
 And when they climbed into the boat, the wind died down. Then those who were in the boat worshiped him, saying, “Truly you are the Son of God.”
 Miracles at Gennesaret
 When they had crossed over, they landed at Gennesaret. And when the men of that place recognized Jesus, they sent word to all the surrounding country. People brought all their sick to him and begged him to let the sick just touch the edge of his cloak, and all who touched it were healed.
-________________
 
-
-The Gospel Of Matthew Chapter 15
-
-
+Matthew Chapter 15
 Traditions and the Heart
 Then some religious leaders and teachers of the Law came from Jerusalem to see Jesus. They asked him, “Why do your followers break the rules handed down by our ancestors? They do not wash their hands before they eat bread.”
 Jesus answered them, “And why do you break the command of God just to keep your own traditions? For God said, ‘Honor your father and mother.’ He also said, ‘Anyone who speaks evil of their father or mother must be put to death.’ But you teach that a person can say to their parents, ‘The support I should have given you has been set aside as a gift to God.’ Because of this, you say they no longer need to honor their father or mother. In this way, you cancel the word of God for the sake of your own traditions.
@@ -443,9 +392,7 @@ His disciples answered, “Where could we find enough bread in this lonely place
 “Seven,” they said, “and a few small fish.”
 Jesus told the crowd to sit down on the ground. He took the seven loaves and the fish. He gave thanks to God and broke them. He gave them to the disciples, and the disciples gave them to the people. Everyone ate until they were full. Afterward, the disciples picked up seven large baskets full of leftover pieces. There were four thousand men who ate, plus many women and children.
 After Jesus sent the crowd home, he got into the boat and went to the area of Magadan.
-________________
-The Gospel Of Matthew Chapter 16
-
+Matthew Chapter 16
 
 Demanding a Sign
 The Pharisees and Sadducees came to test Jesus. They asked him to show them a miracle from the sky to prove who he was.
@@ -467,12 +414,8 @@ Peter took Jesus aside and began to correct him. “May God keep that from happe
 Jesus turned and said to Peter, “Get behind me, Satan! You are a stumbling block to me. You are not thinking about the things of God. You are only thinking about the things of men.”
 Then Jesus said to his disciples, “If anyone wants to follow me, they must say no to what they want for themselves. They must pick up their cross and follow me. For whoever wants to save their life for themselves will lose it. But whoever gives up their life for me will find it. What good does it do a person to win the whole world but lose their very soul? Or what can a person give in exchange for their life?
 “The Son of Man is going to come in the glory of his Father with his angels. At that time, he will give to each person what they deserve for what they have done. I tell you the truth, there are some standing here right now who will not taste death before they see the Son of Man coming in his Kingdom.”
-________________
 
-
-The Gospel Of Matthew Chapter 17
-
-
+Matthew Chapter 17
 A Glimpse of Glory
 Six days later, Jesus took Peter, James, and his brother John up a high mountain by themselves. While they were watching, Jesus’s appearance changed. His face began to shine as bright as the sun. His clothes became white like light.
 Suddenly, Moses and Elijah appeared and were talking with him.
@@ -495,12 +438,8 @@ When Jesus and his followers arrived in Capernaum, the men who collect the Templ
 When Peter went into the house, Jesus spoke first. “What do you think, Peter?” he asked. “Who do the kings of the earth collect taxes from? Do they collect from their own children or from others?”
 Peter answered, “From others.”
 “Then the children are free from the tax,” Jesus said. “But we do not want to upset them. So go to the lake and throw out a fishing line. Take the first fish you catch. Open its mouth, and you will find a silver coin. Take that coin and give it to them for my tax and yours.”
-________________
 
-
-The Gospel Of Matthew Chapter 18
-
-
+Matthew Chapter 18
 Who is the Greatest?
 At that time, the disciples came to Jesus and asked, “Who is the greatest in the Kingdom of Heaven?”
 Jesus called a little child to him and had the child stand among them. He said, “I tell you the truth, unless you change and become like little children, you will never even enter the Kingdom of Heaven. The person who makes themselves humble like this little child is the greatest in the Kingdom of Heaven. And anyone who welcomes a little child like this in my name is welcoming me.
@@ -523,12 +462,8 @@ Jesus answered, “I tell you, not just seven times, but seventy-seven times.
 “But the first servant refused. Instead, he went and had the man thrown into prison until he could pay the debt. When the other servants saw what had happened, they were very upset. They went and told their master everything.
 “Then the master called the servant in. ‘You wicked servant,’ he said. ‘I cancelled that whole debt of yours because you begged me to. Shouldn't you have had mercy on your fellow servant just as I had mercy on you?’ The master was very angry. He handed the servant over to be punished until he should pay back all he owed.
 “This is how my Father in heaven will treat each of you unless you forgive your brother or sister from your heart.”
-________________
 
-
-The Gospel Of Matthew Chapter 19
-
-
+Matthew Chapter 19
 Marriage and Divorce
 When Jesus finished saying these things, he left Galilee. He went into the area of Judea on the other side of the Jordan River. Large crowds followed him, and he healed them there.
 Some Pharisees came to test him. They asked, “Is it lawful for a man to divorce his wife for any reason at all?”
@@ -555,12 +490,8 @@ Jesus looked at them and said, “With people, this is impossible. But with God,
 Peter said to him, “Look, we have left everything to follow you. What will there be for us?”
 Jesus said to them, “I tell you the truth, when the world is made new, the Son of Man will sit on his glorious throne. At that time, you who followed me will also sit on twelve thrones. You will judge the twelve tribes of Israel. And everyone who has left houses, brothers, sisters, father, mother, children, or farms because of me will receive a hundred times more. They will also receive everlasting life.
 “But many who are first now will be last in the Kingdom of Heaven, and many who are last now will be first in the Kingdom of Heaven.”
-________________
 
-
-The Gospel Of Matthew Chapter 20
-
-
+Matthew Chapter 20
 The Workers in the Vineyard
 Jesus said, “The Kingdom of Heaven is like a landowner who went out early in the morning to hire workers for his vineyard. He agreed to pay them the normal daily wage and sent them into his fields.
 “At nine o’clock in the morning, he went back to the marketplace. He saw others standing around with nothing to do. He told them, ‘You also go and work in my vineyard. I will pay you whatever is fair.’ So they went.
@@ -587,11 +518,9 @@ The crowd told them to be quiet, but they shouted even louder, “Lord, Son of D
 Jesus stopped and called to them. “What do you want me to do for you?” he asked.
 “Lord,” they answered, “we want to be able to see.”
 Jesus felt deep pity for them and touched their eyes. Immediately they could see, and they followed him.
-________________
-The Gospel Of Matthew Chapter 21
-
-
-The Triumphal Entry As they came near Jerusalem and reached Bethphage at the Mount of Olives, Jesus sent two disciples ahead. He told them, “Go into the village over there. Right away you will find a donkey tied up, with her colt next to her. Untie them and bring them to me. If anyone says anything to you, just say, ‘The Lord needs them,’ and he will send them right away.”
+Matthew Chapter 21
+The Triumphal Entry 
+As they came near Jerusalem and reached Bethphage at the Mount of Olives, Jesus sent two disciples ahead. He told them, “Go into the village over there. Right away you will find a donkey tied up, with her colt next to her. Untie them and bring them to me. If anyone says anything to you, just say, ‘The Lord needs them,’ and he will send them right away.”
 This happened to make the words of the prophet come true: “Tell the people of Israel, ‘Look, your King is coming to you. He is humble, riding on a donkey—yes, on a colt, the offspring of a beast of burden.’”
 The disciples went and did exactly what Jesus told them to do. They brought the donkey and the colt and laid their robes on them, and Jesus sat on the robes. A very large crowd spread their robes on the road. Others cut branches from the trees and spread them on the path. The crowds walking in front of him and those following behind shouted, “Hosanna to the Son of David! Blessings on the one who comes in the name of the Lord! Hosanna in the highest heaven!”
 When Jesus entered Jerusalem, the whole city was in an uproar. People asked, “Who is this?”
@@ -623,12 +552,8 @@ The religious leaders answered, “He will bring those wicked men to a wretched 
 Jesus said to them, “Haven’t you ever read in the Scriptures: ‘The stone that the builders rejected as worthless has now become the cornerstone. This is the Lord’s doing, and it is wonderful to see’?”
 “Therefore, I tell you, the Kingdom of God will be taken away from you and given to a people who will produce its fruit. Anyone who falls on this stone will be broken to pieces, and it will crush anyone it falls on.”
 When the leading priests and the Pharisees heard these stories, they realized he was talking about them. They wanted to arrest him, but they were afraid of the crowds, because the people held that he was a prophet.
-________________
 
-
-The Gospel Of Matthew Chapter 22
-
-
+Matthew Chapter 22
 The Story of the Wedding Feast
 Jesus spoke to them in stories again. He said, “The Kingdom of Heaven is like a king who prepared a great wedding feast for his son. He sent his servants to call those who had been invited to come to the wedding, but they refused to come.
 “He sent other servants and told them, ‘Tell those who are invited that I have prepared the meal. My prize cattle and fattened calves have been butchered. Everything is ready. Come to the wedding!’
@@ -655,12 +580,8 @@ While the Pharisees were gathered there, Jesus asked them a question. “What do
 “The son of David,” they answered.
 Jesus said to them, “Then why did David, speaking by the Spirit, call him ‘Lord’? David said: ‘The Lord said to my Lord: Sit at my right side until I put your enemies under your feet.’ If David calls him ‘Lord,’ how can he be David’s son?”
 No one could say a single word in answer. And from that day on, no one dared to ask him any more questions.
-________________
 
-
-The Gospel Of Matthew Chapter 23
-
-
+Matthew Chapter 23
 Warnings Against Hypocrisy
 Then Jesus spoke to the crowds and to his disciples. He said, “The teachers of the Law and the Pharisees sit in the seat of Moses. So you should obey them and do everything they tell you. But do not do what they do, because they do not practice what they preach. They tie up heavy, uncomfortable loads and put them on other people’s shoulders, but they aren't willing to lift a finger to help carry them.
 “Everything they do is just for show. They wear extra-wide prayer boxes on their foreheads and arms, and they make the tassels on their prayer shawls extra long. They love the places of honor at banquets and the most important seats in the synagogues. They love to be greeted with respect in the marketplaces and to be called ‘Rabbi.’
@@ -676,12 +597,8 @@ Seven Warnings
 “You snakes! You bunch of vipers! How will you escape being condemned to Gehenna? Therefore I am sending you prophets and sages and teachers. Some of them you will kill and nail to crosses; others you will whip in your synagogues and chase from town to town. Because of this, you will be held responsible for all the innocent blood spilled on the earth—from the blood of righteous Abel to the blood of Zechariah son of Berekiah, whom you murdered between the Temple and the altar. I tell you the truth, all this will fall on this generation.
 Jesus’s Sorrow for Jerusalem
 “Jerusalem, Jerusalem, you who kill the prophets and stone those sent to you! How often I have longed to gather your children together, as a hen gathers her chicks under her wings, and you were not willing. Look, your house is left to you desolate. For I tell you, you will not see me again until you say, ‘Blessed is he who comes in the name of the Lord!’”
-________________
 
-
-The Gospel Of Matthew Chapter 24
-
-
+Matthew Chapter 24
 Signs of the End
 Jesus left the Temple and was walking away when his disciples came up to him. They pointed out the impressive Temple buildings. But Jesus said to them, “Do you see all these things? I tell you the truth, not one stone here will be left on top of another. Every single one will be thrown down.”
 Later, while Jesus was sitting on the Mount of Olives, the disciples came to him privately. “Tell us,” they said, “when will this happen? And what will be the sign of your coming and of the end of the age?”
@@ -691,8 +608,6 @@ The Great Trouble
 “So when you see the ‘abomination of desolation’ standing in the Set-Apart place—the thing the prophet Daniel spoke about, let the reader understand, then those who are in Judea must flee to the mountains. A person on the roof of a house must not go down to take anything out of the house. A person in the field must not go back to get a coat. How terrible it will be in those days for pregnant women and nursing mothers! Pray that your flight will not take place in winter or on the Sabbath.
 “For then there will be great distress, unequaled from the beginning of the world until now—and never to be equaled again. If those days had not been cut short, no one would survive. But for the sake of the chosen ones, those days will be shortened.
 “If anyone says to you at that time, ‘Look, here is the Messiah,’ or ‘There he is,’ do not believe it. False messiahs and false prophets will appear. They will perform great signs and wonders to try to deceive people—if possible, even those God has chosen. I am warning you about this ahead of time. So if someone tells you, ‘He is out in the wilderness,’ do not go. Or if they say, ‘He is hiding in a secret room,’ do not believe it. When the Son of Man comes, it will not be hidden or local. It will be as obvious as lightning flashing across the entire sky. Just as vultures gather where a dead body lies, the signs of his coming will be impossible to miss.”
-
-
 The Coming of the Son of Man
 “Immediately after the distress of those days, the sun will be darkened, and the moon will not give its light; the stars will fall from the sky, and the heavenly bodies will be shaken.
 “Then the sign of the Son of Man will appear in heaven. All the tribes of the earth will mourn when they see the Son of Man coming on the clouds of heaven with power and great glory. And he will send his angels with a loud trumpet call, and they will gather his chosen from the four winds, from one end of the heavens to the other.
@@ -702,12 +617,8 @@ Always Be Ready
 “But about that day or hour no one knows, not even the angels in heaven, nor the Son, but only the Father. As it was in the days of Noah, so it will be at the coming of the Son of Man. In the days before the flood, people were eating and drinking, marrying and giving in marriage, right up to the day Noah entered the ark. They knew nothing about what would happen until the flood came and took them all away. That is how it will be at the coming of the Son of Man. Two men will be in the field; one will be taken and the other left. Two women will be grinding with a hand mill; one will be taken and the other left.
 “Therefore keep watch, because you do not know on what day your Lord will come. But understand this: If the owner of the house had known at what time of night the thief was coming, he would have kept watch and would not have let his house be broken into. So you also must be ready, because the Son of Man will come at an hour when you do not expect him.
 “Who then is the faithful and wise servant, whom the master has put in charge of the servants in his household to give them their food at the proper time? It will be good for that servant whose master finds him doing so when he returns. I tell you the truth, he will put him in charge of all his possessions. But suppose that servant is wicked and says to himself, ‘My master is taking a long time,’ and he begins to beat his fellow servants and to eat and drink with drunkards. The master of that servant will come on a day when he does not expect him and at an hour he does not know. He will cut him to pieces and assign him a place with the hypocrites, where there will be weeping and grinding of teeth.”
-________________
 
-
-The Gospel Of Matthew Chapter 25
-
-
+Matthew Chapter 25
 The Story of the Ten Bridesmaids
 “At that time, the Kingdom of Heaven will be like ten bridesmaids who took their lamps and went out to meet the groom. Five of them were foolish, and five were wise. The foolish ones took their lamps but didn't take any extra oil with them. But the wise ones took jars of oil along with their lamps.
 “When the groom was late, they all got drowsy and fell asleep. At midnight, a shout rang out: ‘Look! The groom is here! Come out to meet him!’
@@ -735,12 +646,8 @@ The Sheep and the Goats
 “They also will answer, ‘Lord, when did we see you hungry or thirsty or a stranger or needing clothes or sick or in prison, and did not help you?’
 “He will reply, ‘I tell you the truth, whatever you did not do for one of the least of these, you did not do for me.’
 “Then they will go away to eternal punishment, but the righteous to eternal life.”
-________________
 
-
-The Gospel Of Matthew Chapter 26
-
-
+Matthew Chapter 26
 The Plot Against Jesus
 When Jesus had finished saying all these things, he told his disciples, “You know that the Passover is two days away. That is when the Son of Man will be handed over to be nailed to a cross.”
 At that same time, the head priests and the elders of the people gathered at the palace of the High Priest, whose name was Caiaphas. They made a plan to arrest Jesus secretly and kill him. But they said, “We shouldn't do it during the festival, or the people might riot.”
@@ -798,12 +705,8 @@ He denied it again, with an oath: “I don’t know the man!”
 After a little while, those standing there went up to Peter and said, “Surely you are one of them; your accent gives you away.”
 Then he began to call down curses, and he swore to them, “I don’t know the man!”
 Immediately a rooster crowed. Then Peter remembered the word Jesus had spoken: “Before the rooster crows, you will disown me three times.” And he went outside and wept bitterly.
-________________
 
-
-The Gospel Of Matthew Chapter 27
-
-
+Matthew Chapter 27
 Jesus Handed to Pilate
 Early the next morning, all the head priests and the elders of the people met to finalize their plan to have Jesus put to death. They tied him up, led him away, and handed him over to Pilate, the Roman governor.
 The Death of Judas
@@ -845,12 +748,8 @@ As evening approached, there came a rich man from Arimathea, named Joseph, who h
 The Guard at the Tomb
 The next day, the one after Preparation Day, the head priests and the Pharisees went to Pilate. “Sir,” they said, “we remember that while he was still alive that deceiver said, ‘After three days I will rise again.’ So give the order for the tomb to be made secure until the third day. Otherwise, his disciples may come and steal the body and tell the people that he has been raised from the dead. This last deception will be worse than the first.”
 “Take a guard,” Pilate answered. “Go, make the tomb as secure as you know how.” So they went and made the tomb secure by putting a seal on the stone and posting the guard.
-________________
 
-
-The Gospel Of Matthew Chapter 28
-
-
+Matthew Chapter 28
 The Resurrection
 After the Sabbath, at dawn on the first day of the week, Mary Magdalene and the other Mary went to look at the tomb.
 Suddenly, there was a violent earthquake, for an angel of the Lord came down from heaven and, going to the tomb, rolled back the stone and sat on it. His appearance was like lightning, and his clothes were white as snow. The guards were so afraid of him that they shook and became like dead men.
@@ -860,3 +759,4 @@ The Guards’ Report
 While the women were on their way, some of the guards went into the city and reported to the head priests everything that had happened. When the head priests had met with the elders and devised a plan, they gave the soldiers a large sum of money, telling them, “You are to say, ‘His disciples came during the night and stole him away while we were asleep.’ If this report gets to the governor, we will satisfy him and keep you out of trouble.” So the soldiers took the money and did as they were instructed. And this story has been widely circulated among the Jews to this very day.
 The Great Commission
 Then the eleven disciples went to Galilee, to the mountain where Jesus had told them to go. When they saw him, they worshiped him; but some doubted. Then Jesus came to them and said, “All authority in heaven and on earth has been given to me. Therefore go and make disciples of all nations, immersing them in the name of the Father and of the Son and of the Holy Spirit, and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end of the age.”
+
