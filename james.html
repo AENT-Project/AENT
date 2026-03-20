@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+    <title>James — AENT</title>
+    <style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Georgia,'Times New Roman',serif;background-color:#f5f0e8;color:#2c1f0e;line-height:1.9;font-size:1.05rem}
+.wrap{max-width:740px;margin:0 auto;padding:1.5rem 1.25rem 3rem}
+.site-header{text-align:center;border-bottom:2px solid #8b6914;padding-bottom:1.25rem;margin-bottom:1.5rem}
+.site-header a{text-decoration:none}
+.site-title{font-size:1.8rem;font-weight:700;letter-spacing:0.15em;color:#5c3a00}
+.site-tagline{font-style:italic;font-size:0.85rem;color:#6b4c1e;margin-top:0.2rem}
+.nav-bar{margin-bottom:1.5rem;padding:0.6rem 0;border-bottom:1px solid #c4a35a}
+.nav-row{display:flex;justify-content:space-between;align-items:center;gap:0.4rem;margin-bottom:0.4rem;flex-wrap:wrap}
+.nav-row:last-child{margin-bottom:0}
+a.btn,button.btn{display:inline-block;padding:0.4rem 0.8rem;background:#ede5d0;border:1px solid #c4a35a;border-radius:6px;color:#5c3a00;text-decoration:none;font-size:0.85rem;cursor:pointer;font-family:Georgia,serif;transition:background 0.2s,box-shadow 0.2s}
+a.btn:hover,button.btn:hover{background:#ddd0b0;border-color:#8b6914;box-shadow:0 0 8px rgba(139,105,20,0.35)}
+select{padding:0.4rem 0.6rem;background:#ede5d0;border:1px solid #c4a35a;border-radius:6px;color:#5c3a00;font-family:Georgia,serif;font-size:0.85rem;cursor:pointer}
+.book-title{font-size:1.9rem;font-weight:700;color:#5c3a00;text-align:center;margin-bottom:1.5rem}
+.disclaimer{background:#ede5d0;border-left:4px solid #8b6914;padding:1rem 1.25rem;border-radius:0 6px 6px 0;margin-bottom:2rem;font-size:0.92rem;color:#3a2a0e}
+.disclaimer p{margin-bottom:0.5rem}
+.disclaimer p:last-child{margin-bottom:0}
+h2{font-size:1.2rem;font-weight:700;color:#5c3a00;margin:2.5rem 0 0.75rem;padding:0.5rem 0.75rem;background:#e8dfc8;border-left:4px solid #8b6914;border-radius:0 4px 4px 0}
+h3{font-size:1.05rem;font-weight:700;color:#5c3a00;margin:1.75rem 0 0.6rem;padding-left:0.75rem;border-left:3px solid #c4a35a}
+p{margin-bottom:1.1rem;text-align:justify}
+blockquote{margin:1.25rem 2rem;padding-left:1rem;border-left:3px solid #c4a35a;color:#3a2a0e;font-style:italic}
+.bottom-nav{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.5rem;margin-top:2.5rem;padding-top:1.25rem;border-top:2px solid #8b6914}
+.site-footer{text-align:center;font-size:0.8rem;color:#8b6914;font-style:italic;margin-top:2rem;padding-top:1rem;border-top:1px solid #c4a35a}
+@media(max-width:480px){body{font-size:1rem}.book-title{font-size:1.5rem}.nav-row{justify-content:center}}
+</style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="site-header"> <a
+          href="https://aent-project.github.io/AENT/">
+          <div class="site-title">AENT</div>
+          <div class="site-tagline">Your word is a lamp to my feet and a
+            light to my path — Psalm 119:105</div>
+        </a>
+      </header>
+      <nav class="nav-bar">
+        <div class="nav-row"> <a class="btn" href="hebrews.html">←
+            Hebrews</a>
+          <select
+            onchange="if(this.value)window.location.href=this.value">
+            <option value="">Jump to Book</option>
+            <option value="matthew.html">Matthew</option>
+            <option value="mark.html">Mark</option>
+            <option value="luke.html">Luke</option>
+            <option value="john.html">John</option>
+            <option value="acts.html">Acts</option>
+            <option value="romans.html">Romans</option>
+            <option value="1corinthians.html">1 Corinthians</option>
+            <option value="2corinthians.html">2 Corinthians</option>
+            <option value="galatians.html">Galatians</option>
+            <option value="ephesians.html">Ephesians</option>
+            <option value="philippians.html">Philippians</option>
+            <option value="colossians.html">Colossians</option>
+            <option value="1thessalonians.html">1 Thessalonians</option>
+            <option value="2thessalonians.html">2 Thessalonians</option>
+            <option value="1timothy.html">1 Timothy</option>
+            <option value="2timothy.html">2 Timothy</option>
+            <option value="titus.html">Titus</option>
+            <option value="philemon.html">Philemon</option>
+            <option value="hebrews.html">Hebrews</option>
+            <option value="james.html" selected="selected">James</option>
+            <option value="1peter.html">1 Peter</option>
+            <option value="2peter.html">2 Peter</option>
+            <option value="1john.html">1 John</option>
+            <option value="2john.html">2 John</option>
+            <option value="3john.html">3 John</option>
+            <option value="jude.html">Jude</option>
+            <option value="revelation.html">Revelation</option>
+          </select>
+          <a class="btn" href="1peter.html">1 Peter →</a> </div>
+        <div class="nav-row"> <button class="btn"
+            onclick="changeChapter(-1)">← Prev Chapter</button>
+          <select id="chapSelect" onchange="scrollToChapter(this.value)">
+            <option value="ch1" selected="selected">Chapter 1</option>
+            <option value="ch2">Chapter 2</option>
+            <option value="ch3">Chapter 3</option>
+            <option value="ch4">Chapter 4</option>
+            <option value="ch5">Chapter 5</option>
+          </select>
+          <button class="btn" onclick="changeChapter(1)">Next Chapter →</button>
+        </div>
+      </nav>
+      <h1 class="book-title">James</h1>
+      <div class="disclaimer">
+        <p>James — (AENT) Accessible English New Testament</p>
+        <p>This version is written for everyone. We use familiar names
+          like "Jesus" and "God" rather than the original Aramaic or
+          Hebrew names because our goal is simple — make the Bible easy
+          to read and understand.</p>
+        <p>A quick note: Whenever you see THE LORD in all capitals, it
+          refers to the personal, sacred name of God. When you see Lord
+          in normal letters, it is a title of respect, similar to
+          calling someone "Sir" or "Master."</p>
+        <p>This text is meant as a companion to your current favorite
+          version of the New Testament — not a replacement. Nourish your
+          soul in the Word, every way and every chance you get.</p>
+        <p>Grace &amp; Peace.</p>
+      </div>
+      <h2 id="ch1">James Chapter 1</h2>
+      <h3>Opening Greeting</h3>
+      <p>James, a servant of God and of the Master Jesus the Messiah —
+        to the twelve tribes scattered among the nations. Greetings.</p>
+      <h3>Trials Produce Endurance</h3>
+      <p>My brothers and sisters — consider it pure joy when you fall
+        into all kinds of trials, because you know that the testing of
+        your faith produces endurance. And let endurance finish its work
+        so that you may be mature and complete, lacking in nothing.</p>
+      <p>If any of you lacks wisdom ask God — who gives generously to
+        all without finding fault — and it will be given to you. But
+        when you ask you must ask in faith without doubting, because the
+        one who doubts is like a wave of the sea blown and tossed by the
+        wind. That person should not expect to receive anything from the
+        Master — such a person is double-minded and unstable in
+        everything they do.</p>
+      <p>The believer in humble circumstances should take pride in their
+        high standing. But the rich should take pride in their
+        humiliation — since they will pass away like a wildflower. The
+        sun rises with scorching heat and withers the plant — its
+        blossom falls and its beauty is destroyed. In the same way the
+        rich will fade away even while they go about their business.</p>
+      <p>Blessed is the one who perseveres under trial — because having
+        stood the test that person will receive the crown of life that
+        the Master has promised to those who love him.</p>
+      <h3>Don't Blame God for Temptation</h3>
+      <p>When tempted no one should say — God is tempting me. For God
+        cannot be tempted by evil nor does he tempt anyone. Instead each
+        person is tempted when they are dragged away by their own evil
+        desire and enticed. Then after desire has conceived it gives
+        birth to sin — and sin when it is full grown gives birth to
+        death.</p>
+      <p>Don't be deceived my dear brothers and sisters. Every good and
+        perfect gift is from above — coming down from the Father of the
+        heavenly lights who does not change like shifting shadows. He
+        chose to give us new birth through the word of truth so that we
+        might be a kind of firstfruits of everything he created.</p>
+      <h3>Be Quick to Listen — Slow to Speak</h3>
+      <p>My dear brothers and sisters — take note of this. Everyone
+        should be quick to listen, slow to speak, and slow to become
+        angry — because human anger does not produce the righteousness
+        God desires. So get rid of all moral filth and the evil that is
+        so prevalent and humbly accept the word planted in you which can
+        save your souls.</p>
+      <p>Don't merely listen to the word and so deceive yourselves — do
+        what it says. Anyone who listens to the word but doesn't do what
+        it says is like someone who looks at their face in a mirror and
+        after looking goes away and immediately forgets what they look
+        like. But whoever looks intently into the perfect law that gives
+        freedom and continues in it — not forgetting what they have
+        heard but doing it — they will be blessed in what they do.</p>
+      <h3>True Religion</h3>
+      <p>Those who consider themselves religious but don't keep a tight
+        rein on their tongues deceive themselves and their religion is
+        worthless. Religion that God our Father accepts as pure and
+        genuine is this — to look after orphans and widows in their
+        distress and to keep oneself from being polluted by the world.<br>
+      </p>
+      <p><b style="font-weight:normal;"
+          id="docs-internal-guid-4b5b3769-7fff-6f32-01a2-90e4a0c09647">
+          <h2 dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:16pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">James Chapter 2</span></h2>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Don't Show Favoritism</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">My brothers and sisters — as you hold onto your faith in our glorious Master Jesus the Messiah do not show favoritism. Suppose a man comes into your meeting wearing a gold ring and fine clothes and a poor man in filthy old clothes also comes in. If you show special attention to the man in fine clothes and say — here's a good seat for you — but say to the poor man — you stand there or sit on the floor by my feet — haven't you discriminated among yourselves and become judges with evil motives?</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Listen my dear brothers and sisters. Hasn't God chosen those who are poor in the eyes of the world to be rich in faith and to inherit the kingdom he promised to those who love him? But you have dishonored the poor. Is it not the rich who are exploiting you? Are they not the ones dragging you into court? Are they not the ones slandering the noble name that was spoken over you?</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">If you really keep the royal law found in the Scriptures — love your neighbor as yourself — you are doing right. But if you show favoritism you sin and are convicted by the law as lawbreakers. For whoever keeps the entire law yet stumbles at just one point is guilty of breaking all of it. For he who said do not commit adultery also said do not murder. If you do not commit adultery but do commit murder you have become a lawbreaker.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Speak and act as those who are going to be judged by the law that gives freedom — because judgment without mercy will be shown to anyone who has not been merciful. Mercy triumphs over judgment.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Faith Without Action Is Dead</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">What good is it my brothers and sisters if someone claims to have faith but has no deeds? Can such faith save them? Suppose a brother or sister is without clothes and daily food. If one of you says to them — go in peace, keep warm and well fed — but does nothing about their physical needs what good is it? In the same way faith by itself if it is not accompanied by action is dead.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">But someone will say — you have faith and I have deeds. Show me your faith without deeds and I will show you my faith by my deeds. You believe that there is one God — good! Even the demons believe that and they shudder.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">You foolish person — do you want evidence that faith without deeds is useless? Was not our father Abraham considered righteous for what he did when he offered his son Isaac on the altar? You see that his faith and his actions were working together and his faith was made complete by what he did. And the Scripture was fulfilled that says —</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Abraham believed God and it was credited to him as righteousness.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">And he was called God's friend. You see that a person is considered righteous by what they do and not by faith alone.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">In the same way was not even Rahab the prostitute considered righteous for what she did when she gave lodging to the spies and sent them off by a different route?</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">As the body without the spirit is dead — so faith without deeds is dead.</span></p>
+          <h2 dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:16pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">James Chapter 3</span></h2>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">The Tongue Is a Fire</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">My brothers and sisters — not many of you should become teachers, because you know that we who teach will be judged more strictly. We all stumble in many ways. Anyone who is never at fault in what they say is perfect — able to keep their whole body in check as well.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">When we put bits into the mouths of horses to make them obey us we can guide the whole animal. Or take ships as an example — although they are so large and driven by strong winds they are steered by a very small rudder wherever the pilot decides to go. Likewise the tongue is a small part of the body but it makes great boasts. Consider what a great forest is set on fire by a small spark. The tongue also is a fire — a world of evil among the parts of the body. It corrupts the whole person, sets the whole course of one's life on fire, and is itself set on fire by hell.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">All kinds of animals, birds, reptiles, and sea creatures are being tamed and have been tamed by humans — but no one can tame the tongue. It is a restless evil full of deadly poison. With the tongue we praise our Master and Father and with it we curse human beings who have been made in God's likeness. Out of the same mouth come praise and cursing.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">My brothers and sisters — this should not be.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Does a spring pour out both fresh water and salt water from the same opening? Can a fig tree bear olives or a grapevine bear figs? Neither can a salt spring produce fresh water.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Two Kinds of Wisdom</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Who is wise and understanding among you? Let them show it by their good life — by deeds done in the humility that comes from wisdom. But if you harbor bitter envy and selfish ambition in your hearts do not boast about it or deny the truth. Such wisdom does not come down from heaven — it is earthly, unspiritual, and demonic. For where you have envy and selfish ambition there you find disorder and every evil practice.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">But the wisdom that comes from above is first of all pure — then peace-loving, considerate, submissive, full of mercy and good fruit, impartial and sincere. Peacemakers who sow in peace reap a harvest of righteousness.</span></p>
+          <h2 dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:16pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">James Chapter 4</span></h2>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Your Desires Are at War Within You</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Where do the conflicts and fights among you come from? Don't they come from your own desires that battle within you? You want something but don't have it — you are consumed by envy and you fight and quarrel. You don't have because you don't ask God. And when you do ask you don't receive because you ask with wrong motives — just wanting to spend it on your own pleasures.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">You unfaithful people — don't you know that friendship with the world is hostility toward God? Anyone who chooses to be a friend of the world makes themselves an enemy of God. Or do you think the Scripture speaks for nothing when it says that the Spirit he caused to live in us yearns with a jealous love? But he gives us even more grace. This is why it says —</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">God opposes the arrogant but gives grace to the humble.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Submit to God — Resist the Devil</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">So submit yourselves to God. Resist the devil and he will run from you. Come close to God and he will come close to you. Clean your hands you sinners and purify your hearts you double-minded. Be broken, mourn, and cry. Let your laughter turn to mourning and your joy to grief. Humble yourselves before the Master and he will lift you up.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Brothers and sisters — do not speak against one another. Anyone who speaks against a brother or sister or judges them speaks against the law and judges the law. If you judge the law you are not a follower of it but a judge of it. There is only one Lawgiver and Judge — the one who is able to save and to destroy. But who are you to judge your neighbor?</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">You Don't Even Know What Tomorrow Holds</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Now listen — you who say today or tomorrow we will go to this or that city, spend a year there, do business, and make a profit. You don't even know what will happen tomorrow. What is your life? You are a mist that appears for a little while and then vanishes. Instead you ought to say — if the Master wills we will live and do this or that. As it is you boast in your own arrogance and all such boasting is evil.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">So if someone knows the right thing to do and fails to do it — for them it is sin.</span></p>
+          <h2 dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:16pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">James Chapter 5</span></h2>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">A Warning to the Wealthy</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Listen now you rich people — weep and wail because of the misery that is coming upon you. Your wealth has rotted and your fine clothes are moth-eaten. Your gold and silver are corroded and their corrosion will testify against you and eat your flesh like fire. You have hoarded wealth in the last days.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Look — the wages you held back by fraud from the workers who mowed your fields are crying out against you. The cries of those who harvested have reached the ears of the Master of heavenly armies. You have lived on earth in luxury and self-indulgence. You have fattened yourselves for the day of slaughter. You have condemned and murdered the innocent who did not resist you.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Be Patient Until the Master Comes</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">So brothers and sisters — be patient until the coming of the Master. See how the farmer waits for the precious fruit of the earth — patient for it until it receives the early and late rains. You too must be patient. Strengthen your hearts because the coming of the Master is near. Don't grumble against one another brothers and sisters or you will be judged. The Judge is standing right at the door.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Brothers and sisters — take the prophets who spoke in the name of the Master as your example of suffering and patience. We count as blessed those who have endured. You have heard of the endurance of Job and have seen what the Master finally brought about — for the Master is full of compassion and mercy.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Let Your Yes Be Yes</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Above all my brothers and sisters — do not swear. Not by heaven or by earth or by any other oath. Let your yes be yes and your no be no — so that you do not fall under judgment.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">The Power of Prayer</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Is anyone among you suffering? Let them pray. Is anyone cheerful? Let them sing songs of praise. Is anyone sick? Let them call for the elders of the church and let them pray over them anointing them with oil in the name of the Master. The prayer of faith will restore the one who is sick and the Master will raise them up. If they have sinned they will be forgiven. So confess your sins to one another and pray for one another so that you may be healed. The earnest prayer of a righteous person has great power and produces wonderful results.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Elijah was a human being just like us — and he prayed earnestly that it would not rain. And it did not rain on the land for three and a half years. Then he prayed again and the sky gave rain and the earth produced its fruit.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Bring Back the Wanderer</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">My brothers and sisters — if anyone among you wanders from the truth and someone brings them back, remember this. Whoever turns a sinner from the error of their way will save that person's soul from death and cover a multitude of sins.</span></p>
+        </b><br class="Apple-interchange-newline">
+        <meta charset="utf-8">
+      </p>
+      <nav class="bottom-nav"> <a class="btn" href="hebrews.html">←
+          Hebrews</a> <a class="btn"
+          href="https://aent-project.github.io/AENT/">⌂ Home</a> <a
+          class="btn" href="1peter.html">1 Peter →</a>
+      </nav>
+      <footer class="site-footer"> Free for everyone — share freely — to
+        the glory of God
+      </footer>
+    </div>
+    <script>
+var chapters=['ch1','ch2','ch3','ch4','ch5'];
+function scrollToChapter(id){var el=document.getElementById(id);if(el)el.scrollIntoView({behavior:'smooth'});}
+function changeChapter(dir){var s=document.getElementById('chapSelect');var i=s.selectedIndex+dir;if(i>=0&&i<chapters.length){s.selectedIndex=i;scrollToChapter(chapters[i]);}}
+</script>
+  </body>
+</html>

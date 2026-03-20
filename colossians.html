@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+    <title>Colossians — AENT</title>
+    <style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Georgia,'Times New Roman',serif;background-color:#f5f0e8;color:#2c1f0e;line-height:1.9;font-size:1.05rem}
+.wrap{max-width:740px;margin:0 auto;padding:1.5rem 1.25rem 3rem}
+.site-header{text-align:center;border-bottom:2px solid #8b6914;padding-bottom:1.25rem;margin-bottom:1.5rem}
+.site-header a{text-decoration:none}
+.site-title{font-size:1.8rem;font-weight:700;letter-spacing:0.15em;color:#5c3a00}
+.site-tagline{font-style:italic;font-size:0.85rem;color:#6b4c1e;margin-top:0.2rem}
+.nav-bar{margin-bottom:1.5rem;padding:0.6rem 0;border-bottom:1px solid #c4a35a}
+.nav-row{display:flex;justify-content:space-between;align-items:center;gap:0.4rem;margin-bottom:0.4rem;flex-wrap:wrap}
+.nav-row:last-child{margin-bottom:0}
+a.btn,button.btn{display:inline-block;padding:0.4rem 0.8rem;background:#ede5d0;border:1px solid #c4a35a;border-radius:6px;color:#5c3a00;text-decoration:none;font-size:0.85rem;cursor:pointer;font-family:Georgia,serif;transition:background 0.2s,box-shadow 0.2s}
+a.btn:hover,button.btn:hover{background:#ddd0b0;border-color:#8b6914;box-shadow:0 0 8px rgba(139,105,20,0.35)}
+select{padding:0.4rem 0.6rem;background:#ede5d0;border:1px solid #c4a35a;border-radius:6px;color:#5c3a00;font-family:Georgia,serif;font-size:0.85rem;cursor:pointer}
+.book-title{font-size:1.9rem;font-weight:700;color:#5c3a00;text-align:center;margin-bottom:1.5rem}
+.disclaimer{background:#ede5d0;border-left:4px solid #8b6914;padding:1rem 1.25rem;border-radius:0 6px 6px 0;margin-bottom:2rem;font-size:0.92rem;color:#3a2a0e}
+.disclaimer p{margin-bottom:0.5rem}
+.disclaimer p:last-child{margin-bottom:0}
+h2{font-size:1.2rem;font-weight:700;color:#5c3a00;margin:2.5rem 0 0.75rem;padding:0.5rem 0.75rem;background:#e8dfc8;border-left:4px solid #8b6914;border-radius:0 4px 4px 0}
+h3{font-size:1.05rem;font-weight:700;color:#5c3a00;margin:1.75rem 0 0.6rem;padding-left:0.75rem;border-left:3px solid #c4a35a}
+p{margin-bottom:1.1rem;text-align:justify}
+blockquote{margin:1.25rem 2rem;padding-left:1rem;border-left:3px solid #c4a35a;color:#3a2a0e;font-style:italic}
+.bottom-nav{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.5rem;margin-top:2.5rem;padding-top:1.25rem;border-top:2px solid #8b6914}
+.site-footer{text-align:center;font-size:0.8rem;color:#8b6914;font-style:italic;margin-top:2rem;padding-top:1rem;border-top:1px solid #c4a35a}
+@media(max-width:480px){body{font-size:1rem}.book-title{font-size:1.5rem}.nav-row{justify-content:center}}
+</style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="site-header"> <a
+          href="https://aent-project.github.io/AENT/">
+          <div class="site-title">AENT</div>
+          <div class="site-tagline">Your word is a lamp to my feet and a
+            light to my path — Psalm 119:105</div>
+        </a>
+      </header>
+      <nav class="nav-bar">
+        <div class="nav-row"> <a class="btn" href="philippians.html">←
+            Philippians</a>
+          <select
+            onchange="if(this.value)window.location.href=this.value">
+            <option value="">Jump to Book</option>
+            <option value="matthew.html">Matthew</option>
+            <option value="mark.html">Mark</option>
+            <option value="luke.html">Luke</option>
+            <option value="john.html">John</option>
+            <option value="acts.html">Acts</option>
+            <option value="romans.html">Romans</option>
+            <option value="1corinthians.html">1 Corinthians</option>
+            <option value="2corinthians.html">2 Corinthians</option>
+            <option value="galatians.html">Galatians</option>
+            <option value="ephesians.html">Ephesians</option>
+            <option value="philippians.html">Philippians</option>
+            <option value="colossians.html" selected="selected">Colossians</option>
+            <option value="1thessalonians.html">1 Thessalonians</option>
+            <option value="2thessalonians.html">2 Thessalonians</option>
+            <option value="1timothy.html">1 Timothy</option>
+            <option value="2timothy.html">2 Timothy</option>
+            <option value="titus.html">Titus</option>
+            <option value="philemon.html">Philemon</option>
+            <option value="hebrews.html">Hebrews</option>
+            <option value="james.html">James</option>
+            <option value="1peter.html">1 Peter</option>
+            <option value="2peter.html">2 Peter</option>
+            <option value="1john.html">1 John</option>
+            <option value="2john.html">2 John</option>
+            <option value="3john.html">3 John</option>
+            <option value="jude.html">Jude</option>
+            <option value="revelation.html">Revelation</option>
+          </select>
+          <a class="btn" href="1thessalonians.html">1 Thessalonians →</a>
+        </div>
+        <div class="nav-row"> <button class="btn"
+            onclick="changeChapter(-1)">← Prev Chapter</button>
+          <select id="chapSelect" onchange="scrollToChapter(this.value)">
+            <option value="ch1" selected="selected">Chapter 1</option>
+            <option value="ch2">Chapter 2</option>
+            <option value="ch3">Chapter 3</option>
+            <option value="ch4">Chapter 4</option>
+          </select>
+          <button class="btn" onclick="changeChapter(1)">Next Chapter →</button>
+        </div>
+      </nav>
+      <h1 class="book-title">Colossians</h1>
+      <div class="disclaimer">
+        <p>Colossians — (AENT) Accessible English New Testament</p>
+        <p>This version is written for everyone. We use familiar names
+          like "Jesus" and "God" rather than the original Aramaic or
+          Hebrew names because our goal is simple — make the Bible easy
+          to read and understand.</p>
+        <p>A quick note: Whenever you see THE LORD in all capitals, it
+          refers to the personal, sacred name of God. When you see Lord
+          in normal letters, it is a title of respect, similar to
+          calling someone "Sir" or "Master."</p>
+        <p>This text is meant as a companion to your current favorite
+          version of the New Testament — not a replacement. Nourish your
+          soul in the Word, every way and every chance you get.</p>
+        <p>Grace &amp; Peace.</p>
+      </div>
+      <h2 id="ch1">Colossians Chapter 1</h2>
+      <h3>Opening Greeting</h3>
+      <p>Paul, an apostle of Jesus the Messiah by the will of God, and
+        Timothy our brother — to the faithful brothers and sisters in
+        the Messiah at Colossae. Grace and peace to you from God our
+        Father.</p>
+      <h3>Thanksgiving and Prayer</h3>
+      <p>We always thank God, the Father of our Master Jesus the
+        Messiah, when we pray for you — because we have heard of your
+        faith in the Messiah Jesus and of the love you have for all of
+        God's people. That faith and love spring from the hope stored up
+        for you in heaven — the hope you heard about in the true message
+        of the good news that came to you. The good news is bearing
+        fruit and growing throughout the whole world, just as it has
+        been doing among you since the day you heard it and truly
+        understood the grace of God. You learned it from Epaphras, our
+        dear fellow servant, who is a faithful minister of the Messiah
+        on our behalf — and who also told us about your love in the
+        Spirit.</p>
+      <p>So since the day we heard about you we have not stopped praying
+        for you. We continually ask God to fill you with the knowledge
+        of his will through all the wisdom and understanding that the
+        Spirit gives — so that you may live a life worthy of the Master
+        and please him in every way. Bearing fruit in every good work.
+        Growing in the knowledge of God. Being strengthened with all
+        power according to his glorious might so that you may have great
+        endurance and patience. And joyfully giving thanks to the Father
+        who has qualified you to share in the inheritance of his people
+        in the kingdom of light. For he has rescued us from the dominion
+        of darkness and brought us into the kingdom of the Son he loves
+        — in whom we have redemption, the forgiveness of sins.</p>
+      <h3>The Supremacy of the Messiah</h3>
+      <p>The Son is the image of the invisible God, the firstborn over
+        all creation. For in him all things were created — things in
+        heaven and on earth, visible and invisible, whether thrones or
+        powers or rulers or authorities. All things have been created
+        through him and for him. He is before all things and in him all
+        things hold together. He is the head of the body — the church.
+        He is the beginning and the firstborn from among the dead so
+        that in everything he might have first place. For God was
+        pleased to have all his fullness dwell in him and through him to
+        reconcile to himself all things — whether things on earth or
+        things in heaven — by making peace through his blood shed on the
+        cross.</p>
+      <p>Once you were alienated from God and were enemies in your minds
+        because of your evil behavior. But now he has reconciled you by
+        the Messiah's physical body through death to present you holy in
+        his sight — without blemish and free from accusation — if you
+        continue in your faith, established and firm, and do not drift
+        from the hope held out in the good news. This is the good news
+        that you heard and that has been proclaimed to every creature
+        under heaven — and of which I Paul have become a servant.</p>
+      <h3>Paul's Labor for the Church</h3>
+      <p>Now I rejoice in what I am suffering for you — and I fill up in
+        my flesh what is still lacking in regard to the Messiah's
+        sufferings, for the sake of his body which is the church. I have
+        become its servant by the commission God gave me to present to
+        you the word of God in its fullness — the mystery that has been
+        kept hidden for ages and generations but is now revealed to
+        God's people. To them God has chosen to make known among the
+        nations the glorious riches of this mystery — which is the
+        Messiah in you, the hope of glory.</p>
+      <p>He is the one we proclaim — warning and teaching everyone with
+        all wisdom so that we may present everyone fully mature in the
+        Messiah. To this end I work hard and struggle with all the
+        energy the Messiah so powerfully works in me.<br>
+      </p>
+      <p><b style="font-weight:normal;"
+          id="docs-internal-guid-34ad8eb1-7fff-cdc0-d5fa-f6dc1167206f">
+          <h2 dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:16pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Colossians Chapter 2</span></h2>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Rooted and Built Up in the Messiah</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">I want you to know how hard I am working for you and for those at Laodicea and for all who have never met me personally. My goal is that their hearts would be encouraged and joined together in love so that they may have the full riches of complete understanding — leading them to the knowledge of the mystery of God, which is the Messiah himself. In him are hidden all the treasures of wisdom and knowledge. I tell you this so that no one may deceive you with fine-sounding arguments. For though I am absent from you in body I am with you in spirit — and I am glad to see how disciplined you are and how firm your faith in the Messiah remains.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">So then just as you received the Messiah Jesus as Master continue to live your lives in him — rooted and built up in him, strengthened in the faith as you were taught, and overflowing with thankfulness.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Don't let anyone take you captive through hollow philosophy and empty deceit based on human tradition and the elemental spiritual forces of this world rather than on the Messiah. For in the Messiah all the fullness of God lives in bodily form — and in him you have been made complete. He is the head over every power and authority.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Buried and Raised with the Messiah</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">In him you were also circumcised — not by human hands but by the Messiah himself, who cut away the sinful nature. You were buried with him in baptism and raised with him through your faith in the power of God who raised him from the dead.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">When you were dead in your sins God made you alive together with the Messiah. He forgave all our sins — canceling the record of debt that stood against us with all its demands. He took it away and nailed it to the cross. And having disarmed the powers and authorities he made a public spectacle of them triumphing over them by the cross.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Don't Let Anyone Judge You</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">So don't let anyone judge you by what you eat or drink or with regard to a religious festival, a New Moon celebration, or a Sabbath day. These are a shadow of things that were to come — but the reality is found in the Messiah.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Don't let anyone who delights in false humility and the worship of angels disqualify you. Such people go into great detail about what they claim to have seen and are puffed up with idle notions by their unspiritual minds. They have lost connection with the head — from whom the whole body, supported and held together by its ligaments, grows as God causes it to grow.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Freedom from Human Rules</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Since you died with the Messiah to the elemental spiritual forces of this world why do you submit to its rules as though you still belonged to the world? Don't handle this! Don't taste that! Don't touch this! These rules deal with things that perish with use and are based on nothing more than human commands and teachings. They may appear wise with their self-imposed worship, false humility, and harsh treatment of the body — but they have no real value in restraining sinful desires.</span></p>
+          <h2 dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:16pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Colossians Chapter 3</span></h2>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Set Your Mind on Things Above</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Since you have been raised with the Messiah set your hearts on things above, where the Messiah is seated at the right hand of God. Set your minds on things above, not on earthly things. For you died and your life is now hidden with the Messiah in God. When the Messiah — who is your life — appears, then you also will appear with him in glory.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Put Off the Old Self</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">So put to death whatever belongs to your earthly nature — sexual immorality, impurity, lust, evil desires, and greed, which is idolatry. Because of these things God's judgment is coming. You used to live this way in the life you once had. But now you must also rid yourselves of all such things — anger, rage, malice, slander, and filthy language. Stop lying to each other since you have taken off your old self with its practices and have put on the new self which is being renewed in the image of its Creator. Here there is no Gentile or Jew, circumcised or uncircumcised, barbarian, Scythian, slave or free — the Messiah is everything and is in everyone.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Put On the New Self</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Therefore as God's chosen people — holy and dearly loved — clothe yourselves with compassion, kindness, humility, gentleness, and patience. Bear with each other and forgive one another if any of you has a grievance against someone. Forgive as the Master forgave you. And over all these virtues put on love — which binds them all together in perfect unity.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Let the peace of the Messiah rule in your hearts since as members of one body you were called to peace. And be thankful. Let the message of the Messiah live in you richly as you teach and encourage one another with all wisdom through psalms, hymns, and spiritual songs — singing to God with gratitude in your hearts. And whatever you do whether in word or deed do it all in the name of the Master Jesus, giving thanks to God the Father through him.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Instructions for Christian Households</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Wives submit to your husbands as is fitting in the Master.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Husbands love your wives and don't be harsh with them.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Children obey your parents in everything — this pleases the Master.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Fathers don't discourage your children or they will lose heart.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Servants obey your earthly masters in everything — not just when they are watching and not just to win their favor, but with sincerity of heart and reverence for the Master. Whatever you do work at it with all your heart as if you were working for the Master and not for people — because you know that you will receive an inheritance from the Master as your reward. It is the Master the Messiah you are serving. Anyone who does wrong will be repaid for that wrong and there is no favoritism.</span></p>
+          <h2 dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:16pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Colossians Chapter 4</span></h2>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">A Fair Master in Heaven</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Masters, treat your servants with what is right and fair — because you know that you also have a Master in heaven.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Devoted to Prayer</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Devote yourselves to prayer — stay alert and be thankful. And pray for us too, that God would open a door for our message so that we may proclaim the mystery of the Messiah, for which I am in chains. Pray that I may make it clear as I should.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Be wise in the way you act toward outsiders and make the most of every opportunity. Let your conversation always be full of grace — seasoned with salt — so that you know how to answer everyone.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Final Greetings</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Tychicus will tell you all the news about me. He is a dear brother, a faithful minister, and a fellow servant in the Master. I am sending him to you so that you may know how we are doing and so that he may encourage your hearts. He is coming with Onesimus — our faithful and dear brother who is one of you. Together they will tell you everything that is happening here.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">My fellow prisoner Aristarchus sends his greetings, as does Mark the cousin of Barnabas. You have received instructions about him — if he comes to you welcome him. Jesus, who is called Justus, also sends greetings. These are the only Jewish believers among my fellow workers for the kingdom of God and they have been a great comfort to me.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Epaphras — one of you and a servant of the Messiah Jesus — sends his greetings. He is always wrestling in prayer for you that you may stand firm, mature and fully assured in all the will of God. I can tell you that he is working hard for you and for those at Laodicea and Hierapolis. Our dear friend Luke the doctor and Demas also send their greetings.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Give my greetings to the brothers and sisters at Laodicea and to Nympha and the church that meets in her home. After this letter has been read to you make sure it is also read to the church at Laodicea — and that you in turn read the letter from Laodicea.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Tell Archippus — make sure you complete the ministry you have received in the Master.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">I, Paul, write this greeting with my own hand. Remember my chains. Grace be with you.</span></p>
+        </b><br class="Apple-interchange-newline">
+        <meta charset="utf-8">
+      </p>
+      <nav class="bottom-nav"> <a class="btn" href="philippians.html">←
+          Philippians</a> <a class="btn"
+          href="https://aent-project.github.io/AENT/">⌂ Home</a> <a
+          class="btn" href="1thessalonians.html">1 Thessalonians →</a>
+      </nav>
+      <footer class="site-footer"> Free for everyone — share freely — to
+        the glory of God
+      </footer>
+    </div>
+    <script>
+var chapters=['ch1','ch2','ch3','ch4'];
+function scrollToChapter(id){var el=document.getElementById(id);if(el)el.scrollIntoView({behavior:'smooth'});}
+function changeChapter(dir){var s=document.getElementById('chapSelect');var i=s.selectedIndex+dir;if(i>=0&&i<chapters.length){s.selectedIndex=i;scrollToChapter(chapters[i]);}}
+</script>
+  </body>
+</html>

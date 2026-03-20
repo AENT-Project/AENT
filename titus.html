@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+    <title>Titus — AENT</title>
+    <style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Georgia,'Times New Roman',serif;background-color:#f5f0e8;color:#2c1f0e;line-height:1.9;font-size:1.05rem}
+.wrap{max-width:740px;margin:0 auto;padding:1.5rem 1.25rem 3rem}
+.site-header{text-align:center;border-bottom:2px solid #8b6914;padding-bottom:1.25rem;margin-bottom:1.5rem}
+.site-header a{text-decoration:none}
+.site-title{font-size:1.8rem;font-weight:700;letter-spacing:0.15em;color:#5c3a00}
+.site-tagline{font-style:italic;font-size:0.85rem;color:#6b4c1e;margin-top:0.2rem}
+.nav-bar{margin-bottom:1.5rem;padding:0.6rem 0;border-bottom:1px solid #c4a35a}
+.nav-row{display:flex;justify-content:space-between;align-items:center;gap:0.4rem;margin-bottom:0.4rem;flex-wrap:wrap}
+.nav-row:last-child{margin-bottom:0}
+a.btn,button.btn{display:inline-block;padding:0.4rem 0.8rem;background:#ede5d0;border:1px solid #c4a35a;border-radius:6px;color:#5c3a00;text-decoration:none;font-size:0.85rem;cursor:pointer;font-family:Georgia,serif;transition:background 0.2s,box-shadow 0.2s}
+a.btn:hover,button.btn:hover{background:#ddd0b0;border-color:#8b6914;box-shadow:0 0 8px rgba(139,105,20,0.35)}
+select{padding:0.4rem 0.6rem;background:#ede5d0;border:1px solid #c4a35a;border-radius:6px;color:#5c3a00;font-family:Georgia,serif;font-size:0.85rem;cursor:pointer}
+.book-title{font-size:1.9rem;font-weight:700;color:#5c3a00;text-align:center;margin-bottom:1.5rem}
+.disclaimer{background:#ede5d0;border-left:4px solid #8b6914;padding:1rem 1.25rem;border-radius:0 6px 6px 0;margin-bottom:2rem;font-size:0.92rem;color:#3a2a0e}
+.disclaimer p{margin-bottom:0.5rem}
+.disclaimer p:last-child{margin-bottom:0}
+h2{font-size:1.2rem;font-weight:700;color:#5c3a00;margin:2.5rem 0 0.75rem;padding:0.5rem 0.75rem;background:#e8dfc8;border-left:4px solid #8b6914;border-radius:0 4px 4px 0}
+h3{font-size:1.05rem;font-weight:700;color:#5c3a00;margin:1.75rem 0 0.6rem;padding-left:0.75rem;border-left:3px solid #c4a35a}
+p{margin-bottom:1.1rem;text-align:justify}
+blockquote{margin:1.25rem 2rem;padding-left:1rem;border-left:3px solid #c4a35a;color:#3a2a0e;font-style:italic}
+.bottom-nav{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.5rem;margin-top:2.5rem;padding-top:1.25rem;border-top:2px solid #8b6914}
+.site-footer{text-align:center;font-size:0.8rem;color:#8b6914;font-style:italic;margin-top:2rem;padding-top:1rem;border-top:1px solid #c4a35a}
+@media(max-width:480px){body{font-size:1rem}.book-title{font-size:1.5rem}.nav-row{justify-content:center}}
+</style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="site-header"> <a
+          href="https://aent-project.github.io/AENT/">
+          <div class="site-title">AENT</div>
+          <div class="site-tagline">Your word is a lamp to my feet and a
+            light to my path — Psalm 119:105</div>
+        </a>
+      </header>
+      <nav class="nav-bar">
+        <div class="nav-row"> <a class="btn" href="2timothy.html">← 2
+            Timothy</a>
+          <select
+            onchange="if(this.value)window.location.href=this.value">
+            <option value="">Jump to Book</option>
+            <option value="matthew.html">Matthew</option>
+            <option value="mark.html">Mark</option>
+            <option value="luke.html">Luke</option>
+            <option value="john.html">John</option>
+            <option value="acts.html">Acts</option>
+            <option value="romans.html">Romans</option>
+            <option value="1corinthians.html">1 Corinthians</option>
+            <option value="2corinthians.html">2 Corinthians</option>
+            <option value="galatians.html">Galatians</option>
+            <option value="ephesians.html">Ephesians</option>
+            <option value="philippians.html">Philippians</option>
+            <option value="colossians.html">Colossians</option>
+            <option value="1thessalonians.html">1 Thessalonians</option>
+            <option value="2thessalonians.html">2 Thessalonians</option>
+            <option value="1timothy.html">1 Timothy</option>
+            <option value="2timothy.html">2 Timothy</option>
+            <option value="titus.html" selected="selected">Titus</option>
+            <option value="philemon.html">Philemon</option>
+            <option value="hebrews.html">Hebrews</option>
+            <option value="james.html">James</option>
+            <option value="1peter.html">1 Peter</option>
+            <option value="2peter.html">2 Peter</option>
+            <option value="1john.html">1 John</option>
+            <option value="2john.html">2 John</option>
+            <option value="3john.html">3 John</option>
+            <option value="jude.html">Jude</option>
+            <option value="revelation.html">Revelation</option>
+          </select>
+          <a class="btn" href="philemon.html">Philemon →</a> </div>
+        <div class="nav-row"> <button class="btn"
+            onclick="changeChapter(-1)">← Prev Chapter</button>
+          <select id="chapSelect" onchange="scrollToChapter(this.value)">
+            <option value="ch1" selected="selected">Chapter 1</option>
+            <option value="ch2">Chapter 2</option>
+            <option value="ch3">Chapter 3</option>
+          </select>
+          <button class="btn" onclick="changeChapter(1)">Next Chapter →</button>
+        </div>
+      </nav>
+      <h1 class="book-title">Titus</h1>
+      <div class="disclaimer">
+        <p>Titus — (AENT) Accessible English New Testament</p>
+        <p>This version is written for everyone. We use familiar names
+          like "Jesus" and "God" rather than the original Aramaic or
+          Hebrew names because our goal is simple — make the Bible easy
+          to read and understand.</p>
+        <p>A quick note: Whenever you see THE LORD in all capitals, it
+          refers to the personal, sacred name of God. When you see Lord
+          in normal letters, it is a title of respect, similar to
+          calling someone "Sir" or "Master."</p>
+        <p>This text is meant as a companion to your current favorite
+          version of the New Testament — not a replacement. Nourish your
+          soul in the Word, every way and every chance you get.</p>
+        <p>Grace &amp; Peace.</p>
+      </div>
+      <h2 id="ch1">Titus Chapter 1</h2>
+      <h3>Opening Greeting</h3>
+      <p>Paul, a servant of God and an apostle of Jesus the Messiah —
+        sent to strengthen the faith of God's chosen people and to help
+        them fully understand the truth that leads to a godly life. This
+        faith and knowledge rest on the hope of eternal life — a life
+        that God, who never lies, promised before time even began. And
+        now at just the right time he has revealed his message through
+        the preaching entrusted to me by the command of God our Savior.</p>
+      <p>To Titus, my true son in the faith we share — grace and peace
+        to you from God the Father and from Jesus the Messiah our
+        Savior.</p>
+      <h3>Qualifications for Leaders</h3>
+      <p>The reason I left you in Crete was so you could finish what
+        still needed doing and appoint elders in every town just as I
+        directed you. An elder must be someone no one can validly accuse
+        of wrongdoing — faithful to his wife, with children who are
+        believers and not known for being wild or rebellious.</p>
+      <p>Since a church leader manages God's household he must be
+        blameless. Not arrogant, not quick-tempered, not a heavy
+        drinker, not violent, not greedy for money. Instead he must be
+        hospitable, a lover of what is good, sensible, fair, holy, and
+        self-controlled. He must hold firmly to the trustworthy message
+        as it was taught — so that he can encourage others with sound
+        teaching and show those who oppose it where they are wrong.</p>
+      <h3>Silence the False Teachers</h3>
+      <p>For there are many rebellious people — especially those from
+        the circumcision group — who talk nonsense and deceive others.
+        They must be silenced because they are ruining entire families
+        by teaching things they shouldn't, all for the sake of dishonest
+        money. Even one of their own prophets said — Cretans are always
+        liars, evil brutes, and lazy gluttons.</p>
+      <p>That statement is true. So correct them sharply so they can
+        become sound in their faith and stop paying attention to Jewish
+        myths and the man-made rules of people who have turned away from
+        the truth.</p>
+      <p>To those who are pure everything is pure. But to those who are
+        corrupt and unbelieving nothing is pure — their minds and
+        consciences are both stained. They claim to know God but the way
+        they live proves they don't. They are detestable, disobedient,
+        and useless for anything good.<br>
+      </p>
+      <p><b style="font-weight:normal;"
+          id="docs-internal-guid-8a2dfd43-7fff-3e8e-df07-0ffc3811db1d">
+          <h2 dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:16pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Titus Chapter 2</span></h2>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Teach Sound Doctrine to Everyone</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">You must teach what is consistent with sound doctrine. Teach the older men to be temperate, serious, and sensible — sound in faith, in love, and in patient endurance. Teach the older women to live in a way that reflects holiness — not slanderers, not enslaved to wine, but teachers of what is good. In this way they can train the younger women to love their husbands and children, to be self-controlled and pure, to manage their homes well, to be kind, and to be subject to their own husbands — so that the word of God will not be spoken against.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Encourage the young men to be self-controlled. In everything set them an example by doing what is good. In your teaching show integrity, seriousness, and soundness of speech that cannot be condemned — so that those who oppose you will be ashamed because they have nothing bad to say about us.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Teach servants to be subject to their masters in everything — to try to please them, not to talk back, and not to steal from them. Show that they can be fully trusted so that in every way they make the teaching about God our Savior attractive.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">The Grace of God Has Appeared</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">For the grace of God has appeared — bringing salvation to all people. It teaches us to say no to ungodliness and worldly passions and to live self-controlled, upright, and godly lives in this present age — while we wait for the blessed hope, the appearing of the glory of our great God and Savior Jesus the Messiah. He gave himself for us to redeem us from all wickedness and to purify for himself a people that are his very own, eager to do what is good.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Teach these things. Encourage and correct with full authority. Don't let anyone look down on you.</span></p>
+          <h2 dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:16pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Titus Chapter 3</span></h2>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Live Respectfully Among Everyone</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Remind them to submit to rulers and authorities, to be obedient, and to be ready for every good work. Tell them to slander no one, to avoid fighting, to be gentle, and to show courtesy to everyone. For we ourselves were once foolish, disobedient, led astray, and enslaved to all kinds of lusts and pleasures. We lived in malice and envy — hated by others and hating one another.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Saved by Mercy Not by Works</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">But when the kindness and love of God our Savior appeared he saved us — not because of any righteous things we had done but because of his mercy. He saved us through the washing of rebirth and renewal by the Holy Spirit whom he poured out on us richly through Jesus the Messiah our Savior. This was done so that having been justified by his grace we might become heirs with the hope of eternal life.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">This is a trustworthy saying — and I want you to insist on these things so that those who have believed in God may be careful to devote themselves to good works. These things are excellent and profitable for everyone. But avoid foolish controversies, genealogies, quarrels, and arguments about the law — they are unprofitable and worthless. After a first and second warning have nothing more to do with someone who causes division — knowing that such a person is warped and sinful and condemned by their own actions.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Final Instructions and Greetings</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">When I send Artemas or Tychicus to you do your best to come to me at Nicopolis — I have decided to spend the winter there. Do your best to help Zenas the lawyer and Apollos on their journey and make sure they have everything they need. Our people must also learn to devote themselves to good works to meet urgent needs so that they will not be unfruitful.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Everyone here sends their greetings. Greet those who love us in the faith. Grace be with you all.</span></p>
+        </b><br class="Apple-interchange-newline">
+        <meta charset="utf-8">
+      </p>
+      <nav class="bottom-nav"> <a class="btn" href="2timothy.html">← 2
+          Timothy</a> <a class="btn"
+          href="https://aent-project.github.io/AENT/">⌂ Home</a> <a
+          class="btn" href="philemon.html">Philemon →</a>
+      </nav>
+      <footer class="site-footer"> Free for everyone — share freely — to
+        the glory of God
+      </footer>
+    </div>
+    <script>
+var chapters=['ch1','ch2','ch3'];
+function scrollToChapter(id){var el=document.getElementById(id);if(el)el.scrollIntoView({behavior:'smooth'});}
+function changeChapter(dir){var s=document.getElementById('chapSelect');var i=s.selectedIndex+dir;if(i>=0&&i<chapters.length){s.selectedIndex=i;scrollToChapter(chapters[i]);}}
+</script>
+  </body>
+</html>

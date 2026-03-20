@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+    <title>2 Timothy — AENT</title>
+    <style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Georgia,'Times New Roman',serif;background-color:#f5f0e8;color:#2c1f0e;line-height:1.9;font-size:1.05rem}
+.wrap{max-width:740px;margin:0 auto;padding:1.5rem 1.25rem 3rem}
+.site-header{text-align:center;border-bottom:2px solid #8b6914;padding-bottom:1.25rem;margin-bottom:1.5rem}
+.site-header a{text-decoration:none}
+.site-title{font-size:1.8rem;font-weight:700;letter-spacing:0.15em;color:#5c3a00}
+.site-tagline{font-style:italic;font-size:0.85rem;color:#6b4c1e;margin-top:0.2rem}
+.nav-bar{margin-bottom:1.5rem;padding:0.6rem 0;border-bottom:1px solid #c4a35a}
+.nav-row{display:flex;justify-content:space-between;align-items:center;gap:0.4rem;margin-bottom:0.4rem;flex-wrap:wrap}
+.nav-row:last-child{margin-bottom:0}
+a.btn,button.btn{display:inline-block;padding:0.4rem 0.8rem;background:#ede5d0;border:1px solid #c4a35a;border-radius:6px;color:#5c3a00;text-decoration:none;font-size:0.85rem;cursor:pointer;font-family:Georgia,serif;transition:background 0.2s,box-shadow 0.2s}
+a.btn:hover,button.btn:hover{background:#ddd0b0;border-color:#8b6914;box-shadow:0 0 8px rgba(139,105,20,0.35)}
+select{padding:0.4rem 0.6rem;background:#ede5d0;border:1px solid #c4a35a;border-radius:6px;color:#5c3a00;font-family:Georgia,serif;font-size:0.85rem;cursor:pointer}
+.book-title{font-size:1.9rem;font-weight:700;color:#5c3a00;text-align:center;margin-bottom:1.5rem}
+.disclaimer{background:#ede5d0;border-left:4px solid #8b6914;padding:1rem 1.25rem;border-radius:0 6px 6px 0;margin-bottom:2rem;font-size:0.92rem;color:#3a2a0e}
+.disclaimer p{margin-bottom:0.5rem}
+.disclaimer p:last-child{margin-bottom:0}
+h2{font-size:1.2rem;font-weight:700;color:#5c3a00;margin:2.5rem 0 0.75rem;padding:0.5rem 0.75rem;background:#e8dfc8;border-left:4px solid #8b6914;border-radius:0 4px 4px 0}
+h3{font-size:1.05rem;font-weight:700;color:#5c3a00;margin:1.75rem 0 0.6rem;padding-left:0.75rem;border-left:3px solid #c4a35a}
+p{margin-bottom:1.1rem;text-align:justify}
+blockquote{margin:1.25rem 2rem;padding-left:1rem;border-left:3px solid #c4a35a;color:#3a2a0e;font-style:italic}
+.bottom-nav{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.5rem;margin-top:2.5rem;padding-top:1.25rem;border-top:2px solid #8b6914}
+.site-footer{text-align:center;font-size:0.8rem;color:#8b6914;font-style:italic;margin-top:2rem;padding-top:1rem;border-top:1px solid #c4a35a}
+@media(max-width:480px){body{font-size:1rem}.book-title{font-size:1.5rem}.nav-row{justify-content:center}}
+</style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="site-header"> <a
+          href="https://aent-project.github.io/AENT/">
+          <div class="site-title">AENT</div>
+          <div class="site-tagline">Your word is a lamp to my feet and a
+            light to my path — Psalm 119:105</div>
+        </a>
+      </header>
+      <nav class="nav-bar">
+        <div class="nav-row"> <a class="btn" href="1timothy.html">← 1
+            Timothy</a>
+          <select
+            onchange="if(this.value)window.location.href=this.value">
+            <option value="">Jump to Book</option>
+            <option value="matthew.html">Matthew</option>
+            <option value="mark.html">Mark</option>
+            <option value="luke.html">Luke</option>
+            <option value="john.html">John</option>
+            <option value="acts.html">Acts</option>
+            <option value="romans.html">Romans</option>
+            <option value="1corinthians.html">1 Corinthians</option>
+            <option value="2corinthians.html">2 Corinthians</option>
+            <option value="galatians.html">Galatians</option>
+            <option value="ephesians.html">Ephesians</option>
+            <option value="philippians.html">Philippians</option>
+            <option value="colossians.html">Colossians</option>
+            <option value="1thessalonians.html">1 Thessalonians</option>
+            <option value="2thessalonians.html">2 Thessalonians</option>
+            <option value="1timothy.html">1 Timothy</option>
+            <option value="2timothy.html" selected="selected">2 Timothy</option>
+            <option value="titus.html">Titus</option>
+            <option value="philemon.html">Philemon</option>
+            <option value="hebrews.html">Hebrews</option>
+            <option value="james.html">James</option>
+            <option value="1peter.html">1 Peter</option>
+            <option value="2peter.html">2 Peter</option>
+            <option value="1john.html">1 John</option>
+            <option value="2john.html">2 John</option>
+            <option value="3john.html">3 John</option>
+            <option value="jude.html">Jude</option>
+            <option value="revelation.html">Revelation</option>
+          </select>
+          <a class="btn" href="titus.html">Titus →</a> </div>
+        <div class="nav-row"> <button class="btn"
+            onclick="changeChapter(-1)">← Prev Chapter</button>
+          <select id="chapSelect" onchange="scrollToChapter(this.value)">
+            <option value="ch1" selected="selected">Chapter 1</option>
+            <option value="ch2">Chapter 2</option>
+            <option value="ch3">Chapter 3</option>
+            <option value="ch4">Chapter 4</option>
+          </select>
+          <button class="btn" onclick="changeChapter(1)">Next Chapter →</button>
+        </div>
+      </nav>
+      <h1 class="book-title">2 Timothy</h1>
+      <div class="disclaimer">
+        <p>2 Timothy — (AENT) Accessible English New Testament</p>
+        <p>This version is written for everyone. We use familiar names
+          like "Jesus" and "God" rather than the original Aramaic or
+          Hebrew names because our goal is simple — make the Bible easy
+          to read and understand.</p>
+        <p>A quick note: Whenever you see THE LORD in all capitals, it
+          refers to the personal, sacred name of God. When you see Lord
+          in normal letters, it is a title of respect, similar to
+          calling someone "Sir" or "Master."</p>
+        <p>This text is meant as a companion to your current favorite
+          version of the New Testament — not a replacement. Nourish your
+          soul in the Word, every way and every chance you get.</p>
+        <p>Grace &amp; Peace.</p>
+      </div>
+      <h2 id="ch1">2 Timothy Chapter 1</h2>
+      <h3>Opening Greeting</h3>
+      <p>Paul, an apostle of Jesus the Messiah by the will of God,
+        according to the promise of life that is in Jesus the Messiah —
+        to Timothy, my beloved son. Grace, mercy, and peace to you from
+        God the Father and Jesus the Messiah our Master.</p>
+      <h3>Fan the Flame</h3>
+      <p>I thank God — whom I serve with a clear conscience as my
+        ancestors did — when I remember you constantly in my prayers
+        night and day. I long to see you and I remember your tears — and
+        I know that seeing you would fill me with joy. I am reminded of
+        your sincere faith which first lived in your grandmother Lois
+        and your mother Eunice — and I am convinced it lives in you as
+        well.</p>
+      <p>For this reason I remind you to fan into flame the gift of God
+        that is in you through the laying on of my hands. For God did
+        not give us a spirit of fear — but of power, love, and a sound
+        mind.</p>
+      <h3>Don't Be Ashamed</h3>
+      <p>So don't be ashamed of the testimony of our Master or of me his
+        prisoner. Instead join with me in suffering for the good news by
+        the power of God. He saved us and called us to a holy life — not
+        because of anything we did but because of his own purpose and
+        grace. This grace was given to us in Jesus the Messiah before
+        time began but has now been revealed through the appearing of
+        our Savior Jesus the Messiah. He has broken the power of death
+        and brought life and immortality to light through the good news.</p>
+      <p>I was appointed a herald, an apostle, and a teacher of this
+        message. That is why I am suffering as I am. But I am not
+        ashamed — because I know whom I have believed and I am convinced
+        that he is able to guard what I have entrusted to him until that
+        day.</p>
+      <h3>Hold On and Guard It</h3>
+      <p>Hold on to the pattern of sound teaching you heard from me — in
+        the faith and love that are in Jesus the Messiah. Guard the good
+        trust committed to you through the Holy Spirit who lives in us.</p>
+      <h3>Faithful and Unfaithful Friends</h3>
+      <p>You know that everyone in the province of Asia has deserted me
+        — including Phygelus and Hermogenes.</p>
+      <p>May the Master show mercy to the household of Onesiphorus —
+        because he often refreshed me and was not ashamed of my chains.
+        When he was in Rome he searched hard for me until he found me.
+        May the Master grant that he will find mercy from God on that
+        day. You know very well how much he helped me in Ephesus.<br>
+      </p>
+      <p><b style="font-weight:normal;"
+          id="docs-internal-guid-2ac5f07a-7fff-e86d-ef9c-d9bb26b9a3f4">
+          <h2 dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:16pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">2 Timothy Chapter 2</span></h2>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Be a Good Soldier</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">So you my son — be strong in the grace that is in Jesus the Messiah. The things you heard from me in the presence of many witnesses — entrust these to faithful people who will be capable of teaching others as well.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Share in suffering like a good soldier of Jesus the Messiah. No soldier on active duty gets tangled up in the everyday business of life — he focuses on pleasing the one who enlisted him. And if anyone competes as an athlete he doesn't win the prize unless he competes by the rules. The hardworking farmer should be the first to receive a share of the crops. Think about what I am saying — the Master will give you understanding in everything.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">The Word of God Is Not Chained</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Remember Jesus the Messiah — raised from the dead, descended from David. This is my good news, for which I am suffering to the point of being chained like a criminal. But the word of God is not chained. So I endure everything for the sake of God's chosen people so that they too may obtain the salvation that is in Jesus the Messiah with eternal glory.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Here is a trustworthy saying —</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">If we died with him we will also live with him.</span><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"> </span><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">If we endure we will also reign with him.</span><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"> </span><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">If we deny him he will also deny us.</span><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"> </span><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">If we are unfaithful he remains faithful — for he cannot deny himself.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Handle the Word Correctly</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Keep reminding people of these things. Warn them before God not to fight about words — it is useless and only destroys those who listen. Do your best to present yourself to God as one approved — a worker who has no need to be ashamed, who correctly handles the word of truth.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Avoid godless chatter because those who indulge in it will only become more ungodly. Their teaching spreads like gangrene. Among them are Hymenaeus and Philetus who have wandered away from the truth — claiming that the resurrection has already happened and upsetting the faith of some.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">But God's solid foundation stands firm sealed with this inscription — the Master knows those who are his, and everyone who confesses the name of the Master must turn away from wickedness.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Be a Vessel for Honor</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">In a large house there are not only gold and silver bowls but also ones made of wood and clay — some for special use and some for ordinary use. If anyone cleanses himself from these things he will be a vessel for honor, set apart, useful to the Master and prepared for every good work.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Run from youthful lusts. Instead pursue righteousness, faith, love, and peace — along with those who call on the Master out of a pure heart. Have nothing to do with foolish and ignorant arguments because you know they only start fights. A servant of the Master must not be quarrelsome but kind to everyone, able to teach, and patient when wronged. Gently instruct those who oppose you — in the hope that God will grant them repentance leading to a knowledge of the truth, and that they will come to their senses and escape the trap of the devil, who has taken them captive to do his will.</span></p>
+          <h2 dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:16pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">2 Timothy Chapter 3</span></h2>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Difficult Times Are Coming</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Understand this — in the last days very difficult times will come. People will love only themselves and money. They will be boastful, proud, and abusive. Disobedient to their parents, ungrateful, and unholy. They will have no natural affection and will be unforgiving. They will slander others and have no self-control. They will be cruel and hate what is good. They will be traitors — reckless and puffed up with pride — loving pleasure more than they love God.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">They will look religious but they will reject the power that makes a person truly godly. Have nothing to do with people like that.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">These are the kind of people who worm their way into homes and gain control over vulnerable people burdened by sins and led astray by all kinds of desires — always trying to learn but never able to come to the truth. Just as Jannes and Jambres opposed Moses these people also oppose the truth. Their minds are corrupt and their faith is counterfeit. But they won't get very far — just like those men in the time of Moses their foolishness will eventually be plain for everyone to see.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Follow My Example</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">But you Timothy have closely followed my teaching, my way of life, my purpose, my faith, my patience, my love, and my endurance. You know about the persecutions and sufferings I went through in Antioch, Iconium, and Lystra — and you know that the Master rescued me from all of them.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">In fact everyone who wants to live a godly life in Jesus the Messiah will be persecuted. Meanwhile evil people and impostors will go from bad to worse — deceiving others and being deceived themselves.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">The Authority of Scripture</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">But as for you — continue in what you have learned and have become convinced of, because you know those who taught you. From the time you were a child you have known the Holy Scriptures which are able to give you the wisdom you need for salvation through faith in Jesus the Messiah.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">All Scripture is breathed out by God and is useful for teaching, for showing us what is wrong, for correcting faults, and for training us to live righteously. Its purpose is to make the person of God complete — fully equipped for every good work.</span></p>
+          <h2 dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:16pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">2 Timothy Chapter 4</span></h2>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Preach the Word</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">I solemnly charge you before God and the Master Jesus the Messiah — who will judge the living and the dead when he appears to establish his kingdom. Preach the word. Be ready at all times whether it is convenient or not. Correct, rebuke, and encourage with great patience and careful teaching.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">The time is coming when people will no longer listen to sound teaching. Instead they will surround themselves with teachers who tell them exactly what their itching ears want to hear. They will turn their backs on the truth and wander off into myths and fables.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">But you — keep a clear head in every situation. Don't be afraid to suffer. Do the work of an evangelist and carry out your ministry to the fullest.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Paul's Final Words</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">As for me — my life is already being poured out as an offering and the time for my departure is very near. I have fought the good fight. I have finished the race. I have kept the faith. Now the crown of righteousness is waiting for me — the Master, the righteous Judge, will give it to me on that day. And not just to me but to everyone who has eagerly looked forward to his coming.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Come to Me Soon</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Do your best to come to me quickly. Demas has abandoned me — he loved this present world too much and has gone to Thessalonica. Crescens has gone to Galatia and Titus to Dalmatia. Only Luke is still with me. Pick up Mark and bring him with you — he is a great help to me in ministry. I sent Tychicus to Ephesus.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">When you come bring the coat I left with Carpus in Troas — and bring my books, especially the parchments.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Alexander the metalworker did me a great deal of harm. The Master will repay him for what he has done. Watch out for him too — he strongly opposed everything we said.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">The first time I had to defend myself in court no one stood by me. Everyone abandoned me — I pray it won't be held against them. But the Master stood with me and gave me strength so that through me the message might be fully proclaimed for all the nations to hear. I was rescued from the lion's mouth. The Master will rescue me from every evil attack and bring me safely into his heavenly kingdom. To him be glory forever and ever. Amen.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Final Greetings</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Give my greetings to Prisca and Aquila and to the household of Onesiphorus. Erastus stayed in Corinth and I left Trophimus in Miletus because he was sick. Do your best to get here before winter. Eubulus, Pudens, Linus, Claudia and all the brothers and sisters send their greetings.</span></p>
+          <p dir="ltr"
+            style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#1f1f1f;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">The Master be with your spirit. Grace be with you all.</span></p>
+        </b><br class="Apple-interchange-newline">
+        <meta charset="utf-8">
+      </p>
+      <nav class="bottom-nav"> <a class="btn" href="1timothy.html">← 1
+          Timothy</a> <a class="btn"
+          href="https://aent-project.github.io/AENT/">⌂ Home</a> <a
+          class="btn" href="titus.html">Titus →</a>
+      </nav>
+      <footer class="site-footer"> Free for everyone — share freely — to
+        the glory of God
+      </footer>
+    </div>
+    <script>
+var chapters=['ch1','ch2','ch3','ch4'];
+function scrollToChapter(id){var el=document.getElementById(id);if(el)el.scrollIntoView({behavior:'smooth'});}
+function changeChapter(dir){var s=document.getElementById('chapSelect');var i=s.selectedIndex+dir;if(i>=0&&i<chapters.length){s.selectedIndex=i;scrollToChapter(chapters[i]);}}
+</script>
+  </body>
+</html>

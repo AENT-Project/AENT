@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Philemon — AENT</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Georgia,'Times New Roman',serif;background-color:#f5f0e8;color:#2c1f0e;line-height:1.9;font-size:1.05rem}
+.wrap{max-width:740px;margin:0 auto;padding:1.5rem 1.25rem 3rem}
+.site-header{text-align:center;border-bottom:2px solid #8b6914;padding-bottom:1.25rem;margin-bottom:1.5rem}
+.site-header a{text-decoration:none}
+.site-title{font-size:1.8rem;font-weight:700;letter-spacing:0.15em;color:#5c3a00}
+.site-tagline{font-style:italic;font-size:0.85rem;color:#6b4c1e;margin-top:0.2rem}
+.nav-bar{margin-bottom:1.5rem;padding:0.6rem 0;border-bottom:1px solid #c4a35a}
+.nav-row{display:flex;justify-content:space-between;align-items:center;gap:0.4rem;margin-bottom:0.4rem;flex-wrap:wrap}
+.nav-row:last-child{margin-bottom:0}
+a.btn,button.btn{display:inline-block;padding:0.4rem 0.8rem;background:#ede5d0;border:1px solid #c4a35a;border-radius:6px;color:#5c3a00;text-decoration:none;font-size:0.85rem;cursor:pointer;font-family:Georgia,serif;transition:background 0.2s,box-shadow 0.2s}
+a.btn:hover,button.btn:hover{background:#ddd0b0;border-color:#8b6914;box-shadow:0 0 8px rgba(139,105,20,0.35)}
+select{padding:0.4rem 0.6rem;background:#ede5d0;border:1px solid #c4a35a;border-radius:6px;color:#5c3a00;font-family:Georgia,serif;font-size:0.85rem;cursor:pointer}
+.book-title{font-size:1.9rem;font-weight:700;color:#5c3a00;text-align:center;margin-bottom:1.5rem}
+.disclaimer{background:#ede5d0;border-left:4px solid #8b6914;padding:1rem 1.25rem;border-radius:0 6px 6px 0;margin-bottom:2rem;font-size:0.92rem;color:#3a2a0e}
+.disclaimer p{margin-bottom:0.5rem}
+.disclaimer p:last-child{margin-bottom:0}
+h2{font-size:1.2rem;font-weight:700;color:#5c3a00;margin:2.5rem 0 0.75rem;padding:0.5rem 0.75rem;background:#e8dfc8;border-left:4px solid #8b6914;border-radius:0 4px 4px 0}
+h3{font-size:1.05rem;font-weight:700;color:#5c3a00;margin:1.75rem 0 0.6rem;padding-left:0.75rem;border-left:3px solid #c4a35a}
+p{margin-bottom:1.1rem;text-align:justify}
+blockquote{margin:1.25rem 2rem;padding-left:1rem;border-left:3px solid #c4a35a;color:#3a2a0e;font-style:italic}
+.bottom-nav{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.5rem;margin-top:2.5rem;padding-top:1.25rem;border-top:2px solid #8b6914}
+.site-footer{text-align:center;font-size:0.8rem;color:#8b6914;font-style:italic;margin-top:2rem;padding-top:1rem;border-top:1px solid #c4a35a}
+@media(max-width:480px){body{font-size:1rem}.book-title{font-size:1.5rem}.nav-row{justify-content:center}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="site-header">
+  <a href="https://aent-project.github.io/AENT/">
+    <div class="site-title">AENT</div>
+    <div class="site-tagline">Your word is a lamp to my feet and a light to my path — Psalm 119:105</div>
+  </a>
+</header>
+
+<nav class="nav-bar">
+  <div class="nav-row">
+    <a class="btn" href="titus.html">&#8592; Titus</a>
+    <select onchange="if(this.value)window.location.href=this.value">
+      <option value="">Jump to Book</option>
+      <option value="matthew.html">Matthew</option>
+      <option value="mark.html">Mark</option>
+      <option value="luke.html">Luke</option>
+      <option value="john.html">John</option>
+      <option value="acts.html">Acts</option>
+      <option value="romans.html">Romans</option>
+      <option value="1corinthians.html">1 Corinthians</option>
+      <option value="2corinthians.html">2 Corinthians</option>
+      <option value="galatians.html">Galatians</option>
+      <option value="ephesians.html">Ephesians</option>
+      <option value="philippians.html">Philippians</option>
+      <option value="colossians.html">Colossians</option>
+      <option value="1thessalonians.html">1 Thessalonians</option>
+      <option value="2thessalonians.html">2 Thessalonians</option>
+      <option value="1timothy.html">1 Timothy</option>
+      <option value="2timothy.html">2 Timothy</option>
+      <option value="titus.html">Titus</option>
+      <option value="philemon.html" selected>Philemon</option>
+      <option value="hebrews.html">Hebrews</option>
+      <option value="james.html">James</option>
+      <option value="1peter.html">1 Peter</option>
+      <option value="2peter.html">2 Peter</option>
+      <option value="1john.html">1 John</option>
+      <option value="2john.html">2 John</option>
+      <option value="3john.html">3 John</option>
+      <option value="jude.html">Jude</option>
+      <option value="revelation.html">Revelation</option>
+    </select>
+    <a class="btn" href="hebrews.html">Hebrews &#8594;</a>
+  </div>
+</nav>
+
+<h1 class="book-title">Philemon</h1>
+
+<div class="disclaimer">
+  <p>Philemon — (AENT) Accessible English New Testament</p>
+  <p>This version is written for everyone. We use familiar names like "Jesus" and "God" rather than the original Aramaic or Hebrew names because our goal is simple — make the Bible easy to read and understand.</p>
+  <p>A quick note: Whenever you see THE LORD in all capitals, it refers to the personal, sacred name of God. When you see Lord in normal letters, it is a title of respect, similar to calling someone "Sir" or "Master."</p>
+  <p>This text is meant as a companion to your current favorite version of the New Testament — not a replacement. Nourish your soul in the Word, every way and every chance you get.</p>
+  <p>Grace &amp; Peace.</p>
+</div>
+
+<h3>Opening Greeting</h3>
+<p>Paul, a prisoner of Jesus the Messiah, and Timothy our brother — to Philemon our dear friend and fellow worker, to Apphia our sister, to Archippus our fellow soldier, and to the church that meets in your home. Grace and peace to you from God our Father and the Master Jesus the Messiah.</p>
+
+<h3>Your Love and Faith</h3>
+<p>I always thank my God when I remember you in my prayers — because I keep hearing about your love and the faith you have toward the Master Jesus and for all of God's people. I pray that your partnership in the faith may become effective as you fully recognize every good thing we have in the Messiah. Your love has given me great joy and comfort brother — because the hearts of God's people have been refreshed through you.</p>
+
+<h3>A Request Born from Love</h3>
+<p>So although in the Messiah I could be bold enough to order you to do what is right — I would rather appeal to you on the basis of love. I Paul — an old man and now also a prisoner of Jesus the Messiah — appeal to you for my child Onesimus, whose father I became while here in chains. Once he was useless to you — but now he is very useful both to you and to me.</p>
+<p>I am sending him back to you — and in doing so I am sending you my very heart. I wanted to keep him here with me so he could serve me on your behalf while I am in chains for the good news. But I didn't want to do anything without your consent — so that your good deed would be freely given and not forced. Perhaps this is exactly why he was separated from you for a while — so that you might have him back forever. No longer as a slave — but better than a slave. As a beloved brother. He is very dear to me — but how much more to you, both as a person and as a brother in the Master.</p>
+
+<h3>Welcome Him as You Would Welcome Me</h3>
+<p>So if you consider me a partner — welcome him as you would welcome me. If he has wronged you in any way or owes you anything charge it to my account. I Paul am writing this with my own hand — I will repay it. And I won't even mention that you owe me your very self. Yes brother — let me have this one thing from you in the Master. Refresh my heart in the Messiah.</p>
+<p>I am confident you will do what I ask — and I know you will do even more than I ask. One more thing — prepare a guest room for me, because I am hoping that through your prayers I will be restored to you.</p>
+
+<h3>Final Greetings</h3>
+<p>Epaphras, my fellow prisoner in Jesus the Messiah, sends his greetings — as do Mark, Aristarchus, Demas, and Luke, my fellow workers.</p>
+<p>The grace of our Master Jesus the Messiah be with your spirit.</p>
+
+<nav class="bottom-nav">
+  <a class="btn" href="titus.html">&#8592; Titus</a>
+  <a class="btn" href="https://aent-project.github.io/AENT/">&#8962; Home</a>
+  <a class="btn" href="hebrews.html">Hebrews &#8594;</a>
+</nav>
+
+<footer class="site-footer">
+  Free for everyone &#8212; share freely &#8212; to the glory of God
+</footer>
+
+</div>
+</body>
+</html>
