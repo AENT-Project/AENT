@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ms">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumber — AENT</title>
+    <style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background-color: #f5f0e8; color: #2c1f0e; line-height: 1.8; }
+  .page-wrapper { max-width: 740px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+  .site-header { text-align: center; border-bottom: 2px solid #8b6914; padding-bottom: 1.5rem; margin-bottom: 1.75rem; }
+  .site-header a { text-decoration: none; }
+  .site-title { font-size: 2.2rem; font-weight: 700; color: #5c3a00; letter-spacing: 0.15em; margin-bottom: 0.25rem; }
+  .site-tagline { font-style: italic; font-size: 0.95rem; color: #6b4c1e; }
+  .lang-notice { background: #e8dfc8; border: 1px solid #c4a35a; border-radius: 6px; padding: 0.6rem 1rem; text-align: center; font-size: 0.85rem; color: #5c3a00; margin-bottom: 1.5rem; }
+  .lang-notice a { color: #8b6914; font-weight: 700; }
+  .page-title { font-size: 1.5rem; font-weight: 700; color: #5c3a00; text-align: center; margin-bottom: 0.5rem; letter-spacing: 0.05em; }
+  .page-subtitle { text-align: center; font-style: italic; color: #6b4c1e; font-size: 0.95rem; margin-bottom: 2rem; }
+  .section-box { background: #ede5d0; border-left: 4px solid #8b6914; padding: 1.25rem 1.5rem; border-radius: 0 6px 6px 0; margin-bottom: 1.5rem; }
+  .section-box h2 { font-size: 1.1rem; font-weight: 700; color: #5c3a00; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .section-box p { margin-bottom: 0.75rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box p:last-child { margin-bottom: 0; }
+  .section-box a { color: #8b6914; font-weight: 700; }
+  .section-box ul { margin: 0.5rem 0 0.75rem 1.5rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box ul li { margin-bottom: 0.5rem; }
+  .principle-box { background: #5c3a00; color: #f5f0e8; padding: 1.25rem 1.5rem; border-radius: 6px; margin-bottom: 1.5rem; }
+  .principle-box h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.75rem; letter-spacing: 0.08em; color: #f5f0e8; }
+  .principle-box ul { margin: 0 0 0 1.5rem; font-size: 0.95rem; color: #e8dfc8; }
+  .principle-box ul li { margin-bottom: 0.6rem; }
+  .principle-box p { font-size: 0.95rem; color: #e8dfc8; margin-bottom: 0.5rem; }
+  .step-block { margin-bottom: 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid #c4a35a; }
+  .step-block:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .step-header { margin-bottom: 0.5rem; }
+  .step-number { display: inline-block; background: #8b6914; color: #f5f0e8; font-weight: 700; font-size: 0.85rem; width: 28px; height: 28px; border-radius: 50%; text-align: center; line-height: 28px; margin-right: 0.5rem; vertical-align: middle; }
+  .step-title { font-size: 1rem; font-weight: 700; color: #5c3a00; vertical-align: middle; }
+  .step-block p { font-size: 0.95rem; color: #3a2a0e; margin-bottom: 0.5rem; }
+  .step-block p:last-child { margin-bottom: 0; }
+  .step-block a { color: #8b6914; font-weight: 700; }
+  .nav-title { font-size: 1.1rem; font-weight: 700; color: #5c3a00; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; border-bottom: 1px solid #c4a35a; padding-bottom: 0.5rem; }
+  .nav-subtitle { font-size: 0.88rem; color: #6b4c1e; font-style: italic; margin-bottom: 1.25rem; }
+  .section-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #8b6914; margin: 1.5rem 0 0.5rem; }
+  .lang-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; margin-bottom: 0.5rem; }
+  .lang-btn { display: block; padding: 0.7rem 0.9rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.95rem; text-align: center; cursor: default; opacity: 0.7; }
+  .lang-btn .native { font-size: 1.05rem; font-weight: 700; display: block; }
+  .lang-btn .english { font-size: 0.75rem; color: #8b6914; display: block; margin-top: 0.1rem; }
+  .lang-btn.coming::after { content: 'Akan Datang'; font-size: 0.65rem; color: #8b6914; display: block; margin-top: 0.2rem; font-style: italic; }
+  .home-btn { display: inline-block; margin-top: 2rem; padding: 0.6rem 1.2rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.92rem; }
+  .home-btn:hover { background: #ddd0b0; border-color: #8b6914; }
+  .site-footer { text-align: center; font-size: 0.8rem; color: #8b6914; border-top: 1px solid #c4a35a; padding-top: 1rem; margin-top: 2rem; font-style: italic; }
+  .contact-line { margin-top: 0.5rem; font-style: normal; }
+  .contact-line a { color: #8b6914; }
+  @media (max-width: 480px) { .site-title { font-size: 1.8rem; } .lang-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); } }
+</style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+
+      <header class="site-header">
+        <a href="index.html">
+          <div class="site-title">AENT</div>
+          <p class="site-tagline">Firman-Mu adalah pelita bagi kakiku dan cahaya bagi jalanku — Mazmur 119:105</p>
+        </a>
+      </header>
+
+      <div class="lang-notice">
+        Halaman ini tersedia dalam bahasa lain. <a href="resources.html">Lihat dalam bahasa Inggeris</a>
+      </div>
+
+      <h1 class="page-title">Sumber</h1>
+      <p class="page-subtitle">Semua yang anda perlukan untuk membawa Kitab Suci dalam bahasa mudah kepada orang-orang anda — percuma sepenuhnya.<br>
+        <br>
+        Jika anda baru, ingin tahu, atau hanya mencari kejelasan — mulakan di sini. Sumber-sumber ini ada di sini untuk membantu anda memahami — bukan untuk membebankan anda.</p>
+
+      <div class="section-box">
+        <h2>Visi</h2>
+        <p>AENT — Perjanjian Baru dalam Bahasa Inggeris yang Mudah Diakses — dibina untuk membuktikan sesuatu yang mudah. Seluruh Perjanjian Baru boleh diterjemahkan ke dalam bahasa yang jelas dan mudah serta diterbitkan kepada dunia secara percuma menggunakan alat yang boleh diakses oleh sesiapa sahaja. Tiada ijazah seminari diperlukan. Tiada belanjawan penerbitan diperlukan. Tiada latar belakang teknikal diperlukan.</p>
+        <p>Kami membina edisi bahasa Inggeris dari awal menggunakan hanya alat AI percuma, perisian percuma, dan pengehosan web percuma. Keseluruhan projek — terjemahan, laman web, dan penerbitan — tidak memerlukan apa-apa kos selain masa dan kesetiaan.</p>
+        <p>Kini kami ingin menunjukkan kepada anda dengan tepat bagaimana kami melakukannya supaya anda boleh melakukan perkara yang sama untuk orang-orang anda dalam bahasa anda. Firman Tuhan adalah milik semua orang. Dalam dunia Tuhan kita semua adalah saudara-saudari dan jiran. Setiap orang di bumi berhak membacanya dalam bahasa yang mereka benar-benar fahami. Kasihilah Tuhan Allahmu dengan segenap hatimu, jiwamu, akalmu dan kekuatanmu. Sebarkanlah berita baiknya ke mana-mana.</p>
+      </div>
+
+      <div class="principle-box">
+        <h2>Prinsip Terjemahan AENT</h2>
+        <p>Ini adalah garis panduan yang kami ikuti dalam setiap bab setiap kitab. Ikutilah dan terjemahan anda akan mempunyai kualiti yang hangat, jelas dan mudah dibaca seperti edisi bahasa Inggeris.</p>
+        <ul>
+          <li><strong>Bahasa mudah selalu.</strong> Jika pelajar sekolah menengah tidak dapat memahami ayat itu, tulis semula. Jangan sekali-kali menggunakan bahasa kuno atau keagamaan apabila ada perkataan mudah.</li>
+          <li><strong>Gunakan nama yang biasa.</strong> Gunakan nama yang sudah dikenali orang — Yesus, bukan Yeshua. Tuhan, bukan Elohim. Matlamatnya adalah kefahaman bukan pengetahuan akademik.</li>
+          <li><strong>Satu idea setiap ayat.</strong> Ayat yang panjang dan kompleks mengelirukan pembaca. Pecahkan. Kekalkan kejelasan.</li>
+          <li><strong>TUHAN dengan huruf besar.</strong> Apabila teks merujuk kepada nama peribadi dan suci Tuhan gunakan TUHAN dengan huruf besar. Apabila ia adalah gelaran hormat gunakan Tuhan dengan huruf biasa.</li>
+          <li><strong>Rangka pendamping.</strong> Terjemahan ini adalah pendamping kepada Alkitab kegemaran pembaca — bukan pengganti. Nyatakan ini dengan jelas pada permulaan setiap kitab.</li>
+          <li><strong>Suara yang hangat dan mudah dibaca.</strong> Tulis seperti cara seorang rakan yang dipercayai menerangkan Kitab Suci — bukan cara seorang ahli akademik menulis ulasan.</li>
+          <li><strong>Kekal setia kepada makna.</strong> Bahasa mudah tidak bermakna parafasa bebas. Setiap pilihan terjemahan harus menghormati makna teks Yunani asal.</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <h2>Langkah demi Langkah — Cara Membina Edisi Anda Sendiri</h2>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">1</span><span class="step-title">Buat Akaun Google Percuma Anda</span></div>
+          <p>Pergi ke google.com dan buat akaun percuma. Akaun tunggal ini memberi anda Gmail untuk alamat e-mel projek anda dan Google Docs untuk menulis dan menyimpan terjemahan anda. Beri e-mel anda nama yang jelas — seperti malayaent@gmail.com atau aentmalay@gmail.com.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">2</span><span class="step-title">Dapatkan Teks Sumber Anda</span></div>
+          <p>Anda memerlukan Perjanjian Baru bahasa Yunani yang boleh dipercayai sebagai asas. Kami mengesyorkan SBL Greek New Testament — cari dalam talian "SBL Greek New Testament free PDF" untuk menemuinya. Anda tidak perlu membaca bahasa Yunani sendiri. Alat AI akan mengendalikan terjemahan dari bahasa Yunani. Anda hanya perlu teks sumber yang tersedia sebagai rujukan.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">3</span><span class="step-title">Buka Grok atau Gemini dan Mula Menterjemah</span></div>
+          <p>Pergi ke grok.com atau gemini.google.com dan buat akaun percuma. Kedua-dua alat ini sangat baik untuk kerja terjemahan dan mempunyai tahap percuma yang murah hati yang akan membawa anda melalui seluruh Perjanjian Baru tanpa kehabisan masa sesi.</p>
+          <p>Untuk setiap bab berikan Grok atau Gemini arahan seperti ini — "Sila terjemahkan Matius Bab 1 dari Perjanjian Baru bahasa Yunani ke dalam Bahasa Malaysia yang mudah mengikut prinsip-prinsip ini — gunakan nama yang biasa seperti Yesus dan Tuhan, tulis pada tahap pelajar sekolah menengah, satu idea setiap ayat, suara yang hangat dan mesra, TUHAN dengan huruf besar apabila merujuk kepada nama peribadi Tuhan. Ini adalah terjemahan pendamping bukan pengganti Alkitab yang sedia ada."</p>
+          <p>Semak setiap bab dengan teliti. Sesuaikan apa sahaja yang tidak kedengaran semula jadi dalam bahasa anda. Tampal bab yang telah siap ke dalam Google Docs. Simpannya. Teruskan ke bab seterusnya.</p>
+          <p>Apabila terjemahan anda selesai dan anda bersedia untuk membina laman web anda — itulah masanya anda membawa Claude ke claude.ai. Claude cemerlang dalam membina halaman HTML, memperhalusi bahasa mudah, dan menyelesaikan masalah teknikal. Gunakan setiap alat untuk apa yang paling baik dilakukannya.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">4</span><span class="step-title">Bekerja Kitab demi Kitab</span></div>
+          <p>Terjemahkan satu kitab pada satu masa. Mulakan dengan Injil Markus — ia adalah Injil yang paling pendek dan naratif yang paling langsung. Setelah anda menyelesaikan Markus anda akan mempunyai perasaan yang kuat tentang suara terjemahan dan selebihnya akan berjalan lebih pantas.</p>
+          <p>Simpan setiap kitab yang siap sebagai dokumen berasingan dalam Google Docs. Kerja anda disimpan secara automatik ke awan dan boleh diakses dari mana-mana peranti. Ia tidak akan hilang.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">5</span><span class="step-title">Muat Turun SeaMonkey Composer</span></div>
+          <p>Untuk semua pengeditan laman web kami mengesyorkan SeaMonkey. Ia adalah alat berkuasa gaya lama yang berfungsi tepat seperti Microsoft Word. Jika anda boleh menyalin teks dari dokumen dan menampalnya ke tetingkap baru anda sudah mempunyai kemahiran untuk membina laman web dengan SeaMonkey. Ia menghormati pemformatan anda memastikan kesederhanaan dan memerlukan <strong>sifar pengetahuan pengekodan</strong>.</p>
+          <p>Untuk bermula pergi ke seamonkey-project.org dan muat turun perisian secara percuma. Setelah dipasang gunakan alat <strong>Composer</strong> untuk menukar teks Google Docs anda kepada halaman web HTML yang profesional.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">6</span><span class="step-title">Bina Halaman HTML Anda</span></div>
+          <p>Jika anda ingin memulakan projek terjemahan anda sendiri hubungi kami di <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> untuk menerima <strong>Templat HTML AENT</strong> percuma. Fail yang telah diformatkan terlebih dahulu ini memastikan laman anda kekal bersih profesional dan mudah dibaca pada komputer dan telefon — tanpa perlu mempelajari satu baris kod pun.</p>
+          <p>Templat mengendalikan "kerja teknikal" untuk anda. Hanya buka ia dalam <strong>SeaMonkey Composer</strong> tampal teks terjemahan anda ke dalam <strong>paparan Normal</strong> dan simpannya sebagai fail HTML. Kami mengesyorkan membina satu fail HTML setiap kitab yang mengandungi semua bab.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">7</span><span class="step-title">Sediakan GitHub dan Terbitkan</span></div>
+          <p>Pergi ke github.com dan buat akaun percuma. Buat repositori baru dan dayakan GitHub Pages dalam tetapan repositori. Muat naik semua fail HTML anda. Terjemahan anda serta-merta disiarkan di internet — percuma kekal dan boleh diakses oleh sesiapa sahaja di seluruh dunia.</p>
+          <p>Itu sahaja. Dari saat itu sesiapa yang menemui laman web anda boleh membaca Perjanjian Baru dalam bahasa mudah dalam bahasa anda secara percuma.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">8</span><span class="step-title">Hubungi Kami — Kami Ingin Membantu</span></div>
+          <p>Anda tidak perlu mengetahui semua ini sendiri. Kami telah melalui setiap langkah proses ini dan kami ingin membantu anda berjaya. Hantar e-mel kepada kami di <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> dengan soalan untuk menerima templat HTML atau hanya untuk memberitahu kami bahawa anda sedang mengerjakan terjemahan. Kami akan menemani anda sepanjang proses.</p>
+        </div>
+
+      </div>
+
+      <div class="section-box">
+        <h2>Alat AI yang Kami Syorkan</h2>
+        <p><strong>Claude (Anthropic)</strong> — claude.ai — Jantung projek AENT. Claude mengendalikan terjemahan memperhalusi bahasa mudah dan membina setiap halaman HTML di laman web ini. Claude cemerlang dalam nuansa nada dan mengungkapkan makna dalam bahasa yang hangat dan mudah dibaca yang terasa seperti seorang rakan yang dipercayai menerangkan Kitab Suci berbanding seorang ahli akademik yang memberi kuliah. Terbaik untuk memperhalusi terjemahan bahasa mudah membina laman web dan apa sahaja yang memerlukan suara yang peribadi dan mudah didekati. Jika anda hanya akan menggunakan satu alat AI untuk projek ini biarkan ia menjadi Claude.</p>
+        <p><strong>Gemini (Google)</strong> — gemini.google.com — Pakar penyelidikan mendalam. Apabila soalan terjemahan melampaui permukaan — apabila anda perlu memahami apa yang sebenarnya dimaksudkan oleh perkataan Yunani dalam konteks abad pertama atau menyelesaikan perdebatan teologi tentang petikan yang sukar — Gemini adalah alat anda. Terbaik untuk kajian perkataan penyelidikan teologi dan soalan terjemahan teknikal.</p>
+        <p><strong>ChatGPT (OpenAI)</strong> — chatgpt.com — Artis pasukan. ChatGPT mencipta logo AENT — Alkitab terbuka dengan lampu dan laluan cahaya emas — dan boleh melakukan perkara yang sama untuk projek anda. Minta PNG dengan latar belakang telus untuk hasil terbaik pada halaman perkamen anda. Terbaik untuk logo ilustrasi dan sebarang aset visual yang diperlukan projek anda.</p>
+        <p><strong>Grok (xAI)</strong> — grok.com — Ahli pasukan yang paling bersedia. Apabila AI lain teragak-agak pada petikan tertentu atau kehabisan masa sesi Grok masuk tanpa mengadu dan menghasilkan kerja terjemahan yang kukuh. Terbaik untuk terjemahan berjumlah besar mematuhi permintaan khusus dan meneruskan dari mana orang lain berhenti.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Alat Penerbitan Percuma</h2>
+        <p><strong>Google Docs</strong> — docs.google.com — Pemproses kata percuma berasaskan awan. Di sinilah anda menulis menyimpan dan memperhalusi terjemahan anda bab demi bab. Kerja anda disimpan secara automatik boleh diakses dari mana-mana peranti dan tidak akan hilang. Apabila bab siap hanya salin dari Google Docs dan tampal terus ke SeaMonkey Composer — pemformatan berpindah dengan kemas.</p>
+        <p><strong>Gmail</strong> — gmail.com — E-mel percuma dari Google. Sediakan alamat e-mel khusus untuk pelayanan terjemahan anda. Memandangkan Gmail dan Google Docs berkongsi akaun Google yang sama anda hanya perlu mendaftar sekali untuk mendapatkan kedua-duanya.</p>
+        <p><strong>SeaMonkey Composer</strong> — seamonkey-project.org — Editor HTML percuma. Berfungsi seperti Microsoft Word. Tampal teks terjemahan anda gunakan tajuk simpan sebagai HTML. Tiada pengetahuan pengekodan diperlukan.</p>
+        <p><strong>GitHub Pages</strong> — github.com — Pengehosan web percuma untuk semua orang. Muat naik fail HTML anda dan terjemahan anda serta-merta tersedia di internet secara percuma selama-lamanya.</p>
+        <p><strong>Templat HTML AENT</strong> — Hubungi kami di <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> untuk menerima templat percuma. Ia merangkumi semua gaya navigasi dan pemformatan — sedia untuk teks terjemahan anda.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Hubungi Kami</h2>
+        <p>Jika anda sedang mengerjakan Perjanjian Baru dalam bahasa mudah dalam mana-mana bahasa dan mahukan bimbingan templat HTML galakan atau hanya seseorang yang menemani anda dalam proses ini — hubungi kami. Kami ingin membantu.</p>
+        <p><a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></p>
+      </div>
+
+      <div class="nav-title">Terjemahan Sedang Berlangsung</div>
+      <p class="nav-subtitle">Edisi dalam bahasa lain ini sedang dirancang atau dalam pembangunan. Pautan akan diaktifkan apabila setiap edisi selesai. Mahu memimpin terjemahan untuk bahasa anda? Hubungi kami di aentproject@gmail.com.</p>
+
+      <div class="section-label">Afrika</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Kiswahili</span><span class="english">Swahili</span></span>
+        <span class="lang-btn coming"><span class="native">Hausa</span><span class="english">Hausa</span></span>
+        <span class="lang-btn coming"><span class="native">Yorùbá</span><span class="english">Yoruba</span></span>
+        <span class="lang-btn coming"><span class="native">Igbo</span><span class="english">Igbo</span></span>
+        <span class="lang-btn coming"><span class="native">አማርኛ</span><span class="english">Amharik</span></span>
+        <span class="lang-btn coming"><span class="native">isiZulu</span><span class="english">Zulu</span></span>
+      </div>
+
+      <div class="section-label">Amerika</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Español</span><span class="english">Sepanyol</span></span>
+        <span class="lang-btn coming"><span class="native">Português</span><span class="english">Portugis</span></span>
+        <span class="lang-btn coming"><span class="native">Français</span><span class="english">Perancis</span></span>
+        <span class="lang-btn coming"><span class="native">Kreyòl Ayisyen</span><span class="english">Kreol Haiti</span></span>
+      </div>
+
+      <div class="section-label">Eropah</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Deutsch</span><span class="english">Jerman</span></span>
+        <span class="lang-btn coming"><span class="native">Italiano</span><span class="english">Itali</span></span>
+        <span class="lang-btn coming"><span class="native">Русский</span><span class="english">Rusia</span></span>
+        <span class="lang-btn coming"><span class="native">Українська</span><span class="english">Ukraine</span></span>
+        <span class="lang-btn coming"><span class="native">Polski</span><span class="english">Poland</span></span>
+        <span class="lang-btn coming"><span class="native">Română</span><span class="english">Romania</span></span>
+      </div>
+
+      <div class="section-label">Timur Tengah</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">العربية</span><span class="english">Arab</span></span>
+        <span class="lang-btn coming"><span class="native">فارسی</span><span class="english">Parsi</span></span>
+        <span class="lang-btn coming"><span class="native">Türkçe</span><span class="english">Turki</span></span>
+        <span class="lang-btn coming"><span class="native">עברית</span><span class="english">Ibrani</span></span>
+      </div>
+
+      <div class="section-label">Asia dan Pasifik</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">हिन्दी</span><span class="english">Hindi</span></span>
+        <span class="lang-btn coming"><span class="native">বাংলা</span><span class="english">Bengali</span></span>
+        <span class="lang-btn coming"><span class="native">中文</span><span class="english">Mandarin</span></span>
+        <span class="lang-btn coming"><span class="native">日本語</span><span class="english">Jepun</span></span>
+        <span class="lang-btn coming"><span class="native">한국어</span><span class="english">Korea</span></span>
+        <span class="lang-btn coming"><span class="native">Bahasa Indonesia</span><span class="english">Indonesia</span></span>
+        <span class="lang-btn coming"><span class="native">Filipino</span><span class="english">Filipino</span></span>
+        <span class="lang-btn coming"><span class="native">Tiếng Việt</span><span class="english">Vietnam</span></span>
+        <span class="lang-btn coming"><span class="native">ภาษาไทย</span><span class="english">Thai</span></span>
+        <span class="lang-btn coming"><span class="native">မြန်မာဘာသာ</span><span class="english">Burma</span></span>
+      </div>
+
+      <div style="text-align:center;">
+        <a class="home-btn" href="index.html">&#8962; Kembali ke Laman Utama</a>
+      </div>
+
+      <footer class="site-footer">
+        Percuma untuk semua &#8212; kongsi dengan bebas &#8212; untuk kemuliaan Tuhan
+        <div class="contact-line">Hubungi: <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></div>
+      </footer>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="am">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ሀብቶች — AENT</title>
+    <style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Noto Sans Ethiopic', 'Arial Unicode MS', Georgia, serif; background-color: #f5f0e8; color: #2c1f0e; line-height: 2.0; }
+  .page-wrapper { max-width: 740px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+  .site-header { text-align: center; border-bottom: 2px solid #8b6914; padding-bottom: 1.5rem; margin-bottom: 1.75rem; }
+  .site-header a { text-decoration: none; }
+  .site-title { font-size: 2.2rem; font-weight: 700; color: #5c3a00; letter-spacing: 0.15em; margin-bottom: 0.25rem; }
+  .site-tagline { font-style: italic; font-size: 0.95rem; color: #6b4c1e; }
+  .lang-notice { background: #e8dfc8; border: 1px solid #c4a35a; border-radius: 6px; padding: 0.6rem 1rem; text-align: center; font-size: 0.85rem; color: #5c3a00; margin-bottom: 1.5rem; }
+  .lang-notice a { color: #8b6914; font-weight: 700; }
+  .page-title { font-size: 1.5rem; font-weight: 700; color: #5c3a00; text-align: center; margin-bottom: 0.5rem; letter-spacing: 0.05em; }
+  .page-subtitle { text-align: center; font-style: italic; color: #6b4c1e; font-size: 0.95rem; margin-bottom: 2rem; }
+  .section-box { background: #ede5d0; border-left: 4px solid #8b6914; padding: 1.25rem 1.5rem; border-radius: 0 6px 6px 0; margin-bottom: 1.5rem; }
+  .section-box h2 { font-size: 1.1rem; font-weight: 700; color: #5c3a00; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .section-box p { margin-bottom: 0.75rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box p:last-child { margin-bottom: 0; }
+  .section-box a { color: #8b6914; font-weight: 700; }
+  .section-box ul { margin: 0.5rem 0 0.75rem 1.5rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box ul li { margin-bottom: 0.5rem; }
+  .principle-box { background: #5c3a00; color: #f5f0e8; padding: 1.25rem 1.5rem; border-radius: 6px; margin-bottom: 1.5rem; }
+  .principle-box h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.75rem; letter-spacing: 0.08em; color: #f5f0e8; }
+  .principle-box ul { margin: 0 0 0 1.5rem; font-size: 0.95rem; color: #e8dfc8; }
+  .principle-box ul li { margin-bottom: 0.6rem; }
+  .principle-box p { font-size: 0.95rem; color: #e8dfc8; margin-bottom: 0.5rem; }
+  .step-block { margin-bottom: 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid #c4a35a; }
+  .step-block:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .step-header { margin-bottom: 0.5rem; }
+  .step-number { display: inline-block; background: #8b6914; color: #f5f0e8; font-weight: 700; font-size: 0.85rem; width: 28px; height: 28px; border-radius: 50%; text-align: center; line-height: 28px; margin-right: 0.5rem; vertical-align: middle; }
+  .step-title { font-size: 1rem; font-weight: 700; color: #5c3a00; vertical-align: middle; }
+  .step-block p { font-size: 0.95rem; color: #3a2a0e; margin-bottom: 0.5rem; }
+  .step-block p:last-child { margin-bottom: 0; }
+  .step-block a { color: #8b6914; font-weight: 700; }
+  .nav-title { font-size: 1.1rem; font-weight: 700; color: #5c3a00; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; border-bottom: 1px solid #c4a35a; padding-bottom: 0.5rem; }
+  .nav-subtitle { font-size: 0.88rem; color: #6b4c1e; font-style: italic; margin-bottom: 1.25rem; }
+  .section-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #8b6914; margin: 1.5rem 0 0.5rem; }
+  .lang-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; margin-bottom: 0.5rem; }
+  .lang-btn { display: block; padding: 0.7rem 0.9rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.95rem; text-align: center; cursor: default; opacity: 0.7; }
+  .lang-btn .native { font-size: 1.05rem; font-weight: 700; display: block; }
+  .lang-btn .english { font-size: 0.75rem; color: #8b6914; display: block; margin-top: 0.1rem; }
+  .lang-btn.coming::after { content: 'በቅርቡ ይመጣል'; font-size: 0.65rem; color: #8b6914; display: block; margin-top: 0.2rem; font-style: italic; }
+  .home-btn { display: inline-block; margin-top: 2rem; padding: 0.6rem 1.2rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.92rem; }
+  .home-btn:hover { background: #ddd0b0; border-color: #8b6914; }
+  .site-footer { text-align: center; font-size: 0.8rem; color: #8b6914; border-top: 1px solid #c4a35a; padding-top: 1rem; margin-top: 2rem; font-style: italic; }
+  .contact-line { margin-top: 0.5rem; font-style: normal; }
+  .contact-line a { color: #8b6914; }
+  @media (max-width: 480px) { .site-title { font-size: 1.8rem; } .lang-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); } }
+</style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+
+      <header class="site-header">
+        <a href="index.html">
+          <div class="site-title">AENT</div>
+          <p class="site-tagline">ቃልህ ለእግሬ መብራት ለመንገዴም ብርሃን ነው — መዝሙር ፻፲፱፥፻፭</p>
+        </a>
+      </header>
+
+      <div class="lang-notice">
+        ይህ ገጽ በሌሎች ቋንቋዎች ይገኛል። <a href="resources.html">በእንግሊዝኛ ይመልከቱ</a>
+      </div>
+
+      <h1 class="page-title">ሀብቶች</h1>
+      <p class="page-subtitle">መጽሐፍ ቅዱስን በቀላል ቋንቋ ለሕዝብዎ ለማድረስ የሚያስፈልጉዎት ሁሉ — ሙሉ በሙሉ ነጻ።<br>
+        <br>
+        አዲስ ከሆኑ፣ ጉጉ ከሆኑ፣ ወይም ግልጽነት ከፈለጉ — ከዚህ ይጀምሩ። እነዚህ ሀብቶች እርስዎን ለማጥለቅ ሳይሆን ለመረዳት እንዲረዱዎ እዚህ ናቸው።</p>
+
+      <div class="section-box">
+        <h2>ራዕይ</h2>
+        <p>AENT — ተደራሽ የሆነ የእንግሊዝኛ አዲስ ኪዳን — ቀላል ነገር ለማረጋገጥ ተሠርቷል። ሙሉ አዲስ ኪዳን ወደ ግልጽ፣ ቀላል ቋንቋ ሊተረጎም እና ማንም ሊጠቀምባቸው በሚችሉ መሣሪያዎች ለዓለም ነጻ ሊሰራጭ ይችላል። የሴሚናሪ ዲግሪ አያስፈልግም። የህትመት በጀት አያስፈልግም። የቴክኒካዊ ዳራ አያስፈልግም።</p>
+        <p>እኛ የእንግሊዝኛ እትምን ከምንም ጀምሮ ነጻ የ AI መሣሪያዎችን፣ ነጻ ሶፍትዌር እና ነጻ ዌብ ሆስቲንግ ብቻ ተጠቅመን ሠራን። ሙሉ ፕሮጀክቱ — ትርጉም፣ ድህረ ገጽ እና ህትመት — ጊዜ እና ታማኝነት ካልሆነ ሌላ ምንም አልፈጀም።</p>
+        <p>አሁን እንዴት እንዳደረግን ትክክለኛ ሁኔታ ልናሳይዎ እንፈልጋለን ስለዚህ እርስዎም በቋንቋዎ ለሕዝብዎ ተመሳሳዩን ማድረግ ይችላሉ። የእግዚአብሔር ቃል የሁሉም ነው። በእግዚአብሔር ዓለም ሁላችንም ወንድም፣ እህት እና ጎረቤቶች ነን። በምድር ላይ ያለ ሁሉ ሰው እርሱ እውነተኛ በሚረዳበት ቋንቋ ሊያነብ ይገባዋል። እግዚአብሔርን በሙሉ ልብዎ፣ ነፍስዎ፣ አእምሮዎ እና ኃይልዎ ይውደዱ። ምሥራቹን ወደ ሁሉም ቦታ ያሰራጩ።</p>
+      </div>
+
+      <div class="principle-box">
+        <h2>የ AENT ትርጉም መርሆዎች</h2>
+        <p>እነዚህ በእያንዳንዱ መጽሐፍ እያንዳንዱ ምዕራፍ ላይ የተከተልናቸው መመሪያዎች ናቸው። እነዚህን ይከተሉ እና ትርጉምዎ ከእንግሊዝኛ እትሙ ጋር ተመሳሳዩ ሞቅ ያለ፣ ግልጽ እና ለማንበብ ቀላል ጥራት ይኖረዋል።</p>
+        <ul>
+          <li><strong>ሁልጊዜ ቀላል ቋንቋ።</strong> የሁለተኛ ደረጃ ተማሪ ዓረፍተ ነገሩን መረዳት ካልቻለ እንደገና ይጻፉ። ቀላል ቃል ሲኖር ጥንታዊ ወይም ሃይማኖታዊ ቋንቋ ፈጽሞ አይጠቀሙ።</li>
+          <li><strong>익숙한 ስሞችን ይጠቀሙ።</strong> ሰዎች ቀደም ብለው የሚያውቋቸውን ስሞች ይጠቀሙ — ኢየሱስ፣ ዬሹዋ አይደለም። እግዚአብሔር፣ ኤሎሂም አይደለም። ዓላማው መረዳት እንጂ ምሁራዊ እውቀት አይደለም።</li>
+          <li><strong>በእያንዳንዱ ዓረፍተ ነገር አንድ ሐሳብ።</strong> ረጅምና ውስብስብ ዓረፍተ ነገሮች አንባቢዎችን ያጣሉ። ይከፋፍሏቸው። ግልጽ ያድርጓቸው።</li>
+          <li><strong>ጌታ በትልቁ ፊደሎች።</strong> ጽሑፉ የእግዚአብሔርን ግላዊ ቅዱስ ስም ሲጠቅስ ጌታን በትልቁ ፊደሎች ይጻፉ። የክብር ማዕረግ ሲሆን በተለመዱ ፊደሎች ጌታ ይጻፉ።</li>
+          <li><strong>የአጋር ማዕቀፍ።</strong> ይህ ትርጉም የአንባቢው ወደዳቸው መጽሐፍ ቅዱስ ጓደኛ ነው — ምትክ አይደለም። ይህን በእያንዳንዱ መጽሐፍ መጀመሪያ ላይ በግልጽ ይናገሩ።</li>
+          <li><strong>ሞቅ ያለ ለማንበብ ቀላል ድምፅ።</strong> ታመኝ ጓደኛ ቅዱሳን ጽሑፎችን እንደሚያብራራ ሁኑ ይጻፉ — ምሁር ሐተታ እንደሚጽፍ አይደለም።</li>
+          <li><strong>ትርጉሙን ታማኝ ሁኑ።</strong> ቀላል ቋንቋ ነጻ ፓራፍሬዝ ማለት አይደለም። እያንዳንዱ የትርጉም ምርጫ የዋናው የግሪክ ጽሑፍ ትርጉምን ማክበር አለበት።</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <h2>ደረጃ በደረጃ — የራስዎ እትም እንዴት እንደሚሠሩ</h2>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">1</span><span class="step-title">ነጻ የ Google መለያዎን ይፍጠሩ</span></div>
+          <p>google.com ይሂዱ እና ነጻ መለያ ይፍጠሩ። ይህ አንድ መለያ ለፕሮጀክቱ ኢሜይል አድራሻ Gmail እና ትርጉምዎን ለመጻፍ እና ለማስቀመጥ Google Docs ይሰጥዎታል። ለኢሜይልዎ ግልጽ ስም ይስጡ — ለምሳሌ amharicaent@gmail.com ወይም aentamharic@gmail.com።</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">2</span><span class="step-title">የምንጭ ጽሑፍዎን ያግኙ</span></div>
+          <p>እንደ መሠረት አስተማማኝ የግሪክ አዲስ ኪዳን ያስፈልጉዎታል። የ SBL ግሪክ አዲስ ኪዳን እንመክራለን — ለማግኘት "SBL Greek New Testament free PDF" ብለው ኦንላይን ይፈልጉ። ግሪክ ራስዎ ማንበብ አያስፈልግዎትም። የ AI መሣሪያዎቹ ከግሪክ ትርጉሙን ያስተናግዳሉ። የምንጭ ጽሑፍ እንደ ማጣቀሻ ብቻ ያስፈልጉዎታል።</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">3</span><span class="step-title">Grok ወይም Gemini ይክፈቱ እና ትርጉም ይጀምሩ</span></div>
+          <p>grok.com ወይም gemini.google.com ይሂዱ እና ነጻ መለያ ይፍጠሩ። ሁለቱም መሣሪያዎች ለትርጉም ሥራ ጥሩ ናቸው እና የሴሲዮን ጊዜ ሳያልቅ ሙሉ አዲስ ኪዳን ሊያሳልፉዎ የሚያስችሉ ለጋስ ነጻ ደረጃዎች አሏቸው።</p>
+          <p>ለእያንዳንዱ ምዕራፍ ለ Grok ወይም Gemini እንዲህ ያለ መመሪያ ይስጡ — "እባክዎ ከግሪክ አዲስ ኪዳን ማቴዎስ ምዕራፍ 1ን እነዚህን መርሆዎች ተከትለው ቀላል አማርኛ ይተርጉሙ — ኢየሱስ እና እግዚአብሔር ያሉ 익숙한 ስሞችን ይጠቀሙ፣ የሁለተኛ ደረጃ ተማሪ ደረጃ ላይ ይጻፉ፣ በእያንዳንዱ ዓረፍተ ነገር አንድ ሐሳብ፣ ሞቅ ያለ እና ወዳጃዊ ድምፅ፣ የእግዚአብሔርን ግላዊ ስም ሲጠቅሱ ጌታን በትልቁ ፊደሎች። ይህ ያሉትን መጽሐፍ ቅዱሶች ምትክ ሳይሆን የጓደኛ ትርጉም ነው።"</p>
+          <p>እያንዳንዱ ምዕራፍ በጥንቃቄ ይገምግሙ። በቋንቋዎ ተፈጥሯዊ ድምፅ የሌለው ሁሉ ያስተካክሉ። የተጠናቀቀ ምዕራፍ ወደ Google Docs ያሰሩ። ያስቀምጡ። ወደ ቀጣዩ ምዕራፍ ይሂዱ።</p>
+          <p>ትርጉምዎ ሲጠናቀቅ እና ድህረ ገጽዎን ለመሥራት ዝግጁ ሲሆኑ — ያኔ ነው claude.ai ላይ Claude የሚያስገቡት። Claude የ HTML ገጾችን ለመሥራት፣ ቀላል ቋንቋን ለማሻሻል እና ቴክኒካዊ ችግሮችን ለመፍታት ምርጥ ነው። እያንዳንዱ መሣሪያ በጣም ጥሩ ለሆነበት ነገር ይጠቀሙ።</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">4</span><span class="step-title">መጽሐፍ በመጽሐፍ ይሥሩ</span></div>
+          <p>በአንድ ጊዜ አንድ መጽሐፍ ይተርጉሙ። በማርቆስ ወንጌል ይጀምሩ — ሁሉ ከሁሉ አጭሩ ወንጌልና እጅግ ቀጥተኛ ታሪክ ነው። ማርቆስ ሲጠናቀቅ የትርጉም ድምፅ ጠንካራ ስሜት ይኖርዎታል እና ቀሪዎቹ ፈጥነው ይሄዳሉ።</p>
+          <p>እያንዳንዱ የተጠናቀቀ መጽሐፍ ወደ Google Docs ውስጥ ለብቻ ሰነድ ሆኖ ያስቀምጡ። ሥራዎ በደመና ላይ አውቶማቲክ ይቀመጣል እና ከማንኛውም መሣሪያ ሊደረስበት ይችላል። ፈጽሞ አይጠፋም።</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">5</span><span class="step-title">SeaMonkey Composer ያውርዱ</span></div>
+          <p>ለሁሉም ድህረ ገጽ ማርትዖ SeaMonkey እንመክራለን። ልክ እንደ Microsoft Word የሚሠራ ኃይለኛ ጥንታዊ ዘይቤ መሣሪያ ነው። ከሰነድ ጽሑፍ ቀድተው ወደ አዲስ መስኮት ለጥፍ ማድረግ ከቻሉ ከ SeaMonkey ጋር ድህረ ገጽ ለመሥራት አስፈላጊ ችሎታ ቀድሞ አሎት። <strong>ኮዲንግ እውቀት ዜሮ</strong> ያስፈልጋል።</p>
+          <p>ለመጀመር seamonkey-project.org ይሂዱ እና ሶፍትዌሩን ነጻ ያውርዱ። ከተጫነ በኋላ የ Google Docs ጽሑፍዎን ወደ ሙያዊ HTML ዌብ ገጾች ለመቀየር የ <strong>Composer</strong> መሣሪያ ይጠቀሙ።</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">6</span><span class="step-title">የ HTML ገጾችዎን ይሥሩ</span></div>
+          <p>የራስዎ ትርጉም ፕሮጀክት ለመጀመር ከፈለጉ ነጻ <strong>AENT HTML አብነት</strong> ለማግኘት <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> ኢሜይል ይላኩ። ይህ አስቀድሞ የተቀረጸ ፋይል ኮድ አንድ ሰብርና ሳይማሩ ጣቢያዎ ኮምፒዩተርም ስልክም ላይ ጽዱ፣ ሙያዊ እና ለማንበብ ቀላል ሆኖ እንዲቆይ ያረጋግጣል።</p>
+          <p>አብነቱ "ቴክኒካዊ ሥራ" ለእርስዎ ይይዛል። ወደ <strong>SeaMonkey Composer</strong> ብቻ ይክፈቱ፣ የተተረጎመ ጽሑፍዎን ወደ <strong>ተራ እይታ</strong> ያሰሩ እና እንደ HTML ፋይል ያስቀምጡ። ሁሉንም ምዕራፎች ለያዘ ለእያንዳንዱ መጽሐፍ አንድ HTML ፋይል ይሥሩ እንመክራለን።</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">7</span><span class="step-title">GitHub ያዋቅሩ እና ያሰራጩ</span></div>
+          <p>github.com ይሂዱ እና ነጻ መለያ ይፍጠሩ። አዲስ ማከማቻ ይፍጠሩ እና ማከማቻ ቅንብሮች ውስጥ GitHub Pages ያስቻሉ። ሁሉንም HTML ፋይሎችዎን ያስተላልፉ። ትርጉምዎ ወዲያውኑ በኢንተርኔት ላይ ሕያው ይሆናል — ነጻ፣ ዘላቂ እና በዓለም ውስጥ ለማንም ሊደረስበት ይችላል።</p>
+          <p>ያ ነው ሁሉም። ከዚያ ጊዜ ጀምሮ ድህረ ገጽዎን ያገኘ ማንኛውም ሰው አዲስ ኪዳንን ቀላል ቋንቋ በቋንቋዎ ነጻ ሊያነብ ይችላል።</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">8</span><span class="step-title">ያነጋግሩን — ለመርዳት እንፈልጋለን</span></div>
+          <p>ይህን ብቻዎን ለማወቅ አይፈልጉ። እኛ ይህን ሂደት እያንዳንዱ ደረጃ ተጉዘናል እና ስኬታማ እንዲሆኑ ለመርዳት እንፈልጋለን። ጥያቄዎች ይሁን፣ HTML አብነቱን ለማግኘት ወይም ትርጉም ላይ እየሠሩ ለማሳወቅ <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> ኢሜይል ይላኩ። ሙሉ ሂደቱ ላይ ከርስዎ ጋር እንሄዳለን።</p>
+        </div>
+
+      </div>
+
+      <div class="section-box">
+        <h2>የምንመክራቸው የ AI መሣሪያዎች</h2>
+        <p><strong>Claude (Anthropic)</strong> — claude.ai — የ AENT ፕሮጀክት ልብ። Claude ትርጉሙን፣ ቀላል ቋንቋ ማሻሻልን አስተናግዶ በዚህ ድህረ ገጽ ላይ ያለ እያንዳንዱ HTML ገጽ ሠርቷል። Claude ሰዎች ቅዱሳን ጽሑፎችን እንደሚያብራራ ሳይሆን ምሁር ንግግር ሲሠጥ ሳይሆን ሞቅ ያለ ይነበባል ቋንቋ ድምጾቻቸው ውስጥ ትርጉምን ለመግለጽ ምርጥ ነው። ትርጉም ማሻሻያ፣ ቀላል ቋንቋ፣ ድህረ ገጽ ግንባታ እና ለሁሉም ነገር ግላዊ እና ሊደረስበት የሚያስፈልጉ ድምፅ ምርጥ ነው። ለዚህ ፕሮጀክት አንድ AI መሣሪያ ብቻ ከሚጠቀሙ Claude ይሁን።</p>
+        <p><strong>Gemini (Google)</strong> — gemini.google.com — የጥልቅ ምርምር ባለሙያ። ትርጉም ጥያቄ ከገጽ ባሻገር ሲሄድ — የ 1ኛ ክፍለ ዘመን አውድ ውስጥ አንድ የግሪክ ቃል ምን ማለት እንደሆነ ለመረዳት ወይም ስለ አስቸጋሪ ምንባብ ስነ-መለኮታዊ ክርክርን ለመፍታት — Gemini መሣሪያዎ ነው። ለቃል ጥናቶች፣ ስነ-መለኮታዊ ምርምር እና ቴክኒካዊ ትርጉም ጥያቄዎች ምርጥ ነው።</p>
+        <p><strong>ChatGPT (OpenAI)</strong> — chatgpt.com — የቡድኑ አርቲስት። ChatGPT የ AENT አርማ — ፋኖስ እና ወርቃማ የብርሃን መንገድ ያለው ክፍት መጽሐፍ ቅዱስ — ሠርቷል፣ ለፕሮጀክትዎም ተመሳሳዩን ሊሠራ ይችላል። የብራና ገጽዎ ላይ ምርጥ ውጤት ለማግኘት ግልጽ ጀርባ ያለው PNG ይጠይቁ። ለሎጎዎች፣ ሥዕሎች እና ፕሮጀክቱ ለሚፈልገው ምስላዊ ሀብቶች ምርጥ ነው።</p>
+        <p><strong>Grok (xAI)</strong> — grok.com — በቡድኑ ውስጥ እጅግ ፈቃደኛ አባል። ሌላ AI አንድ ምንባብ ላይ ሲያመነታ ወይም የሴሲዮን ጊዜ ሲያልቅ Grok ሳይsay ቅሬታ ገብቶ ጠንካራ የትርጉም ሥራ ያቀርባል። ለትልቅ ትርጉሞች፣ ለተወሰኑ ጥያቄዎች ታዛዥነት እና ሌሎች ካቆሙበት ለመቀጠል ምርጥ ነው።</p>
+      </div>
+
+      <div class="section-box">
+        <h2>ነጻ የህትመት መሣሪያዎች</h2>
+        <p><strong>Google Docs</strong> — docs.google.com — ነጻ ደመና-ተኮር ቃል አቀናባሪ። ትርጉምዎን ምዕራፍ በምዕራፍ የሚጽፉ፣ የሚያስቀምጡ እና የሚሠሩ ቦታ ይህ ነው። ሥራዎ አውቶማቲክ ይቀመጣል፣ ከማንኛውም መሣሪያ ሊደረስበት ይችላል እና ፈጽሞ አይጠፋም። ምዕራፍ ዝግጁ ሲሆን Google Docs ከቀድተው ወደ SeaMonkey Composer ቀጥታ ያሰሩ — ቅርጸቱ ጽዱ ሆኖ ይዛወራል።</p>
+        <p><strong>Gmail</strong> — gmail.com — ነጻ ኢሜይል ከ Google። ለትርጉም አገልጋዮ ቋሚ የኢሜይል አድራሻ ያዋቅሩ። Gmail እና Google Docs አንዱ Google መለያ ስለሚጋሩ ሁለቱንም ለማግኘት አንድ ጊዜ ብቻ ምዝገባ ያስፈልጋል።</p>
+        <p><strong>SeaMonkey Composer</strong> — seamonkey-project.org — ነጻ HTML አርታዒ። ልክ እንደ Microsoft Word ይሠራል። የተተረጎመ ጽሑፍዎን ያሰሩ፣ ርዕሶችን ያሰጡ፣ እንደ HTML ያስቀምጡ። ኮዲንግ እውቀት አያስፈልግም።</p>
+        <p><strong>GitHub Pages</strong> — github.com — ለሁሉም ነጻ ዌብ ሆስቲንግ። HTML ፋይሎችዎን ያስተላልፉ፣ ትርጉምዎ ወዲያውኑ ነጻ ለዘለዓለም በኢንተርኔት ላይ ሕያው ይሆናል።</p>
+        <p><strong>ነጻ AENT HTML አብነት</strong> — ነጻ አብነቱን ለማግኘት <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> ያነጋግሩን። ሁሉንም ዘይቤ፣ ናቪጌሽን እና ቅርጸት ይዟል — ለተተረጎመ ጽሑፍዎ ዝግጁ ነው።</p>
+      </div>
+
+      <div class="section-box">
+        <h2>ያነጋግሩን</h2>
+        <p>በማንኛውም ቋንቋ ቀላል ቋንቋ አዲስ ኪዳን ላይ እየሠሩ መሆን እና መመሪያ፣ HTML አብነት፣ ማበረታቻ ወይም ሂደቱ ላይ አብሮ የሚሄድ ሰው ሲፈልጉ — ያነጋግሩን። ለመርዳት እንፈልጋለን።</p>
+        <p><a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></p>
+      </div>
+
+      <div class="nav-title">በሂደት ላይ ያሉ ትርጉሞች</div>
+      <p class="nav-subtitle">እነዚህ በሌሎች ቋንቋዎች ያሉ እትሞች ታቅደዋል ወይም በልማት ላይ ናቸው። እያንዳንዱ እትም ሲጠናቀቅ ሊንኮቹ ሕያው ይሆናሉ። ለቋንቋዎ ትርጉሙን ለመምራት ይፈልጋሉ? aentproject@gmail.com ያነጋግሩን።</p>
+
+      <div class="section-label">አፍሪካ</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Kiswahili</span><span class="english">ስዋሂሊ</span></span>
+        <span class="lang-btn coming"><span class="native">Hausa</span><span class="english">ሃውሳ</span></span>
+        <span class="lang-btn coming"><span class="native">Yorùbá</span><span class="english">ዮሩባ</span></span>
+        <span class="lang-btn coming"><span class="native">Igbo</span><span class="english">ኢግቦ</span></span>
+        <span class="lang-btn coming"><span class="native">አማርኛ</span><span class="english">አማርኛ</span></span>
+        <span class="lang-btn coming"><span class="native">isiZulu</span><span class="english">ዙሉ</span></span>
+      </div>
+
+      <div class="section-label">አሜሪካ</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Español</span><span class="english">ስፓኒሽ</span></span>
+        <span class="lang-btn coming"><span class="native">Português</span><span class="english">ፖርቱጋልኛ</span></span>
+        <span class="lang-btn coming"><span class="native">Français</span><span class="english">ፈረንሳይኛ</span></span>
+        <span class="lang-btn coming"><span class="native">Kreyòl Ayisyen</span><span class="english">የሃይቲ ክሪዮል</span></span>
+      </div>
+
+      <div class="section-label">አውሮፓ</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Deutsch</span><span class="english">ጀርመንኛ</span></span>
+        <span class="lang-btn coming"><span class="native">Italiano</span><span class="english">ጣሊያንኛ</span></span>
+        <span class="lang-btn coming"><span class="native">Русский</span><span class="english">ሩሲያኛ</span></span>
+        <span class="lang-btn coming"><span class="native">Українська</span><span class="english">ዩክሬንኛ</span></span>
+        <span class="lang-btn coming"><span class="native">Polski</span><span class="english">ፖሊሽ</span></span>
+        <span class="lang-btn coming"><span class="native">Română</span><span class="english">ሮማኒያኛ</span></span>
+      </div>
+
+      <div class="section-label">መካከለኛው ምሥራቅ</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">العربية</span><span class="english">አረብኛ</span></span>
+        <span class="lang-btn coming"><span class="native">فارسی</span><span class="english">ፋርሲ</span></span>
+        <span class="lang-btn coming"><span class="native">Türkçe</span><span class="english">ቱርክኛ</span></span>
+        <span class="lang-btn coming"><span class="native">עברית</span><span class="english">ዕብራይስጥ</span></span>
+      </div>
+
+      <div class="section-label">እስያ እና ፓስፊክ</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">हिन्दी</span><span class="english">ሂንዲ</span></span>
+        <span class="lang-btn coming"><span class="native">বাংলা</span><span class="english">ቤንጋሊ</span></span>
+        <span class="lang-btn coming"><span class="native">中文</span><span class="english">ማንዳሪን</span></span>
+        <span class="lang-btn coming"><span class="native">日本語</span><span class="english">ጃፓንኛ</span></span>
+        <span class="lang-btn coming"><span class="native">한국어</span><span class="english">ኮሪያኛ</span></span>
+        <span class="lang-btn coming"><span class="native">Bahasa Indonesia</span><span class="english">ኢንዶኔዥያኛ</span></span>
+        <span class="lang-btn coming"><span class="native">Filipino</span><span class="english">ፊሊፒኖ</span></span>
+        <span class="lang-btn coming"><span class="native">Tiếng Việt</span><span class="english">ቬትናምኛ</span></span>
+        <span class="lang-btn coming"><span class="native">ภาษาไทย</span><span class="english">ታይኛ</span></span>
+        <span class="lang-btn coming"><span class="native">မြန်မာဘာသာ</span><span class="english">ቡርሜዝ</span></span>
+      </div>
+
+      <div style="text-align:center;">
+        <a class="home-btn" href="index.html">&#8962; ወደ መነሻ ተመለስ</a>
+      </div>
+
+      <footer class="site-footer">
+        ለሁሉም ነጻ &#8212; ነጻ ሆነው ያጋሩ &#8212; ለእግዚአብሔር ክብር
+        <div class="contact-line">ያነጋግሩን: <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></div>
+      </footer>
+
+    </div>
+  </body>
+</html>

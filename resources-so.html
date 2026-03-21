@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="so">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kheyraadka — AENT</title>
+    <style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background-color: #f5f0e8; color: #2c1f0e; line-height: 1.8; }
+  .page-wrapper { max-width: 740px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+  .site-header { text-align: center; border-bottom: 2px solid #8b6914; padding-bottom: 1.5rem; margin-bottom: 1.75rem; }
+  .site-header a { text-decoration: none; }
+  .site-title { font-size: 2.2rem; font-weight: 700; color: #5c3a00; letter-spacing: 0.15em; margin-bottom: 0.25rem; }
+  .site-tagline { font-style: italic; font-size: 0.95rem; color: #6b4c1e; }
+  .lang-notice { background: #e8dfc8; border: 1px solid #c4a35a; border-radius: 6px; padding: 0.6rem 1rem; text-align: center; font-size: 0.85rem; color: #5c3a00; margin-bottom: 1.5rem; }
+  .lang-notice a { color: #8b6914; font-weight: 700; }
+  .page-title { font-size: 1.5rem; font-weight: 700; color: #5c3a00; text-align: center; margin-bottom: 0.5rem; letter-spacing: 0.05em; }
+  .page-subtitle { text-align: center; font-style: italic; color: #6b4c1e; font-size: 0.95rem; margin-bottom: 2rem; }
+  .section-box { background: #ede5d0; border-left: 4px solid #8b6914; padding: 1.25rem 1.5rem; border-radius: 0 6px 6px 0; margin-bottom: 1.5rem; }
+  .section-box h2 { font-size: 1.1rem; font-weight: 700; color: #5c3a00; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .section-box p { margin-bottom: 0.75rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box p:last-child { margin-bottom: 0; }
+  .section-box a { color: #8b6914; font-weight: 700; }
+  .section-box ul { margin: 0.5rem 0 0.75rem 1.5rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box ul li { margin-bottom: 0.5rem; }
+  .principle-box { background: #5c3a00; color: #f5f0e8; padding: 1.25rem 1.5rem; border-radius: 6px; margin-bottom: 1.5rem; }
+  .principle-box h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.75rem; letter-spacing: 0.08em; color: #f5f0e8; }
+  .principle-box ul { margin: 0 0 0 1.5rem; font-size: 0.95rem; color: #e8dfc8; }
+  .principle-box ul li { margin-bottom: 0.6rem; }
+  .principle-box p { font-size: 0.95rem; color: #e8dfc8; margin-bottom: 0.5rem; }
+  .step-block { margin-bottom: 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid #c4a35a; }
+  .step-block:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .step-header { margin-bottom: 0.5rem; }
+  .step-number { display: inline-block; background: #8b6914; color: #f5f0e8; font-weight: 700; font-size: 0.85rem; width: 28px; height: 28px; border-radius: 50%; text-align: center; line-height: 28px; margin-right: 0.5rem; vertical-align: middle; }
+  .step-title { font-size: 1rem; font-weight: 700; color: #5c3a00; vertical-align: middle; }
+  .step-block p { font-size: 0.95rem; color: #3a2a0e; margin-bottom: 0.5rem; }
+  .step-block p:last-child { margin-bottom: 0; }
+  .step-block a { color: #8b6914; font-weight: 700; }
+  .nav-title { font-size: 1.1rem; font-weight: 700; color: #5c3a00; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; border-bottom: 1px solid #c4a35a; padding-bottom: 0.5rem; }
+  .nav-subtitle { font-size: 0.88rem; color: #6b4c1e; font-style: italic; margin-bottom: 1.25rem; }
+  .section-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #8b6914; margin: 1.5rem 0 0.5rem; }
+  .lang-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; margin-bottom: 0.5rem; }
+  .lang-btn { display: block; padding: 0.7rem 0.9rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.95rem; text-align: center; cursor: default; opacity: 0.7; }
+  .lang-btn .native { font-size: 1.05rem; font-weight: 700; display: block; }
+  .lang-btn .english { font-size: 0.75rem; color: #8b6914; display: block; margin-top: 0.1rem; }
+  .lang-btn.coming::after { content: 'Si u Socda'; font-size: 0.65rem; color: #8b6914; display: block; margin-top: 0.2rem; font-style: italic; }
+  .home-btn { display: inline-block; margin-top: 2rem; padding: 0.6rem 1.2rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.92rem; }
+  .home-btn:hover { background: #ddd0b0; border-color: #8b6914; }
+  .site-footer { text-align: center; font-size: 0.8rem; color: #8b6914; border-top: 1px solid #c4a35a; padding-top: 1rem; margin-top: 2rem; font-style: italic; }
+  .contact-line { margin-top: 0.5rem; font-style: normal; }
+  .contact-line a { color: #8b6914; }
+  @media (max-width: 480px) { .site-title { font-size: 1.8rem; } .lang-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); } }
+</style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+
+      <header class="site-header">
+        <a href="index.html">
+          <div class="site-title">AENT</div>
+          <p class="site-tagline">Eraygaagu waa nuur cagihayga iyo iftiinka jidkayga — Sabuurradii 119:105</p>
+        </a>
+      </header>
+
+      <div class="lang-notice">
+        Boggan wuxuu ku jiraa luuqadaha kale. <a href="resources.html">Ku eeg Ingiriisiga</a>
+      </div>
+
+      <h1 class="page-title">Kheyraadka</h1>
+      <p class="page-subtitle">Wax walba oo aad u baahan tahay si aad Qorniinka ugu geysato dadkaaga luuqad fudud — bilaash buuxa.<br>
+        <br>
+        Haddaad cusub tahay, xiisaynayso, ama keliya raadiso caddayn — halkan ku bilow. Kheyraadkan waxay halkan ku jiraan si ay kuu caawiyaan inaad fahanto — ma aha si ay kuu curyaamiyaan.</p>
+
+      <div class="section-box">
+        <h2>Aragtida</h2>
+        <p>AENT — Axdiga Cusub ee Ingiriisiga ee La Heli Karo — waxaa lagu dhisay si loo cadeeyo wax fudud. Axdiga Cusub oo dhan waxaa lagu tarjumi karaa luuqad cad oo fudud waxaana loo daabici karaa adduunka bilaash ah isticmaalka qalabka ay qof walba geli karo. Shahaadadda semineerka looma baahna. Miisaaniyad daabicadda looma baahna. Asalka farsamada looma baahna.</p>
+        <p>Waxaan dhisay nuqulka Ingiriisiga bilowga ka bilaabay anagoo isticmaalaya keliya qalabka AI bilaashka ah, software bilaashka ah, iyo martigelinta websaydka ee bilaashka ah. Mashruuca oo dhan — tarjumaadda, websaydka, iyo daabicaadda — kuma kacin wax aan ahayn waqti iyo daacadnimo.</p>
+        <p>Hadda waxaan rabaa inaan kuu tuso si saxsan sida aan u sameynay si aad u samayn karto isla shayga dadkaaga luuqadaada. Erayga Ilaah waa kuwa oo dhan. Adduunka Ilaah annagaa oo dhan waxaan nahay walaalaha, xigto, iyo derisa. Qof kasta oo dunida ku sugan ayaa xaq u leh inuu akhriyo luuqaddii uu run ahaantii u fahmi jiray. Jeclayso Rabbiga Ilaahhaaga qalbigaaga oo dhan, nafta aad leedahay, maskaxdaada iyo xoogaaga oo dhan. Fidi warshada fiican ee isaga meel walba.</p>
+      </div>
+
+      <div class="principle-box">
+        <h2>Mabaadi'da Tarjumaadda AENT</h2>
+        <p>Kuwani waa tilmaamaha aan raacnay qof walba oo cutubka ah qof walba oo buugga ka mid ah. Raac iyaga tarjumaadaaduna waxay lahaanaysaa isla tayada kulul, cad iyo akhrinta fudud ee nuqulka Ingiriisiga.</p>
+        <ul>
+          <li><strong>Luuqad fudud had iyo jeer.</strong> Haddaan arday dugsiga dhexe ahaanin karin inuu jumlada fahmo, dib u qor. Marnaba ha isticmaalin luuqad duug ah ama diineed marka erayo fudud jiraan.</li>
+          <li><strong>Isticmaal magacyada la yaqaan.</strong> Isticmaal magacyada dadka horay u garanayay — Ciise, ma Yeshua. Ilaah, ma Elohim. Ujeedadu waa faham ma aha aqoon akadeemiyeed.</li>
+          <li><strong>Fikrad hal ah qof walba jumla.</strong> Jumlada dhaadheer ee adag way lumiyaan akhristayaasha. Ka koobi. Hayo cad.</li>
+          <li><strong>RABBIGA xarfaha waaweyn.</strong> Marka qoraalku tixraacayo magaca shakhsi ee quduuska ah ee Ilaah, ku qor RABBIGA xarfaha waaweyn. Marka ay tahay cinwaanka sharafta, ku qor Rabbiga xarfaha caadiga ah.</li>
+          <li><strong>Qaab saaxiib.</strong> Tarjumaaddan waa saaxiibka Kitaabka Quduuska ah ee akhristaha jecel yahay — ma aha beddelka. Tan ku sheeg si cad bilowga buug kasta.</li>
+          <li><strong>Codka kulul ee akhrinta fudud.</strong> Ku qor sida saaxiib la aaminsan karaa uu ku sharxayo Qorniinka — ma aha sida aqoonyahan u qoro faallo.</li>
+          <li><strong>Daacad u ahaada macnaha.</strong> Luuqada fudud macnaheedu ma ahan faraqa xor. Doorasho kasta oo tarjumaad ah waa inay xurmeysaa macnaha qoraalka Giriigga asalka ah.</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <h2>Talaabo Talaabada — Sida Loo Dhiso Nuqulkaaga</h2>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">1</span><span class="step-title">Samee Akoonkaaga Google ee Bilaashka ah</span></div>
+          <p>Tag google.com oo samee akoonto bilaash ah. Akoontigan keliyaha ah ayaa ku siinaya Gmail cinwaanka iimaylka mashruucaaga iyo Google Docs si aad u qorto oo u kaydiso tarjumaadaada. Siiy iimaylkaaga magac cad — sida somaaent@gmail.com ama aentsomali@gmail.com.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">2</span><span class="step-title">Hel Qoraalkaaga Asalka ah</span></div>
+          <p>Waxaad u baahan tahay Axdi Cusub Giriig ah oo la aamin karo asas ahaan. Waxaan ku talinaa SBL Greek New Testament — raadi internet-ka "SBL Greek New Testament free PDF" si aad u hesho. Giriigga naftigaagu u akhrin ma laha. Qalabka AI ayaa tarjumaadda Giriigga ka maamulaaya. Waxaad u baahan tahay kaliya qoraalka asalka ah oo la heli karo tixraac ahaan.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">3</span><span class="step-title">Fur Grok ama Gemini oo Billow Tarjumaadda</span></div>
+          <p>Tag grok.com ama gemini.google.com oo samee akoonto bilaash ah. Qalabka labada waxay ku fiican yihiin shaqada tarjumaadda waxayna leeyihiin heerarka bilaashka ah ee deeqsiniga ah ee kugu qaadi doona Axdiga Cusub oo dhan anagoon dhamaystirin wakhtiga kulanka.</p>
+          <p>Cutub kasta waxaad Grok ama Gemini siisaa tilmaan sida tani — "Fadlan u tarjum Matayo Cutubka 1 Axdiga Cusub Giriigga ah Soomaali fudud raacaya mabaadi'dan — isticmaal magacyada la yaqaan sida Ciise iyo Ilaah, ku qor heerka arday dugsiga dhexe, fikrad hal ah jumla kasta, codka kulul iyo saaxiibka, RABBIGA xarfaha waaweyn marka tixraacaynaysa magaca shakhsiga ah ee Ilaah. Tarjumaaddan waa saaxiib ma aha beddelka Kitaabka Quduuska ah ee jira."</p>
+          <p>Dib u eeg cutub kasta si taxadar leh. Hagaaji wax kasta oo uusan si dabiici ah ugu dhamin luuqadaada. Ku dhaji cutubka la dhammeeyay Google Docs. Kaydi. Tag cutubka xiga.</p>
+          <p>Marka tarjumaadadaadu dhammaato oo aad diyaar u tahay inaad dhisdo websaydkaaga — taas ayaa ah marka aad Claude u keento claude.ai. Claude wuxuu ku fiican yahay dhisida bogagga HTML, hagaajinta luuqada fudud, iyo xalinta dhibaatooyinka farsamada. Isticmaal qalab kasta waxa ugu fiican ee uu samayn karo.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">4</span><span class="step-title">Ku Shaqee Buug Buug</span></div>
+          <p>U tarjum buug hal mar. Ku bilow Injiilka Markos — waa Injiilka ugu gaaban iyo sheekada ugu toos ah. Kadib markii aad dhammaysato Markos, waxaad lahaan doontaa dareen xoog leh codka tarjumaadda oo hadhaaga ayaa si dhakhso ah u socon doona.</p>
+          <p>Kaydi buug kasta oo la dhammeeyay dukumeenti gaar ah oo Google Docs ku jira. Shaqadaadu si toos ah ayey ugu kaydisantaa daruurada waxaana laga heli karaa qalab kasta. Waligeed lumaan mayso.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">5</span><span class="step-title">Soo Degso SeaMonkey Composer</span></div>
+          <p>Wax kasta oo tafatirka websaydka ah waxaan ku talinaa SeaMonkey. Waa qalab xooggan oo qadiimiga ah oo shaqeeya si sax ah sida Microsoft Word. Haddaad awoodo in aad koobi qoraal dukumeenti ka keento oo ku dhaji daaqad cusub, waxaad horeba u leedahay xirfadda dhisida websayd SeaMonkey la. <strong>Aqoon koodh oo keliya looma baahna</strong>.</p>
+          <p>Si aad u bilowdo, tag seamonkey-project.org oo soo degso software-ka bilaash ah. Ka dib rakibidda isticmaal qalab <strong>Composer</strong> si aad ugu rogi qoraalkaaga Google Docs bogagga websaydka HTML ee xirfadlayaasha ah.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">6</span><span class="step-title">Dhis Bogagaaga HTML</span></div>
+          <p>Haddaad rabto inaad bilowdo mashruucaada tarjumaadda, nala soo xiriir <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> si aad u hesho <strong>Qaabka HTML ee AENT</strong> ee bilaashka ah. Faylkan horeba loo habeeyay wuxuu hubinayaa in websaydkaagu uu xooggan yahay, xirfadlaha, oo si fudud loogu akhrisan karo kombiyuutarrada iyo telefonnada labadaba — adoon baranin xitaa hal sadar oo koodh ah.</p>
+          <p>Qaabku wuxuu kuu maamulaayaa "shaqada farsamada". Fur keliya <strong>SeaMonkey Composer</strong> ku dhaji qoraalkaaga la tarjumay <strong>aragta Caadiga ah</strong> oo ku keydi faylka HTML. Waxaan ku talinaa dhisida faylka hal HTML buug kasta oo ka kooban dhammaan cutubada.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">7</span><span class="step-title">GitHub Dejin oo Daabic</span></div>
+          <p>Tag github.com oo samee akoonto bilaash ah. Samee kaydiye cusub oo ku hawlgeli GitHub Pages goobaha kaydinta. Soo geli dhammaan faylashaada HTML. Tarjumaadadaadu si dhakhso ah ayey ugu noqotaa internet-ka — bilaash, joogto, oo qof kasta adduunka ku jira wuu geli karaa.</p>
+          <p>Taas ayaa wax dhammaa. Xilligaas ka bilaabmaya qof kasta oo helaya websaydkaagu wuu akhrin karaa Axdiga Cusub luuqad fudud ah luuqadaada bilaash.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">8</span><span class="step-title">Nala Soo Xiriir — Waxaan Rabaa Inaan Caawino</span></div>
+          <p>Laguma baahna inaad wax kastaba mar keli ah fahanto. Waxaan ka soo maray talaabo kasta ee habkan waxaannan rabnaa inaan kaa caawino inaad guuleysato. Noo soo dir iimeel <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> su'aalaha, si aad u hesho qaabka HTML, ama keliya si aad noo ogaysiiso inaad ka shaqaynayso tarjumaad. Waxaan kula socon doonaa habka oo dhan.</p>
+        </div>
+
+      </div>
+
+      <div class="section-box">
+        <h2>Qalabka AI ee Aan Ku Talinno</h2>
+        <p><strong>Claude (Anthropic)</strong> — claude.ai — Wadnaha mashruuca AENT. Claude wuxuu maamulay tarjumaadda, hagaajinta luuqada fudud, oo dhisay bog kasta oo HTML ah ee websaydkan. Claude wuxuu ku fiican yahay nuuxnuuxsiga, toonta, iyo muujinta macnaha luuqad kulul iyo akhrinta fudud oo dareemaysa sida saaxiib la aaminsan karaa oo Qorniinka sharxaaya halkii aqoonyahan oo casharada bixinaya. Ugu wanaagsan hagaajinta tarjumaadda, luuqada fudud, dhisida websaydka, iyo wax kasta oo u baahan cod shakhsi ah oo la heli karo. Haddaad isticmaaleyso keliya hal qalab AI mashruucaan, Claude ha noqdo.</p>
+        <p><strong>Gemini (Google)</strong> — gemini.google.com — Xirfadlaha cilmi-baarista qoto dheer. Marka su'aal tarjumaad ay ka baxdo dusha — marka aad u baahan tahay inaad fahanto waxa erayga Giriigga runtii ahaa macnaheeda xaaladda qarnigii koowaad, ama xaliso muran caqiido ah oo ku saabsan qayb adag — Gemini waa qalabkaaga. Ugu wanaagsan daraasadda kalmada, cilmi-baarista caqiidada, iyo su'aalaha tarjumaadda farsamada.</p>
+        <p><strong>ChatGPT (OpenAI)</strong> — chatgpt.com — Fanaanka kooxda. ChatGPT wuxuu abuuray summada AENT — Kitaabka Quduuska ah ee furan oo leh laambad iyo wadada iftiinka dahab ah — waxaana uu isla shayga samayn karaa mashruucaada. Codso PNG leh dambe shaashi ah si aad u hesho natiijada ugu wanaagsan bogga xaydadkaaga. Ugu wanaagsan sumadaha, sawirrada, iyo hanti muuqaal kasta oo mashruucaadu u baahan yahay.</p>
+        <p><strong>Grok (xAI)</strong> — grok.com — Xubin ugu diyaarsan ee kooxda. Marka AI kale uu ka shakiyaan qayb gaar ah ama wakhtiga kulanka uu dhammaado, Grok wuxuu galaaya adoon cabasho lahayn oo bixiyaa shaqo tarjumaad xooggan. Ugu wanaagsan tarjumaadda xajmiga weyn, u hogaansamida codsiyada gaarka ah, iyo sii wanaajinta halka dadka kale ay joogsadeen.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Qalabka Daabicaadda ee Bilaashka ah</h2>
+        <p><strong>Google Docs</strong> — docs.google.com — Barnaamijka farsamada erayga ee bilaashka ah ee daruuraha ku salaysan. Halkan ayaad ku qortaa, kaydisaa, oo daqiiqaysa tarjumaadadaada cutub cutub. Shaqadaadu si toos ah ayey ugu kaydisantaa, laga heli karaa qalab kasta, waligeedna lumaan mayso. Marka cutubku diyaar yahay, keliya koobi Google Docs ka oo toos ugu dhaji SeaMonkey Composer — qaabka si nadiif ah ayuu isu rogaa.</p>
+        <p><strong>Gmail</strong> — gmail.com — Iimeel bilaash ah oo Google ka ah. U samee cinwaan iimeel gaar ah adeegahaaga tarjumaadda. Maadaama Gmail iyo Google Docs ay wadaagaan isla akoontiga Google, mar keliya ayaad isu diiwaan galisaa si aad labadaba u hesho.</p>
+        <p><strong>SeaMonkey Composer</strong> — seamonkey-project.org — Tafatiraha HTML ee bilaashka ah. Wuxuu u shaqeeyaa sida Microsoft Word. Ku dhaji qoraalkaaga la tarjumay, codso cinwaannada, ku kaydi HTML ahaan. Aqoon koodh looma baahna.</p>
+        <p><strong>GitHub Pages</strong> — github.com — Martigelinta websaydka ee bilaashka ah ee qof walba. Soo geli faylashaada HTML tarjumaadadaaduna si dhakhso ah ayey internet-ka ugu noqotaa bilaash weligeed.</p>
+        <p><strong>Qaabka HTML ee AENT</strong> — Nala soo xiriir <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> si aad u hesho qaabka bilaashka ah. Waxaa ku jira dhammaan qaabsiga, horumarinta, iyo habeynta — u diyaarsan qoraalkaaga la tarjumay.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Nala Soo Xiriir</h2>
+        <p>Haddaad ku shaqaynayso Axdi Cusub luuqad fudud ah luuqad kasta oo aad rabto hagaajin, qaab HTML, dhiiri gelin, ama keliya qof kuu socon doona habka — nala soo xiriir. Waxaan rabaa inaan caawino.</p>
+        <p><a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></p>
+      </div>
+
+      <div class="nav-title">Tarjumaadaha Socda</div>
+      <p class="nav-subtitle">Nuquladan luuqadaha kale waxaa la qorshaynayaa ama horumarinaya. Xiriiriyaasha waxay firfircoon doonaan marka nuqul kasta la dhammaystiro. Ma rabtaa inaad hogaamiso tarjumaadda luuqadaada? Nala soo xiriir aentproject@gmail.com.</p>
+
+      <div class="section-label">Afrika</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Kiswahili</span><span class="english">Sawaaxili</span></span>
+        <span class="lang-btn coming"><span class="native">Hausa</span><span class="english">Hawsa</span></span>
+        <span class="lang-btn coming"><span class="native">Yorùbá</span><span class="english">Yoruba</span></span>
+        <span class="lang-btn coming"><span class="native">Igbo</span><span class="english">Igbo</span></span>
+        <span class="lang-btn coming"><span class="native">አማርኛ</span><span class="english">Amarik</span></span>
+        <span class="lang-btn coming"><span class="native">isiZulu</span><span class="english">Zuulu</span></span>
+      </div>
+
+      <div class="section-label">Ameerika</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Español</span><span class="english">Isbaanish</span></span>
+        <span class="lang-btn coming"><span class="native">Português</span><span class="english">Boortaqiis</span></span>
+        <span class="lang-btn coming"><span class="native">Français</span><span class="english">Faransiis</span></span>
+        <span class="lang-btn coming"><span class="native">Kreyòl Ayisyen</span><span class="english">Kreyool Haiti</span></span>
+      </div>
+
+      <div class="section-label">Yurub</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Deutsch</span><span class="english">Jarmal</span></span>
+        <span class="lang-btn coming"><span class="native">Italiano</span><span class="english">Talyaani</span></span>
+        <span class="lang-btn coming"><span class="native">Русский</span><span class="english">Ruush</span></span>
+        <span class="lang-btn coming"><span class="native">Українська</span><span class="english">Yukreen</span></span>
+        <span class="lang-btn coming"><span class="native">Polski</span><span class="english">Booland</span></span>
+        <span class="lang-btn coming"><span class="native">Română</span><span class="english">Roomeeni</span></span>
+      </div>
+
+      <div class="section-label">Bariga Dhexe</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">العربية</span><span class="english">Carabi</span></span>
+        <span class="lang-btn coming"><span class="native">فارسی</span><span class="english">Faarisi</span></span>
+        <span class="lang-btn coming"><span class="native">Türkçe</span><span class="english">Turki</span></span>
+        <span class="lang-btn coming"><span class="native">עברית</span><span class="english">Cibraani</span></span>
+      </div>
+
+      <div class="section-label">Aasiya iyo Baasifig</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">हिन्दी</span><span class="english">Hindi</span></span>
+        <span class="lang-btn coming"><span class="native">বাংলা</span><span class="english">Bengali</span></span>
+        <span class="lang-btn coming"><span class="native">中文</span><span class="english">Mandarin</span></span>
+        <span class="lang-btn coming"><span class="native">日本語</span><span class="english">Jabaaniis</span></span>
+        <span class="lang-btn coming"><span class="native">한국어</span><span class="english">Kuuriy</span></span>
+        <span class="lang-btn coming"><span class="native">Bahasa Indonesia</span><span class="english">Indunuusiis</span></span>
+        <span class="lang-btn coming"><span class="native">Filipino</span><span class="english">Filibiin</span></span>
+        <span class="lang-btn coming"><span class="native">Tiếng Việt</span><span class="english">Fiyetnaami</span></span>
+        <span class="lang-btn coming"><span class="native">ภาษาไทย</span><span class="english">Tayland</span></span>
+        <span class="lang-btn coming"><span class="native">မြန်မာဘာသာ</span><span class="english">Barmees</span></span>
+      </div>
+
+      <div style="text-align:center;">
+        <a class="home-btn" href="index.html">&#8962; Ku Noqo Bogga Hore</a>
+      </div>
+
+      <footer class="site-footer">
+        Bilaash qof walba &#8212; wadaag xorriyadda &#8212; ammaanta Ilaah
+        <div class="contact-line">Xiriirso: <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></div>
+      </footer>
+
+    </div>
+  </body>
+</html>

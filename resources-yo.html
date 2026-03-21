@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="yo">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Àwọn Ìpilẹ̀ṣẹ̀ — AENT</title>
+    <style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background-color: #f5f0e8; color: #2c1f0e; line-height: 1.8; }
+  .page-wrapper { max-width: 740px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+  .site-header { text-align: center; border-bottom: 2px solid #8b6914; padding-bottom: 1.5rem; margin-bottom: 1.75rem; }
+  .site-header a { text-decoration: none; }
+  .site-title { font-size: 2.2rem; font-weight: 700; color: #5c3a00; letter-spacing: 0.15em; margin-bottom: 0.25rem; }
+  .site-tagline { font-style: italic; font-size: 0.95rem; color: #6b4c1e; }
+  .lang-notice { background: #e8dfc8; border: 1px solid #c4a35a; border-radius: 6px; padding: 0.6rem 1rem; text-align: center; font-size: 0.85rem; color: #5c3a00; margin-bottom: 1.5rem; }
+  .lang-notice a { color: #8b6914; font-weight: 700; }
+  .page-title { font-size: 1.5rem; font-weight: 700; color: #5c3a00; text-align: center; margin-bottom: 0.5rem; letter-spacing: 0.05em; }
+  .page-subtitle { text-align: center; font-style: italic; color: #6b4c1e; font-size: 0.95rem; margin-bottom: 2rem; }
+  .section-box { background: #ede5d0; border-left: 4px solid #8b6914; padding: 1.25rem 1.5rem; border-radius: 0 6px 6px 0; margin-bottom: 1.5rem; }
+  .section-box h2 { font-size: 1.1rem; font-weight: 700; color: #5c3a00; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .section-box p { margin-bottom: 0.75rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box p:last-child { margin-bottom: 0; }
+  .section-box a { color: #8b6914; font-weight: 700; }
+  .section-box ul { margin: 0.5rem 0 0.75rem 1.5rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box ul li { margin-bottom: 0.5rem; }
+  .principle-box { background: #5c3a00; color: #f5f0e8; padding: 1.25rem 1.5rem; border-radius: 6px; margin-bottom: 1.5rem; }
+  .principle-box h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.75rem; letter-spacing: 0.08em; color: #f5f0e8; }
+  .principle-box ul { margin: 0 0 0 1.5rem; font-size: 0.95rem; color: #e8dfc8; }
+  .principle-box ul li { margin-bottom: 0.6rem; }
+  .principle-box p { font-size: 0.95rem; color: #e8dfc8; margin-bottom: 0.5rem; }
+  .step-block { margin-bottom: 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid #c4a35a; }
+  .step-block:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .step-header { margin-bottom: 0.5rem; }
+  .step-number { display: inline-block; background: #8b6914; color: #f5f0e8; font-weight: 700; font-size: 0.85rem; width: 28px; height: 28px; border-radius: 50%; text-align: center; line-height: 28px; margin-right: 0.5rem; vertical-align: middle; }
+  .step-title { font-size: 1rem; font-weight: 700; color: #5c3a00; vertical-align: middle; }
+  .step-block p { font-size: 0.95rem; color: #3a2a0e; margin-bottom: 0.5rem; }
+  .step-block p:last-child { margin-bottom: 0; }
+  .step-block a { color: #8b6914; font-weight: 700; }
+  .nav-title { font-size: 1.1rem; font-weight: 700; color: #5c3a00; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; border-bottom: 1px solid #c4a35a; padding-bottom: 0.5rem; }
+  .nav-subtitle { font-size: 0.88rem; color: #6b4c1e; font-style: italic; margin-bottom: 1.25rem; }
+  .section-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #8b6914; margin: 1.5rem 0 0.5rem; }
+  .lang-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; margin-bottom: 0.5rem; }
+  .lang-btn { display: block; padding: 0.7rem 0.9rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.95rem; text-align: center; cursor: default; opacity: 0.7; }
+  .lang-btn .native { font-size: 1.05rem; font-weight: 700; display: block; }
+  .lang-btn .english { font-size: 0.75rem; color: #8b6914; display: block; margin-top: 0.1rem; }
+  .lang-btn.coming::after { content: 'Ń bọ laipẹ'; font-size: 0.65rem; color: #8b6914; display: block; margin-top: 0.2rem; font-style: italic; }
+  .home-btn { display: inline-block; margin-top: 2rem; padding: 0.6rem 1.2rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.92rem; }
+  .home-btn:hover { background: #ddd0b0; border-color: #8b6914; }
+  .site-footer { text-align: center; font-size: 0.8rem; color: #8b6914; border-top: 1px solid #c4a35a; padding-top: 1rem; margin-top: 2rem; font-style: italic; }
+  .contact-line { margin-top: 0.5rem; font-style: normal; }
+  .contact-line a { color: #8b6914; }
+  @media (max-width: 480px) { .site-title { font-size: 1.8rem; } .lang-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); } }
+</style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+
+      <header class="site-header">
+        <a href="index.html">
+          <div class="site-title">AENT</div>
+          <p class="site-tagline">Ọ̀rọ̀ Rẹ jẹ́ fitílà fún ẹsẹ̀ mi àti ìmọ́lẹ̀ fún ọ̀nà mi — Sáàmù 119:105</p>
+        </a>
+      </header>
+
+      <div class="lang-notice">
+        Ojú-ewé yìí wà ní àwọn èdè mìíràn. <a href="resources.html">Wo ní èdè Gẹ̀ẹ́sì</a>
+      </div>
+
+      <h1 class="page-title">Àwọn Ìpilẹ̀ṣẹ̀</h1>
+      <p class="page-subtitle">Gbogbo ohun tí o nílò láti mú Ìwé Mímọ́ wá ní èdè tí ó rọrùn sí ènìyàn rẹ — lọ́fẹ̀ẹ́ pátápátá.<br>
+        <br>
+        Bí o bá jẹ́ tuntun, ìfẹ́kúfẹ̀ẹ́, tàbí ń wá ìṣàlàyé soso — bẹ̀rẹ̀ níbí. Àwọn ìpilẹ̀ṣẹ̀ wọ̀nyí wà níbí láti ran ọ lọ́wọ́ láti mọ̀ — kìí ṣe láti ṣẹ̀ mọ́ ọ.</p>
+
+      <div class="section-box">
+        <h2>Ìwòye</h2>
+        <p>AENT — Ìmúlò Majẹmu Tuntun ní Gẹ̀ẹ́sì — ni a kọ́ láti fi hàn nǹkan kan tí ó rọrùn. Gbogbo Majẹmu Tuntun ni a lè túmọ̀ sí èdè tí ó rọrùn àti ìmọ̀ àti tí a lè tẹ jáde fún àgbáyé lọ́fẹ̀ẹ́ pẹ̀lú àwọn irinṣẹ́ tí ẹnikẹ́ni lè gbà. Kò nílò ìwé-ẹ̀rí sèmínárì. Kò nílò owó àti bójétì. Kò nílò ìmọ̀ ìmọ̀-ẹ̀rọ.</p>
+        <p>A kọ ẹ̀dà Gẹ̀ẹ́sì láti ìbẹ̀rẹ̀ pẹ̀lú àwọn irinṣẹ́ AI lọ́fẹ̀ẹ́, sọ́ftíwéà lọ́fẹ̀ẹ́, àti gbígbé wẹ́ẹ̀bù lọ́fẹ̀ẹ́. Iṣẹ́ gbogbo — ìtumọ̀, ààyè ayélujára, àti ìtẹ̀jáde — kò jẹ́ ohunkóhun àyàfi àkókò àti ìgbàgbọ́.</p>
+        <p>Ní báyìí a fẹ́ fi hàn ọ pátápátá bí a ti ṣe é kí o le ṣe ohun kan náà fún ènìyàn rẹ ní èdè rẹ. Ọ̀rọ̀ Ọlọ́run jẹ́ ti gbogbo ènìyàn. Nínú ayé Ọlọ́run a jẹ́ àwọn ará, arábìnrin, àti aládùúgbò. Ènìyàn kọ̀ọ̀kan lórí ilẹ̀ ayé tó yẹ kí ó ka a ní èdè tí wọ́n gbọ́ àti òye. Fẹ́ Olúwa Ọlọ́run rẹ pẹ̀lú gbogbo ọkàn rẹ, ọkàn rẹ, ọpọlọ rẹ àti agbára rẹ. Tàn ìhìnrere Rẹ jáde ní gbogbo ibi.</p>
+      </div>
+
+      <div class="principle-box">
+        <h2>Àwọn Ìlànà Ìtumọ̀ AENT</h2>
+        <p>Ìwọ̀nyí ni àwọn ìtọ́nisọ̀nà tí a tẹ̀lé ní gbogbo orí gbogbo ìwé. Tẹ̀lé wọn àti ìtumọ̀ rẹ yóò ní ìtòlẹ́sẹẹsẹ gbígbóná, ìmọ̀, àti irọrùn kíkà kanna gẹ́gẹ́ bí ẹ̀dà Gẹ̀ẹ́sì.</p>
+        <ul>
+          <li><strong>Èdè tí ó rọrùn nígbà gbogbo.</strong> Bí akẹ́kọ̀ọ́ ilé-ẹ̀kọ́ gíga kò bá lè gbọ́ gbólóhùn náà, tún kọ ọ. Máṣe lo èdè àtijọ́ tàbí ẹ̀sìn rárá nígbà tí ọ̀rọ̀ tí ó rọrùn wà.</li>
+          <li><strong>Lo àwọn orúkọ tí a mọ̀.</strong> Lo àwọn orúkọ tí ènìyàn ti mọ̀ tẹ́lẹ̀ — Jesu, kìí ṣe Yeshua. Ọlọ́run, kìí ṣe Elohimu. Àfojúsùn ni òye, kìí ṣe ìmọ̀ àkádẹ́mì.</li>
+          <li><strong>Èrò kan ní gbólóhùn kọ̀ọ̀kan.</strong> Àwọn gbólóhùn gígùn àti ó ṣòro máa ń mú kí àwọn òǹkàwé sọnù. Pín wọn. Jẹ́ kí wọn ṣe kedere.</li>
+          <li><strong>OLÚWA ní lẹ́tà ńlá.</strong> Nígbà tí ọ̀rọ̀ náà tọ́ka sí orúkọ àdání àti mímọ́ Ọlọ́run, kọ OLÚWA ní lẹ́tà ńlá. Nígbà tí ó jẹ́ àkọlé ọlá, kọ Olúwa ní lẹ́tà àléfà.</li>
+          <li><strong>Ìlànà àlábàáṣiṣẹ́pọ̀.</strong> Ìtumọ̀ yìí jẹ́ àlábàáṣiṣẹ́pọ̀ ti Bíbélì àyánfẹ́ olùkà — kìí ṣe arọ́pò rẹ̀. Sọ èyí ní kedere ní ìbẹ̀rẹ̀ ìwé kọ̀ọ̀kan.</li>
+          <li><strong>Ohùn gbígbóná àti irọrùn kíkà.</</strong> Kọ gẹ́gẹ́ bí ọ̀rẹ́ tí a lè gbẹ́kẹ̀lé bá yóò ṣàlàyé Ìwé Mímọ́ — kì í ṣe bí ọ̀mọ̀wé tí ó ń kọ àlàyé.</li>
+          <li><strong>Jẹ́ òtítọ́ sí ìtumọ̀.</strong> Èdè tí ó rọrùn kò túmọ̀ sí ìtumọ̀ olóòfẹ́. Yíyàn ìtumọ̀ kọ̀ọ̀kan gbọdọ̀ bọ̀wọ̀ fún ìtumọ̀ ọ̀rọ̀ Gíríìkì àtilẹ̀wá.</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <h2>Ìgbésẹ̀ nípa Ìgbésẹ̀ — Bí a ṣe Kọ Ẹ̀dà Tirẹ</h2>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">1</span><span class="step-title">Ṣẹ̀dá Àkáǹtì Google Rẹ Lọ́fẹ̀ẹ́</span></div>
+          <p>Lọ sí google.com kí o sì ṣẹ̀dá àkáǹtì lọ́fẹ̀ẹ́. Àkáǹtì kan yìí fún ọ Gmail fún àdírẹ́sì ìméèlì iṣẹ́ rẹ àti Google Docs fún kíkọ àti títọ́jú ìtumọ̀ rẹ. Fún ìméèlì rẹ orúkọ tí ó ṣe kedere — bí yorubaaent@gmail.com tàbí aentyoruba@gmail.com.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">2</span><span class="step-title">Gba Ọ̀rọ̀ Orísun Rẹ</span></div>
+          <p>O nílò Majẹmu Tuntun Gíríìkì tí a lè gbẹ́kẹ̀lé gẹ́gẹ́ bí ìpìlẹ̀. A dámọ̀ràn SBL Greek New Testament — wádìí lórí íńtánẹ́ẹ̀tì "SBL Greek New Testament free PDF" láti rí i. O kò nílò kíkà Gíríìkì fúnra rẹ. Àwọn irinṣẹ́ AI yóò darí ìtumọ̀ láti Gíríìkì. O nílò ọ̀rọ̀ orísun nìkan gẹ́gẹ́ bí àtọ́kasí.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">3</span><span class="step-title">Ṣí Grok tàbí Gemini kí o Bẹ̀rẹ̀ Ìtumọ̀</span></div>
+          <p>Lọ sí grok.com tàbí gemini.google.com kí o sì ṣẹ̀dá àkáǹtì lọ́fẹ̀ẹ́. Àwọn irinṣẹ́ méjèjì wọ̀nyí dára fún iṣẹ́ ìtumọ̀ àti pẹ̀lú ipele lọ́fẹ̀ẹ́ tó tóbi tí yóò mú ọ lọ nínú gbogbo Majẹmu Tuntun láìsí dídópin àkókò ìgbà ìpàdé.</p>
+          <p>Fún orí kọ̀ọ̀kan fún Grok tàbí Gemini ìlànà bí ìwọ̀yìí — "Jọ̀wọ́ túmọ̀ Máátíù Orí 1 láti Majẹmu Tuntun Gíríìkì sí Yorùbá tí ó rọrùn ní títẹ̀lé àwọn ìlànà wọ̀nyí — lo àwọn orúkọ tí a mọ̀ bí Jesu àti Ọlọ́run, kọ ní ìpele ilé-ẹ̀kọ́ gíga, èrò kan ní gbólóhùn kọ̀ọ̀kan, ohùn gbígbóná àti àjọṣepọ̀, OLÚWA ní lẹ́tà ńlá nígbà tí ó tọ́ka sí orúkọ àdání Ọlọ́run. Ìtumọ̀ àlábàáṣiṣẹ́pọ̀ ni èyí kìí ṣe arọ́pò àwọn Bíbélì tó wà tẹ́lẹ̀."</p>
+          <p>Ṣàyẹ̀wò orí kọ̀ọ̀kan pẹ̀lú ìfarabalẹ̀. Ṣàtúnṣe ohun tí kò dára ní èdè rẹ. Fikún orí tí a parí sí Google Docs. Tọ́jú rẹ. Lọ sí orí tó ń bọ̀.</p>
+          <p>Nígbà tí ìtumọ̀ rẹ bá parí àti tí o bá ṣetán láti kọ ààyè ayélujára rẹ — ìyẹn ni ìgbà tí o mú Claude wá sí claude.ai. Claude dára fún kíkọ àwọn ojú-ewé HTML, ìmúdára èdè tí ó rọrùn, àti ṣíṣe àtúnṣe àwọn ìṣòro ìmọ̀-ẹ̀rọ. Lo irinṣẹ́ kọ̀ọ̀kan fún ohun tí ó dára jùlọ nínú rẹ̀.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">4</span><span class="step-title">Ṣiṣẹ́ Ìwé nípa Ìwé</span></div>
+          <p>Túmọ̀ ìwé kan ní ìgbà. Bẹ̀rẹ̀ pẹ̀lú Ìhìnrere Máákù — ó jẹ́ Ìhìnrere tí ó kúrú jùlọ àti ìtàn tí ó tọ̀ jùlọ. Lẹ́yìn tí o bá parí Máákù iwọ yóò ní ìmọ̀lára to lagbara ti ohùn ìtumọ̀ àti iyókù yóò lọ yára sí i.</p>
+          <p>Tọ́jú ìwé kọ̀ọ̀kan tí a parí gẹ́gẹ́ bí ìwé tó yàtọ̀ ní Google Docs. Iṣẹ́ rẹ ni a tọ́jú fúnra rẹ ní àwọsánmọ̀ àti pé a lè gbà á láti ẹ̀rọ èyíkéyìí. Kì yóò sọnù rárá.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">5</span><span class="step-title">Gba SeaMonkey Composer</span></div>
+          <p>Fún gbogbo àtúnṣe ààyè ayélujára a dámọ̀ràn SeaMonkey. Irinṣẹ́ agbára àtijọ́ ni tí ó ṣiṣẹ́ gẹ́gẹ́ bí Microsoft Word pátápátá. Bí o bá lè daakọ ọ̀rọ̀ láti ìwé kan kí o sì fẹ̀ rẹ̀ sínú fèrèsé tuntun iwọ ti ní àwọn ìmọ̀ fún kíkọ ààyè ayélujára pẹ̀lú SeaMonkey tẹ́lẹ̀. <strong>Ìmọ̀ kóòdù ọ̀fọ̀</strong> ni a nílò.</p>
+          <p>Láti bẹ̀rẹ̀ lọ sí seamonkey-project.org kí o sì gba sọ́ftíwéà lọ́fẹ̀ẹ́. Lẹ́yìn fífípamọ́ lo irinṣẹ́ <strong>Composer</strong> láti yí ọ̀rọ̀ Google Docs rẹ padà sí àwọn ojú-ewé wẹ́ẹ̀bù HTML ọjọgbọ́n.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">6</span><span class="step-title">Kọ Àwọn Ojú-ewé HTML Rẹ</span></div>
+          <p>Bí o bá fẹ́ bẹ̀rẹ̀ iṣẹ́ ìtumọ̀ tirẹ, kan sí wa ní <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> láti gba <strong>Àpẹẹrẹ HTML AENT</strong> lọ́fẹ̀ẹ́. Fáìlì tí a ti ṣe àkójọ yìí ṣe dájú pé ààyè rẹ wà ní mímọ́, ọjọgbọ́n, àti rọrùn kíkà lórí kọmpútà àti fóònù — láìsí ikẹ́kọ̀ọ́ ọ̀nà kóòdù kan ṣoṣo.</p>
+          <p>Àpẹẹrẹ náà máa ń ṣe "iṣẹ́ ìmọ̀-ẹ̀rọ" fún ọ. Ṣí rẹ̀ nìkan ní <strong>SeaMonkey Composer</strong>, fẹ̀ ọ̀rọ̀ tí o túmọ̀ rẹ sínú <strong>ìwòye Àlàáfíà</strong>, kí o sì tọ́jú rẹ̀ gẹ́gẹ́ bí fáìlì HTML. A dámọ̀ràn kíkọ fáìlì HTML kan fún ìwé kọ̀ọ̀kan tí ó ní gbogbo orí.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">7</span><span class="step-title">Ṣètò GitHub kí o Sì Tẹ Jáde</span></div>
+          <p>Lọ sí github.com kí o sì ṣẹ̀dá àkáǹtì lọ́fẹ̀ẹ́. Ṣẹ̀dá àkójọ tuntun kí o sì ṣàṣíṣe GitHub Pages nínú àwọn ètò àkójọ. Gbé gbogbo àwọn fáìlì HTML rẹ sókè. Ìtumọ̀ rẹ wà lẹ́sẹ̀kẹsẹ̀ lórí íńtánẹ́ẹ̀tì — lọ́fẹ̀ẹ́, títí láé, àti gbogbo ènìyàn ní àgbáyé lè gbà á.</p>
+          <p>Ìyẹn ni gbogbo rẹ̀. Láti ìgbà yẹn ẹnikẹ́ni tó bá rí ààyè rẹ lè ka Majẹmu Tuntun ní èdè tí ó rọrùn ní èdè rẹ lọ́fẹ̀ẹ́.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">8</span><span class="step-title">Kan Sí Wa — A Fẹ́ Ràntí</span></div>
+          <p>O kò nílò láti ṣàwárí gbogbo èyí fúnra rẹ. A ti lọ nínú ìgbésẹ̀ kọ̀ọ̀kan ilana yìí àti pé a fẹ́ ran ọ lọ́wọ́ láti ṣe aṣeyọrí. Ránṣẹ́ sí wa ní <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> pẹ̀lú àwọn ìbéèrè, láti gba àpẹẹrẹ HTML, tàbí nìkan láti jẹ́ kí a mọ̀ pé iwọ ń ṣiṣẹ́ lórí ìtumọ̀. A yóò rìn pẹ̀lú ọ nínú gbogbo ilana náà.</p>
+        </div>
+
+      </div>
+
+      <div class="section-box">
+        <h2>Àwọn Irinṣẹ́ AI Tí A Dámọ̀ràn</h2>
+        <p><strong>Claude (Anthropic)</strong> — claude.ai — Ọkàn iṣẹ́ AENT. Claude dáríjì ìtumọ̀, ìmúdára èdè tí ó rọrùn, àti kọ gbogbo ojú-ewé HTML lórí ààyè ayélujára yìí. Claude dára fún àwọn ìdí àìmọ̀, ohùn, àti ṣíṣe kedere ìtumọ̀ ní èdè gbígbóná àti rọrùn kíkà tí ó dá bíi ọ̀rẹ́ tí a lè gbẹ́kẹ̀lé ń ṣàlàyé Ìwé Mímọ́ dípò ọ̀mọ̀wé tí ó ń kọ ẹ̀kọ́. Tó dára jùlọ fún ìmúdára ìtumọ̀, èdè tí ó rọrùn, kíkọ ààyè ayélujára, àti ohunkóhun tí ó nílò ohùn àdání àti irọrùn gbigba. Bí o bá lo irinṣẹ́ AI kan ṣoṣo fún iṣẹ́ yìí jẹ́ kí ó jẹ́ Claude.</p>
+        <p><strong>Gemini (Google)</strong> — gemini.google.com — Aṣàmúlò ìwádìí jìnnà. Nígbà tí ìbéèrè ìtumọ̀ bá jọjú ní ìkọja ilẹ́ — nígbà tí o nílò òye ti ohun tí ọ̀rọ̀ Gíríìkì túmọ̀ sí ní gidi ní àyíká ọ̀rúndún kìíní tàbí láti yanjú ìjiyàn ẹ̀kọ́ nípa èsì tí ó ṣòro — Gemini ni irinṣẹ́ rẹ. Tó dára jùlọ fún ìkẹ́kọ̀ọ́ ọ̀rọ̀, ìwádìí ẹ̀kọ́ ìsìn, àti àwọn ìbéèrè ìtumọ̀ ìmọ̀-ẹ̀rọ.</p>
+        <p><strong>ChatGPT (OpenAI)</strong> — chatgpt.com — Onísanààhùn ẹgbẹ́. ChatGPT ṣẹ̀dá àmì AENT — Bíbélì tí a ṣí pẹ̀lú fìtílà àti ọ̀nà ìmọ́lẹ̀ wúrà — àti pé ó lè ṣe ohun kan náà fún iṣẹ́ rẹ. Béèrè fún PNG pẹ̀lú ẹ̀yìn tí ó ṣòfo fún àwọn àbájáde tó dára jùlọ lórí ojú-ewé àwọ̀-ẹranko rẹ. Tó dára jùlọ fún àmì, àwòrán, àti ohunkóhun tí o nílò fún iṣẹ́ rẹ.</p>
+        <p><strong>Grok (xAI)</strong> — grok.com — Ọmọ ẹgbẹ́ tí ó mọ̀nà jùlọ. Nígbà tí AI mìíràn bá ń fi ẹsẹ̀ bò ní èsì kan pàtó tàbí àkókò ìgbà ìpàdé bá parí, Grok wọlé láìsí ẹdùn kí ó sì fún iṣẹ́ ìtumọ̀ tí ó dúró. Tó dára jùlọ fún ìtumọ̀ nínú iye tó pọ̀, ìbámu pẹ̀lú àwọn ìbéèrè pàtó, àti títún bẹ̀rẹ̀ níbi tí àwọn mìíràn ti dúró.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Àwọn Irinṣẹ́ Ìtẹ̀jáde Lọ́fẹ̀ẹ́</h2>
+        <p><strong>Google Docs</strong> — docs.google.com — Olùṣàtúnṣe ọ̀rọ̀ lọ́fẹ̀ẹ́ tí ó dá lórí àwọsánmọ̀. Níbí ni o kọ, tọ́jú, àti mọ ìtumọ̀ rẹ orí nípa orí. Iṣẹ́ rẹ ni a tọ́jú fúnra rẹ, a lè gbà á láti ẹ̀rọ èyíkéyìí, kì yóò sọnù rárá. Nígbà tí orí bá ṣetán, daakọ rẹ̀ láti Google Docs kí o sì fẹ̀ rẹ̀ sí SeaMonkey Composer tààrà — ìtòlẹ́sẹẹsẹ gbe lọ ní mímọ́.</p>
+        <p><strong>Gmail</strong> — gmail.com — Ìméèlì lọ́fẹ̀ẹ́ láti Google. Ṣètò àdírẹ́sì ìméèlì tó yàtọ̀ fún iṣẹ́ ìtumọ̀ rẹ. Níwọ̀n pé Gmail àti Google Docs pín àkáǹtì Google kan, o nílò ìforúkọ̀sílẹ̀ ẹ̀ẹ̀kan soso láti gba méjèjì.</p>
+        <p><strong>SeaMonkey Composer</strong> — seamonkey-project.org — Olùṣàtúnṣe HTML lọ́fẹ̀ẹ́. Ṣiṣẹ́ bí Microsoft Word. Fẹ̀ ọ̀rọ̀ tí o túmọ̀ rẹ, fi àwọn àkọlé, tọ́jú gẹ́gẹ́ bí HTML. Kò nílò ìmọ̀ kóòdù.</p>
+        <p><strong>GitHub Pages</strong> — github.com — Gbígbé wẹ́ẹ̀bù lọ́fẹ̀ẹ́ fún gbogbo ènìyàn. Gbé àwọn fáìlì HTML rẹ sókè àti ìtumọ̀ rẹ wà lórí íńtánẹ́ẹ̀tì lẹ́sẹ̀kẹsẹ̀ lọ́fẹ̀ẹ́ títí láé.</p>
+        <p><strong>Àpẹẹrẹ HTML AENT</strong> — Kan sí wa ní <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> láti gba àpẹẹrẹ lọ́fẹ̀ẹ́. Ó ní gbogbo ìṣọ̀, ìsọ̀nà, àti ìtòlẹ́sẹẹsẹ — ṣetán fún ọ̀rọ̀ tí o túmọ̀ rẹ.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Kan Sí Wa</h2>
+        <p>Bí o bá ń ṣiṣẹ́ lórí Majẹmu Tuntun ní èdè tí ó rọrùn ní èdè èyíkéyìí àti pé o fẹ́ ìtọ́nisọ̀nà, àpẹẹrẹ HTML, ìgbàgbára, tàbí ẹnikẹ́ni láti rìn pẹ̀lú ọ nínú ilana náà — kan sí wa. A fẹ́ ràntí.</p>
+        <p><a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></p>
+      </div>
+
+      <div class="nav-title">Àwọn Ìtumọ̀ Tí Ń Lọ</div>
+      <p class="nav-subtitle">Àwọn ẹ̀dà wọ̀nyí ní àwọn èdè mìíràn ni a ń gbèrò tàbí tí wọ́n wà ní ìdàgbàsókè. Àwọn ìjápọ̀ yóò ṣiṣẹ́ bí a ṣe parí ẹ̀dà kọ̀ọ̀kan. Ṣé o fẹ́ darí ìtumọ̀ fún èdè rẹ? Kan sí wa ní aentproject@gmail.com.</p>
+
+      <div class="section-label">Áfríkà</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Kiswahili</span><span class="english">Swahili</span></span>
+        <span class="lang-btn coming"><span class="native">Hausa</span><span class="english">Hausa</span></span>
+        <span class="lang-btn coming"><span class="native">Yorùbá</span><span class="english">Yorùbá</span></span>
+        <span class="lang-btn coming"><span class="native">Igbo</span><span class="english">Igbo</span></span>
+        <span class="lang-btn coming"><span class="native">አማርኛ</span><span class="english">Amárìkì</span></span>
+        <span class="lang-btn coming"><span class="native">isiZulu</span><span class="english">Zulu</span></span>
+      </div>
+
+      <div class="section-label">Amẹ́ríkà</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Español</span><span class="english">Sípánì</span></span>
+        <span class="lang-btn coming"><span class="native">Português</span><span class="english">Pọ̀túgíìsì</span></span>
+        <span class="lang-btn coming"><span class="native">Français</span><span class="english">Faransé</span></span>
+        <span class="lang-btn coming"><span class="native">Kreyòl Ayisyen</span><span class="english">Kreyol Haiti</span></span>
+      </div>
+
+      <div class="section-label">Yúróòpù</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Deutsch</span><span class="english">Jámánì</span></span>
+        <span class="lang-btn coming"><span class="native">Italiano</span><span class="english">Ítálì</span></span>
+        <span class="lang-btn coming"><span class="native">Русский</span><span class="english">Rọ́ṣíà</span></span>
+        <span class="lang-btn coming"><span class="native">Українська</span><span class="english">Yukréníà</span></span>
+        <span class="lang-btn coming"><span class="native">Polski</span><span class="english">Pólándì</span></span>
+        <span class="lang-btn coming"><span class="native">Română</span><span class="english">Rómánìà</span></span>
+      </div>
+
+      <div class="section-label">Ìlà Oòrùn Àárín Gbùngbùn</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">العربية</span><span class="english">Lárúbáwá</span></span>
+        <span class="lang-btn coming"><span class="native">فارسی</span><span class="english">Páṣíà</span></span>
+        <span class="lang-btn coming"><span class="native">Türkçe</span><span class="english">Tọ́kì</span></span>
+        <span class="lang-btn coming"><span class="native">עברית</span><span class="english">Hébérù</span></span>
+      </div>
+
+      <div class="section-label">Éṣíà àti Pàṣífíìkì</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">हिन्दी</span><span class="english">Híndì</span></span>
+        <span class="lang-btn coming"><span class="native">বাংলা</span><span class="english">Bẹ́ngálì</span></span>
+        <span class="lang-btn coming"><span class="native">中文</span><span class="english">Mandárínì</span></span>
+        <span class="lang-btn coming"><span class="native">日本語</span><span class="english">Jápánì</span></span>
+        <span class="lang-btn coming"><span class="native">한국어</span><span class="english">Kọ́rìà</span></span>
+        <span class="lang-btn coming"><span class="native">Bahasa Indonesia</span><span class="english">Indonésíà</span></span>
+        <span class="lang-btn coming"><span class="native">Filipino</span><span class="english">Fílípínì</span></span>
+        <span class="lang-btn coming"><span class="native">Tiếng Việt</span><span class="english">Víẹ́tnámì</span></span>
+        <span class="lang-btn coming"><span class="native">ภาษาไทย</span><span class="english">Tálándì</span></span>
+        <span class="lang-btn coming"><span class="native">မြန်မာဘာသာ</span><span class="english">Bọ́mà</span></span>
+      </div>
+
+      <div style="text-align:center;">
+        <a class="home-btn" href="index.html">&#8962; Padà sí Ojú-ewé Àkọ́kọ́</a>
+      </div>
+
+      <footer class="site-footer">
+        Lọ́fẹ̀ẹ́ fún gbogbo ènìyàn &#8212; pín ní òmìnira &#8212; fún ògo Ọlọ́run
+        <div class="contact-line">Kan sí: <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></div>
+      </footer>
+
+    </div>
+  </body>
+</html>

@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,
-      initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resources — AENT</title>
     <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -40,10 +38,14 @@
   .nav-subtitle { font-size: 0.88rem; color: #6b4c1e; font-style: italic; margin-bottom: 1.25rem; }
   .section-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #8b6914; margin: 1.5rem 0 0.5rem; }
   .lang-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; margin-bottom: 0.5rem; }
-  .lang-btn { display: block; padding: 0.7rem 0.9rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.95rem; text-align: center; cursor: default; opacity: 0.7; }
+  .lang-btn { display: block; padding: 0.7rem 0.9rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.95rem; text-align: center; cursor: pointer; opacity: 1; transition: background 0.15s; }
+  .lang-btn:hover { background: #ddd0b0; border-color: #8b6914; }
   .lang-btn .native { font-size: 1.05rem; font-weight: 700; display: block; }
   .lang-btn .english { font-size: 0.75rem; color: #8b6914; display: block; margin-top: 0.1rem; }
+  .lang-btn.coming { cursor: default; opacity: 0.7; }
   .lang-btn.coming::after { content: 'Coming Soon'; font-size: 0.65rem; color: #8b6914; display: block; margin-top: 0.2rem; font-style: italic; }
+  .request-note { font-size: 0.88rem; color: #5c3a00; text-align: center; margin: 1.5rem 0 0.5rem; padding: 0.75rem 1rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; }
+  .request-note a { color: #8b6914; font-weight: 700; }
   .home-btn { display: inline-block; margin-top: 2rem; padding: 0.6rem 1.2rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.92rem; }
   .home-btn:hover { background: #ddd0b0; border-color: #8b6914; }
   .site-footer { text-align: center; font-size: 0.8rem; color: #8b6914; border-top: 1px solid #c4a35a; padding-top: 1rem; margin-top: 2rem; font-style: italic; }
@@ -54,350 +56,184 @@
   </head>
   <body>
     <div class="page-wrapper">
-      <header class="site-header"> <a href="index.html">
+
+      <header class="site-header">
+        <a href="index.html">
           <div class="site-title">AENT</div>
-          <p class="site-tagline">Your word is a lamp to my feet and a
-            light to my path — Psalm 119:105</p>
-        </a> </header>
+          <p class="site-tagline">Your word is a lamp to my feet and a light to my path — Psalm 119:105</p>
+        </a>
+      </header>
+
       <h1 class="page-title">Resources</h1>
-      <p class="page-subtitle">Everything you need to bring plain
-        language scripture to your own people — free.<br>
+      <p class="page-subtitle">Everything you need to bring plain language scripture to your own people — free.<br>
         <br>
-        If you’re new, curious, or just looking for clarity, start here.
-        These resources are here to help you understand—not overwhelm
-        you.</p>
+        If you're new, curious, or just looking for clarity, start here. These resources are here to help you understand — not overwhelm you.</p>
+
       <div class="section-box">
         <h2>The Vision</h2>
-        <p>The AENT — Accessible English New Testament — was built to
-          prove something simple. The entire New Testament can be
-          translated into plain, readable language and published to the
-          world for free using tools anyone can access. No seminary
-          degree required. No publishing budget required. No technical
-          background required.</p>
-        <p>We built the English edition from scratch using only free AI
-          tools, free software, and free web hosting. The whole project
-          — translation, website, and publishing — cost nothing except
-          time and faithfulness.</p>
-        <p>Now we want to show you exactly how we did it so you can do
-          the same thing for your own people in your own language. The
-          word of God belongs to everyone. In God's world, we are all
-          brothers, sisters, and neighbors. Every person on earth
-          deserves to read it in language they actually understand. Love
-          God with all your heart, soul, mind, and strength. Spread his
-          good news far and wide.<br>
-        </p>
+        <p>The AENT — Accessible English New Testament — was built to prove something simple. The entire New Testament can be translated into plain, readable language and published to the world for free using tools anyone can access. No seminary degree required. No publishing budget required. No technical background required.</p>
+        <p>We built the English edition from scratch using only free AI tools, free software, and free web hosting. The whole project — translation, website, and publishing — cost nothing except time and faithfulness.</p>
+        <p>Now we want to show you exactly how we did it so you can do the same thing for your own people in your own language. The word of God belongs to everyone. In God's world, we are all brothers, sisters, and neighbors. Every person on earth deserves to read it in language they actually understand. Love God with all your heart, soul, mind, and strength. Spread his good news far and wide.</p>
       </div>
+
       <div class="principle-box">
         <h2>The AENT Translation Principles</h2>
-        <p>These are the guidelines we followed for every chapter of
-          every book. Follow them and your translation will have the
-          same warm, clear, readable quality as the English edition.</p>
+        <p>These are the guidelines we followed for every chapter of every book. Follow them and your translation will have the same warm, clear, readable quality as the English edition.</p>
         <ul>
-          <li><strong>Plain language always.</strong> If an 8th grade
-            student cannot understand the sentence, rewrite it. Never
-            use archaic or religious language when a plain word exists.</li>
-          <li><strong>Use familiar names.</strong> Use the names people
-            already know — Jesus, not Yeshua. God, not Elohim. The goal
-            is understanding, not scholarship.</li>
-          <li><strong>One idea per sentence.</strong> Long complex
-            sentences lose readers. Break them up. Keep them clear.</li>
-          <li><strong>THE LORD in capitals.</strong> Whenever the text
-            refers to the personal sacred name of God, use THE LORD in
-            all capitals. When it is a title of respect, use Lord in
-            normal letters.</li>
-          <li><strong>Companion framing.</strong> This translation is a
-            companion to the reader's existing Bible — not a
-            replacement. Say so clearly at the start of every book.</li>
-          <li><strong>Warm readable voice.</strong> Write the way a
-            trusted friend would explain scripture — not the way an
-            academic would write a commentary.</li>
-          <li><strong>Stay faithful to meaning.</strong> Plain language
-            does not mean loose paraphrase. Every translation choice
-            should honor the meaning of the original Greek text.</li>
+          <li><strong>Plain language always.</strong> If an 8th grade student cannot understand the sentence, rewrite it. Never use archaic or religious language when a plain word exists.</li>
+          <li><strong>Use familiar names.</strong> Use the names people already know — Jesus, not Yeshua. God, not Elohim. The goal is understanding, not scholarship.</li>
+          <li><strong>One idea per sentence.</strong> Long complex sentences lose readers. Break them up. Keep them clear.</li>
+          <li><strong>THE LORD in capitals.</strong> Whenever the text refers to the personal sacred name of God, use THE LORD in all capitals. When it is a title of respect, use Lord in normal letters.</li>
+          <li><strong>Companion framing.</strong> This translation is a companion to the reader's existing Bible — not a replacement. Say so clearly at the start of every book.</li>
+          <li><strong>Warm readable voice.</strong> Write the way a trusted friend would explain scripture — not the way an academic would write a commentary.</li>
+          <li><strong>Stay faithful to meaning.</strong> Plain language does not mean loose paraphrase. Every translation choice should honor the meaning of the original Greek text.</li>
         </ul>
       </div>
+
       <div class="section-box">
         <h2>Step by Step — How to Build Your Own Edition</h2>
+
         <div class="step-block">
-          <div class="step-header"><span class="step-number">1</span><span
-              class="step-title">Set Up Your Free Google Account</span></div>
-          <p>Go to google.com and create a free account. This single
-            account gives you Gmail for your project email address and
-            Google Docs for writing and storing your translation. Name
-            your project email something clear — like
-            spanishaent@gmail.com or frenchaent@gmail.com.</p>
+          <div class="step-header"><span class="step-number">1</span><span class="step-title">Set Up Your Free Google Account</span></div>
+          <p>Go to google.com and create a free account. This single account gives you Gmail for your project email address and Google Docs for writing and storing your translation. Name your project email something clear — like spanishaent@gmail.com or frenchaent@gmail.com.</p>
         </div>
+
         <div class="step-block">
-          <div class="step-header"><span class="step-number">2</span><span
-              class="step-title">Get Your Source Text</span></div>
-          <p>You need a reliable Greek New Testament as your foundation.
-            We recommend the SBL Greek New Testament — search online for
-            "SBL Greek New Testament free PDF" to find it. You do not
-            need to read Greek yourself. The AI tools will handle the
-            translation from Greek. You just need the source text
-            available to reference.</p>
+          <div class="step-header"><span class="step-number">2</span><span class="step-title">Get Your Source Text</span></div>
+          <p>You need a reliable Greek New Testament as your foundation. We recommend the SBL Greek New Testament — search online for "SBL Greek New Testament free PDF" to find it. You do not need to read Greek yourself. The AI tools will handle the translation from Greek. You just need the source text available to reference.</p>
         </div>
+
         <div class="step-block">
-          <div class="step-header"><span class="step-number">3</span>
-            <p class="font-claude-response-body break-words
-              whitespace-normal leading-[1.7]"><strong>Open Grok or
-                Gemini and Begin Translating</strong></p>
-            <p class="font-claude-response-body break-words
-              whitespace-normal leading-[1.7]">Go to grok.com or
-              gemini.google.com and create a free account. Both tools
-              are excellent for translation work and have generous free
-              tiers that will carry you through the full New Testament
-              without running out of session time.</p>
-            <p class="font-claude-response-body break-words
-              whitespace-normal leading-[1.7]">For each chapter give
-              Grok or Gemini a prompt like this — "Please translate
-              Matthew Chapter 1 from the Greek New Testament into plain
-              [your language] following these principles — use familiar
-              names like Jesus and God, write at an 8th grade reading
-              level, one idea per sentence, warm friendly voice, THE
-              LORD in capitals when referring to God's personal name.
-              This is a companion translation not a replacement for
-              existing Bibles."</p>
-            <p class="font-claude-response-body break-words
-              whitespace-normal leading-[1.7]">Review each chapter
-              carefully. Adjust anything that does not sound natural in
-              your language. Paste the finished chapter into Google
-              Docs. Save it. Move to the next chapter.</p>
-            <p class="font-claude-response-body break-words
-              whitespace-normal leading-[1.7]">When your translation is
-              complete and you are ready to build your website — that is
-              when you bring in Claude at claude.ai. Claude excels at
-              building the HTML pages, refining plain language, and
-              solving technical problems. Use each tool for what it does
-              best.</p>
-          </div>
+          <div class="step-header"><span class="step-number">3</span><span class="step-title">Open Grok or Gemini and Begin Translating</span></div>
+          <p>Go to grok.com or gemini.google.com and create a free account. Both tools are excellent for translation work and have generous free tiers that will carry you through the full New Testament without running out of session time.</p>
+          <p>For each chapter give Grok or Gemini a prompt like this — "Please translate Matthew Chapter 1 from the Greek New Testament into plain [your language] following these principles — use familiar names like Jesus and God, write at an 8th grade reading level, one idea per sentence, warm friendly voice, THE LORD in capitals when referring to God's personal name. This is a companion translation not a replacement for existing Bibles."</p>
+          <p>Review each chapter carefully. Adjust anything that does not sound natural in your language. Paste the finished chapter into Google Docs. Save it. Move to the next chapter.</p>
+          <p>When your translation is complete and you are ready to build your website — that is when you bring in Claude at claude.ai. Claude excels at building the HTML pages, refining plain language, and solving technical problems. Use each tool for what it does best.</p>
         </div>
+
         <div class="step-block">
-          <div class="step-header"><span class="step-number">4</span><span
-              class="step-title">Work Book by Book</span></div>
-          <p>Translate one book at a time. Start with the Gospel of Mark
-            — it is the shortest Gospel and the most straightforward
-            narrative. Once you have finished Mark you will have a
-            strong feel for the translation voice and the rest will go
-            faster.</p>
-          <p>Store each completed book as a separate document in Google
-            Docs. Your work is automatically saved to the cloud and
-            accessible from any device. It will never be lost.</p>
+          <div class="step-header"><span class="step-number">4</span><span class="step-title">Work Book by Book</span></div>
+          <p>Translate one book at a time. Start with the Gospel of Mark — it is the shortest Gospel and the most straightforward narrative. Once you have finished Mark you will have a strong feel for the translation voice and the rest will go faster.</p>
+          <p>Store each completed book as a separate document in Google Docs. Your work is automatically saved to the cloud and accessible from any device. It will never be lost.</p>
         </div>
+
         <div class="step-block">
-          <div class="step-header"><span class="step-number">5</span><span
-              class="step-title">Download SeaMonkey Composer</span></div>
-          <p data-path-to-node="3,1">For all website editing, we
-            recommend <b data-path-to-node="3,1"
-              data-index-in-node="38">SeaMonkey</b>. It is a powerful,
-            "old-school" tool that works exactly like Microsoft Word. If
-            you can copy text from a document and paste it into a new
-            window, you already have the skills to build a website with
-            SeaMonkey. It respects your formatting, keeps things simple,
-            and requires <b data-path-to-node="3,1"
-              data-index-in-node="320">zero coding knowledge</b>.</p>
-          <p data-path-to-node="3,2">To get started, go to <b
-              data-path-to-node="3,2" data-index-in-node="22">seamonkey-project.org</b>
-            and download the software for free. Once installed, use the
-            <b data-path-to-node="3,2" data-index-in-node="104">Composer</b>
-            tool to convert your Google Docs text into professional HTML
-            web pages. This is the "secret" to keeping the AENT clean,
-            dignified, and easy to manage.</p>
+          <div class="step-header"><span class="step-number">5</span><span class="step-title">Download SeaMonkey Composer</span></div>
+          <p>For all website editing, we recommend SeaMonkey. It is a powerful old-school tool that works exactly like Microsoft Word. If you can copy text from a document and paste it into a new window, you already have the skills to build a website with SeaMonkey. It respects your formatting, keeps things simple, and requires <strong>zero coding knowledge</strong>.</p>
+          <p>To get started, go to seamonkey-project.org and download the software for free. Once installed, use the <strong>Composer</strong> tool to convert your Google Docs text into professional HTML web pages.</p>
         </div>
+
         <div class="step-block">
-          <div class="step-header"><span class="step-number">6</span><span
-              class="step-title">Build Your HTML Pages</span></div>
-          <p data-path-to-node="5,1">If you would like to start your own
-            translation project, please contact us at <b
-              data-path-to-node="5,1" data-index-in-node="78">aentproject@gmail.com</b>
-            for the free <b data-path-to-node="5,1"
-              data-index-in-node="113">AENT HTML Template</b>. This
-            pre-formatted file ensures your site remains clean,
-            professional, and easy to read on both computers and
-            phones—without you ever having to learn a single line of
-            code.</p>
-          <p data-path-to-node="5,2">The template handles the "tech
-            work" for you. Simply open it in <b data-path-to-node="5,2"
-              data-index-in-node="64">SeaMonkey Composer</b>, paste your
-            translated text into the <b data-path-to-node="5,2"
-              data-index-in-node="120">Normal view</b>, and save it as
-            an HTML file. We recommend building one HTML file per book
-            (e.g., <i data-path-to-node="5,2" data-index-in-node="214">matthew.html</i>,
-            <i data-path-to-node="5,2" data-index-in-node="228">mark.html</i>)
-            containing all chapters. The template handles the styling
-            and navigation automatically so you can focus entirely on
-            the Word.</p>
+          <div class="step-header"><span class="step-number">6</span><span class="step-title">Build Your HTML Pages</span></div>
+          <p>If you would like to start your own translation project, please contact us at <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> for the free <strong>AENT HTML Template</strong>. This pre-formatted file ensures your site remains clean, professional, and easy to read on both computers and phones — without you ever having to learn a single line of code.</p>
+          <p>The template handles the tech work for you. Simply open it in <strong>SeaMonkey Composer</strong>, paste your translated text into the <strong>Normal view</strong>, and save it as an HTML file. We recommend building one HTML file per book containing all chapters.</p>
         </div>
+
         <div class="step-block">
-          <div class="step-header"><span class="step-number">7</span><span
-              class="step-title">Set Up GitHub and Publish</span></div>
-          <p>Go to github.com and create a free account. Create a new
-            repository and enable GitHub Pages in the repository
-            settings. Upload all your HTML files. Your translation is
-            immediately live on the internet — free, permanent, and
-            accessible to anyone in the world.</p>
-          <p>That is it. From that moment on anyone who finds your
-            website can read the New Testament in plain language in your
-            language for free.</p>
+          <div class="step-header"><span class="step-number">7</span><span class="step-title">Set Up GitHub and Publish</span></div>
+          <p>Go to github.com and create a free account. Create a new repository and enable GitHub Pages in the repository settings. Upload all your HTML files. Your translation is immediately live on the internet — free, permanent, and accessible to anyone in the world.</p>
+          <p>That is it. From that moment on anyone who finds your website can read the New Testament in plain language in your language for free.</p>
         </div>
+
         <div class="step-block">
-          <div class="step-header"><span class="step-number">8</span><span
-              class="step-title">Contact Us — We Want to Help</span></div>
-          <p>You do not have to figure this out alone. We have been
-            through every step of this process and we want to help you
-            succeed. Email us at <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a>
-            with questions, to receive the HTML template, or just to let
-            us know you are working on a translation. We will walk with
-            you through the whole process.</p>
+          <div class="step-header"><span class="step-number">8</span><span class="step-title">Contact Us — We Want to Help</span></div>
+          <p>You do not have to figure this out alone. We have been through every step of this process and we want to help you succeed. Email us at <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> with questions, to receive the HTML template, or just to let us know you are working on a translation. We will walk with you through the whole process.</p>
         </div>
+
       </div>
+
       <div class="section-box">
-        <h2>AI Circle Logic We Recommend</h2>
-        <p class="font-claude-response-body break-words
-          whitespace-normal leading-[1.7]"><strong>Claude (Anthropic)</strong>
-          — claude.ai — The heart of the AENT project. Claude handled
-          the translation, the plain language refinement, and built
-          every single HTML page on this website. Claude excels at
-          nuance, tone, and rendering meaning in warm readable language
-          that feels like a trusted friend explaining scripture rather
-          than a scholar lecturing about it. Best for translation
-          refinement, plain language rendering, website building, and
-          anything that requires a personal and relatable voice. If you
-          only use one AI tool for this project make it Claude.</p>
-        <p class="font-claude-response-body break-words
-          whitespace-normal leading-[1.7]"><strong>Gemini (Google)</strong>
-          — gemini.google.com — The deep research specialist. When a
-          translation question goes beyond the surface — when you need
-          to understand what a Greek word actually meant in its first
-          century context, or settle a theological debate about a
-          difficult passage — Gemini is your tool. Best for word
-          studies, theological research, and technical translation
-          questions.</p>
-        <p class="font-claude-response-body break-words
-          whitespace-normal leading-[1.7]"><strong>ChatGPT (OpenAI)</strong>
-          — chatgpt.com — The artist of the team. ChatGPT created the
-          AENT logo — the open Bible with the lamp and the golden path
-          of light — and it can do the same for your project. Ask for a
-          PNG with a transparent background for best results on your
-          parchment page. Best for logos, illustrations, and any visual
-          asset your project needs.</p>
-        <p class="font-claude-response-body break-words
-          whitespace-normal leading-[1.7]"><strong>Grok (xAI)</strong> —
-          grok.com — The most willing member of the team. When another
-          AI hesitates on a particular passage or runs short on session
-          time Grok steps in without complaint and delivers solid
-          translation work. Best for bulk translation, compliance with
-          specific requests, and picking up where others leave off.</p>
+        <h2>AI Tools We Recommend</h2>
+        <p><strong>Claude (Anthropic)</strong> — claude.ai — The heart of the AENT project. Claude handled the translation, the plain language refinement, and built every single HTML page on this website. Claude excels at nuance, tone, and rendering meaning in warm readable language that feels like a trusted friend explaining scripture rather than a scholar lecturing about it. Best for translation refinement, plain language rendering, website building, and anything that requires a personal and relatable voice. If you only use one AI tool for this project make it Claude.</p>
+        <p><strong>Gemini (Google)</strong> — gemini.google.com — The deep research specialist. When a translation question goes beyond the surface — when you need to understand what a Greek word actually meant in its first century context, or settle a theological debate about a difficult passage — Gemini is your tool. Best for word studies, theological research, and technical translation questions.</p>
+        <p><strong>ChatGPT (OpenAI)</strong> — chatgpt.com — The artist of the team. ChatGPT created the AENT logo — the open Bible with the lamp and the golden path of light — and it can do the same for your project. Ask for a PNG with a transparent background for best results on your parchment page. Best for logos, illustrations, and any visual asset your project needs.</p>
+        <p><strong>Grok (xAI)</strong> — grok.com — The most willing member of the team. When another AI hesitates on a particular passage or runs short on session time Grok steps in without complaint and delivers solid translation work. Best for bulk translation, compliance with specific requests, and picking up where others leave off.</p>
       </div>
+
       <div class="section-box">
         <h2>Free Publishing Tools</h2>
-        <p><strong>Google Docs</strong> — docs.google.com — Free
-          cloud-based word processor. This is where you write, store,
-          and polish your translation chapter by chapter. Your work is
-          automatically saved, accessible from any device, and never
-          lost. When a chapter is ready simply copy it from Google Docs
-          and paste it directly into SeaMonkey Composer — the formatting
-          transfers cleanly.</p>
-        <p><strong>Gmail</strong> — gmail.com — Free email from Google.
-          Set up a dedicated project email address for your translation
-          ministry. Since Gmail and Google Docs share the same Google
-          account you only need to sign up once to get both.</p>
-        <p><strong>SeaMonkey Composer</strong> — seamonkey-project.org —
-          Free WYSIWYG HTML editor. Works like Microsoft Word. Paste
-          your translated text, apply headings, save as HTML. No coding
-          knowledge required.</p>
-        <p><strong>GitHub Pages</strong> — github.com — Free website
-          hosting for anyone. Upload your HTML files and your
-          translation is live on the internet instantly, for free,
-          forever.</p>
-        <p><strong>The AENT HTML Template</strong> — Contact us at <a
-            href="mailto:aentproject@gmail.com">aentproject@gmail.com</a>
-          to receive the free template. It includes all styling,
-          navigation, and formatting — ready for your translated text.</p>
+        <p><strong>Google Docs</strong> — docs.google.com — Free cloud-based word processor. This is where you write, store, and polish your translation chapter by chapter. Your work is automatically saved, accessible from any device, and never lost. When a chapter is ready simply copy it from Google Docs and paste it directly into SeaMonkey Composer — the formatting transfers cleanly.</p>
+        <p><strong>Gmail</strong> — gmail.com — Free email from Google. Set up a dedicated project email address for your translation ministry. Since Gmail and Google Docs share the same Google account you only need to sign up once to get both.</p>
+        <p><strong>SeaMonkey Composer</strong> — seamonkey-project.org — Free HTML editor. Works like Microsoft Word. Paste your translated text, apply headings, save as HTML. No coding knowledge required.</p>
+        <p><strong>GitHub Pages</strong> — github.com — Free website hosting for anyone. Upload your HTML files and your translation is live on the internet instantly, for free, forever.</p>
+        <p><strong>The AENT HTML Template</strong> — Contact us at <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> to receive the free template. It includes all styling, navigation, and formatting — ready for your translated text.</p>
       </div>
+
       <div class="section-box">
         <h2>Contact Us</h2>
-        <p>If you are working on a plain language New Testament in any
-          language and want guidance, the HTML template, encouragement,
-          or just someone to walk through the process with you — reach
-          out. We want to help.</p>
+        <p>If you are working on a plain language New Testament in any language and want guidance, the HTML template, encouragement, or just someone to walk through the process with you — reach out. We want to help.</p>
         <p><a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></p>
       </div>
-      <div class="nav-title">Translations In Progress</div>
-      <p class="nav-subtitle">These language editions are planned or in
-        development. Links will become active as each language edition
-        is completed. Want to lead the translation for your language?
-        Contact us at aentproject@gmail.com.</p>
+
+      <div class="nav-title">Resources by Language</div>
+      <p class="nav-subtitle">Select your language below to see the full guide in that language. Every page is a complete translation of this resources guide — the vision, the principles, the step-by-step instructions, and the AI tools — all in your own language.</p>
+
       <div class="section-label">Africa</div>
-      <div class="lang-grid"> <span class="lang-btn coming"><span
-            class="native">Kiswahili</span><span class="english">Swahili</span></span>
-        <span class="lang-btn coming"><span class="native">Hausa</span><span
-            class="english">Hausa</span></span> <span class="lang-btn
-          coming"><span class="native">Yorùbá</span><span
-            class="english">Yoruba</span></span> <span class="lang-btn
-          coming"><span class="native">Igbo</span><span class="english">Igbo</span></span>
-        <span class="lang-btn coming"><span class="native">አማርኛ</span><span
-            class="english">Amharic</span></span> <span class="lang-btn
-          coming"><span class="native">isiZulu</span><span
-            class="english">Zulu</span></span> </div>
-      <div class="section-label">The Americas</div>
-      <div class="lang-grid"> <span class="lang-btn coming"><span
-            class="native">Español</span><span class="english">Spanish</span></span>
-        <span class="lang-btn coming"><span class="native">Português</span><span
-            class="english">Portuguese</span></span> <span
-          class="lang-btn coming"><span class="native">Français</span><span
-            class="english">French</span></span> <span class="lang-btn
-          coming"><span class="native">Kreyòl Ayisyen</span><span
-            class="english">Haitian Creole</span></span> </div>
-      <div class="section-label">Europe</div>
-      <div class="lang-grid"> <span class="lang-btn coming"><span
-            class="native">Deutsch</span><span class="english">German</span></span>
-        <span class="lang-btn coming"><span class="native">Italiano</span><span
-            class="english">Italian</span></span> <span class="lang-btn
-          coming"><span class="native">Русский</span><span
-            class="english">Russian</span></span> <span class="lang-btn
-          coming"><span class="native">Українська</span><span
-            class="english">Ukrainian</span></span> <span
-          class="lang-btn coming"><span class="native">Polski</span><span
-            class="english">Polish</span></span> <span class="lang-btn
-          coming"><span class="native">Română</span><span
-            class="english">Romanian</span></span> </div>
-      <div class="section-label">Middle East</div>
-      <div class="lang-grid"> <span class="lang-btn coming"><span
-            class="native">العربية</span><span class="english">Arabic</span></span>
-        <span class="lang-btn coming"><span class="native">فارسی</span><span
-            class="english">Persian / Farsi</span></span> <span
-          class="lang-btn coming"><span class="native">Türkçe</span><span
-            class="english">Turkish</span></span> <span class="lang-btn
-          coming"><span class="native">עברית</span><span class="english">Hebrew</span></span>
+      <div class="lang-grid">
+        <a class="lang-btn" href="resources-sw.html"><span class="native">Kiswahili</span><span class="english">Swahili</span></a>
+        <a class="lang-btn" href="resources-ha.html"><span class="native">Hausa</span><span class="english">Hausa</span></a>
+        <a class="lang-btn" href="resources-yo.html"><span class="native">Yorùbá</span><span class="english">Yoruba</span></a>
+        <a class="lang-btn" href="resources-ig.html"><span class="native">Igbo</span><span class="english">Igbo</span></a>
+        <a class="lang-btn" href="resources-am.html"><span class="native">አማርኛ</span><span class="english">Amharic</span></a>
+        <a class="lang-btn" href="resources-zu.html"><span class="native">isiZulu</span><span class="english">Zulu</span></a>
+        <a class="lang-btn" href="resources-so.html"><span class="native">Soomaali</span><span class="english">Somali</span></a>
       </div>
+
+      <div class="section-label">The Americas</div>
+      <div class="lang-grid">
+        <a class="lang-btn" href="resources-es.html"><span class="native">Español</span><span class="english">Spanish</span></a>
+        <a class="lang-btn" href="resources-pt.html"><span class="native">Português</span><span class="english">Portuguese</span></a>
+        <a class="lang-btn" href="resources-fr.html"><span class="native">Français</span><span class="english">French</span></a>
+        <a class="lang-btn" href="resources-ht.html"><span class="native">Kreyòl Ayisyen</span><span class="english">Haitian Creole</span></a>
+      </div>
+
+      <div class="section-label">Europe</div>
+      <div class="lang-grid">
+        <a class="lang-btn" href="resources-de.html"><span class="native">Deutsch</span><span class="english">German</span></a>
+        <a class="lang-btn" href="resources-it.html"><span class="native">Italiano</span><span class="english">Italian</span></a>
+        <a class="lang-btn" href="resources-ru.html"><span class="native">Русский</span><span class="english">Russian</span></a>
+        <a class="lang-btn" href="resources-uk.html"><span class="native">Українська</span><span class="english">Ukrainian</span></a>
+        <a class="lang-btn" href="resources-pl.html"><span class="native">Polski</span><span class="english">Polish</span></a>
+        <a class="lang-btn" href="resources-ro.html"><span class="native">Română</span><span class="english">Romanian</span></a>
+      </div>
+
+      <div class="section-label">Middle East</div>
+      <div class="lang-grid">
+        <a class="lang-btn" href="resources-ar.html"><span class="native">العربية</span><span class="english">Arabic</span></a>
+        <a class="lang-btn" href="resources-fa.html"><span class="native">فارسی</span><span class="english">Persian / Farsi</span></a>
+        <a class="lang-btn" href="resources-tr.html"><span class="native">Türkçe</span><span class="english">Turkish</span></a>
+        <a class="lang-btn" href="resources-he.html"><span class="native">עברית</span><span class="english">Hebrew</span></a>
+      </div>
+
       <div class="section-label">Asia &amp; Pacific</div>
-      <div class="lang-grid"> <span class="lang-btn coming"><span
-            class="native">हिन्दी</span><span class="english">Hindi</span></span>
-        <span class="lang-btn coming"><span class="native">বাংলা</span><span
-            class="english">Bengali</span></span> <span class="lang-btn
-          coming"><span class="native">中文</span><span class="english">Mandarin
-            Chinese</span></span> <span class="lang-btn coming"><span
-            class="native">日本語</span><span class="english">Japanese</span></span>
-        <span class="lang-btn coming"><span class="native">한국어</span><span
-            class="english">Korean</span></span> <span class="lang-btn
-          coming"><span class="native">Bahasa Indonesia</span><span
-            class="english">Indonesian</span></span> <span
-          class="lang-btn coming"><span class="native">Filipino</span><span
-            class="english">Filipino / Tagalog</span></span> <span
-          class="lang-btn coming"><span class="native">Tiếng Việt</span><span
-            class="english">Vietnamese</span></span> <span
-          class="lang-btn coming"><span class="native">ภาษาไทย</span><span
-            class="english">Thai</span></span> <span class="lang-btn
-          coming"><span class="native">မြန်မာဘာသာ</span><span
-            class="english">Burmese</span></span> </div>
-      <div style="text-align:center;"> <a class="home-btn"
-          href="index.html">⌂ Back to Home</a> </div>
-      <footer class="site-footer"> Free for everyone — share freely — to
-        the glory of God
-        <div class="contact-line">Contact: <a
-            href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></div>
+      <div class="lang-grid">
+        <a class="lang-btn" href="resources-hi.html"><span class="native">हिन्दी</span><span class="english">Hindi</span></a>
+        <a class="lang-btn" href="resources-bn.html"><span class="native">বাংলা</span><span class="english">Bengali</span></a>
+        <a class="lang-btn" href="resources-pa.html"><span class="native">ਪੰਜਾਬੀ</span><span class="english">Punjabi</span></a>
+        <a class="lang-btn" href="resources-zh.html"><span class="native">中文</span><span class="english">Mandarin Chinese</span></a>
+        <a class="lang-btn" href="resources-ja.html"><span class="native">日本語</span><span class="english">Japanese</span></a>
+        <a class="lang-btn" href="resources-ko.html"><span class="native">한국어</span><span class="english">Korean</span></a>
+        <a class="lang-btn" href="resources-id.html"><span class="native">Bahasa Indonesia</span><span class="english">Indonesian</span></a>
+        <a class="lang-btn" href="resources-ms.html"><span class="native">Bahasa Melayu</span><span class="english">Malay</span></a>
+        <a class="lang-btn" href="resources-fil.html"><span class="native">Filipino</span><span class="english">Filipino / Tagalog</span></a>
+        <a class="lang-btn" href="resources-vi.html"><span class="native">Tiếng Việt</span><span class="english">Vietnamese</span></a>
+        <a class="lang-btn" href="resources-th.html"><span class="native">ภาษาไทย</span><span class="english">Thai</span></a>
+        <a class="lang-btn" href="resources-my.html"><span class="native">မြန်မာဘာသာ</span><span class="english">Burmese</span></a>
+      </div>
+
+      <div class="request-note">
+        Don't see your language? Contact us at <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> and we will do our best to add it.
+      </div>
+
+      <div style="text-align:center;">
+        <a class="home-btn" href="index.html">&#8962; Back to Home</a>
+      </div>
+
+      <footer class="site-footer">
+        Free for everyone — share freely — to the glory of God
+        <div class="contact-line">Contact: <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></div>
       </footer>
+
     </div>
   </body>
 </html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zu">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Izinsiza — AENT</title>
+    <style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background-color: #f5f0e8; color: #2c1f0e; line-height: 1.8; }
+  .page-wrapper { max-width: 740px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+  .site-header { text-align: center; border-bottom: 2px solid #8b6914; padding-bottom: 1.5rem; margin-bottom: 1.75rem; }
+  .site-header a { text-decoration: none; }
+  .site-title { font-size: 2.2rem; font-weight: 700; color: #5c3a00; letter-spacing: 0.15em; margin-bottom: 0.25rem; }
+  .site-tagline { font-style: italic; font-size: 0.95rem; color: #6b4c1e; }
+  .lang-notice { background: #e8dfc8; border: 1px solid #c4a35a; border-radius: 6px; padding: 0.6rem 1rem; text-align: center; font-size: 0.85rem; color: #5c3a00; margin-bottom: 1.5rem; }
+  .lang-notice a { color: #8b6914; font-weight: 700; }
+  .page-title { font-size: 1.5rem; font-weight: 700; color: #5c3a00; text-align: center; margin-bottom: 0.5rem; letter-spacing: 0.05em; }
+  .page-subtitle { text-align: center; font-style: italic; color: #6b4c1e; font-size: 0.95rem; margin-bottom: 2rem; }
+  .section-box { background: #ede5d0; border-left: 4px solid #8b6914; padding: 1.25rem 1.5rem; border-radius: 0 6px 6px 0; margin-bottom: 1.5rem; }
+  .section-box h2 { font-size: 1.1rem; font-weight: 700; color: #5c3a00; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .section-box p { margin-bottom: 0.75rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box p:last-child { margin-bottom: 0; }
+  .section-box a { color: #8b6914; font-weight: 700; }
+  .section-box ul { margin: 0.5rem 0 0.75rem 1.5rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box ul li { margin-bottom: 0.5rem; }
+  .principle-box { background: #5c3a00; color: #f5f0e8; padding: 1.25rem 1.5rem; border-radius: 6px; margin-bottom: 1.5rem; }
+  .principle-box h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.75rem; letter-spacing: 0.08em; color: #f5f0e8; }
+  .principle-box ul { margin: 0 0 0 1.5rem; font-size: 0.95rem; color: #e8dfc8; }
+  .principle-box ul li { margin-bottom: 0.6rem; }
+  .principle-box p { font-size: 0.95rem; color: #e8dfc8; margin-bottom: 0.5rem; }
+  .step-block { margin-bottom: 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid #c4a35a; }
+  .step-block:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .step-header { margin-bottom: 0.5rem; }
+  .step-number { display: inline-block; background: #8b6914; color: #f5f0e8; font-weight: 700; font-size: 0.85rem; width: 28px; height: 28px; border-radius: 50%; text-align: center; line-height: 28px; margin-right: 0.5rem; vertical-align: middle; }
+  .step-title { font-size: 1rem; font-weight: 700; color: #5c3a00; vertical-align: middle; }
+  .step-block p { font-size: 0.95rem; color: #3a2a0e; margin-bottom: 0.5rem; }
+  .step-block p:last-child { margin-bottom: 0; }
+  .step-block a { color: #8b6914; font-weight: 700; }
+  .nav-title { font-size: 1.1rem; font-weight: 700; color: #5c3a00; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; border-bottom: 1px solid #c4a35a; padding-bottom: 0.5rem; }
+  .nav-subtitle { font-size: 0.88rem; color: #6b4c1e; font-style: italic; margin-bottom: 1.25rem; }
+  .section-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #8b6914; margin: 1.5rem 0 0.5rem; }
+  .lang-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; margin-bottom: 0.5rem; }
+  .lang-btn { display: block; padding: 0.7rem 0.9rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.95rem; text-align: center; cursor: default; opacity: 0.7; }
+  .lang-btn .native { font-size: 1.05rem; font-weight: 700; display: block; }
+  .lang-btn .english { font-size: 0.75rem; color: #8b6914; display: block; margin-top: 0.1rem; }
+  .lang-btn.coming::after { content: 'Kuyeza Maduze'; font-size: 0.65rem; color: #8b6914; display: block; margin-top: 0.2rem; font-style: italic; }
+  .home-btn { display: inline-block; margin-top: 2rem; padding: 0.6rem 1.2rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.92rem; }
+  .home-btn:hover { background: #ddd0b0; border-color: #8b6914; }
+  .site-footer { text-align: center; font-size: 0.8rem; color: #8b6914; border-top: 1px solid #c4a35a; padding-top: 1rem; margin-top: 2rem; font-style: italic; }
+  .contact-line { margin-top: 0.5rem; font-style: normal; }
+  .contact-line a { color: #8b6914; }
+  @media (max-width: 480px) { .site-title { font-size: 1.8rem; } .lang-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); } }
+</style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+
+      <header class="site-header">
+        <a href="index.html">
+          <div class="site-title">AENT</div>
+          <p class="site-tagline">Izwi lakho liyisibani ezinyaweni zami nokukhanya endleleni yami — IHubo 119:105</p>
+        </a>
+      </header>
+
+      <div class="lang-notice">
+        Leli khasi litholakala ngezinye izilimi. <a href="resources.html">Bheka ngesiNgisi</a>
+      </div>
+
+      <h1 class="page-title">Izinsiza</h1>
+      <p class="page-subtitle">Konke okudingekayo ukuletha iBhayibheli ngolimi olulula kubantu bakho — mahhala ngobuningi.<br>
+        <br>
+        Uma ungumuntu omutsha, unombuzo, noma ufuna ukucaciswa nje — qala lapha. Lezi zinsiza zikhona ukusiza ukuba uqonde — hhayi ukukubhacaza.</p>
+
+      <div class="section-box">
+        <h2>Umbono</h2>
+        <p>I-AENT — ITestamente Elisha lesiNgisi Elifikelekayo — yakhiwa ukuze kubonakaliswe into elula. ITestamente Elisha lonke lingahunyushwa ngolimi olucacile nolulula futhi lishicilelwe emhlabeni jikelele mahhala kusetshenziswa amathuluzi afinyelekeka nayimuphi umuntu. Akudingekani izimpawu zekolishi lezinkolo. Akudingekani isabelomali sokushicilela. Akudingekani isisekelo sobuchwepheshe.</p>
+        <p>Sakhile inguqulo yesiNgisi kusukela ekuqaleni kusetshenziswa kuphela amathuluzi e-AI amahhala, isoftware yamahhala, nokulondolozwa kwewebhu kwamahhala. Iphrojekthi yonke — ukuhunyushwa, iwebhusayithi, nokushicilela — akuzange kube nezindleko ngaphandle kwesikhathi nokwethembeka.</p>
+        <p>Manje sifuna ukukukhombisa ngokuthe ngqo ukuthi senze kanjani ukuze nawe ungenza into efanayo kubantu bakho ngolimi lwakho. Izwi likaNkulunkulu ngelelabo bonke. Emhlabeni kaNkulunkulu, sonke singabazalwane, izintombi namadodakazi, omakhelwane. Umuntu ngamunye emhlabeni ufanelwe ukulifunda ngolimi aluqondayo ngempela. Thanda uNkulunkulu ngenhliziyo yakho yonke, umphefumulo wakho, ingqondo yakho namandla akho. Sasaza izindaba zakhe ezinhle yonke indawo.</p>
+      </div>
+
+      <div class="principle-box">
+        <h2>Imigomo Yokuhumusha ye-AENT</h2>
+        <p>Lena imihlahlandlela esize yalandela kuzo zonke izahluko zazo zonke izincwadi. Ilandele futhi ukuhumusha kwakho kuzoba nokukhanya, ukucaca, nokubaleka okulula okufanayo nokuguqulo lwesiNgisi.</p>
+        <ul>
+          <li><strong>Ulimi olulula njalo.</strong> Uma umfundi wesikole samabanga aphakeme engakwazi ukuqonda umusho, ubhale kabusha. Ungasebenzisi ulimi lwesikhathi esidlule noma lwenkolo nxa kukhona igama elilula.</li>
+          <li><strong>Sebenzisa amagama aziwayo.</strong> Sebenzisa amagama abantu base bewazi — uJesu, hhayi uJeshua. UNkulunkulu, hhayi u-Elohimu. Inhloso inqumaqondo, hhayi ulwazi lwezifundiswa.</li>
+          <li><strong>Umqondo owodwa esigabeni ngasinye.</strong> Izigatshana ezinde neziyinkimbinkimbi zilahlekelwa abafundi. Zihlukane. Zigcine zicace.</li>
+          <li><strong>INKOSI ngezinhlamvu ezinkulu.</strong> Uma umbhalo ubhekisela egameni lomuntu siqu elingcwele likaNkulunkulu, bhala INKOSI ngezinhlamvu ezinkulu. Uma kuyisiqu esihloniphekile, bhala iNkosi ngezinhlamvu ezejwayelekile.</li>
+          <li><strong>Uhlaka lomngane.</strong> Lesi sihumusho siyisihlobo seBhayibheli ethandwa umfundi — hhayi isikhundla. Sho lokhu ngokucacile ekuqaleni kwencwadi ngayinye.</li>
+          <li><strong>Izwi elishisayo nelilula ukubaleka.</strong> Bhala ngendlela umngane othembekile angachaza ngayo iMibhalo — hhayi ngendlela isifundiswa esibhala ngayo amazwana.</li>
+          <li><strong>Hlala wethembeke nencazelo.</strong> Ulimi olulula akusho ukuchaza ngenkululeko. Yonke inketho yokuhumusha kufanele ihloniphe incazelo yombhalo wesiGreki wokuqala.</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <h2>Isinyathelo ngesinyathelo — Indlela Yokwakha Inguqulo Yakho</h2>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">1</span><span class="step-title">Dala I-akhawunti Yamahhala ye-Google</span></div>
+          <p>Iya ku-google.com bese udala i-akhawunti yamahhala. Le akhawunti eyodwa ikunika i-Gmail yekheli le-imeyili yephrojekthi yakho ne-Google Docs yokubhala futhi ugcine ukuhumusha kwakho. Nika i-imeyili yakho igama elicacile — njengo zuluentaent@gmail.com noma aentzulu@gmail.com.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">2</span><span class="step-title">Thola Umbhalo Womthombo Wakho</span></div>
+          <p>Udinga iTestamente Elisha lesiGreki elethembakala njengesisekelo. Sincoma iSBL Greek New Testament — sesha ku-intanethi "SBL Greek New Testament free PDF" ukuyithola. Awudingi ukufunda isiGreki wena mathupha. Amathuluzi e-AI azophetha ukuhumusha kusuka esiGrekini. Udinga kuphela umbhalo womthombo ukuba utholakale njengosigxivizo.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">3</span><span class="step-title">Vula i-Grok noma i-Gemini uqale Ukuhumusha</span></div>
+          <p>Iya ku-grok.com noma ku-gemini.google.com bese udala i-akhawunti yamahhala. Amathuluzi omabili ahle kakhulu emsebenzini wokuhumusha futhi anamazinga amahhala aphansi afanele akuholele kuyo yonke iTestamente Elisha ngaphandle kokuphela kwesikhathi seseshini.</p>
+          <p>Kuzo zonke izahluko, nika u-Grok noma u-Gemini umyalo onjengalona — "Sicela uhumushe uMathewu Isahluko 1 esuka kuTestamente Elisha lesiGreki uyise ku-isiZulu elilula ngokwalandela lezi zimiso — sebenzisa amagama aziwayo njenge-Jesu ne-Nkulunkulu, bhala ezingeni lesikole samabanga ephakeme, umqondo owodwa esigabeni ngasinye, izwi elishisayo nelomusa, INKOSI ngezinhlamvu ezinkulu uma ubhekisela egameni lomuntu siqu likaNkulunkulu. Lesi sihumusho siyisihlobo hhayi isikhundla seBhayibheli ezikhona."</p>
+          <p>Phinda ubuyekeze isahluko ngasinye ngohlolisiso. Lungisa noma yini engezwakali ngokwemvelo ngolimi lwakho. Namathisela isahluko esifeziwe ku-Google Docs. Sigcine. Qhubeka nesahluko esilandelayo.</p>
+          <p>Lapho ukuhumusha kwakho kufeziwe futhi ukulungele ukwakha iwebhusayithi yakho — yilapho ulethela u-Claude ku-claude.ai khona. U-Claude uhle kakhulu ekwakheni amakhasi e-HTML, ekuhlengiseni ulimi olulula, nasekuxazululeni izinkinga zobuchwepheshe. Sebenzisa ithuluzi ngalinye kulokho elenza kahle kakhulu.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">4</span><span class="step-title">Sebenza Incwadi nge-Incwadi</span></div>
+          <p>Humusha incwadi eyodwa ngesikhathi esisodwa. Qala ngeVangeli likaMarkus — yiyona Vangeli emfishane kakhulu nendaba ethe ngqo kakhulu. Ngemuva kokuba ufezel' uMarkus, uzoba nomqondo oqinile ngomsindo wokuhumusha futhi okunye kuzoya ngokushesha.</p>
+          <p>Gcina incwadi ngayinye efeziwe njengodokhumenti owehlukene ku-Google Docs. Umsebenzi wakho ugcinwa ngokuzenzakalela ehlwethini futhi ufinyelekeka kusukela kwanoma iyiphi idivayisi. Ngeke ulahleke.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">5</span><span class="step-title">Landa i-SeaMonkey Composer</span></div>
+          <p>Ukuze uhlele iwebhusayithi sonke sincoma i-SeaMonkey. Yithuluzi elinamandla lendlela yakudala elisebenza njengo-Microsoft Word ngokuphelele. Uma ungakwazi ukukopisha umbhalo kusuka kudokhumenti bese uwunamathisela efasiteleni elisha, sewunazo izakhono zokwakha iwebhusayithi ne-SeaMonkey. <strong>Akudingekani ulwazi lokubhala ikhodi</strong>.</p>
+          <p>Ukuqala, iya ku-seamonkey-project.org ulandele isoftware mahhala. Ngemuva kokufakwa, sebenzisa ithuluzi le-<strong>Composer</strong> ukuguqula umbhalo wakho we-Google Docs amakhasi wewebhu e-HTML achwepheshe.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">6</span><span class="step-title">Akha Amakhasi Akho e-HTML</span></div>
+          <p>Uma ufuna ukuqala iphrojekthi yakho yokuhumusha, xhumana nathi ku-<a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> ukuze uthole <strong>Isifanekiso se-HTML se-AENT samahhala</strong>. Leli fayela elibekwe kahle kusengaphambili liqinisekisa ukuthi isayithi lakho lihlala lihlanzekile, lihle, futhi lula ukubaleka kuwo omabili amakhompyutha namaselula — ngaphandle kokudinga ukufunda umugqa wekhodi oyedwa.</p>
+          <p>Isifanekiso siphetha umsebenzi wobuchwepheshe ngenxa yakho. Vula nje ku-<strong>SeaMonkey Composer</strong>, namathisela umbhalo wakho ohunyushiwe ku-<strong>Umbono Ojwayelekile</strong>, ubese uligcina njengefayela le-HTML. Sincoma ukwakha ifayela le-HTML elilodwa ngencwadi ngayinye eliqukethe zonke izahluko.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">7</span><span class="step-title">Setha i-GitHub Ushicilele</span></div>
+          <p>Iya ku-github.com bese udala i-akhawunti yamahhala. Dala indawo yokugcina entsha uvule i-GitHub Pages ezilungiselelweni zendawo yokugcina. Layisha wonke amafayela akho e-HTML. Ukuhumusha kwakho kuvela ngokushesha ku-intanethi — mahhala, unomphela, futhi kufinyelekeka nayimuphi umuntu emhlabeni jikelele.</p>
+          <p>Yilokho nje. Kusukela kulelo zinga nayimuphi umuntu othole iwebhusayithi yakho angafunda iTestamente Elisha ngolimi olulula ngolimi lwakho mahhala.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">8</span><span class="step-title">Xhumana Nathi — Sifuna Ukusiza</span></div>
+          <p>Awudingeki ukuqonda konke lokhu wedwa. Sidlulile kuso sonke isinyathelo sale nqubo futhi sifuna ukukusiza ukuphumelela. Thumela i-imeyili kithi ku-<a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> nezimpendulo, ukuthola isifanekiso se-HTML, noma nje ukusazisa ukuthi usebenza ekuhumusheni. Sizohambe nawe kuyo yonke inkqubo.</p>
+        </div>
+
+      </div>
+
+      <div class="section-box">
+        <h2>Amathuluzi e-AI Asincoma Wona</h2>
+        <p><strong>Claude (Anthropic)</strong> — claude.ai — Inhliziyo yephrojekthi ye-AENT. U-Claude uphethe ukuhumusha, ukuhlengisa ulimi olulula, futhi wakha wonke amakhasi e-HTML kuleli webhusayithi. U-Claude uhle kakhulu emazwini afipheleyo, ezwini, nasekukhombiseni incazelo ngolimi olushisayo nolulula ukubaleka oluphila njengomngane othembekile echaza iMibhalo kunokuba isifundiswa esinikeza inkulumo. Ngokuphelele ukuhlengisa ukuhumusha, ulimi olulula, ukwakha iwebhusayithi, nanoma yini edinga izwi lomuntu eliseduze. Uma uzosebenzisa ithuluzi le-AI elilodwa kuphela leli phrojekthi, makube u-Claude.</p>
+        <p><strong>Gemini (Google)</strong> — gemini.google.com — Ingcweti yocwaningo olujulile. Lapho umbuzo wokuhumusha udlula ngaphezu kobuso — lapho udinga ukuqonda ukuthi igama lesiGreki labe likhona ukusho ukuthini ohlangothini lwekhulu lokuqala, noma uxazulule impikiswano yenkolelo mayelana nengqikithi enkhulu — u-Gemini nguwena. Ngokuphelele ukufundiswa kwamagama, ucwaningo lwenkolelo, nezimpendulo ezijulile zokuhumusha.</p>
+        <p><strong>ChatGPT (OpenAI)</strong> — chatgpt.com — Umculi weqembu. U-ChatGPT wadala uphawu lwe-AENT — iBhayibheli evulekile ene-lamp nendlela yokukhanya egolide — futhi angakwenza okufanayo kuphrojekthi yakho. Cela i-PNG enesizinda esicacile ukuthola imiphumela emihle kakhulu ekhasini lakho lephepha lasendulo. Ngokuphelele izimpawu, izithombe, nanoma iyiphi impahla yokubukwa ephrojekthi yakho idinga yona.</p>
+        <p><strong>Grok (xAI)</strong> — grok.com — Ilungu elikulungele kakhulu eqenjini. Lapho i-AI enye inanela ingqikithi ethile noma isikhathi seseshini siphela, u-Grok ungena ngaphandle kokukhala futhi enza umsebenzi oqinile wokuhumusha. Ngokuphelele ukuhumusha kwamazinga aphezulu, ukuphendula izicelo ezikhethekile, nokuqhubeka lapho abanye bambile.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Amathuluzi Okushicilela Amahhala</h2>
+        <p><strong>Google Docs</strong> — docs.google.com — Umhleli wombhalo wamahhala osehlwethini. Lapha ubhala, ugcine, futhi uhlanza ukuhumusha kwakho isahluko ngesahluko. Umsebenzi wakho ugcinwa ngokuzenzakalela, ufinyelekeka kusukela kwanoma iyiphi idivayisi, futhi ngeke ulahleke. Lapho isahluko selilungile, senze ukukopisha kusuka ku-Google Docs bese unamathisela ngqo ku-SeaMonkey Composer — ifomathi iyiduduza ngokucwengekile.</p>
+        <p><strong>Gmail</strong> — gmail.com — I-imeyili yamahhala evela ku-Google. Setha ikheli le-imeyili elinikezwe inkonzo yakho yokuhumusha. Njengoba i-Gmail ne-Google Docs zabelana ne-akhawunti ye-Google efanayo, udinga ukubhalisa kanye nje ukuthola zombili.</p>
+        <p><strong>SeaMonkey Composer</strong> — seamonkey-project.org — Umhleli we-HTML wamahhala. Usebenza njengo-Microsoft Word. Namathisela umbhalo wakho ohunyushiwe, sebenzisa isihloko, ugcine njengo-HTML. Akudingekani ulwazi lokubhala ikhodi.</p>
+        <p><strong>GitHub Pages</strong> — github.com — Ukulondolozwa kwewebhu kwamahhala kuwo wonke umuntu. Layisha amafayela akho e-HTML futhi ukuhumusha kwakho kuba ku-intanethi ngokushesha mahhala kuze kube phakade.</p>
+        <p><strong>Isifanekiso se-HTML se-AENT</strong> — Xhumana nathi ku-<a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> ukuthola isifanekiso samahhala. Siqukethe zonke izitayela, ukuzulazula, kanye nokuhlelwa — silungele umbhalo wakho ohunyushiwe.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Xhumana Nathi</h2>
+        <p>Uma usebenza kuTestamente Elisha ngolimi olulula ngolimi lonke futhi ufuna ukuqondiswa, isifanekiso se-HTML, ukukhuthazwa, noma nje umuntu ozohamba nawe inkqubo — xhumana nathi. Sifuna ukusiza.</p>
+        <p><a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></p>
+      </div>
+
+      <div class="nav-title">Ukuhumusha Okuqhubekayo</div>
+      <p class="nav-subtitle">Lezi zinguqulo ngezinye izilimi zihlelelwe noma zikhuliswwa. Izixhumanisi zizosebenza njengoba inguqulo ngayinye iphothuliwe. Ufuna ukuhola ukuhumusha ngolimi lwakho? Xhumana nathi ku-aentproject@gmail.com.</p>
+
+      <div class="section-label">Afrika</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Kiswahili</span><span class="english">IsiSwahili</span></span>
+        <span class="lang-btn coming"><span class="native">Hausa</span><span class="english">IsiHausa</span></span>
+        <span class="lang-btn coming"><span class="native">Yorùbá</span><span class="english">IsiYoruba</span></span>
+        <span class="lang-btn coming"><span class="native">Igbo</span><span class="english">IsiIgbo</span></span>
+        <span class="lang-btn coming"><span class="native">አማርኛ</span><span class="english">IsiAmharic</span></span>
+        <span class="lang-btn coming"><span class="native">isiZulu</span><span class="english">IsiZulu</span></span>
+      </div>
+
+      <div class="section-label">America</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Español</span><span class="english">IsiSpanishi</span></span>
+        <span class="lang-btn coming"><span class="native">Português</span><span class="english">IsiPutukezi</span></span>
+        <span class="lang-btn coming"><span class="native">Français</span><span class="english">IsiFulentshi</span></span>
+        <span class="lang-btn coming"><span class="native">Kreyòl Ayisyen</span><span class="english">IsiKhreliyu</span></span>
+      </div>
+
+      <div class="section-label">Europe</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Deutsch</span><span class="english">IsiJalimane</span></span>
+        <span class="lang-btn coming"><span class="native">Italiano</span><span class="english">IsiTaliyane</span></span>
+        <span class="lang-btn coming"><span class="native">Русский</span><span class="english">IsiRashiya</span></span>
+        <span class="lang-btn coming"><span class="native">Українська</span><span class="english">IsiUkraine</span></span>
+        <span class="lang-btn coming"><span class="native">Polski</span><span class="english">IsiPolishi</span></span>
+        <span class="lang-btn coming"><span class="native">Română</span><span class="english">IsiRomania</span></span>
+      </div>
+
+      <div class="section-label">Mpumalanga Ephakathi</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">العربية</span><span class="english">IsiArabhu</span></span>
+        <span class="lang-btn coming"><span class="native">فارسی</span><span class="english">IsiFarsi</span></span>
+        <span class="lang-btn coming"><span class="native">Türkçe</span><span class="english">IsiTurkish</span></span>
+        <span class="lang-btn coming"><span class="native">עברית</span><span class="english">IsiHeberu</span></span>
+      </div>
+
+      <div class="section-label">Asia nase-Pacific</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">हिन्दी</span><span class="english">IsiHindi</span></span>
+        <span class="lang-btn coming"><span class="native">বাংলা</span><span class="english">IsiBengali</span></span>
+        <span class="lang-btn coming"><span class="native">中文</span><span class="english">IsiMandarin</span></span>
+        <span class="lang-btn coming"><span class="native">日本語</span><span class="english">IsiJapane</span></span>
+        <span class="lang-btn coming"><span class="native">한국어</span><span class="english">IsiKorea</span></span>
+        <span class="lang-btn coming"><span class="native">Bahasa Indonesia</span><span class="english">IsiIndonesia</span></span>
+        <span class="lang-btn coming"><span class="native">Filipino</span><span class="english">IsiFilipino</span></span>
+        <span class="lang-btn coming"><span class="native">Tiếng Việt</span><span class="english">IsiVietnam</span></span>
+        <span class="lang-btn coming"><span class="native">ภาษาไทย</span><span class="english">IsiThailand</span></span>
+        <span class="lang-btn coming"><span class="native">မြန်မာဘာသာ</span><span class="english">IsiBurmese</span></span>
+      </div>
+
+      <div style="text-align:center;">
+        <a class="home-btn" href="index.html">&#8962; Buyela Ekhaya</a>
+      </div>
+
+      <footer class="site-footer">
+        Mahhala kubo bonke &#8212; yabelana ngokukhululeka &#8212; ngenkazimulo kaNkulunkulu
+        <div class="contact-line">Xhumana: <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></div>
+      </footer>
+
+    </div>
+  </body>
+</html>

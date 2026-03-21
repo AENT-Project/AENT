@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="hi">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>संसाधन — AENT</title>
+    <style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Noto Sans Devanagari', 'Arial Unicode MS', Georgia, serif; background-color: #f5f0e8; color: #2c1f0e; line-height: 2.0; }
+  .page-wrapper { max-width: 740px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+  .site-header { text-align: center; border-bottom: 2px solid #8b6914; padding-bottom: 1.5rem; margin-bottom: 1.75rem; }
+  .site-header a { text-decoration: none; }
+  .site-title { font-size: 2.2rem; font-weight: 700; color: #5c3a00; letter-spacing: 0.15em; margin-bottom: 0.25rem; }
+  .site-tagline { font-style: italic; font-size: 0.95rem; color: #6b4c1e; }
+  .lang-notice { background: #e8dfc8; border: 1px solid #c4a35a; border-radius: 6px; padding: 0.6rem 1rem; text-align: center; font-size: 0.85rem; color: #5c3a00; margin-bottom: 1.5rem; }
+  .lang-notice a { color: #8b6914; font-weight: 700; }
+  .page-title { font-size: 1.5rem; font-weight: 700; color: #5c3a00; text-align: center; margin-bottom: 0.5rem; letter-spacing: 0.05em; }
+  .page-subtitle { text-align: center; font-style: italic; color: #6b4c1e; font-size: 0.95rem; margin-bottom: 2rem; }
+  .section-box { background: #ede5d0; border-left: 4px solid #8b6914; padding: 1.25rem 1.5rem; border-radius: 0 6px 6px 0; margin-bottom: 1.5rem; }
+  .section-box h2 { font-size: 1.1rem; font-weight: 700; color: #5c3a00; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .section-box p { margin-bottom: 0.75rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box p:last-child { margin-bottom: 0; }
+  .section-box a { color: #8b6914; font-weight: 700; }
+  .section-box ul { margin: 0.5rem 0 0.75rem 1.5rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box ul li { margin-bottom: 0.5rem; }
+  .principle-box { background: #5c3a00; color: #f5f0e8; padding: 1.25rem 1.5rem; border-radius: 6px; margin-bottom: 1.5rem; }
+  .principle-box h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.75rem; letter-spacing: 0.08em; color: #f5f0e8; }
+  .principle-box ul { margin: 0 0 0 1.5rem; font-size: 0.95rem; color: #e8dfc8; }
+  .principle-box ul li { margin-bottom: 0.6rem; }
+  .principle-box p { font-size: 0.95rem; color: #e8dfc8; margin-bottom: 0.5rem; }
+  .step-block { margin-bottom: 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid #c4a35a; }
+  .step-block:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .step-header { margin-bottom: 0.5rem; }
+  .step-number { display: inline-block; background: #8b6914; color: #f5f0e8; font-weight: 700; font-size: 0.85rem; width: 28px; height: 28px; border-radius: 50%; text-align: center; line-height: 28px; margin-right: 0.5rem; vertical-align: middle; }
+  .step-title { font-size: 1rem; font-weight: 700; color: #5c3a00; vertical-align: middle; }
+  .step-block p { font-size: 0.95rem; color: #3a2a0e; margin-bottom: 0.5rem; }
+  .step-block p:last-child { margin-bottom: 0; }
+  .step-block a { color: #8b6914; font-weight: 700; }
+  .nav-title { font-size: 1.1rem; font-weight: 700; color: #5c3a00; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; border-bottom: 1px solid #c4a35a; padding-bottom: 0.5rem; }
+  .nav-subtitle { font-size: 0.88rem; color: #6b4c1e; font-style: italic; margin-bottom: 1.25rem; }
+  .section-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #8b6914; margin: 1.5rem 0 0.5rem; }
+  .lang-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; margin-bottom: 0.5rem; }
+  .lang-btn { display: block; padding: 0.7rem 0.9rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.95rem; text-align: center; cursor: default; opacity: 0.7; }
+  .lang-btn .native { font-size: 1.05rem; font-weight: 700; display: block; }
+  .lang-btn .english { font-size: 0.75rem; color: #8b6914; display: block; margin-top: 0.1rem; }
+  .lang-btn.coming::after { content: 'जल्द आ रहा है'; font-size: 0.65rem; color: #8b6914; display: block; margin-top: 0.2rem; font-style: italic; }
+  .home-btn { display: inline-block; margin-top: 2rem; padding: 0.6rem 1.2rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.92rem; }
+  .home-btn:hover { background: #ddd0b0; border-color: #8b6914; }
+  .site-footer { text-align: center; font-size: 0.8rem; color: #8b6914; border-top: 1px solid #c4a35a; padding-top: 1rem; margin-top: 2rem; font-style: italic; }
+  .contact-line { margin-top: 0.5rem; font-style: normal; }
+  .contact-line a { color: #8b6914; }
+  @media (max-width: 480px) { .site-title { font-size: 1.8rem; } .lang-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); } }
+</style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+
+      <header class="site-header">
+        <a href="index.html">
+          <div class="site-title">AENT</div>
+          <p class="site-tagline">तेरा वचन मेरे पाँव के लिये दीपक, और मेरे मार्ग के लिये प्रकाश है — भजन संहिता ११९:१०५</p>
+        </a>
+      </header>
+
+      <div class="lang-notice">
+        यह पृष्ठ अन्य भाषाओं में उपलब्ध है। <a href="resources.html">अंग्रेज़ी में देखें</a>
+      </div>
+
+      <h1 class="page-title">संसाधन</h1>
+      <p class="page-subtitle">अपने लोगों तक सरल भाषा में पवित्र शास्त्र पहुँचाने के लिए आपको जो कुछ चाहिए — बिल्कुल मुफ़्त।<br>
+        <br>
+        यदि आप नए हैं, जिज्ञासु हैं, या केवल स्पष्टता की तलाश कर रहे हैं, तो यहाँ से शुरू करें। ये संसाधन आपको समझने में मदद करने के लिए हैं — आप पर बोझ डालने के लिए नहीं।</p>
+
+      <div class="section-box">
+        <h2>दृष्टिकोण</h2>
+        <p>AENT — सुलभ अंग्रेज़ी नया नियम — एक सरल बात साबित करने के लिए बनाया गया था। पूरे नए नियम का सरल, पठनीय भाषा में अनुवाद किया जा सकता है और ऐसे उपकरणों का उपयोग करके दुनिया को मुफ़्त में प्रकाशित किया जा सकता है जिन तक कोई भी पहुँच सकता है। किसी सेमिनरी की डिग्री की आवश्यकता नहीं। किसी प्रकाशन बजट की आवश्यकता नहीं। किसी तकनीकी पृष्ठभूमि की आवश्यकता नहीं।</p>
+        <p>हमने केवल मुफ़्त AI उपकरणों, मुफ़्त सॉफ़्टवेयर और मुफ़्त वेब होस्टिंग का उपयोग करके अंग्रेज़ी संस्करण को शुरू से बनाया। पूरा प्रोजेक्ट — अनुवाद, वेबसाइट और प्रकाशन — समय और ईमानदारी के अलावा कुछ नहीं लगा।</p>
+        <p>अब हम आपको ठीक वैसे दिखाना चाहते हैं जैसे हमने किया ताकि आप अपनी भाषा में अपने लोगों के लिए वही कर सकें। परमेश्वर का वचन सबका है। परमेश्वर की दुनिया में हम सब भाई, बहन और पड़ोसी हैं। धरती पर हर व्यक्ति इसे उस भाषा में पढ़ने का हकदार है जो वह वास्तव में समझता है। परमेश्वर से अपने पूरे दिल, आत्मा, मन और शक्ति से प्यार करें। उसकी शुभ सूचना को हर जगह फैलाएँ।</p>
+      </div>
+
+      <div class="principle-box">
+        <h2>AENT अनुवाद सिद्धांत</h2>
+        <p>ये वे दिशानिर्देश हैं जिनका हमने प्रत्येक पुस्तक के प्रत्येक अध्याय में पालन किया। इनका पालन करें और आपके अनुवाद में अंग्रेज़ी संस्करण जैसी ही गर्मजोशी, स्पष्टता और पठनीयता होगी।</p>
+        <ul>
+          <li><strong>हमेशा सरल भाषा।</strong> यदि माध्यमिक स्कूल का छात्र वाक्य को नहीं समझ सकता, तो इसे फिर से लिखें। जब एक सरल शब्द उपलब्ध हो तो कभी भी पुरानी या धार्मिक भाषा का उपयोग न करें।</li>
+          <li><strong>परिचित नामों का उपयोग करें।</strong> ऐसे नामों का उपयोग करें जिन्हें लोग पहले से जानते हैं — यीशु, न कि यहोशू। परमेश्वर, न कि एलोहीम। लक्ष्य समझ है, विद्वत्ता नहीं।</li>
+          <li><strong>प्रति वाक्य एक विचार।</strong> लंबे जटिल वाक्य पाठकों को खो देते हैं। उन्हें तोड़ें। उन्हें स्पष्ट रखें।</li>
+          <li><strong>प्रभु बड़े अक्षरों में।</strong> जब पाठ परमेश्वर के व्यक्तिगत पवित्र नाम का संदर्भ देता है तो प्रभु को बड़े अक्षरों में लिखें। जब यह सम्मान का शीर्षक हो तो सामान्य अक्षरों में प्रभु लिखें।</li>
+          <li><strong>साथी ढांचा।</strong> यह अनुवाद पाठक की पसंदीदा बाइबल का साथी है — प्रतिस्थापन नहीं। प्रत्येक पुस्तक की शुरुआत में यह स्पष्ट रूप से कहें।</li>
+          <li><strong>गर्म और पठनीय आवाज़।</strong> ऐसे लिखें जैसे एक भरोसेमंद दोस्त पवित्र शास्त्र की व्याख्या करेगा — न कि जैसे एक विद्वान टिप्पणी लिखता है।</li>
+          <li><strong>अर्थ के प्रति वफ़ादार रहें।</strong> सरल भाषा का मतलब ढीली व्याख्या नहीं है। प्रत्येक अनुवाद विकल्प को मूल यूनानी पाठ के अर्थ का सम्मान करना चाहिए।</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <h2>चरण दर चरण — अपना संस्करण कैसे बनाएँ</h2>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">1</span><span class="step-title">अपना मुफ़्त Google खाता बनाएँ</span></div>
+          <p>google.com पर जाएँ और एक मुफ़्त खाता बनाएँ। यह एक खाता आपको अपने प्रोजेक्ट की ईमेल पते के लिए Gmail और अपने अनुवाद को लिखने और संग्रहीत करने के लिए Google Docs देता है। अपने ईमेल को एक स्पष्ट नाम दें — जैसे hindiaent@gmail.com या aenthindi@gmail.com।</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">2</span><span class="step-title">अपना स्रोत पाठ प्राप्त करें</span></div>
+          <p>आपको आधार के रूप में एक विश्वसनीय यूनानी नया नियम चाहिए। हम SBL यूनानी नया नियम की सिफारिश करते हैं — इसे खोजने के लिए ऑनलाइन "SBL Greek New Testament free PDF" खोजें। आपको स्वयं यूनानी पढ़ने की आवश्यकता नहीं है। AI उपकरण यूनानी से अनुवाद संभाल लेंगे। आपको केवल संदर्भ के रूप में स्रोत पाठ उपलब्ध होना चाहिए।</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">3</span><span class="step-title">Grok या Gemini खोलें और अनुवाद शुरू करें</span></div>
+          <p>grok.com या gemini.google.com पर जाएँ और एक मुफ़्त खाता बनाएँ। दोनों उपकरण अनुवाद कार्य के लिए उत्कृष्ट हैं और उनके पास उदार मुफ़्त स्तर हैं जो आपको सत्र समय समाप्त हुए बिना पूरे नए नियम के माध्यम से ले जाएंगे।</p>
+          <p>प्रत्येक अध्याय के लिए Grok या Gemini को इस तरह का संकेत दें — "कृपया यूनानी नए नियम से मत्ती अध्याय 1 का इन सिद्धांतों का पालन करते हुए सरल हिंदी में अनुवाद करें — यीशु और परमेश्वर जैसे परिचित नामों का उपयोग करें, माध्यमिक स्तर पर लिखें, प्रति वाक्य एक विचार, गर्म और मैत्रीपूर्ण आवाज़, परमेश्वर के व्यक्तिगत नाम का संदर्भ देते समय प्रभु बड़े अक्षरों में। यह एक साथी अनुवाद है न कि मौजूदा बाइबल का प्रतिस्थापन।"</p>
+          <p>प्रत्येक अध्याय की सावधानी से समीक्षा करें। कुछ भी जो आपकी भाषा में स्वाभाविक नहीं लगता उसे समायोजित करें। पूर्ण अध्याय को Google Docs में पेस्ट करें। इसे सहेजें। अगले अध्याय पर जाएँ।</p>
+          <p>जब आपका अनुवाद पूरा हो जाए और आप अपनी वेबसाइट बनाने के लिए तैयार हों — तभी आप claude.ai पर Claude को लाते हैं। Claude HTML पृष्ठ बनाने, सरल भाषा को परिष्कृत करने और तकनीकी समस्याओं को हल करने में उत्कृष्ट है। प्रत्येक उपकरण का उपयोग उसके लिए करें जो वह सबसे अच्छा करता है।</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">4</span><span class="step-title">पुस्तक दर पुस्तक काम करें</span></div>
+          <p>एक समय में एक पुस्तक का अनुवाद करें। मरकुस के सुसमाचार से शुरू करें — यह सबसे छोटा सुसमाचार और सबसे सीधी कहानी है। मरकुस समाप्त करने के बाद आपको अनुवाद की आवाज़ की अच्छी समझ होगी और बाकी तेज़ी से आगे बढ़ेगा।</p>
+          <p>प्रत्येक पूर्ण पुस्तक को Google Docs में एक अलग दस्तावेज़ के रूप में संग्रहीत करें। आपका काम क्लाउड में स्वचालित रूप से सहेजा जाता है और किसी भी डिवाइस से एक्सेस किया जा सकता है। यह कभी खोएगा नहीं।</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">5</span><span class="step-title">SeaMonkey Composer डाउनलोड करें</span></div>
+          <p>सभी वेबसाइट संपादन के लिए हम SeaMonkey की सिफारिश करते हैं। यह एक शक्तिशाली पुराने ज़माने का उपकरण है जो Microsoft Word की तरह काम करता है। यदि आप किसी दस्तावेज़ से टेक्स्ट कॉपी करके एक नई विंडो में पेस्ट कर सकते हैं तो आपके पास SeaMonkey के साथ वेबसाइट बनाने के लिए पहले से ही कौशल है। <strong>शून्य कोडिंग ज्ञान</strong> की आवश्यकता है।</p>
+          <p>शुरू करने के लिए seamonkey-project.org पर जाएँ और सॉफ़्टवेयर मुफ़्त में डाउनलोड करें। एक बार इंस्टॉल होने के बाद अपने Google Docs टेक्स्ट को पेशेवर HTML वेब पृष्ठों में बदलने के लिए <strong>Composer</strong> उपकरण का उपयोग करें।</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">6</span><span class="step-title">अपने HTML पृष्ठ बनाएँ</span></div>
+          <p>यदि आप अपना अनुवाद प्रोजेक्ट शुरू करना चाहते हैं तो मुफ़्त <strong>AENT HTML टेम्पलेट</strong> प्राप्त करने के लिए हमसे <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> पर संपर्क करें। यह पूर्व-स्वरूपित फ़ाइल यह सुनिश्चित करती है कि आपकी साइट कंप्यूटर और फ़ोन दोनों पर साफ, पेशेवर और पढ़ने में आसान रहे — बिना कोड की एक पंक्ति सीखे।</p>
+          <p>टेम्पलेट आपके लिए "तकनीकी काम" संभालता है। बस इसे <strong>SeaMonkey Composer</strong> में खोलें, अपना अनुवादित पाठ <strong>सामान्य दृश्य</strong> में पेस्ट करें, और इसे HTML फ़ाइल के रूप में सहेजें। हम सभी अध्यायों वाली प्रत्येक पुस्तक के लिए एक HTML फ़ाइल बनाने की सिफारिश करते हैं।</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">7</span><span class="step-title">GitHub सेट करें और प्रकाशित करें</span></div>
+          <p>github.com पर जाएँ और एक मुफ़्त खाता बनाएँ। एक नया रिपॉजिटरी बनाएँ और रिपॉजिटरी सेटिंग में GitHub Pages सक्षम करें। अपनी सभी HTML फ़ाइलें अपलोड करें। आपका अनुवाद तुरंत इंटरनेट पर उपलब्ध है — मुफ़्त, स्थायी और दुनिया में किसी के लिए भी सुलभ।</p>
+          <p>बस इतना ही। उस क्षण से आपकी वेबसाइट खोजने वाला कोई भी व्यक्ति आपकी भाषा में सरल भाषा में नया नियम मुफ़्त में पढ़ सकता है।</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">8</span><span class="step-title">हमसे संपर्क करें — हम मदद करना चाहते हैं</span></div>
+          <p>आपको यह सब अकेले समझने की ज़रूरत नहीं है। हम इस प्रक्रिया के प्रत्येक चरण से गुज़रे हैं और आपको सफल होने में मदद करना चाहते हैं। प्रश्नों के साथ, HTML टेम्पलेट प्राप्त करने के लिए, या केवल हमें बताने के लिए कि आप एक अनुवाद पर काम कर रहे हैं, हमें <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> पर ईमेल करें। हम पूरी प्रक्रिया में आपके साथ चलेंगे।</p>
+        </div>
+
+      </div>
+
+      <div class="section-box">
+        <h2>हम जिन AI उपकरणों की अनुशंसा करते हैं</h2>
+        <p><strong>Claude (Anthropic)</strong> — claude.ai — AENT प्रोजेक्ट का दिल। Claude ने अनुवाद, सरल भाषा परिशोधन संभाला और इस वेबसाइट पर हर HTML पृष्ठ बनाया। Claude बारीकियों, स्वर और अर्थ को गर्म और पठनीय भाषा में व्यक्त करने में उत्कृष्ट है जो एक भरोसेमंद दोस्त की तरह महसूस होती है जो पवित्र शास्त्र की व्याख्या करता है। अनुवाद परिशोधन, सरल भाषा, वेबसाइट निर्माण और किसी भी चीज़ के लिए सबसे अच्छा जिसके लिए व्यक्तिगत और सुलभ आवाज़ की आवश्यकता है। यदि आप इस प्रोजेक्ट के लिए केवल एक AI उपकरण उपयोग करने जा रहे हैं तो वह Claude हो।</p>
+        <p><strong>Gemini (Google)</strong> — gemini.google.com — गहरे शोध का विशेषज्ञ। जब अनुवाद प्रश्न सतह से परे जाता है — जब आपको यह समझने की ज़रूरत होती है कि पहली सदी के संदर्भ में एक यूनानी शब्द का वास्तव में क्या मतलब था, या एक कठिन मार्ग के बारे में धार्मिक बहस सुलझाना हो — Gemini आपका उपकरण है। शब्द अध्ययन, धार्मिक शोध और तकनीकी अनुवाद प्रश्नों के लिए सबसे अच्छा।</p>
+        <p><strong>ChatGPT (OpenAI)</strong> — chatgpt.com — टीम का कलाकार। ChatGPT ने AENT लोगो बनाया — दीपक और सुनहरे प्रकाश के रास्ते के साथ खुली बाइबल — और आपके प्रोजेक्ट के लिए वही कर सकता है। अपने चर्मपत्र पृष्ठ पर सर्वोत्तम परिणामों के लिए पारदर्शी पृष्ठभूमि वाला PNG माँगें। लोगो, चित्र और आपके प्रोजेक्ट की किसी भी दृश्य संपत्ति के लिए सबसे अच्छा।</p>
+        <p><strong>Grok (xAI)</strong> — grok.com — टीम का सबसे इच्छुक सदस्य। जब कोई अन्य AI किसी विशेष मार्ग पर झिझकता है या सत्र समय समाप्त हो जाता है तो Grok बिना शिकायत किए कदम रखता है और ठोस अनुवाद कार्य प्रदान करता है। बड़े पैमाने पर अनुवाद, विशिष्ट अनुरोधों का पालन करने और जहाँ अन्य छोड़ते हैं वहाँ से जारी रखने के लिए सबसे अच्छा।</p>
+      </div>
+
+      <div class="section-box">
+        <h2>मुफ़्त प्रकाशन उपकरण</h2>
+        <p><strong>Google Docs</strong> — docs.google.com — मुफ़्त क्लाउड-आधारित वर्ड प्रोसेसर। यहाँ आप अपने अनुवाद को अध्याय दर अध्याय लिखते, संग्रहीत करते और परिष्कृत करते हैं। आपका काम स्वचालित रूप से सहेजा जाता है, किसी भी डिवाइस से सुलभ है और कभी खोएगा नहीं। जब कोई अध्याय तैयार हो तो बस Google Docs से कॉपी करें और सीधे SeaMonkey Composer में पेस्ट करें — स्वरूपण साफ़ तरीके से स्थानांतरित होता है।</p>
+        <p><strong>Gmail</strong> — gmail.com — Google का मुफ़्त ईमेल। अपनी अनुवाद सेवा के लिए एक समर्पित ईमेल पता सेट करें। चूँकि Gmail और Google Docs एक ही Google खाता साझा करते हैं इसलिए आपको दोनों पाने के लिए केवल एक बार साइन अप करना होगा।</p>
+        <p><strong>SeaMonkey Composer</strong> — seamonkey-project.org — मुफ़्त HTML संपादक। Microsoft Word की तरह काम करता है। अपना अनुवादित पाठ पेस्ट करें, शीर्षक लागू करें, HTML के रूप में सहेजें। कोडिंग ज्ञान की आवश्यकता नहीं।</p>
+        <p><strong>GitHub Pages</strong> — github.com — सभी के लिए मुफ़्त वेब होस्टिंग। अपनी HTML फ़ाइलें अपलोड करें और आपका अनुवाद तुरंत इंटरनेट पर मुफ़्त में हमेशा के लिए उपलब्ध है।</p>
+        <p><strong>AENT HTML टेम्पलेट</strong> — मुफ़्त टेम्पलेट प्राप्त करने के लिए हमसे <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> पर संपर्क करें। इसमें सभी स्टाइलिंग, नेविगेशन और फ़ॉर्मेटिंग शामिल है — आपके अनुवादित पाठ के लिए तैयार।</p>
+      </div>
+
+      <div class="section-box">
+        <h2>हमसे संपर्क करें</h2>
+        <p>यदि आप किसी भी भाषा में सरल भाषा में नया नियम पर काम कर रहे हैं और मार्गदर्शन, HTML टेम्पलेट, प्रोत्साहन चाहते हैं, या केवल कोई ऐसा चाहते हैं जो आपके साथ इस प्रक्रिया में चले — संपर्क करें। हम मदद करना चाहते हैं।</p>
+        <p><a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></p>
+      </div>
+
+      <div class="nav-title">अनुवाद प्रगति में</div>
+      <p class="nav-subtitle">ये अन्य भाषाओं में संस्करण योजनाबद्ध हैं या विकास में हैं। प्रत्येक संस्करण के पूरा होने पर लिंक सक्रिय हो जाएंगे। क्या आप अपनी भाषा में अनुवाद का नेतृत्व करना चाहते हैं? aentproject@gmail.com पर हमसे संपर्क करें।</p>
+
+      <div class="section-label">अफ्रीका</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Kiswahili</span><span class="english">स्वाहिली</span></span>
+        <span class="lang-btn coming"><span class="native">Hausa</span><span class="english">हौसा</span></span>
+        <span class="lang-btn coming"><span class="native">Yorùbá</span><span class="english">योरूबा</span></span>
+        <span class="lang-btn coming"><span class="native">Igbo</span><span class="english">इग्बो</span></span>
+        <span class="lang-btn coming"><span class="native">አማርኛ</span><span class="english">अम्हारिक</span></span>
+        <span class="lang-btn coming"><span class="native">isiZulu</span><span class="english">ज़ुलू</span></span>
+      </div>
+
+      <div class="section-label">अमेरिका</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Español</span><span class="english">स्पेनिश</span></span>
+        <span class="lang-btn coming"><span class="native">Português</span><span class="english">पुर्तगाली</span></span>
+        <span class="lang-btn coming"><span class="native">Français</span><span class="english">फ्रेंच</span></span>
+        <span class="lang-btn coming"><span class="native">Kreyòl Ayisyen</span><span class="english">हाइतियन क्रियोल</span></span>
+      </div>
+
+      <div class="section-label">यूरोप</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Deutsch</span><span class="english">जर्मन</span></span>
+        <span class="lang-btn coming"><span class="native">Italiano</span><span class="english">इतालवी</span></span>
+        <span class="lang-btn coming"><span class="native">Русский</span><span class="english">रूसी</span></span>
+        <span class="lang-btn coming"><span class="native">Українська</span><span class="english">यूक्रेनी</span></span>
+        <span class="lang-btn coming"><span class="native">Polski</span><span class="english">पोलिश</span></span>
+        <span class="lang-btn coming"><span class="native">Română</span><span class="english">रोमानियाई</span></span>
+      </div>
+
+      <div class="section-label">मध्य पूर्व</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">العربية</span><span class="english">अरबी</span></span>
+        <span class="lang-btn coming"><span class="native">فارسی</span><span class="english">फ़ारसी</span></span>
+        <span class="lang-btn coming"><span class="native">Türkçe</span><span class="english">तुर्की</span></span>
+        <span class="lang-btn coming"><span class="native">עברית</span><span class="english">हिब्रू</span></span>
+      </div>
+
+      <div class="section-label">एशिया और प्रशांत</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">हिन्दी</span><span class="english">हिंदी</span></span>
+        <span class="lang-btn coming"><span class="native">বাংলা</span><span class="english">बंगाली</span></span>
+        <span class="lang-btn coming"><span class="native">中文</span><span class="english">मंदारिन चीनी</span></span>
+        <span class="lang-btn coming"><span class="native">日本語</span><span class="english">जापानी</span></span>
+        <span class="lang-btn coming"><span class="native">한국어</span><span class="english">कोरियाई</span></span>
+        <span class="lang-btn coming"><span class="native">Bahasa Indonesia</span><span class="english">इंडोनेशियाई</span></span>
+        <span class="lang-btn coming"><span class="native">Filipino</span><span class="english">फिलिपिनो</span></span>
+        <span class="lang-btn coming"><span class="native">Tiếng Việt</span><span class="english">वियतनामी</span></span>
+        <span class="lang-btn coming"><span class="native">ภาษาไทย</span><span class="english">थाई</span></span>
+        <span class="lang-btn coming"><span class="native">မြန်မာဘာသာ</span><span class="english">बर्मी</span></span>
+      </div>
+
+      <div style="text-align:center;">
+        <a class="home-btn" href="index.html">&#8962; होम पर वापस जाएँ</a>
+      </div>
+
+      <footer class="site-footer">
+        सभी के लिए मुफ़्त &#8212; स्वतंत्र रूप से साझा करें &#8212; परमेश्वर की महिमा के लिए
+        <div class="contact-line">संपर्क: <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></div>
+      </footer>
+
+    </div>
+  </body>
+</html>

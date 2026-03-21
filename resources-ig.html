@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ig">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akụ na Ụba — AENT</title>
+    <style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background-color: #f5f0e8; color: #2c1f0e; line-height: 1.8; }
+  .page-wrapper { max-width: 740px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+  .site-header { text-align: center; border-bottom: 2px solid #8b6914; padding-bottom: 1.5rem; margin-bottom: 1.75rem; }
+  .site-header a { text-decoration: none; }
+  .site-title { font-size: 2.2rem; font-weight: 700; color: #5c3a00; letter-spacing: 0.15em; margin-bottom: 0.25rem; }
+  .site-tagline { font-style: italic; font-size: 0.95rem; color: #6b4c1e; }
+  .lang-notice { background: #e8dfc8; border: 1px solid #c4a35a; border-radius: 6px; padding: 0.6rem 1rem; text-align: center; font-size: 0.85rem; color: #5c3a00; margin-bottom: 1.5rem; }
+  .lang-notice a { color: #8b6914; font-weight: 700; }
+  .page-title { font-size: 1.5rem; font-weight: 700; color: #5c3a00; text-align: center; margin-bottom: 0.5rem; letter-spacing: 0.05em; }
+  .page-subtitle { text-align: center; font-style: italic; color: #6b4c1e; font-size: 0.95rem; margin-bottom: 2rem; }
+  .section-box { background: #ede5d0; border-left: 4px solid #8b6914; padding: 1.25rem 1.5rem; border-radius: 0 6px 6px 0; margin-bottom: 1.5rem; }
+  .section-box h2 { font-size: 1.1rem; font-weight: 700; color: #5c3a00; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .section-box p { margin-bottom: 0.75rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box p:last-child { margin-bottom: 0; }
+  .section-box a { color: #8b6914; font-weight: 700; }
+  .section-box ul { margin: 0.5rem 0 0.75rem 1.5rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box ul li { margin-bottom: 0.5rem; }
+  .principle-box { background: #5c3a00; color: #f5f0e8; padding: 1.25rem 1.5rem; border-radius: 6px; margin-bottom: 1.5rem; }
+  .principle-box h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.75rem; letter-spacing: 0.08em; color: #f5f0e8; }
+  .principle-box ul { margin: 0 0 0 1.5rem; font-size: 0.95rem; color: #e8dfc8; }
+  .principle-box ul li { margin-bottom: 0.6rem; }
+  .principle-box p { font-size: 0.95rem; color: #e8dfc8; margin-bottom: 0.5rem; }
+  .step-block { margin-bottom: 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid #c4a35a; }
+  .step-block:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .step-header { margin-bottom: 0.5rem; }
+  .step-number { display: inline-block; background: #8b6914; color: #f5f0e8; font-weight: 700; font-size: 0.85rem; width: 28px; height: 28px; border-radius: 50%; text-align: center; line-height: 28px; margin-right: 0.5rem; vertical-align: middle; }
+  .step-title { font-size: 1rem; font-weight: 700; color: #5c3a00; vertical-align: middle; }
+  .step-block p { font-size: 0.95rem; color: #3a2a0e; margin-bottom: 0.5rem; }
+  .step-block p:last-child { margin-bottom: 0; }
+  .step-block a { color: #8b6914; font-weight: 700; }
+  .nav-title { font-size: 1.1rem; font-weight: 700; color: #5c3a00; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; border-bottom: 1px solid #c4a35a; padding-bottom: 0.5rem; }
+  .nav-subtitle { font-size: 0.88rem; color: #6b4c1e; font-style: italic; margin-bottom: 1.25rem; }
+  .section-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #8b6914; margin: 1.5rem 0 0.5rem; }
+  .lang-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; margin-bottom: 0.5rem; }
+  .lang-btn { display: block; padding: 0.7rem 0.9rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.95rem; text-align: center; cursor: default; opacity: 0.7; }
+  .lang-btn .native { font-size: 1.05rem; font-weight: 700; display: block; }
+  .lang-btn .english { font-size: 0.75rem; color: #8b6914; display: block; margin-top: 0.1rem; }
+  .lang-btn.coming::after { content: 'Ọ na-abịa'; font-size: 0.65rem; color: #8b6914; display: block; margin-top: 0.2rem; font-style: italic; }
+  .home-btn { display: inline-block; margin-top: 2rem; padding: 0.6rem 1.2rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.92rem; }
+  .home-btn:hover { background: #ddd0b0; border-color: #8b6914; }
+  .site-footer { text-align: center; font-size: 0.8rem; color: #8b6914; border-top: 1px solid #c4a35a; padding-top: 1rem; margin-top: 2rem; font-style: italic; }
+  .contact-line { margin-top: 0.5rem; font-style: normal; }
+  .contact-line a { color: #8b6914; }
+  @media (max-width: 480px) { .site-title { font-size: 1.8rem; } .lang-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); } }
+</style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+
+      <header class="site-header">
+        <a href="index.html">
+          <div class="site-title">AENT</div>
+          <p class="site-tagline">Okwu Gị bụ ọkụ n'ụkwụ m na ìmè n'ụzọ m — Abụ Ọchịchọ 119:105</p>
+        </a>
+      </header>
+
+      <div class="lang-notice">
+        Ihe ọmụma a dị n'asụsụ ndị ọzọ. <a href="resources.html">Lee ya n'Bekee</a>
+      </div>
+
+      <h1 class="page-title">Akụ na Ụba</h1>
+      <p class="page-subtitle">Ihe niile ọ dị mkpa ka i wetara Akwụkwọ Nsọ n'asụsụ dị mfe ndị gị — n'efu kpamkpam.<br>
+        <br>
+        Ọ bụrụ na ị bụ onye ọhụrụ, ị nwere mmasị, ma ọ bụ ị chọ ntọala — bido ebe a. Akụ na ụba ndị a dị ebe a iji nyere gị aka ịghọta — ọ bụghị iji sọ gị mba.</p>
+
+      <div class="section-box">
+        <h2>Ọhụụ Anya</h2>
+        <p>AENT — Akwụkwọ Nsọ Ọhụrụ n'Bekee Dị Mfe — e wuru ya iji gosipụta ihe dị mfe. Akwụkwọ Nsọ Ọhụrụ nile nwere ike ịtụgharịa n'asụsụ doro anya, dị mfe ma bipụta ya n'efu n'ụwa nile site n'iji ngwa nke onye ọbụla nwere ike nweta. Ọ dịghị mkpa nwa akwụkwọ akadamike. Ọ dịghị mkpa ego maka mbipụta. Ọ dịghị mkpa ihe ndabere teknụzụ.</p>
+        <p>Anyị wuru ụdị Bekee site na mmalite na-eji naanị ngwa AI n'efu, ngwanrọ n'efu, na ngwọta weebụ n'efu. Oru nile — ntụgharị, webụsaịtị, na mbipụta — enweghị ọnụ ahịa ọ bụla naanị oge na ikwenye.</p>
+        <p>Ugbu a anyị chọọ igosi gị n'ụzọ ziri ezi otu anyị si eme ya ka ị nwee ike ime ihe ahụ ahụ maka ndị gị n'asụsụ gị. Okwu Chineke bụ nke onye nile. N'ụwa Chineke anyị nile bụ ụmụnna nwoke na nwanyị na ndị agbata obi. Onye ọbụla n'ụwa kwesịrị ịgụ ya n'asụsụ ha ghọtara n'ezie. Hụ Onyenwe Chineke gị n'obi gị nile, mkpụrụ obi gị, echiche gị na ike gị. Gbasaa ozi ọma ya n'ebe nile.</p>
+      </div>
+
+      <div class="principle-box">
+        <h2>Ụkpụrụ Ntụgharị AENT</h2>
+        <p>Ndị a bụ nduzi anyị soro n'isi nke ọbụla nke akwụkwọ ọbụla. Soro ha, ntụgharị gị ga-enwe otu àgwà dị mma, doro anya, na ike ọgụgụ dị ka ụdị Bekee.</p>
+        <ul>
+          <li><strong>Asụsụ dị mfe mgbe nile.</strong> Ọ bụrụ na nwa akwụkwọ sekọndrị enweghị ike ịghọta ahịrịokwu ahụ, dee ya ọzọ. Ọ dịghị mkpa iji asụsụ oge ochie ma ọ bụ okpukpe mgbe ọ dị asụsụ dị mfe.</li>
+          <li><strong>Jiri aha ndị a ma ama.</strong> Jiri aha ndị mmadụ maara ya tupu — Jisọs, ọ bụghị Yeshua. Chineke, ọ bụghị Elohi. Ebumnuche bụ ịghọta, ọ bụghị nkọwa akadamike.</li>
+          <li><strong>Echiche otu n'ahịrịokwu ọbụla.</strong> Ahịrịokwu ogologo na mgbagwoju anyị na-eme ka ndị ọgụgụ fụọ. Kewaa ha. Jide ha ka ha doro anya.</li>
+          <li><strong>ONYENWE ANYỊ n'mkpụrụedemede nnukwu.</strong> Mgbe ederede ahụ na-ezo aka na aha nke onwe ya nsọ nke Chineke, dee ONYENWE ANYỊ n'mkpụrụedemede nnukwu. Mgbe ọ bụ aha ọchịchọ, dee Onyenwe anyị n'mkpụrụedemede nkịtị.</li>
+          <li><strong>Usoro nke enyi.</strong> Ntụgharị a bụ enyi nke Baịbụl ndị ọgụgụ hụrụ n'anya — ọ bụghị nnọchi anya. Kwuo nke a n'ụzọ doro anya n'mmalite nke akwụkwọ ọbụla.</li>
+          <li><strong>Olu dị mfe na ike ọgụgụ.</strong> Dee n'ụzọ enyi ntụkwasị obi ga-akọwa Akwụkwọ Nsọ — ọ bụghị n'ụzọ ọkà mmụta na-ede nkọwa.</li>
+          <li><strong>Nọrọ n'eziokwu nke nkọwa.</strong> Asụsụ dị mfe abụghị nkọwa n'ụzọ ọhụrụ. Nhọrọ ntụgharị ọbụla kwesịrị ịtọọ olu nkọwa nke ederede Gris mbụ.</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <h2>Nzọụkwụ site na Nzọụkwụ — Otu esi Wuo Ụdị Gị</h2>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">1</span><span class="step-title">Mepụta Akaụntị Google Gị N'efu</span></div>
+          <p>Gaa na google.com wuo akaụntị n'efu. Akaụntị a naanị enye gị Gmail maka adreesị ozi-e nke ọrụ gị na Google Docs maka ide na ịchekwa ntụgharị gị. Nye ozi-e gị aha doro anya — dị ka igbontụgharị@gmail.com ma ọ bụ aentigbo@gmail.com.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">2</span><span class="step-title">Nweta Ederede Isi Gị</span></div>
+          <p>Ọ dị mkpa ị nwee Akwụkwọ Nsọ Ọhụrụ Gris a pụrụ ịdabere na ya dị ka ntọala. Anyị na-atụ aro SBL Greek New Testament — chọọ n'ịntanetị "SBL Greek New Testament free PDF" iji chọta ya. Ọ dịghị mkpa ịgụ Gris ị onwe gị. Ngwa AI ga-achịkwa ntụgharị si Gris. Ọ dị mkpa naanị ederede isi dịrị maka ntutu.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">3</span><span class="step-title">Meghe Grok ma ọ bụ Gemini Bido Ntụgharị</span></div>
+          <p>Gaa na grok.com ma ọ bụ gemini.google.com wuo akaụntị n'efu. Ngwa abụọ ndị a dị mma maka ọrụ ntụgharị ma nwee ọkwa n'efu na-atọ ụtọ nke ga-eduga gị n'Akwụkwọ Nsọ Ọhụrụ nile n'aghị ọ bụ na-eju oge oge.</p>
+          <p>Maka isi ọbụla nye Grok ma ọ bụ Gemini ntuziaka dị ka nke a — "Biko tụgharịa Matiu Isi 1 si Akwụkwọ Nsọ Ọhụrụ Gris gaa n'Igbo dị mfe na-esoro ụkpụrụ ndị a — jiri aha ndị a ma ama dị ka Jisọs na Chineke, dee n'ọkwa nwa sekọndrị, echiche otu n'ahịrịokwu ọbụla, olu dị mfe na nke enyi, ONYENWE ANYỊ n'mkpụrụedemede nnukwu mgbe i na-ezo aka na aha nke onwe ya nke Chineke. Ntụgharị a bụ enyi ọ bụghị nnọchi anya nke Baịbụl ndị dị ugbu a."</p>
+          <p>Nyochaa isi ọbụla n'nlebaanya. Dozie ihe ọ bụla na-adịghị mma n'asụsụ gị. Tinye isi emechara na Google Docs. Zachee ya. Gaa na isi ọzọ.</p>
+          <p>Mgbe ntụgharị gị mechara na ị dị njikere wuo webụsaịtị gị — oge ahụ ka ị wetara Claude na claude.ai. Claude dị mma n'ịwuo ihe ndọtị HTML, ịkwalite asụsụ dị mfe, na idozi nsogbu teknụzụ. Jiri ngwa ọbụla maka ihe ọ na-eme nke ọma.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">4</span><span class="step-title">Rụọ Ọrụ Akwụkwọ site na Akwụkwọ</span></div>
+          <p>Tụgharịa akwụkwọ otu n'oge. Bido na Oziọma Mak — ya bụ Oziọma kpachara ọcha nke ọzọ na akụkọ ihe mere eme kachasị tọọ ọla. Mgbe ị mechara Mak, ị ga-enwe nlezianya siri ike maka olu ntụgharị, ndị ọzọ ga-aga ọ ngwa ngwa.</p>
+          <p>Zachee akwụkwọ ọbụla emechara dị ka akwụkwọ ọzọ na Google Docs. Ọrụ gị na-echekwa n'onwe ya n'igwe ojii ma nwee ike ịnwetara ya si ngwa ọ bụla. Ọ gaghị efufu oge ọbụla.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">5</span><span class="step-title">Budata SeaMonkey Composer</span></div>
+          <p>Maka nhazi webụsaịtị nile, anyị na-atụ aro SeaMonkey. Ọ bụ ngwa ike nke oge ochie nke na-arụ ọrụ dịka Microsoft Word n'ụzọ ziri ezi. Ọ bụrụ na ị nwere ike ikopy ederede si akwụkwọ ma tinyeya n'windo ọhụrụ, ị nweela nkà maka ịwuo webụsaịtị na SeaMonkey. <strong>Nkà kọmputa dị ndị mfe</strong> ka achọrọ.</p>
+          <p>Iji bido, gaa na seamonkey-project.org budata ngwanrọ n'efu. Mgbe etinyere ya, jiri ngwa <strong>Composer</strong> iji tụgharịa ederede Google Docs gị gaa na ihe ndọtị weebụ HTML ọkachamara.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">6</span><span class="step-title">Wuo Ihe Ndọtị HTML Gị</span></div>
+          <p>Ọ bụrụ na ịchọọ ịbido ọrụ ntụgharị gị, kpọtụrụ anyị na <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> iji nweta <strong>Ụdị HTML AENT</strong> n'efu. Faịlụ emebere tupu a nke a na-ahụ na saịtị gị na-anọgide dị ọcha, ọkachamara, na ike ọgụgụ n'kọmputa na fọọnụ — n'aghị ịmụ lailai ahịrịkọmputa.</p>
+          <p>Ụdị a na-eme "ọrụ teknụzụ" maka gị. Meghe ya naanị na <strong>SeaMonkey Composer</strong>, tinyeya ederede gị atụgharịrị n'<strong>ọdịnaya Nkịtị</strong> ma zachee ya dị ka faịlụ HTML. Anyị na-atụ aro ịwuo faịlụ HTML otu maka akwụkwọ ọbụla nke nwere isi nile.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">7</span><span class="step-title">Hazie GitHub ma Bipụta</span></div>
+          <p>Gaa na github.com wuo akaụntị n'efu. Mepụta ebe nchekwa ọhụrụ ma kee GitHub Pages na ntọala ebe nchekwa. Bulite faịlụ HTML gị nile. Ntụgharị gị dị ozugbo n'ịntanetị — n'efu, ebighi ebi, onye ọbụla n'ụwa nwere ike nweta ya.</p>
+          <p>Nke ahụ bụ ya nile. Site n'oge ahụ, onye ọbụla chọtara webụsaịtị gị nwere ike ịgụ Akwụkwọ Nsọ Ọhụrụ n'asụsụ dị mfe n'asụsụ gị n'efu.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">8</span><span class="step-title">Kpọtụrụ Anyị — Anyị Chọọ Inyere Aka</span></div>
+          <p>Ọ dịghị mkpa ịchọpụta ihe nile a i onwe gị. Anyị agafe n'nzọụkwụ ọbụla nke usoro a anyị chọọ inyere gị aka iji rụọ ọrụ nke ọma. Zipu anyị ozi-e na <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> na ajụjụ ọjị, iji nweta ụdị HTML, ma ọ bụ naanị iji mee ka anyị mara na ị na-arụ ọrụ n'ntụgharị. Anyị ga-aga n'ụzọ gị gafere usoro nile.</p>
+        </div>
+
+      </div>
+
+      <div class="section-box">
+        <h2>Ngwa AI Anyị Na-atụ Aro</h2>
+        <p><strong>Claude (Anthropic)</strong> — claude.ai — Obi ọrụ AENT. Claude chịkọtara ntụgharị, ịkwalite asụsụ dị mfe, ma wuo ihe ndọtị HTML nile n'webụsaịtị a. Claude dị mma n'ụdịdị, olu, na ikwupụta nkọwa n'asụsụ dị mfe na ike ọgụgụ nke na-adị ka enyi ntụkwasị obi na-akọwa Akwụkwọ Nsọ kama ọkà mmụta na-akụzi. Kacha mma maka ịkwalite ntụgharị, asụsụ dị mfe, ịwuo webụsaịtị, na ihe ọ bụla chọrọ olu onwe mmadụ. Ọ bụrụ na ị ga-eji naanị ngwa AI otu maka ọrụ a, ka ya bụ Claude.</p>
+        <p><strong>Gemini (Google)</strong> — gemini.google.com — Ọkachamara nyocha omimi. Mgbe ajụjụ ntụgharị gafere n'elu — mgbe ọ dị mkpa ịghọta ihe okwu Gris pụtara n'ụzọ n'oge narị afọ mbụ ma ọ bụ idozi arụmụka nkwenye maka akara doro anya — Gemini bụ ngwa gị. Kacha mma maka ọmụmụ okwu, nyocha nkwenye, na ajụjụ ntụgharị teknụzụ.</p>
+        <p><strong>ChatGPT (OpenAI)</strong> — chatgpt.com — Onye ọrụ nka nke otu. ChatGPT wuru akara AENT — Baịbụl mepere emepe nwere ọkụ na ụzọ ìmè ọla edo — ma nwee ike ime otu ihe ahụ maka ọrụ gị. Rịọ PNG nwere azụ aghara iji nweta ihe ndị kachasị mma n'ihe ndọtị akwa gị. Kacha mma maka akara, ihe osise, na akụrụngwa anya ọ bụla ọrụ gị chọọ.</p>
+        <p><strong>Grok (xAI)</strong> — grok.com — Onye otu nke ọma kacha njide. Mgbe AI ọzọ nọ n'oge oge n'akara nke ọma ma ọ bụ oge oge ga-aga, Grok na-abanye n'aghị ọ bụ na-anọ n'ọnọdụ ma na-enye ọrụ ntụgharị siri ike. Kacha mma maka ntụgharị oke, ikwa n'aha ọ bụla, na ịgaa n'ihu ebe ndị ọzọ kwụsịrị.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Ngwa Mbipụta N'efu</h2>
+        <p><strong>Google Docs</strong> — docs.google.com — Onye nhazi ederede n'efu dabere na igwe ojii. Ebe a ka ị na-ede, zachee, na kwalite ntụgharị gị isi site na isi. Ọrụ gị na-echekwa n'onwe ya, nwere ike ịnwetara ya si ngwa ọ bụla, ma ga-adịghị efufu oge ọbụla. Mgbe isi dị njike, kopiị ya si Google Docs ma tinyeya n'ụzọ ozugbo na SeaMonkey Composer — usoro na-ebugharị n'ụzọ ọcha.</p>
+        <p><strong>Gmail</strong> — gmail.com — Ozi-e n'efu si Google. Hazie adreesị ozi-e a kọwara maka ọrụ ntụgharị gị. Dị ka Gmail na Google Docs na-ekekọrịta akaụntị Google otu, ọ dị mkpa ịdebanye aha otu naanị iji nweta ha abụọ.</p>
+        <p><strong>SeaMonkey Composer</strong> — seamonkey-project.org — Onye nhazi HTML n'efu. Na-arụ ọrụ dị ka Microsoft Word. Tinyeya ederede gị atụgharịrị, tinye isi, zachee dị ka HTML. Ọ dịghị mkpa nkà kọmputa.</p>
+        <p><strong>GitHub Pages</strong> — github.com — Ngwọta weebụ n'efu maka onye ọbụla. Bulite faịlụ HTML gị ma ntụgharị gị dị n'ịntanetị ozugbo n'efu ruo mgbede.</p>
+        <p><strong>Ụdị HTML AENT</strong> — Kpọtụrụ anyị na <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> iji nweta ụdị n'efu. Ọ nwere ụdị nile, nzọụkwụ, na nhazi — dị njike maka ederede gị atụgharịrị.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Kpọtụrụ Anyị</h2>
+        <p>Ọ bụrụ na ị na-arụ ọrụ n'Akwụkwọ Nsọ Ọhụrụ n'asụsụ dị mfe n'asụsụ ọ bụla ma chọọ nduzi, ụdị HTML, ike, ma ọ bụ naanị onye ọrụ nke ga-aga n'ụzọ gị n'usoro — kpọtụrụ anyị. Anyị chọọ inyere aka.</p>
+        <p><a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></p>
+      </div>
+
+      <div class="nav-title">Ntụgharị Na-Aga N'Ihu</div>
+      <p class="nav-subtitle">Ụdị ndị a n'asụsụ ndị ọzọ na-atọ ụtọ ma ọ bụ n'ụzọ mmepe. Njikọ ga-arụ ọrụ ka emecha ụdị ọbụla. Ị chọọ nduzi ntụgharị maka asụsụ gị? Kpọtụrụ anyị na aentproject@gmail.com.</p>
+
+      <div class="section-label">Afrịka</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Kiswahili</span><span class="english">Swahili</span></span>
+        <span class="lang-btn coming"><span class="native">Hausa</span><span class="english">Hausa</span></span>
+        <span class="lang-btn coming"><span class="native">Yorùbá</span><span class="english">Yoruba</span></span>
+        <span class="lang-btn coming"><span class="native">Igbo</span><span class="english">Igbo</span></span>
+        <span class="lang-btn coming"><span class="native">አማርኛ</span><span class="english">Amharịk</span></span>
+        <span class="lang-btn coming"><span class="native">isiZulu</span><span class="english">Zulu</span></span>
+      </div>
+
+      <div class="section-label">Amerịka</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Español</span><span class="english">Sipanish</span></span>
+        <span class="lang-btn coming"><span class="native">Português</span><span class="english">Pọtụgal</span></span>
+        <span class="lang-btn coming"><span class="native">Français</span><span class="english">Frenchi</span></span>
+        <span class="lang-btn coming"><span class="native">Kreyòl Ayisyen</span><span class="english">Kreyol Haiti</span></span>
+      </div>
+
+      <div class="section-label">Ụrọpụ</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Deutsch</span><span class="english">Jamani</span></span>
+        <span class="lang-btn coming"><span class="native">Italiano</span><span class="english">Ịtali</span></span>
+        <span class="lang-btn coming"><span class="native">Русский</span><span class="english">Rọshịa</span></span>
+        <span class="lang-btn coming"><span class="native">Українська</span><span class="english">Yukren</span></span>
+        <span class="lang-btn coming"><span class="native">Polski</span><span class="english">Polan</span></span>
+        <span class="lang-btn coming"><span class="native">Română</span><span class="english">Romania</span></span>
+      </div>
+
+      <div class="section-label">Ọwọwa Ụwa Etiti</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">العربية</span><span class="english">Arabu</span></span>
+        <span class="lang-btn coming"><span class="native">فارسی</span><span class="english">Peshi</span></span>
+        <span class="lang-btn coming"><span class="native">Türkçe</span><span class="english">Tọki</span></span>
+        <span class="lang-btn coming"><span class="native">עברית</span><span class="english">Hib ru</span></span>
+      </div>
+
+      <div class="section-label">Eshia na Pasifik</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">हिन्दी</span><span class="english">Hindi</span></span>
+        <span class="lang-btn coming"><span class="native">বাংলা</span><span class="english">Bengalị</span></span>
+        <span class="lang-btn coming"><span class="native">中文</span><span class="english">Mandarin</span></span>
+        <span class="lang-btn coming"><span class="native">日本語</span><span class="english">Japanị</span></span>
+        <span class="lang-btn coming"><span class="native">한국어</span><span class="english">Korea</span></span>
+        <span class="lang-btn coming"><span class="native">Bahasa Indonesia</span><span class="english">Indoneshia</span></span>
+        <span class="lang-btn coming"><span class="native">Filipino</span><span class="english">Filipin</span></span>
+        <span class="lang-btn coming"><span class="native">Tiếng Việt</span><span class="english">Vietnam</span></span>
+        <span class="lang-btn coming"><span class="native">ภาษาไทย</span><span class="english">Tailan</span></span>
+        <span class="lang-btn coming"><span class="native">မြန်မာဘာသာ</span><span class="english">Bọma</span></span>
+      </div>
+
+      <div style="text-align:center;">
+        <a class="home-btn" href="index.html">&#8962; Laghachi n'Ihe Ndọtị Mbụ</a>
+      </div>
+
+      <footer class="site-footer">
+        N'efu maka onye nile &#8212; kesaa n'nnwere onwe &#8212; maka ọchịchọ Chineke
+        <div class="contact-line">Kpọtụrụ: <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></div>
+      </footer>
+
+    </div>
+  </body>
+</html>

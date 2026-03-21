@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ha">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albarkatun — AENT</title>
+    <style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background-color: #f5f0e8; color: #2c1f0e; line-height: 1.8; }
+  .page-wrapper { max-width: 740px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+  .site-header { text-align: center; border-bottom: 2px solid #8b6914; padding-bottom: 1.5rem; margin-bottom: 1.75rem; }
+  .site-header a { text-decoration: none; }
+  .site-title { font-size: 2.2rem; font-weight: 700; color: #5c3a00; letter-spacing: 0.15em; margin-bottom: 0.25rem; }
+  .site-tagline { font-style: italic; font-size: 0.95rem; color: #6b4c1e; }
+  .lang-notice { background: #e8dfc8; border: 1px solid #c4a35a; border-radius: 6px; padding: 0.6rem 1rem; text-align: center; font-size: 0.85rem; color: #5c3a00; margin-bottom: 1.5rem; }
+  .lang-notice a { color: #8b6914; font-weight: 700; }
+  .page-title { font-size: 1.5rem; font-weight: 700; color: #5c3a00; text-align: center; margin-bottom: 0.5rem; letter-spacing: 0.05em; }
+  .page-subtitle { text-align: center; font-style: italic; color: #6b4c1e; font-size: 0.95rem; margin-bottom: 2rem; }
+  .section-box { background: #ede5d0; border-left: 4px solid #8b6914; padding: 1.25rem 1.5rem; border-radius: 0 6px 6px 0; margin-bottom: 1.5rem; }
+  .section-box h2 { font-size: 1.1rem; font-weight: 700; color: #5c3a00; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .section-box p { margin-bottom: 0.75rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box p:last-child { margin-bottom: 0; }
+  .section-box a { color: #8b6914; font-weight: 700; }
+  .section-box ul { margin: 0.5rem 0 0.75rem 1.5rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box ul li { margin-bottom: 0.5rem; }
+  .principle-box { background: #5c3a00; color: #f5f0e8; padding: 1.25rem 1.5rem; border-radius: 6px; margin-bottom: 1.5rem; }
+  .principle-box h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.75rem; letter-spacing: 0.08em; color: #f5f0e8; }
+  .principle-box ul { margin: 0 0 0 1.5rem; font-size: 0.95rem; color: #e8dfc8; }
+  .principle-box ul li { margin-bottom: 0.6rem; }
+  .principle-box p { font-size: 0.95rem; color: #e8dfc8; margin-bottom: 0.5rem; }
+  .step-block { margin-bottom: 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid #c4a35a; }
+  .step-block:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .step-header { margin-bottom: 0.5rem; }
+  .step-number { display: inline-block; background: #8b6914; color: #f5f0e8; font-weight: 700; font-size: 0.85rem; width: 28px; height: 28px; border-radius: 50%; text-align: center; line-height: 28px; margin-right: 0.5rem; vertical-align: middle; }
+  .step-title { font-size: 1rem; font-weight: 700; color: #5c3a00; vertical-align: middle; }
+  .step-block p { font-size: 0.95rem; color: #3a2a0e; margin-bottom: 0.5rem; }
+  .step-block p:last-child { margin-bottom: 0; }
+  .step-block a { color: #8b6914; font-weight: 700; }
+  .nav-title { font-size: 1.1rem; font-weight: 700; color: #5c3a00; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; border-bottom: 1px solid #c4a35a; padding-bottom: 0.5rem; }
+  .nav-subtitle { font-size: 0.88rem; color: #6b4c1e; font-style: italic; margin-bottom: 1.25rem; }
+  .section-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #8b6914; margin: 1.5rem 0 0.5rem; }
+  .lang-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; margin-bottom: 0.5rem; }
+  .lang-btn { display: block; padding: 0.7rem 0.9rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.95rem; text-align: center; cursor: default; opacity: 0.7; }
+  .lang-btn .native { font-size: 1.05rem; font-weight: 700; display: block; }
+  .lang-btn .english { font-size: 0.75rem; color: #8b6914; display: block; margin-top: 0.1rem; }
+  .lang-btn.coming::after { content: 'Nan Zuwa'; font-size: 0.65rem; color: #8b6914; display: block; margin-top: 0.2rem; font-style: italic; }
+  .home-btn { display: inline-block; margin-top: 2rem; padding: 0.6rem 1.2rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.92rem; }
+  .home-btn:hover { background: #ddd0b0; border-color: #8b6914; }
+  .site-footer { text-align: center; font-size: 0.8rem; color: #8b6914; border-top: 1px solid #c4a35a; padding-top: 1rem; margin-top: 2rem; font-style: italic; }
+  .contact-line { margin-top: 0.5rem; font-style: normal; }
+  .contact-line a { color: #8b6914; }
+  @media (max-width: 480px) { .site-title { font-size: 1.8rem; } .lang-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); } }
+</style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+
+      <header class="site-header">
+        <a href="index.html">
+          <div class="site-title">AENT</div>
+          <p class="site-tagline">Maganar ka fitila ce ga ƙafafuna da haske ga hanyata — Zabura 119:105</p>
+        </a>
+      </header>
+
+      <div class="lang-notice">
+        Wannan shafi yana da sauran harsunan. <a href="resources.html">Duba da Turanci</a>
+      </div>
+
+      <h1 class="page-title">Albarkatun</h1>
+      <p class="page-subtitle">Duk abin da kuke bukata don kawo Littafi Mai Tsarki cikin sauƙin harshe ga mutanenku — kyauta gaba ɗaya.<br>
+        <br>
+        Idan kai sabon mutum ne, ko kana da sha'awa, ko kana neman bayani kawai — fara a nan. Waɗannan albarkatun suna nan don taimaka maka ka fahimta — ba don damuwa da kai ba.</p>
+
+      <div class="section-box">
+        <h2>Hangen Nesa</h2>
+        <p>AENT — Sabon Alkawari na Turanci Mai Sauƙi — an gina shi don tabbatar da wani abu mai sauƙi. Ana iya fassara dukan Sabon Alkawari zuwa harshe mai tsabta da sauƙi kuma a buga shi ga duniya kyauta ta amfani da kayan aiki da kowa zai iya samun damar su. Ba a buƙatar digiri na makaranta ta addini. Ba a buƙatar kasafin kuɗi na bugawa. Ba a buƙatar ilimin fasaha.</p>
+        <p>Mun gina sigar Turanci daga farko ta amfani da kayan aiki na AI kyauta kawai, software kyauta, da hosting na yanar gizo kyauta. Dukan aikin — fassara, gidan yanar gizo, da bugawa — bai ƙunshi komai ba sai lokaci da aminci.</p>
+        <p>Yanzu muna son nuna maka daidai yadda muka yi shi don ka iya yin abu ɗaya don mutanenka cikin harsheka. Kalmar Allah ta kasance ta kowa. A duniyar Allah dukkanmu 'yan'uwa ne maza da mata da maƙwabta. Kowane mutum a duniya ya cancanci ya karanta ta cikin harshensa da ya fahimta da gaskiya. Ka ƙaunaci Ubangiji Allahnka da dukan zuciyarka da ranka da hankalinka da ƙarfinka. Ka watsa labari mafi kyau a ko'ina.</p>
+      </div>
+
+      <div class="principle-box">
+        <h2>Ƙa'idodin Fassara na AENT</h2>
+        <p>Waɗannan su ne jagororin da muka bi a kowane babi na kowane littafi. Bi su kuma fassararka za ta sami irin wannan inganci mai ɗumi, tsabta, da sauƙin karantawa kamar sigar Turanci.</p>
+        <ul>
+          <li><strong>Harshe mai sauƙi koyaushe.</strong> Idan ɗalibin makarantar sakandare ba zai iya fahimtar jumla ba, sake rubuta ta. Kada a taɓa amfani da harshe na da ko na addini lokacin da akwai kalma mai sauƙi.</li>
+          <li><strong>Yi amfani da sunaye masu sauƙi.</strong> Yi amfani da sunaye da mutane suka riga suka san su — Yesu, ba Yeshua ba. Allah, ba Elohu ba. Manufa ita ce fahimta, ba ilimin ilimi ba.</li>
+          <li><strong>Ra'ayi ɗaya a kowane jumla.</strong> Jimloli masu tsawo da rikitarwa suna sa masu karatu su ɓace. Raba su. Kiyaye su a fili.</li>
+          <li><strong>UBANGIJI da haruffa manya.</strong> Lokacin da rubutun ya yi nuni ga sunan sirri da tsarki na Allah, rubuta UBANGIJI da haruffa manya. Lokacin da taken girmamawa ne, rubuta Ubangiji da haruffa na yau da kullum.</li>
+          <li><strong>Tsarin abokin tafiya.</strong> Wannan fassara abokin tafiya ne na Baibul da mai karatu ya fi so — ba maye gurbi ba. Ka faɗi wannan a fili a farkon kowane littafi.</li>
+          <li><strong>Murya mai ɗumi kuma mai sauƙin karantawa.</strong> Ka rubuta yadda aboki mai aminci zai bayyana Nassosi — ba yadda masani zai rubuta sharhi ba.</li>
+          <li><strong>Ka kasance mai aminci ga ma'ana.</strong> Harshe mai sauƙi ba yana nufin ba'a fassara ba. Kowane zaɓin fassara ya kamata ya girmama ma'anar rubutun Girkanci na asali.</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <h2>Mataki bayan Mataki — Yadda Ake Gina Naku</h2>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">1</span><span class="step-title">Ƙirƙiri Asusun Google Kyauta</span></div>
+          <p>Je zuwa google.com ka ƙirƙiri asusun kyauta. Wannan asusun guda ɗaya yana ba ka Gmail don adireshin imel na aikin da Google Docs don rubuta da ajiye fassararka. Ka ba imelka suna mai fafali — kamar hausaaent@gmail.com ko aenthausa@gmail.com.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">2</span><span class="step-title">Sami Rubutun Asali</span></div>
+          <p>Kuna buƙatar Sabon Alkawari na Girkanci mai aminci a matsayin tushe. Muna ba da shawarar SBL Greek New Testament — bincika a kan layi "SBL Greek New Testament free PDF" don samo shi. Ba ka buƙatar karanta Girkanci da kanka. Kayan aikin AI za su gudanar da fassara daga Girkanci. Kuna buƙatar rubutun asali kawai da zai kasance a matsayin tunani.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">3</span><span class="step-title">Buɗe Grok ko Gemini ka Fara Fassara</span></div>
+          <p>Je zuwa grok.com ko gemini.google.com ka ƙirƙiri asusun kyauta. Kayan aikin biyu sun yi fice don aikin fassara kuma suna da matakin kyauta masu karimci waɗanda za su kai ka ta dukan Sabon Alkawari ba tare da ƙarewa lokacin zama ba.</p>
+          <p>Don kowane babi ka ba Grok ko Gemini umurni kamar wannan — "Don Allah ka fassara Matiyu Babi na 1 daga Sabon Alkawari na Girkanci zuwa sauƙin Hausa ta bin waɗannan ƙa'idodi — yi amfani da sunaye masu sauƙi kamar Yesu da Allah, rubuta a matakin ɗalibin sakandare, ra'ayi ɗaya a kowane jumla, murya mai ɗumi da abokantaka, UBANGIJI da haruffa manya lokacin nuni ga sunan sirri na Allah. Wannan fassara ce ta abokin tafiya ba maye gurbin Littafi Mai Tsarki da ya wanzu ba."</p>
+          <p>Sake duba kowane babi da kyau. Gyara duk abin da bai yi sauƙin ji a harsheka ba. Manne babi da ya kammala zuwa Google Docs. Adana shi. Je zuwa babi na gaba.</p>
+          <p>Lokacin da fassararka ta kammalu kuma kana shirye ka gina gidan yanar gizoka — wannan lokacin ne kake kawo Claude zuwa claude.ai. Claude yana fi kyau wajen gina shafukan HTML, daidaita harshe mai sauƙi, da warware matsalolin fasaha. Yi amfani da kowane kayan aiki don abin da ya fi kyau.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">4</span><span class="step-title">Yi Aiki Littafi bayan Littafi</span></div>
+          <p>Fassara littafi ɗaya a lokaci guda. Fara da Bisharar Markus — ita ce Bishara mafi gajarta da labarin da ya fi kai tsaye. Bayan kammala Markus za ka sami ƙarfin hali don muryar fassara kuma sauran za su tafi da sauri.</p>
+          <p>Adana kowane littafi da ya kammalu a matsayin takarda daban a Google Docs. Aikin ka ana adana shi ta atomatik a kan girgije kuma ana iya samun sa daga kowane na'ura. Ba za ta ɓace ba.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">5</span><span class="step-title">Zazzage SeaMonkey Composer</span></div>
+          <p>Don duk gyaran gidan yanar gizo muna ba da shawarar SeaMonkey. Kayan aiki ne na tsohon salo mai ƙarfi wanda ke aiki daidai kamar Microsoft Word. Idan zaka iya kwafa rubutu daga takarda ka manne shi a cikin taga sabuwa to kana da ƙwarewar gina gidan yanar gizo tare da SeaMonkey. <strong>Babu buƙatar ilimin lamba</strong>.</p>
+          <p>Don fara je zuwa seamonkey-project.org ka zazzage software kyauta. Bayan shigar da shi yi amfani da kayan aikin <strong>Composer</strong> don canza rubutun Google Docs zuwa shafukan yanar gizo na HTML na ƙwararru.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">6</span><span class="step-title">Gina Shafukan HTML Naka</span></div>
+          <p>Idan kana son fara aikin fassarar naka tuntuɓe mu a <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> don samun <strong>Samfurin HTML na AENT</strong> kyauta. Wannan fayil ɗin da aka tsara tun farko yana tabbatar da cewa rukunin yanar gizonka ya kasance tsabta ƙwararru kuma mai sauƙin karantawa a kan kwamfutoci da wayoyin hannu — ba tare da buƙatar koyon lamba ɗaya ba.</p>
+          <p>Samfurin yana gudanar da "aikin fasaha" a gare ka. Buɗe shi a <strong>SeaMonkey Composer</strong> kawai ka manne rubutunka da aka fassara cikin <strong>ra'ayin Al'ada</strong> ka adana shi a matsayin fayil ɗin HTML. Muna ba da shawarar gina fayil ɗin HTML guda ɗaya don kowane littafi wanda ya ƙunshi duk babi-babi.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">7</span><span class="step-title">Saita GitHub ka Buga</span></div>
+          <p>Je zuwa github.com ka ƙirƙiri asusun kyauta. Ƙirƙiri ma'ajiya sabuwa ka kunna GitHub Pages a cikin saitunan ma'ajiyar. Loda duk fayilolin HTML naka. Fassararka tana a kan layi nan da nan a intanet — kyauta ta dumu kuma kowa a duniya zai iya samun ta.</p>
+          <p>Haka kawai. Daga wannan lokaci kowa da ya sami gidan yanar gizoka zai iya karanta Sabon Alkawari a harshe mai sauƙi da harsheka kyauta.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">8</span><span class="step-title">Tuntuɓe Mu — Muna Son Taimakawa</span></div>
+          <p>Ba ka buƙatar gano duk wannan da kanka. Mun bi kowane matakin wannan tsari kuma muna son taimaka maka ka yi nasara. Aika mana da imel zuwa <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> tare da tambayoyi don samun samfurin HTML ko kawai don sanar da mu cewa kana aiki kan fassara. Za mu tafi tare da kai ta cikin dukan tsarin.</p>
+        </div>
+
+      </div>
+
+      <div class="section-box">
+        <h2>Kayan Aikin AI Da Muke Ba da Shawarar Su</h2>
+        <p><strong>Claude (Anthropic)</strong> — claude.ai — Zuciyar aikin AENT. Claude ya gudanar da fassara, daidaita harshe mai sauƙi, kuma ya gina duk shafukan HTML a kan wannan gidan yanar gizo. Claude yana fi kyau a yankuna, sautin murya, da bayyana ma'ana a harshe mai ɗumi da sauƙin karantawa wanda yake ji kamar aboki mai aminci yana bayyana Nassosi maimakon masani yana bayar da lacca. Mafi kyau don daidaita fassara, harshe mai sauƙi, gina gidan yanar gizo, da duk wani abu da ke buƙatar murya ta mutum ɗan adam. Idan za ka yi amfani da kayan aiki ɗaya na AI kawai don wannan aikin bari ya kasance Claude.</p>
+        <p><strong>Gemini (Google)</strong> — gemini.google.com — Ƙwararre kan bincike mai zurfi. Lokacin da tambayar fassara ta wuce saman — lokacin da kuke buƙatar fahimtar abin da kalmar Girkanci ta nufa a zahiri a mahallin ƙarni na farko ko warware muhawara ta tauhidi game da wani gefe mai wahala — Gemini shine kayan aiki. Mafi kyau don karatun kalma bincike na tauhidi da tambayoyin fassara na fasaha.</p>
+        <p><strong>ChatGPT (OpenAI)</strong> — chatgpt.com — Ɗan fasaha na ƙungiyar. ChatGPT ya ƙirƙiri tambarin AENT — Baibul a buɗe tare da fitila da hanyar hasken zinari — kuma zai iya yin abu ɗaya don aikin ka. Nemi PNG mai bango mai gari don sakamako mafi kyau a kan shafin fatar tumakin ka. Mafi kyau don tamburori zane-zane da duk wani kadarar gani da aikin ka ke buƙata.</p>
+        <p><strong>Grok (xAI)</strong> — grok.com — Memba mafi son taimakawa na ƙungiyar. Lokacin da wani AI ya yi jinkiri kan wani gefe na musamman ko lokacin zaman ya ƙare Grok ya shigo ba tare da ƙorafin ba kuma ya isar da aikin fassara mai ƙarfi. Mafi kyau don fassara mai yawa bin buƙatun takamaiman da ci gaba daga inda wasu suka tsaya.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Kayan Aikin Buga Kyauta</h2>
+        <p><strong>Google Docs</strong> — docs.google.com — Mai sarrafa rubutu kyauta na girgije. Nan ne kake rubuta ajiye da kuma gyarawa fassararka babi babi. Aikin ka ana adana shi ta atomatik ana iya samun sa daga kowane na'ura kuma ba za ta ɓace ba. Lokacin da babi ya shirya kawai kwafe shi daga Google Docs ka manne shi kai tsaye a SeaMonkey Composer — tsarin ya canja a tsabta.</p>
+        <p><strong>Gmail</strong> — gmail.com — Imel kyauta daga Google. Saita adireshin imel na musamman don aikin fassararka. Tun da Gmail da Google Docs suna raba asusun Google ɗaya kawai kana buƙatar yin rajista sau ɗaya don samun dukkansu.</p>
+        <p><strong>SeaMonkey Composer</strong> — seamonkey-project.org — Mai gyara HTML kyauta. Yana aiki kamar Microsoft Word. Manne rubutunka da aka fassara ka yi amfani da taken ka adana a matsayin HTML. Babu buƙatar ilimin lamba.</p>
+        <p><strong>GitHub Pages</strong> — github.com — Hosting na yanar gizo kyauta ga kowa. Loda fayilolin HTML naka kuma fassararka tana kan layi nan da nan kyauta har abada.</p>
+        <p><strong>Samfurin HTML na AENT</strong> — Tuntuɓe mu a <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> don samun samfurin kyauta. Ya ƙunshi duk salon kewayawa da tsari — shirye don rubutunka da aka fassara.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Tuntuɓe Mu</h2>
+        <p>Idan kana aiki kan Sabon Alkawari a harshe mai sauƙi a kowane harshe kuma kuna son jagora samfurin HTML ƙarfafawa ko kawai wani da zai tafi tare da ku a cikin tsarin — tuntuɓe mu. Muna son taimakawa.</p>
+        <p><a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></p>
+      </div>
+
+      <div class="nav-title">Fassarori Da Ke Ci Gaba</div>
+      <p class="nav-subtitle">Waɗannan bugu a cikin sauran harsunan ana shirya su ko suna cikin haɓakawa. Hanyoyin haɗin gwiwar za su kunna yayin da aka kammala kowane bugu. Kuna son jagorantar fassara don harsheku? Tuntuɓe mu a aentproject@gmail.com.</p>
+
+      <div class="section-label">Afirka</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Kiswahili</span><span class="english">Swahili</span></span>
+        <span class="lang-btn coming"><span class="native">Hausa</span><span class="english">Hausa</span></span>
+        <span class="lang-btn coming"><span class="native">Yorùbá</span><span class="english">Yoruba</span></span>
+        <span class="lang-btn coming"><span class="native">Igbo</span><span class="english">Igbo</span></span>
+        <span class="lang-btn coming"><span class="native">አማርኛ</span><span class="english">Amharic</span></span>
+        <span class="lang-btn coming"><span class="native">isiZulu</span><span class="english">Zulu</span></span>
+      </div>
+
+      <div class="section-label">Amurka</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Español</span><span class="english">Sipanishi</span></span>
+        <span class="lang-btn coming"><span class="native">Português</span><span class="english">Fotigis</span></span>
+        <span class="lang-btn coming"><span class="native">Français</span><span class="english">Faransanci</span></span>
+        <span class="lang-btn coming"><span class="native">Kreyòl Ayisyen</span><span class="english">Creole na Haiti</span></span>
+      </div>
+
+      <div class="section-label">Turai</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Deutsch</span><span class="english">Jamusanci</span></span>
+        <span class="lang-btn coming"><span class="native">Italiano</span><span class="english">Italiyanci</span></span>
+        <span class="lang-btn coming"><span class="native">Русский</span><span class="english">Rashanci</span></span>
+        <span class="lang-btn coming"><span class="native">Українська</span><span class="english">Yukreniyanci</span></span>
+        <span class="lang-btn coming"><span class="native">Polski</span><span class="english">Polandiyanci</span></span>
+        <span class="lang-btn coming"><span class="native">Română</span><span class="english">Romaniyanci</span></span>
+      </div>
+
+      <div class="section-label">Gabas ta Tsakiya</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">العربية</span><span class="english">Larabci</span></span>
+        <span class="lang-btn coming"><span class="native">فارسی</span><span class="english">Farisanci</span></span>
+        <span class="lang-btn coming"><span class="native">Türkçe</span><span class="english">Turkiyanci</span></span>
+        <span class="lang-btn coming"><span class="native">עברית</span><span class="english">Ibraniyanci</span></span>
+      </div>
+
+      <div class="section-label">Asiya da Pacific</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">हिन्दी</span><span class="english">Hindi</span></span>
+        <span class="lang-btn coming"><span class="native">বাংলা</span><span class="english">Bangalanci</span></span>
+        <span class="lang-btn coming"><span class="native">中文</span><span class="english">Mandarin</span></span>
+        <span class="lang-btn coming"><span class="native">日本語</span><span class="english">Japananci</span></span>
+        <span class="lang-btn coming"><span class="native">한국어</span><span class="english">Koriyanci</span></span>
+        <span class="lang-btn coming"><span class="native">Bahasa Indonesia</span><span class="english">Indonesiyanci</span></span>
+        <span class="lang-btn coming"><span class="native">Filipino</span><span class="english">Filipinanci</span></span>
+        <span class="lang-btn coming"><span class="native">Tiếng Việt</span><span class="english">Vietnamanci</span></span>
+        <span class="lang-btn coming"><span class="native">ภาษาไทย</span><span class="english">Tailandanci</span></span>
+        <span class="lang-btn coming"><span class="native">မြန်မာဘာသာ</span><span class="english">Burmanci</span></span>
+      </div>
+
+      <div style="text-align:center;">
+        <a class="home-btn" href="index.html">&#8962; Koma Shafin Gida</a>
+      </div>
+
+      <footer class="site-footer">
+        Kyauta ga kowa &#8212; raba cikin 'yanci &#8212; don ɗaukaka Allah
+        <div class="contact-line">Tuntuɓe: <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></div>
+      </footer>
+
+    </div>
+  </body>
+</html>

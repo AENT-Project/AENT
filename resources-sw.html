@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="sw">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rasilimali — AENT</title>
+    <style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background-color: #f5f0e8; color: #2c1f0e; line-height: 1.8; }
+  .page-wrapper { max-width: 740px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+  .site-header { text-align: center; border-bottom: 2px solid #8b6914; padding-bottom: 1.5rem; margin-bottom: 1.75rem; }
+  .site-header a { text-decoration: none; }
+  .site-title { font-size: 2.2rem; font-weight: 700; color: #5c3a00; letter-spacing: 0.15em; margin-bottom: 0.25rem; }
+  .site-tagline { font-style: italic; font-size: 0.95rem; color: #6b4c1e; }
+  .lang-notice { background: #e8dfc8; border: 1px solid #c4a35a; border-radius: 6px; padding: 0.6rem 1rem; text-align: center; font-size: 0.85rem; color: #5c3a00; margin-bottom: 1.5rem; }
+  .lang-notice a { color: #8b6914; font-weight: 700; }
+  .page-title { font-size: 1.5rem; font-weight: 700; color: #5c3a00; text-align: center; margin-bottom: 0.5rem; letter-spacing: 0.05em; }
+  .page-subtitle { text-align: center; font-style: italic; color: #6b4c1e; font-size: 0.95rem; margin-bottom: 2rem; }
+  .section-box { background: #ede5d0; border-left: 4px solid #8b6914; padding: 1.25rem 1.5rem; border-radius: 0 6px 6px 0; margin-bottom: 1.5rem; }
+  .section-box h2 { font-size: 1.1rem; font-weight: 700; color: #5c3a00; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .section-box p { margin-bottom: 0.75rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box p:last-child { margin-bottom: 0; }
+  .section-box a { color: #8b6914; font-weight: 700; }
+  .section-box ul { margin: 0.5rem 0 0.75rem 1.5rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box ul li { margin-bottom: 0.5rem; }
+  .principle-box { background: #5c3a00; color: #f5f0e8; padding: 1.25rem 1.5rem; border-radius: 6px; margin-bottom: 1.5rem; }
+  .principle-box h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.75rem; letter-spacing: 0.08em; color: #f5f0e8; }
+  .principle-box ul { margin: 0 0 0 1.5rem; font-size: 0.95rem; color: #e8dfc8; }
+  .principle-box ul li { margin-bottom: 0.6rem; }
+  .principle-box p { font-size: 0.95rem; color: #e8dfc8; margin-bottom: 0.5rem; }
+  .step-block { margin-bottom: 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid #c4a35a; }
+  .step-block:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .step-header { margin-bottom: 0.5rem; }
+  .step-number { display: inline-block; background: #8b6914; color: #f5f0e8; font-weight: 700; font-size: 0.85rem; width: 28px; height: 28px; border-radius: 50%; text-align: center; line-height: 28px; margin-right: 0.5rem; vertical-align: middle; }
+  .step-title { font-size: 1rem; font-weight: 700; color: #5c3a00; vertical-align: middle; }
+  .step-block p { font-size: 0.95rem; color: #3a2a0e; margin-bottom: 0.5rem; }
+  .step-block p:last-child { margin-bottom: 0; }
+  .step-block a { color: #8b6914; font-weight: 700; }
+  .nav-title { font-size: 1.1rem; font-weight: 700; color: #5c3a00; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; border-bottom: 1px solid #c4a35a; padding-bottom: 0.5rem; }
+  .nav-subtitle { font-size: 0.88rem; color: #6b4c1e; font-style: italic; margin-bottom: 1.25rem; }
+  .section-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #8b6914; margin: 1.5rem 0 0.5rem; }
+  .lang-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; margin-bottom: 0.5rem; }
+  .lang-btn { display: block; padding: 0.7rem 0.9rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.95rem; text-align: center; cursor: default; opacity: 0.7; }
+  .lang-btn .native { font-size: 1.05rem; font-weight: 700; display: block; }
+  .lang-btn .english { font-size: 0.75rem; color: #8b6914; display: block; margin-top: 0.1rem; }
+  .lang-btn.coming::after { content: 'Inakuja Hivi Karibuni'; font-size: 0.65rem; color: #8b6914; display: block; margin-top: 0.2rem; font-style: italic; }
+  .home-btn { display: inline-block; margin-top: 2rem; padding: 0.6rem 1.2rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.92rem; }
+  .home-btn:hover { background: #ddd0b0; border-color: #8b6914; }
+  .site-footer { text-align: center; font-size: 0.8rem; color: #8b6914; border-top: 1px solid #c4a35a; padding-top: 1rem; margin-top: 2rem; font-style: italic; }
+  .contact-line { margin-top: 0.5rem; font-style: normal; }
+  .contact-line a { color: #8b6914; }
+  @media (max-width: 480px) { .site-title { font-size: 1.8rem; } .lang-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); } }
+</style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+
+      <header class="site-header">
+        <a href="index.html">
+          <div class="site-title">AENT</div>
+          <p class="site-tagline">Neno lako ni taa ya miguu yangu na nuru ya njia yangu — Zaburi 119:105</p>
+        </a>
+      </header>
+
+      <div class="lang-notice">
+        Ukurasa huu unapatikana kwa lugha nyingine. <a href="resources.html">Soma kwa Kiingereza</a>
+      </div>
+
+      <h1 class="page-title">Rasilimali</h1>
+      <p class="page-subtitle">Kila kitu unachohitaji kuleta Maandiko kwa lugha rahisi kwa watu wako — bure kabisa.<br>
+        <br>
+        Ikiwa wewe ni mpya, una udadisi, au unatafuta ufafanuzi tu, anza hapa. Rasilimali hizi ziko hapa kukusaidia kuelewa — si kukuzidishia mzigo.</p>
+
+      <div class="section-box">
+        <h2>Maono</h2>
+        <p>AENT — Agano Jipya kwa Kiingereza Rahisi — ilijengwa kuthibitisha kitu rahisi. Agano Jipya lote linaweza kutafsiriwa kwa lugha wazi na rahisi na kuchapishwa duniani kote bure kwa kutumia zana ambazo mtu yeyote anaweza kuzifikia. Hakuna shahada ya seminari inayohitajika. Hakuna bajeti ya uchapishaji inayohitajika. Hakuna ujuzi wa kiufundi unaohitajika.</p>
+        <p>Tulijenga toleo la Kiingereza kutoka mwanzo kwa kutumia zana za akili bandia za bure tu, programu za bure, na mwenyeji wa wavuti bure. Mradi mzima — tafsiri, tovuti, na uchapishaji — haukugharimu chochote isipokuwa muda na uaminifu.</p>
+        <p>Sasa tunataka kukuonyesha jinsi tulivyofanya hasa ili uweze kufanya vivyo hivyo kwa watu wako kwa lugha yako. Neno la Mungu ni la kila mtu. Katika ulimwengu wa Mungu sisi sote ni ndugu, dada, na majirani. Kila mtu duniani anastahili kulisoma kwa lugha anayoielewa kweli. Mpende Mungu kwa moyo wako wote, nafsi yako, akili yako, na nguvu zako. Eneza habari njema yake kila mahali.</p>
+      </div>
+
+      <div class="principle-box">
+        <h2>Kanuni za Tafsiri za AENT</h2>
+        <p>Hizi ndizo mwongozo tulioufuata kwa kila sura ya kila kitabu. Zifuate na tafsiri yako itakuwa na ubora huo huo wa joto, uwazi, na usomekaji kama toleo la Kiingereza.</p>
+        <ul>
+          <li><strong>Lugha rahisi daima.</strong> Ikiwa mwanafunzi wa shule ya sekondari hawezi kuelewa sentensi, iandike upya. Usitumie kamwe lugha ya kizamani au ya kidini wakati kuna neno rahisi.</li>
+          <li><strong>Tumia majina yanayojulikana.</strong> Tumia majina ambayo watu wanayajua tayari — Yesu, si Yeshua. Mungu, si Elohimu. Lengo ni uelewa, si ujuzi wa kisomi.</li>
+          <li><strong>Wazo moja kwa kila sentensi.</strong> Sentensi ndefu na ngumu hupoteza wasomaji. Zigawanye. Ziweke wazi.</li>
+          <li><strong>BWANA kwa herufi kubwa.</strong> Wakati maandishi yanarejelea jina la kibinafsi na takatifu la Mungu tumia BWANA kwa herufi kubwa. Wakati ni cheo cha heshima tumia Bwana kwa herufi za kawaida.</li>
+          <li><strong>Mfumo wa usaidizi.</strong> Tafsiri hii ni nyongeza ya Biblia inayopendwa na msomaji — si mbadala. Sema hilo wazi mwanzoni mwa kila kitabu.</li>
+          <li><strong>Sauti ya joto na inayosomeka.</strong> Andika kama vile rafiki wa kuaminiwa angeeleza Maandiko — si kama msomi anayeandika maoni.</li>
+          <li><strong>Kuwa mwaminifu kwa maana.</strong> Lugha rahisi haimaanishi maelezo huru. Kila chaguo la tafsiri linapaswa kuheshimu maana ya maandishi ya asili ya Kigiriki.</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <h2>Hatua kwa Hatua — Jinsi ya Kujenga Toleo Lako Mwenyewe</h2>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">1</span><span class="step-title">Fungua Akaunti Yako ya Bure ya Google</span></div>
+          <p>Nenda kwa google.com na uunde akaunti ya bure. Akaunti hii inakupa Gmail kwa anwani ya barua pepe ya mradi wako na Google Docs kwa kuandika na kuhifadhi tafsiri yako. Ipe barua pepe yako jina wazi — kama swahiliaent@gmail.com au aentswahili@gmail.com.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">2</span><span class="step-title">Pata Maandishi Yako ya Chanzo</span></div>
+          <p>Unahitaji Agano Jipya la Kigiriki la kuaminika kama msingi. Tunapendekeza Agano Jipya la Kigiriki la SBL — tafuta mtandaoni "SBL Greek New Testament free PDF" kulipata. Huhitaji kusoma Kigiriki mwenyewe. Zana za akili bandia zitashughulikia tafsiri kutoka Kigiriki. Unahitaji tu maandishi ya chanzo yaliyopo kama kumbukumbu.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">3</span><span class="step-title">Fungua Grok au Gemini na Anza Kutafsiri</span></div>
+          <p>Nenda kwa grok.com au gemini.google.com na uunde akaunti ya bure. Zana zote mbili ni bora kwa kazi ya tafsiri na zina viwango vya bure vya ukarimu ambavyo vitakupeleka kupitia Agano Jipya lote bila kukosa muda wa kikao.</p>
+          <p>Kwa kila sura mpe Grok au Gemini maelekezo kama haya — "Tafadhali tafsiri Mathayo Sura ya 1 kutoka Agano Jipya la Kigiriki hadi Kiswahili rahisi ukifuata kanuni hizi — tumia majina yanayojulikana kama Yesu na Mungu, andika kwa kiwango cha mwanafunzi wa sekondari, wazo moja kwa kila sentensi, sauti ya joto na ya kirafiki, BWANA kwa herufi kubwa unaporejelea jina la kibinafsi la Mungu. Hii ni tafsiri ya nyongeza si mbadala wa Biblia zilizopo."</p>
+          <p>Kagua kila sura kwa makini. Rekebisha chochote ambacho hakisikiki kwa kawaida katika lugha yako. Bandika sura iliyokamilika kwenye Google Docs. Ihifadhi. Endelea na sura inayofuata.</p>
+          <p>Tafsiri yako ikisha kukamilika na uko tayari kujenga tovuti yako — hapo ndipo unamleta Claude kwenye claude.ai. Claude anabora katika kujenga kurasa za HTML, kuboresha lugha rahisi, na kutatua matatizo ya kiufundi. Tumia kila zana kwa kile inachofanya bora.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">4</span><span class="step-title">Fanya Kazi Kitabu kwa Kitabu</span></div>
+          <p>Tafsiri kitabu kimoja kwa wakati mmoja. Anza na Injili ya Marko — ni Injili fupi zaidi na hadithi ya moja kwa moja zaidi. Ukisha Marko utakuwa na ufahamu mzuri wa sauti ya tafsiri na mengine yatakwenda kwa kasi zaidi.</p>
+          <p>Hifadhi kila kitabu kilichokamilika kama hati tofauti kwenye Google Docs. Kazi yako inahifadhiwa kiotomatiki kwenye wingu na inaweza kufikiwa kutoka kifaa chochote. Haitapotea kamwe.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">5</span><span class="step-title">Pakua SeaMonkey Composer</span></div>
+          <p>Kwa uhariri wote wa tovuti tunapendekeza SeaMonkey. Ni zana yenye nguvu ya mtindo wa zamani ambayo inafanya kazi kama Microsoft Word. Ukiweza kunakili maandishi kutoka hati na kuibandika kwenye dirisha jipya tayari una ujuzi wa kujenga tovuti na SeaMonkey. Inakuheshimia umbizo wako, inaweka mambo rahisi, na inahitaji <strong>ujuzi wa sifuri wa uandishi wa msimbo</strong>.</p>
+          <p>Ili kuanza nenda kwa seamonkey-project.org na upakue programu bure. Ikisha kusakinishwa tumia zana ya <strong>Composer</strong> kubadilisha maandishi yako ya Google Docs kuwa kurasa za wavuti za HTML za kitaalamu.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">6</span><span class="step-title">Jenga Kurasa Zako za HTML</span></div>
+          <p>Ukitaka kuanza mradi wako wa tafsiri wasiliana nasi kwa <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> kupokea <strong>Kiolezo cha HTML cha AENT</strong> bure. Faili hii iliyoundwa mapema inahakikisha tovuti yako inabaki safi, ya kitaalamu, na rahisi kusoma kwenye kompyuta na simu — bila kuhitaji kujifunza mstari mmoja wa msimbo.</p>
+          <p>Kiolezo kinashughulikia "kazi ya kiufundi" kwa ajili yako. Ifungue tu kwenye <strong>SeaMonkey Composer</strong>, bandika maandishi yako yaliyotafsiriwa kwenye <strong>mtazamo wa Kawaida</strong>, na uihifadhi kama faili ya HTML. Tunapendekeza kujenga faili moja ya HTML kwa kila kitabu inayojumuisha sura zote.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">7</span><span class="step-title">Sanidi GitHub na Uchapishe</span></div>
+          <p>Nenda kwa github.com na uunde akaunti ya bure. Unda hifadhi mpya na uwezeshe GitHub Pages katika mipangilio ya hifadhi. Pakia faili zako zote za HTML. Tafsiri yako ipo mara moja kwenye mtandao — bure, ya kudumu, na inayoweza kufikiwa na mtu yeyote duniani.</p>
+          <p>Hiyo ndiyo yote. Tangu wakati huo mtu yeyote anayepata tovuti yako anaweza kusoma Agano Jipya kwa lugha rahisi katika lugha yako bure.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">8</span><span class="step-title">Wasiliana Nasi — Tunataka Kusaidia</span></div>
+          <p>Huhitaji kugundua hili peke yako. Tumepitia kila hatua ya mchakato huu na tunataka kukusaidia kufanikiwa. Tutumie barua pepe kwa <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> na maswali yako, kupokea kiolezo cha HTML, au tu kutujulisha kwamba unafanya kazi kwenye tafsiri. Tutakutembelea katika mchakato mzima.</p>
+        </div>
+
+      </div>
+
+      <div class="section-box">
+        <h2>Zana za AI Tunazozipendekeza</h2>
+        <p><strong>Claude (Anthropic)</strong> — claude.ai — Moyo wa mradi wa AENT. Claude alishughulikia tafsiri, uborefu wa lugha rahisi, na alijenga kila ukurasa wa HTML kwenye tovuti hii. Claude anabora katika nuances, sauti, na kueleza maana kwa lugha ya joto na inayosomeka ambayo inahisi kama rafiki wa kuaminiwa anayeeleza Maandiko badala ya msomi anayetoa mihadhara. Bora kwa uborefu wa tafsiri, lugha rahisi, ujenzi wa tovuti, na chochote kinachohitaji sauti ya kibinafsi na ya karibu. Ukitumia zana moja tu ya AI kwa mradi huu iwe Claude.</p>
+        <p><strong>Gemini (Google)</strong> — gemini.google.com — Mtaalamu wa utafiti wa kina. Swali la tafsiri linapokwenda zaidi ya uso — unapohitaji kuelewa neno la Kigiriki lilimaanisha nini katika muktadha wake wa karne ya kwanza au kutatua mjadala wa kidini kuhusu kifungu kigumu — Gemini ni zana yako. Bora kwa masomo ya maneno, utafiti wa kidini, na maswali ya kiufundi ya tafsiri.</p>
+        <p><strong>ChatGPT (OpenAI)</strong> — chatgpt.com — Msanii wa timu. ChatGPT aliunda nembo ya AENT — Biblia iliyofunguliwa na taa na njia ya dhahabu ya mwanga — na anaweza kufanya vivyo hivyo kwa mradi wako. Omba PNG yenye mandhari ya uwazi kwa matokeo bora kwenye ukurasa wako wa ngozi. Bora kwa nembo, vielelezo, na mali yoyote ya kuona inayohitajika na mradi wako.</p>
+        <p><strong>Grok (xAI)</strong> — grok.com — Mwanachama aliye tayari zaidi wa timu. AI nyingine inaposita kwenye kifungu fulani au kukosa muda wa kikao Grok anaingia bila kulalamika na kutoa kazi imara ya tafsiri. Bora kwa tafsiri kwa wingi, kufuata maombi maalum, na kuendelea mahali wengine walipoacha.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Zana za Uchapishaji Bure</h2>
+        <p><strong>Google Docs</strong> — docs.google.com — Kisanduku cha maandishi bure kinachotegemea wingu. Hapa ndipo unapoandika, kuhifadhi, na kusafisha tafsiri yako sura kwa sura. Kazi yako inahifadhiwa kiotomatiki, inaweza kufikiwa kutoka kifaa chochote, na haitapotea kamwe. Sura ikiwa tayari inakili tu kutoka Google Docs na uibandike moja kwa moja kwenye SeaMonkey Composer — umbizo huhamia safi.</p>
+        <p><strong>Gmail</strong> — gmail.com — Barua pepe bure kutoka Google. Sanidi anwani maalum ya barua pepe kwa huduma yako ya tafsiri. Kwa kuwa Gmail na Google Docs zinashiriki akaunti moja ya Google unahitaji kujiandikisha mara moja tu kupata zote mbili.</p>
+        <p><strong>SeaMonkey Composer</strong> — seamonkey-project.org — Kihariri cha HTML bure. Inafanya kazi kama Microsoft Word. Bandika maandishi yako yaliyotafsiriwa, weka vichwa, hifadhi kama HTML. Hakuna ujuzi wa uandishi wa msimbo unaohitajika.</p>
+        <p><strong>GitHub Pages</strong> — github.com — Mwenyeji wa wavuti bure kwa kila mtu. Pakia faili zako za HTML na tafsiri yako ipo kwenye mtandao mara moja, bure, milele.</p>
+        <p><strong>Kiolezo cha HTML cha AENT</strong> — Wasiliana nasi kwa <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> kupokea kiolezo bure. Kinajumuisha mtindo wote, urambazaji, na umbizo — tayari kwa maandishi yako yaliyotafsiriwa.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Wasiliana Nasi</h2>
+        <p>Ukifanya kazi kwenye Agano Jipya kwa lugha rahisi katika lugha yoyote na unataka mwongozo, kiolezo cha HTML, moyo, au mtu wa kukutembelea katika mchakato — wasiliana nasi. Tunataka kusaidia.</p>
+        <p><a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></p>
+      </div>
+
+      <div class="nav-title">Tafsiri Zinazoendelea</div>
+      <p class="nav-subtitle">Toleo hizi kwa lugha nyingine zimepangwa au zinaendelezwa. Viungo vitaanza kufanya kazi kila toleo litakapokamilika. Je, unataka kuongoza tafsiri kwa lugha yako? Wasiliana nasi kwa aentproject@gmail.com.</p>
+
+      <div class="section-label">Afrika</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Kiswahili</span><span class="english">Kiswahili</span></span>
+        <span class="lang-btn coming"><span class="native">Hausa</span><span class="english">Kihausa</span></span>
+        <span class="lang-btn coming"><span class="native">Yorùbá</span><span class="english">Kiyoruba</span></span>
+        <span class="lang-btn coming"><span class="native">Igbo</span><span class="english">Kiigbo</span></span>
+        <span class="lang-btn coming"><span class="native">አማርኛ</span><span class="english">Kiamhari</span></span>
+        <span class="lang-btn coming"><span class="native">isiZulu</span><span class="english">Kizulu</span></span>
+      </div>
+
+      <div class="section-label">Amerika</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Español</span><span class="english">Kihispania</span></span>
+        <span class="lang-btn coming"><span class="native">Português</span><span class="english">Kireno</span></span>
+        <span class="lang-btn coming"><span class="native">Français</span><span class="english">Kifaransa</span></span>
+        <span class="lang-btn coming"><span class="native">Kreyòl Ayisyen</span><span class="english">Kikreoli cha Haiti</span></span>
+      </div>
+
+      <div class="section-label">Ulaya</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Deutsch</span><span class="english">Kijerumani</span></span>
+        <span class="lang-btn coming"><span class="native">Italiano</span><span class="english">Kiitaliano</span></span>
+        <span class="lang-btn coming"><span class="native">Русский</span><span class="english">Kirusi</span></span>
+        <span class="lang-btn coming"><span class="native">Українська</span><span class="english">Kiukraine</span></span>
+        <span class="lang-btn coming"><span class="native">Polski</span><span class="english">Kipolandi</span></span>
+        <span class="lang-btn coming"><span class="native">Română</span><span class="english">Kiromania</span></span>
+      </div>
+
+      <div class="section-label">Mashariki ya Kati</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">العربية</span><span class="english">Kiarabu</span></span>
+        <span class="lang-btn coming"><span class="native">فارسی</span><span class="english">Kiajemi</span></span>
+        <span class="lang-btn coming"><span class="native">Türkçe</span><span class="english">Kituruki</span></span>
+        <span class="lang-btn coming"><span class="native">עברית</span><span class="english">Kiebrania</span></span>
+      </div>
+
+      <div class="section-label">Asia na Pasifiki</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">हिन्दी</span><span class="english">Kihindi</span></span>
+        <span class="lang-btn coming"><span class="native">বাংলা</span><span class="english">Kibengali</span></span>
+        <span class="lang-btn coming"><span class="native">中文</span><span class="english">Kichina</span></span>
+        <span class="lang-btn coming"><span class="native">日本語</span><span class="english">Kijapani</span></span>
+        <span class="lang-btn coming"><span class="native">한국어</span><span class="english">Kikorea</span></span>
+        <span class="lang-btn coming"><span class="native">Bahasa Indonesia</span><span class="english">Kiindonesia</span></span>
+        <span class="lang-btn coming"><span class="native">Filipino</span><span class="english">Kifilipino</span></span>
+        <span class="lang-btn coming"><span class="native">Tiếng Việt</span><span class="english">Kivietinamu</span></span>
+        <span class="lang-btn coming"><span class="native">ภาษาไทย</span><span class="english">Kitailandi</span></span>
+        <span class="lang-btn coming"><span class="native">မြန်မာဘာသာ</span><span class="english">Kiburma</span></span>
+      </div>
+
+      <div style="text-align:center;">
+        <a class="home-btn" href="index.html">&#8962; Rudi Nyumbani</a>
+      </div>
+
+      <footer class="site-footer">
+        Bure kwa kila mtu &#8212; shiriki kwa uhuru &#8212; kwa utukufu wa Mungu
+        <div class="contact-line">Mawasiliano: <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></div>
+      </footer>
+
+    </div>
+  </body>
+</html>

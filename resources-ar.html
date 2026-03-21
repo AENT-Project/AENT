@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الموارد — AENT</title>
+    <style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Times New Roman', Georgia, serif; background-color: #f5f0e8; color: #2c1f0e; line-height: 2.0; direction: rtl; }
+  .page-wrapper { max-width: 740px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+  .site-header { text-align: center; border-bottom: 2px solid #8b6914; padding-bottom: 1.5rem; margin-bottom: 1.75rem; }
+  .site-header a { text-decoration: none; }
+  .site-title { font-size: 2.2rem; font-weight: 700; color: #5c3a00; letter-spacing: 0.15em; margin-bottom: 0.25rem; }
+  .site-tagline { font-style: italic; font-size: 0.95rem; color: #6b4c1e; }
+  .lang-notice { background: #e8dfc8; border: 1px solid #c4a35a; border-radius: 6px; padding: 0.6rem 1rem; text-align: center; font-size: 0.85rem; color: #5c3a00; margin-bottom: 1.5rem; }
+  .lang-notice a { color: #8b6914; font-weight: 700; }
+  .page-title { font-size: 1.5rem; font-weight: 700; color: #5c3a00; text-align: center; margin-bottom: 0.5rem; letter-spacing: 0.05em; }
+  .page-subtitle { text-align: center; font-style: italic; color: #6b4c1e; font-size: 0.95rem; margin-bottom: 2rem; }
+  .section-box { background: #ede5d0; border-right: 4px solid #8b6914; border-left: none; padding: 1.25rem 1.5rem; border-radius: 6px 0 0 6px; margin-bottom: 1.5rem; }
+  .section-box h2 { font-size: 1.1rem; font-weight: 700; color: #5c3a00; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .section-box p { margin-bottom: 0.75rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box p:last-child { margin-bottom: 0; }
+  .section-box a { color: #8b6914; font-weight: 700; }
+  .section-box ul { margin: 0.5rem 1.5rem 0.75rem 0; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box ul li { margin-bottom: 0.5rem; }
+  .principle-box { background: #5c3a00; color: #f5f0e8; padding: 1.25rem 1.5rem; border-radius: 6px; margin-bottom: 1.5rem; }
+  .principle-box h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.75rem; letter-spacing: 0.08em; color: #f5f0e8; }
+  .principle-box ul { margin: 0 1.5rem 0 0; font-size: 0.95rem; color: #e8dfc8; }
+  .principle-box ul li { margin-bottom: 0.6rem; }
+  .principle-box p { font-size: 0.95rem; color: #e8dfc8; margin-bottom: 0.5rem; }
+  .step-block { margin-bottom: 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid #c4a35a; }
+  .step-block:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .step-header { margin-bottom: 0.5rem; }
+  .step-number { display: inline-block; background: #8b6914; color: #f5f0e8; font-weight: 700; font-size: 0.85rem; width: 28px; height: 28px; border-radius: 50%; text-align: center; line-height: 28px; margin-left: 0.5rem; margin-right: 0; vertical-align: middle; }
+  .step-title { font-size: 1rem; font-weight: 700; color: #5c3a00; vertical-align: middle; }
+  .step-block p { font-size: 0.95rem; color: #3a2a0e; margin-bottom: 0.5rem; }
+  .step-block p:last-child { margin-bottom: 0; }
+  .step-block a { color: #8b6914; font-weight: 700; }
+  .nav-title { font-size: 1.1rem; font-weight: 700; color: #5c3a00; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; border-bottom: 1px solid #c4a35a; padding-bottom: 0.5rem; }
+  .nav-subtitle { font-size: 0.88rem; color: #6b4c1e; font-style: italic; margin-bottom: 1.25rem; }
+  .section-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #8b6914; margin: 1.5rem 0 0.5rem; }
+  .lang-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; margin-bottom: 0.5rem; }
+  .lang-btn { display: block; padding: 0.7rem 0.9rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.95rem; text-align: center; cursor: default; opacity: 0.7; }
+  .lang-btn .native { font-size: 1.05rem; font-weight: 700; display: block; }
+  .lang-btn .english { font-size: 0.75rem; color: #8b6914; display: block; margin-top: 0.1rem; }
+  .lang-btn.coming::after { content: 'قريباً'; font-size: 0.65rem; color: #8b6914; display: block; margin-top: 0.2rem; font-style: italic; }
+  .home-btn { display: inline-block; margin-top: 2rem; padding: 0.6rem 1.2rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.92rem; }
+  .home-btn:hover { background: #ddd0b0; border-color: #8b6914; }
+  .site-footer { text-align: center; font-size: 0.8rem; color: #8b6914; border-top: 1px solid #c4a35a; padding-top: 1rem; margin-top: 2rem; font-style: italic; }
+  .contact-line { margin-top: 0.5rem; font-style: normal; }
+  .contact-line a { color: #8b6914; }
+  @media (max-width: 480px) { .site-title { font-size: 1.8rem; } .lang-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); } }
+</style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+
+      <header class="site-header">
+        <a href="index.html">
+          <div class="site-title">AENT</div>
+          <p class="site-tagline">كلامك سراج لرجلي ونور لسبيلي — مزمور ١١٩:١٠٥</p>
+        </a>
+      </header>
+
+      <div class="lang-notice">
+        هذه الصفحة متاحة بلغات أخرى. <a href="resources.html">عرض باللغة الإنجليزية</a>
+      </div>
+
+      <h1 class="page-title">الموارد</h1>
+      <p class="page-subtitle">كل ما تحتاجه لنقل الكتاب المقدس بلغة بسيطة إلى شعبك — مجاناً.<br>
+        <br>
+        إذا كنت جديداً أو فضولياً أو تبحث فقط عن الوضوح، فابدأ هنا. هذه الموارد هنا لمساعدتك على الفهم — وليس لإرهاقك.</p>
+
+      <div class="section-box">
+        <h2>الرؤية</h2>
+        <p>الـ AENT — العهد الجديد الإنجليزي الميسّر — بُني ليثبت شيئاً بسيطاً. يمكن ترجمة العهد الجديد بأكمله إلى لغة واضحة وبسيطة ونشره للعالم مجاناً باستخدام أدوات يمكن لأي شخص الوصول إليها. لا يلزم درجة علمية من كلية لاهوت. لا يلزم ميزانية نشر. لا يلزم خلفية تقنية.</p>
+        <p>لقد بنينا الطبعة الإنجليزية من الصفر باستخدام أدوات الذكاء الاصطناعي المجانية والبرامج المجانية والاستضافة المجانية على الإنترنت. لم يكلف المشروع بأكمله — الترجمة والموقع والنشر — شيئاً سوى الوقت والأمانة.</p>
+        <p>نريد الآن أن نريك بالضبط كيف فعلنا ذلك حتى تتمكن من فعل الشيء نفسه لشعبك بلغتك. كلمة الله تنتمي للجميع. في عالم الله نحن جميعاً إخوة وأخوات وجيران. كل شخص على وجه الأرض يستحق قراءتها بالغة التي يفهمها حقاً. أحب الله بكل قلبك وروحك وعقلك وقوتك. انشر بشارته الطيبة في كل مكان.</p>
+      </div>
+
+      <div class="principle-box">
+        <h2>مبادئ ترجمة AENT</h2>
+        <p>هذه هي المبادئ التي اتبعناها في كل فصل من كل كتاب. اتبعها وستحقق ترجمتك نفس الجودة الدافئة والواضحة والمقروءة للطبعة الإنجليزية.</p>
+        <ul>
+          <li><strong>اللغة البسيطة دائماً.</strong> إذا لم يستطع طالب المرحلة المتوسطة فهم الجملة، أعد كتابتها. لا تستخدم أبداً لغة قديمة أو دينية عندما توجد كلمة بسيطة.</li>
+          <li><strong>استخدم الأسماء المألوفة.</strong> استخدم الأسماء التي يعرفها الناس بالفعل — يسوع وليس يشوع. الله وليس إيلوهيم. الهدف هو الفهم وليس الاستعراض العلمي.</li>
+          <li><strong>فكرة واحدة في كل جملة.</strong> الجمل الطويلة والمعقدة تفقد القراء. قسّمها. احتفظ بها واضحة.</li>
+          <li><strong>الرب بأحرف كبيرة.</strong> عندما يشير النص إلى الاسم الشخصي والمقدس لله استخدم الرب بأحرف كبيرة. عندما يكون لقب احترام استخدم الرب بأحرف عادية.</li>
+          <li><strong>إطار المرافقة.</strong> هذه الترجمة مكملة للكتاب المقدس المفضل للقارئ — وليست بديلاً عنه. قل ذلك بوضوح في بداية كل كتاب.</li>
+          <li><strong>صوت دافئ ومقروء.</strong> اكتب بالطريقة التي يشرح بها صديق موثوق الكتاب المقدس — وليس بالطريقة التي يكتب بها أكاديمي تعليقاً.</li>
+          <li><strong>ابق أميناً للمعنى.</strong> اللغة البسيطة لا تعني الشرح الحر. يجب أن يحترم كل خيار ترجمة معنى النص اليوناني الأصلي.</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <h2>خطوة بخطوة — كيفية بناء طبعتك الخاصة</h2>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">١</span><span class="step-title">أنشئ حسابك المجاني على Google</span></div>
+          <p>انتقل إلى google.com وأنشئ حساباً مجانياً. يمنحك هذا الحساب Gmail لعنوان البريد الإلكتروني لمشروعك وGoogle Docs لكتابة ترجمتك وتخزينها. أعطِ بريدك الإلكتروني اسماً واضحاً — مثل arabicaent@gmail.com أو aentarabic@gmail.com.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">٢</span><span class="step-title">احصل على نصك المصدر</span></div>
+          <p>تحتاج إلى عهد جديد يوناني موثوق كأساس. نوصي بالعهد الجديد اليوناني SBL — ابحث عبر الإنترنت عن "SBL Greek New Testament free PDF" للعثور عليه. لا تحتاج إلى قراءة اليونانية بنفسك. ستتولى أدوات الذكاء الاصطناعي الترجمة من اليونانية. تحتاج فقط إلى النص المصدر متاحاً كمرجع.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">٣</span><span class="step-title">افتح Grok أو Gemini وابدأ الترجمة</span></div>
+          <p>انتقل إلى grok.com أو gemini.google.com وأنشئ حساباً مجانياً. كلا الأداتين ممتازتان لعمل الترجمة ولديهما مستويات مجانية سخية ستأخذك خلال العهد الجديد بأكمله دون نفاد وقت الجلسة.</p>
+          <p>لكل فصل أعطِ Grok أو Gemini تعليمات مثل هذه — "من فضلك ترجم متى الفصل الأول من العهد الجديد اليوناني إلى العربية البسيطة وفق هذه المبادئ — استخدم أسماء مألوفة مثل يسوع والله، اكتب بمستوى طالب المرحلة المتوسطة، فكرة واحدة في كل جملة، صوت دافئ وودي، الرب بأحرف كبيرة عند الإشارة إلى الاسم الشخصي لله. هذه ترجمة مكملة وليست بديلاً عن الكتب المقدسة الموجودة."</p>
+          <p>راجع كل فصل بعناية. اضبط أي شيء لا يبدو طبيعياً في لغتك. الصق الفصل المكتمل في Google Docs. احفظه. انتقل إلى الفصل التالي.</p>
+          <p>عندما تكتمل ترجمتك وتكون مستعداً لبناء موقعك الإلكتروني — هنا يأتي دور Claude في claude.ai. يتميز Claude في بناء صفحات HTML وتحسين اللغة البسيطة وحل المشكلات التقنية. استخدم كل أداة لما تفعله بشكل أفضل.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">٤</span><span class="step-title">اعمل كتاباً كتاباً</span></div>
+          <p>ترجم كتاباً واحداً في كل مرة. ابدأ بإنجيل مرقس — إنه أقصر الأناجيل والسرد الأكثر مباشرة. بمجرد أن تنتهي من مرقس ستكون لديك فكرة قوية عن صوت الترجمة وسيسير الباقي بشكل أسرع.</p>
+          <p>خزّن كل كتاب مكتمل كوثيقة منفصلة في Google Docs. يتم حفظ عملك تلقائياً في السحابة ويمكن الوصول إليه من أي جهاز. لن يضيع أبداً.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">٥</span><span class="step-title">قم بتنزيل SeaMonkey Composer</span></div>
+          <p>لجميع عمليات تحرير المواقع الإلكترونية نوصي بـ SeaMonkey. إنها أداة قوية بأسلوب قديم تعمل تماماً مثل Microsoft Word. إذا كنت تستطيع نسخ نص من مستند ولصقه في نافذة جديدة فلديك بالفعل المهارات اللازمة لبناء موقع إلكتروني باستخدام SeaMonkey. تحترم تنسيقك وتبقي الأمور بسيطة ولا تتطلب <strong>أي معرفة بالبرمجة</strong>.</p>
+          <p>للبدء انتقل إلى seamonkey-project.org وقم بتنزيل البرنامج مجاناً. بمجرد التثبيت استخدم أداة <strong>Composer</strong> لتحويل نص Google Docs إلى صفحات ويب HTML احترافية.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">٦</span><span class="step-title">ابنِ صفحات HTML الخاصة بك</span></div>
+          <p>إذا كنت تريد بدء مشروع ترجمة خاص بك تواصل معنا على <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> للحصول على <strong>قالب HTML لـ AENT</strong> المجاني. يضمن هذا الملف المُنسَّق مسبقاً أن يظل موقعك نظيفاً واحترافياً وسهل القراءة على أجهزة الكمبيوتر والهواتف — دون أن تحتاج إلى تعلم سطر واحد من الكود.</p>
+          <p>يتولى القالب "العمل التقني" نيابة عنك. افتحه ببساطة في <strong>SeaMonkey Composer</strong> والصق نصك المترجم في <strong>العرض العادي</strong> واحفظه كملف HTML. نوصي ببناء ملف HTML واحد لكل كتاب يحتوي على جميع الفصول.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">٧</span><span class="step-title">قم بإعداد GitHub والنشر</span></div>
+          <p>انتقل إلى github.com وأنشئ حساباً مجانياً. أنشئ مستودعاً جديداً وفعّل GitHub Pages في إعدادات المستودع. ارفع جميع ملفات HTML. ترجمتك متاحة فوراً على الإنترنت — مجانية ودائمة وقابلة للوصول لأي شخص في العالم.</p>
+          <p>هذا كل شيء. من تلك اللحظة فصاعداً يمكن لأي شخص يجد موقعك قراءة العهد الجديد بلغة بسيطة بلغتك مجاناً.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">٨</span><span class="step-title">تواصل معنا — نريد المساعدة</span></div>
+          <p>لا يجب عليك اكتشاف كل هذا بمفردك. لقد مررنا بكل خطوة من هذه العملية ونريد مساعدتك على النجاح. راسلنا على <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> بأسئلتك أو للحصول على قالب HTML أو فقط لإخبارنا أنك تعمل على ترجمة. سنمشي معك خلال العملية بأكملها.</p>
+        </div>
+
+      </div>
+
+      <div class="section-box">
+        <h2>أدوات الذكاء الاصطناعي التي نوصي بها</h2>
+        <p><strong>Claude (Anthropic)</strong> — claude.ai — قلب مشروع AENT. تولى Claude الترجمة وتحسين اللغة البسيطة وبنى كل صفحة HTML في هذا الموقع. يتميز Claude في الفروق الدقيقة والنبرة والتعبير عن المعنى بلغة دافئة ومقروءة تبدو كصديق موثوق يشرح الكتاب المقدس بدلاً من أكاديمي يلقي محاضرة. الأفضل لتحسين الترجمات والتعبير بلغة بسيطة وبناء المواقع وكل ما يتطلب صوتاً شخصياً وقريباً. إذا كنت ستستخدم أداة ذكاء اصطناعي واحدة فقط لهذا المشروع فلتكن Claude.</p>
+        <p><strong>Gemini (Google)</strong> — gemini.google.com — متخصص البحث العميق. عندما تتجاوز سؤال الترجمة السطح — عندما تحتاج إلى فهم ما كانت تعنيه كلمة يونانية في سياق القرن الأول أو حل نقاش لاهوتي حول مقطع صعب — Gemini هو أداتك. الأفضل لدراسات الكلمات والبحث اللاهوتي وأسئلة الترجمة التقنية.</p>
+        <p><strong>ChatGPT (OpenAI)</strong> — chatgpt.com — فنان الفريق. أنشأ ChatGPT شعار AENT — الكتاب المقدس المفتوح مع المصباح ومسار الضوء الذهبي — ويمكنه فعل الشيء نفسه لمشروعك. اطلب PNG بخلفية شفافة للحصول على أفضل النتائج على صفحة الرق. الأفضل للشعارات والرسوم التوضيحية وأي أصل مرئي يحتاجه مشروعك.</p>
+        <p><strong>Grok (xAI)</strong> — grok.com — العضو الأكثر استعداداً في الفريق. عندما تتردد أداة ذكاء اصطناعي أخرى في مقطع معين أو ينفد وقت جلستها يتدخل Grok دون شكوى ويقدم عملاً ترجمياً متيناً. الأفضل للترجمات الكبيرة الحجم والامتثال للطلبات المحددة والمتابعة من حيث توقف الآخرون.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>أدوات النشر المجانية</h2>
+        <p><strong>Google Docs</strong> — docs.google.com — معالج نصوص مجاني قائم على السحابة. هنا تكتب وتخزن وتصقل ترجمتك فصلاً فصلاً. يتم حفظ عملك تلقائياً ويمكن الوصول إليه من أي جهاز ولن يضيع أبداً. عندما يكون الفصل جاهزاً انسخه ببساطة من Google Docs والصقه مباشرة في SeaMonkey Composer — يتم نقل التنسيق بنظافة.</p>
+        <p><strong>Gmail</strong> — gmail.com — بريد إلكتروني مجاني من Google. أنشئ عنوان بريد إلكتروني مخصصاً لخدمة الترجمة الخاصة بك. نظراً لأن Gmail وGoogle Docs يشتركان في نفس حساب Google تحتاج فقط إلى التسجيل مرة واحدة للحصول على كليهما.</p>
+        <p><strong>SeaMonkey Composer</strong> — seamonkey-project.org — محرر HTML مجاني. يعمل مثل Microsoft Word. الصق نصك المترجم وطبّق العناوين واحفظ بتنسيق HTML. لا تلزم معرفة بالبرمجة.</p>
+        <p><strong>GitHub Pages</strong> — github.com — استضافة ويب مجانية للجميع. ارفع ملفات HTML وترجمتك متاحة على الإنترنت فوراً مجاناً للأبد.</p>
+        <p><strong>قالب HTML لـ AENT</strong> — تواصل معنا على <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> للحصول على القالب المجاني. يتضمن جميع أنماط التصميم والتنقل والتنسيق — جاهز لنصك المترجم.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>تواصل معنا</h2>
+        <p>إذا كنت تعمل على عهد جديد بلغة بسيطة بأي لغة وتريد إرشاداً أو قالب HTML أو تشجيعاً أو فقط شخصاً يرافقك في العملية — تواصل معنا. نريد المساعدة.</p>
+        <p><a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></p>
+      </div>
+
+      <div class="nav-title">الترجمات قيد التطوير</div>
+      <p class="nav-subtitle">هذه الطبعات بلغات أخرى مخططة أو قيد التطوير. ستصبح الروابط نشطة عند اكتمال كل طبعة. هل تريد قيادة الترجمة بلغتك؟ تواصل معنا على aentproject@gmail.com.</p>
+
+      <div class="section-label">أفريقيا</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Kiswahili</span><span class="english">السواحيلية</span></span>
+        <span class="lang-btn coming"><span class="native">Hausa</span><span class="english">الهوسا</span></span>
+        <span class="lang-btn coming"><span class="native">Yorùbá</span><span class="english">اليوروبا</span></span>
+        <span class="lang-btn coming"><span class="native">Igbo</span><span class="english">الإيغبو</span></span>
+        <span class="lang-btn coming"><span class="native">አማርኛ</span><span class="english">الأمهرية</span></span>
+        <span class="lang-btn coming"><span class="native">isiZulu</span><span class="english">الزولو</span></span>
+      </div>
+
+      <div class="section-label">الأمريكتان</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Español</span><span class="english">الإسبانية</span></span>
+        <span class="lang-btn coming"><span class="native">Português</span><span class="english">البرتغالية</span></span>
+        <span class="lang-btn coming"><span class="native">Français</span><span class="english">الفرنسية</span></span>
+        <span class="lang-btn coming"><span class="native">Kreyòl Ayisyen</span><span class="english">الكريولية الهايتية</span></span>
+      </div>
+
+      <div class="section-label">أوروبا</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Deutsch</span><span class="english">الألمانية</span></span>
+        <span class="lang-btn coming"><span class="native">Italiano</span><span class="english">الإيطالية</span></span>
+        <span class="lang-btn coming"><span class="native">Русский</span><span class="english">الروسية</span></span>
+        <span class="lang-btn coming"><span class="native">Українська</span><span class="english">الأوكرانية</span></span>
+        <span class="lang-btn coming"><span class="native">Polski</span><span class="english">البولندية</span></span>
+        <span class="lang-btn coming"><span class="native">Română</span><span class="english">الرومانية</span></span>
+      </div>
+
+      <div class="section-label">الشرق الأوسط</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">العربية</span><span class="english">العربية</span></span>
+        <span class="lang-btn coming"><span class="native">فارسی</span><span class="english">الفارسية</span></span>
+        <span class="lang-btn coming"><span class="native">Türkçe</span><span class="english">التركية</span></span>
+        <span class="lang-btn coming"><span class="native">עברית</span><span class="english">العبرية</span></span>
+      </div>
+
+      <div class="section-label">آسيا والمحيط الهادئ</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">हिन्दी</span><span class="english">الهندية</span></span>
+        <span class="lang-btn coming"><span class="native">বাংলা</span><span class="english">البنغالية</span></span>
+        <span class="lang-btn coming"><span class="native">中文</span><span class="english">الصينية الماندرين</span></span>
+        <span class="lang-btn coming"><span class="native">日本語</span><span class="english">اليابانية</span></span>
+        <span class="lang-btn coming"><span class="native">한국어</span><span class="english">الكورية</span></span>
+        <span class="lang-btn coming"><span class="native">Bahasa Indonesia</span><span class="english">الإندونيسية</span></span>
+        <span class="lang-btn coming"><span class="native">Filipino</span><span class="english">الفلبينية</span></span>
+        <span class="lang-btn coming"><span class="native">Tiếng Việt</span><span class="english">الفيتنامية</span></span>
+        <span class="lang-btn coming"><span class="native">ภาษาไทย</span><span class="english">التايلاندية</span></span>
+        <span class="lang-btn coming"><span class="native">မြန်မာဘာသာ</span><span class="english">البورمية</span></span>
+      </div>
+
+      <div style="text-align:center;">
+        <a class="home-btn" href="index.html">&#8962; العودة إلى الصفحة الرئيسية</a>
+      </div>
+
+      <footer class="site-footer">
+        مجاني للجميع &#8212; شارك بحرية &#8212; لمجد الله
+        <div class="contact-line">للتواصل: <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></div>
+      </footer>
+
+    </div>
+  </body>
+</html>

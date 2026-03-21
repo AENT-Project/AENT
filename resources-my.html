@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="my">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>အရင်းအမြစ်များ — AENT</title>
+    <style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Pyidaungsu', 'Myanmar Text', 'Noto Sans Myanmar', Georgia, serif; background-color: #f5f0e8; color: #2c1f0e; line-height: 2.2; }
+  .page-wrapper { max-width: 740px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+  .site-header { text-align: center; border-bottom: 2px solid #8b6914; padding-bottom: 1.5rem; margin-bottom: 1.75rem; }
+  .site-header a { text-decoration: none; }
+  .site-title { font-size: 2.2rem; font-weight: 700; color: #5c3a00; letter-spacing: 0.15em; margin-bottom: 0.25rem; }
+  .site-tagline { font-style: italic; font-size: 0.95rem; color: #6b4c1e; }
+  .lang-notice { background: #e8dfc8; border: 1px solid #c4a35a; border-radius: 6px; padding: 0.6rem 1rem; text-align: center; font-size: 0.85rem; color: #5c3a00; margin-bottom: 1.5rem; }
+  .lang-notice a { color: #8b6914; font-weight: 700; }
+  .page-title { font-size: 1.5rem; font-weight: 700; color: #5c3a00; text-align: center; margin-bottom: 0.5rem; letter-spacing: 0.05em; }
+  .page-subtitle { text-align: center; font-style: italic; color: #6b4c1e; font-size: 0.95rem; margin-bottom: 2rem; }
+  .section-box { background: #ede5d0; border-left: 4px solid #8b6914; padding: 1.25rem 1.5rem; border-radius: 0 6px 6px 0; margin-bottom: 1.5rem; }
+  .section-box h2 { font-size: 1.1rem; font-weight: 700; color: #5c3a00; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .section-box p { margin-bottom: 0.75rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box p:last-child { margin-bottom: 0; }
+  .section-box a { color: #8b6914; font-weight: 700; }
+  .section-box ul { margin: 0.5rem 0 0.75rem 1.5rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box ul li { margin-bottom: 0.5rem; }
+  .principle-box { background: #5c3a00; color: #f5f0e8; padding: 1.25rem 1.5rem; border-radius: 6px; margin-bottom: 1.5rem; }
+  .principle-box h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.75rem; letter-spacing: 0.08em; color: #f5f0e8; }
+  .principle-box ul { margin: 0 0 0 1.5rem; font-size: 0.95rem; color: #e8dfc8; }
+  .principle-box ul li { margin-bottom: 0.6rem; }
+  .principle-box p { font-size: 0.95rem; color: #e8dfc8; margin-bottom: 0.5rem; }
+  .step-block { margin-bottom: 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid #c4a35a; }
+  .step-block:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .step-header { margin-bottom: 0.5rem; }
+  .step-number { display: inline-block; background: #8b6914; color: #f5f0e8; font-weight: 700; font-size: 0.85rem; width: 28px; height: 28px; border-radius: 50%; text-align: center; line-height: 28px; margin-right: 0.5rem; vertical-align: middle; }
+  .step-title { font-size: 1rem; font-weight: 700; color: #5c3a00; vertical-align: middle; }
+  .step-block p { font-size: 0.95rem; color: #3a2a0e; margin-bottom: 0.5rem; }
+  .step-block p:last-child { margin-bottom: 0; }
+  .step-block a { color: #8b6914; font-weight: 700; }
+  .nav-title { font-size: 1.1rem; font-weight: 700; color: #5c3a00; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; border-bottom: 1px solid #c4a35a; padding-bottom: 0.5rem; }
+  .nav-subtitle { font-size: 0.88rem; color: #6b4c1e; font-style: italic; margin-bottom: 1.25rem; }
+  .section-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #8b6914; margin: 1.5rem 0 0.5rem; }
+  .lang-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; margin-bottom: 0.5rem; }
+  .lang-btn { display: block; padding: 0.7rem 0.9rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.95rem; text-align: center; cursor: default; opacity: 0.7; }
+  .lang-btn .native { font-size: 1.05rem; font-weight: 700; display: block; }
+  .lang-btn .english { font-size: 0.75rem; color: #8b6914; display: block; margin-top: 0.1rem; }
+  .lang-btn.coming::after { content: 'မကြာမီ လာမည်'; font-size: 0.65rem; color: #8b6914; display: block; margin-top: 0.2rem; font-style: italic; }
+  .home-btn { display: inline-block; margin-top: 2rem; padding: 0.6rem 1.2rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.92rem; }
+  .home-btn:hover { background: #ddd0b0; border-color: #8b6914; }
+  .site-footer { text-align: center; font-size: 0.8rem; color: #8b6914; border-top: 1px solid #c4a35a; padding-top: 1rem; margin-top: 2rem; font-style: italic; }
+  .contact-line { margin-top: 0.5rem; font-style: normal; }
+  .contact-line a { color: #8b6914; }
+  @media (max-width: 480px) { .site-title { font-size: 1.8rem; } .lang-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); } }
+</style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+
+      <header class="site-header">
+        <a href="index.html">
+          <div class="site-title">AENT</div>
+          <p class="site-tagline">သင်၏နှုတ်ကပတ်တော်သည် ကျွနု်ပ်၏ခြေတို့အဘို့ မီးခွက်ဖြစ်၍ ကျွနု်ပ်၏လမ်းအဘို့ အလင်းဖြစ်သည် — ဆာလံ ၁၁၉း၁၀၅</p>
+        </a>
+      </header>
+
+      <div class="lang-notice">
+        ဤစာမျက်နှာကို အခြားဘာသာစကားများဖြင့် ရရှိနိုင်သည်။ <a href="resources.html">အင်္ဂလိပ်ဘာသာဖြင့် ကြည့်ရှုရန်</a>
+      </div>
+
+      <h1 class="page-title">အရင်းအမြစ်များ</h1>
+      <p class="page-subtitle">သင်၏ ပြည်သူများထံ ရိုးရှင်းသောဘာသာစကားဖြင့် သမ္မာကျမ်းစာကို ရောက်ရှိစေရန် လိုအပ်သည့်အရာအားလုံး — လုံးဝ အခမဲ့။<br>
+        <br>
+        သင်သည် အသစ်ဖြစ်သည်ဖြစ်စေ၊ စိတ်ဝင်စားသည်ဖြစ်စေ၊ သို့မဟုတ် ရှင်းလင်းချက်ကိုသာ ရှာဖွေနေသည်ဖြစ်စေ — ဤနေရာမှ စတင်ပါ။ ဤ အရင်းအမြစ်များသည် သင့်ကို မောပန်းစေရန်မဟုတ်ဘဲ နားလည်ရန် ကူညီပေးရန် ဤနေရာတွင်ရှိသည်။</p>
+
+      <div class="section-box">
+        <h2>မျှော်မှန်းချက်</h2>
+        <p>AENT — လက်လှမ်းမီသော အင်္ဂလိပ်ဘာသာ သစ်ကတိ — ရိုးရှင်းသောအရာကို သက်သေပြရန် တည်ဆောက်ခဲ့သည်။ သစ်ကတိတစ်ခုလုံးကို ရှင်းလင်းသော ရိုးရှင်းသောဘာသာစကားသို့ ဘာသာပြန်ဆိုနိုင်ပြီး မည်သူမဆို ဝင်ရောက်နိုင်သောကိရိယာများကို အသုံးပြု၍ ကမ္ဘာသို့ အခမဲ့ ထုတ်ဝေနိုင်သည်။ သာသနာဘွဲ့တစ်ခု မလိုပါ။ ထုတ်ဝေရေးဘတ်ဂျက် မလိုပါ။ နည်းပညာဆိုင်ရာ နောက်ခံ မလိုပါ။</p>
+        <p>ကျွနု်ပ်တို့သည် အခမဲ့ AI ကိရိယာများ၊ အခမဲ့ ဆော့ဖ်ဝဲ နှင့် အခမဲ့ ဝဘ်ဟောစ်တင်သာ အသုံးပြု၍ အင်္ဂလိပ်ဘာသာ ထုတ်ဝေမှုကို အစမှ တည်ဆောက်ခဲ့သည်။ ပရောဂျက်တစ်ခုလုံး — ဘာသာပြန်ဆိုမှု၊ ဝဘ်ဆိုဒ် နှင့် ထုတ်ဝေမှု — အချိန်နှင့် သစ္စာဝပ်မှုမှ လွဲ၍ အခြားဘာမျှ ကုန်ကျခဲ့ခြင်းမရှိပါ။</p>
+        <p>ယခု ကျွနု်ပ်တို့ မည်သို့ ပြုလုပ်ခဲ့သည်ကို တိကျစွာ ပြသလိုသည် ထို့ကြောင့် သင်သည်လည်း သင်၏ ဘာသာစကားဖြင့် သင်၏ ပြည်သူများအတွက် တူညီသောအရာကို ပြုလုပ်နိုင်မည်။ ဘုရားသခင်၏ နှုတ်ကပတ်တော်သည် လူတိုင်း၏ ဥစ္စာဖြစ်သည်။ ဘုရားသခင်၏ ကမ္ဘာတွင် ကျွနု်ပ်တို့သည် အားလုံး ညီအကို မောင်နှမ နှင့် အိမ်နီးချင်းများ ဖြစ်ကြသည်။ မြေကြီးပေါ်ရှိ လူတိုင်းသည် သူတို့ တကယ်နားလည်သည့် ဘာသာစကားဖြင့် ဖတ်ရှုပိုင်ခွင့်ရှိသည်။ ဘုရားသခင်ကို သင်၏ ႏွလုံးသား၊ ဝိညာဉ်၊ ဉာဏ်ပညာ နှင့် အားအစွမ်းအားလုံးဖြင့် ချစ်မြတ်နိုးပါ။ သူ၏ သတင်းကောင်းကို အရပ်ရပ်တွင် ဖြန့်ကြဲပါ။</p>
+      </div>
+
+      <div class="principle-box">
+        <h2>AENT ဘာသာပြန်ဆိုမှု မူများ</h2>
+        <p>ဤတို့သည် ကျွနု်ပ်တို့ မည်သည့် စာအုပ်၏ မည်သည့် အခန်းကြီးတွင်မဆို လိုက်နာခဲ့သော လမ်းညွှန်ချက်များ ဖြစ်သည်။ ဤတို့ကို လိုက်နာပါ၊ ထိုအခါ သင်၏ ဘာသာပြန်ဆိုမှုသည် အင်္ဂလိပ်ဘာသာ ထုတ်ဝေမှုကဲ့သို့ တူညီသော နွေးထွေးသော၊ ရှင်းလင်းသော နှင့် ဖတ်ရှုရလွယ်ကူသော အရည်အသွေးကို ရရှိမည်။</p>
+        <ul>
+          <li><strong>အမြဲ ရိုးရှင်းသောဘာသာစကား။</strong> အလယ်တန်းကျောင်းသား တစ်ဦးသည် ဝါကျကို နားမလည်နိုင်ပါက ပြန်လည်ရေးသားပါ။ ရိုးရှင်းသောစကားလုံး ရှိသည့်အချိန်တွင် ရှေးကာလ သို့မဟုတ် ဘာသာရေး ဘာသာစကားကို လုံးဝ မသုံးပါနှင့်။</li>
+          <li><strong>ရင်းနှီးသောနာမည်များကို သုံးပါ။</strong> လူများ ယခင်ကတည်းက သိသောနာမည်များကို သုံးပါ — ယေရှု၊ ယေရှွာ မဟုတ်ပါ။ ဘုရားသခင်၊ Elohim မဟုတ်ပါ။ ရည်ရွယ်ချက်မှာ နားလည်မှု ဖြစ်ပြီး ပညာရှင်ဆန်သောဗဟုသုတ မဟုတ်ပါ။</li>
+          <li><strong>ဝါကျတစ်ကြောင်းတွင် အတွေးတစ်ခု။</strong> ရှည်လျားသော ရှုပ်ထွေးသော ဝါကျများသည် စာဖတ်သူများကို ဆုံးရှုံးစေသည်။ ခွဲထုတ်ပါ။ ရှင်းလင်းအောင် ထားပါ။</li>
+          <li><strong>သခင်ဘုရားကို အကြီးစာလုံးများဖြင့်။</strong> စာသားသည် ဘုရားသခင်၏ ကိုယ်ရေးကိုယ်တာ သန့်ရှင်းသောနာမကို ရည်ညွှန်းသောအခါ သခင်ဘုရားကို အကြီးစာလုံးများဖြင့် ရေးပါ။ ရိုသေမှု ဘွဲ့ ဖြစ်သည့်အခါ ပုံမှန်စာလုံးများဖြင့် သခင်ဘုရား ဟု ရေးပါ။</li>
+          <li><strong>အဖော်ဘောင်ကို အသုံးပြုပါ။</strong> ဤဘာသာပြန်ဆိုမှုသည် စာဖတ်သူ နှစ်သက်ရာ သမ္မာကျမ်းစာ၏ ဖော်ရွေသော အဖော်ဖြစ်သည် — အစားထိုးမဟုတ်ပါ။ ဤအချက်ကို မည်သည့် စာအုပ်မဆိုများ၏ အစတွင် ရှင်းလင်းစွာ ဖော်ပြပါ။</li>
+          <li><strong>နွေးထွေးပြီး ဖတ်ရှုရလွယ်သော အသံ။</strong> ယုံကြည်ရသော သူငယ်ချင်း တစ်ဦးသည် သမ္မာကျမ်းစာကို ရှင်းပြမည့် ပုံစံဖြင့် ရေးပါ — ပညာရှင် တစ်ဦးသည် မှတ်ချက်ရေးသကဲ့သို့ မဟုတ်ပါ။</li>
+          <li><strong>အဓိပ္ပာယ်ကို သစ္စာဝပ်ပါ။</strong> ရိုးရှင်းသောဘာသာစကား ဆိုသည်မှာ လွတ်လပ်သောရှင်းပြချက် ဟု မဆိုလိုပါ။ ဘာသာပြန်ဆိုမှု ရွေးချယ်မှုတိုင်းသည် မူရင်း ဂရိ စာသား၏ အဓိပ္ပာယ်ကို လေးစားရမည်။</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <h2>တစ်ဆင့်ပြီးတစ်ဆင့် — သင်၏ကိုယ်ပိုင်ထုတ်ဝေမှုကို မည်သို့ တည်ဆောက်ရမည်နည်း</h2>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">1</span><span class="step-title">သင်၏ အခမဲ့ Google အကောင့်ကို ဖန်တီးပါ</span></div>
+          <p>google.com သို့ သွားပြီး အခမဲ့ အကောင့် ဖန်တီးပါ။ ဤ တစ်ခုတည်းသော အကောင့်သည် သင့်ပရောဂျက်၏ အီးမေးလ်လိပ်စာအတွက် Gmail နှင့် သင်၏ ဘာသာပြန်ဆိုမှုကို ရေးသားပြီး သိမ်းဆည်းရန် Google Docs ကို ပေးသည်။ သင်၏ အီးမေးလ်ကို ရှင်းလင်းသောနာမ ပေးပါ — ဥပမာ burmeseaent@gmail.com သို့မဟုတ် aentburmese@gmail.com ကဲ့သို့။</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">2</span><span class="step-title">သင်၏ အရင်းအမြစ်စာသားကို ရယူပါ</span></div>
+          <p>အခြေခံအနေဖြင့် ယုံကြည်စိတ်ချရသော ဂရိဘာသာ သစ်ကတိ တစ်ခု လိုအပ်သည်။ SBL ဂရိ သစ်ကတိကို အကြံပြုသည် — ရှာဖွေရန် "SBL Greek New Testament free PDF" ဟု အွန်လိုင်းတွင် ရှာဖွေပါ။ သင်ကိုယ်တိုင် ဂရိဘာသာ ဖတ်ရန် မလိုပါ။ AI ကိရိယာများသည် ဂရိဘာသာမှ ဘာသာပြန်ဆိုမှုကို ကိုင်တွယ်မည်။ အကိုးအကားအနေဖြင့် အရင်းအမြစ်စာသား ရရှိနိုင်ရုံသာ လိုအပ်သည်။</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">3</span><span class="step-title">Grok သို့မဟုတ် Gemini ကို ဖွင့်ပြီး ဘာသာပြန်ဆိုမှု စတင်ပါ</span></div>
+          <p>grok.com သို့မဟုတ် gemini.google.com သို့ သွားပြီး အခမဲ့ အကောင့် ဖန်တီးပါ။ ကိရိယာနှစ်ခုစလုံးသည် ဘာသာပြန်ဆိုမှု အလုပ်အတွက် ထူးချွန်ပြီး session အချိန် ကုန်ဆုံးခြင်းမရှိဘဲ သစ်ကတိတစ်ခုလုံးကို ဖြတ်သန်းနိုင်မည့် ကောင်းမွန်သော အခမဲ့ tier များ ရှိသည်။</p>
+          <p>အခန်းကြီးတိုင်းအတွက် Grok သို့မဟုတ် Gemini ကို ဤသို့ ညွှန်ကြားချက် ပေးပါ — "ကျေးဇူးပြု၍ ဤမူများကို လိုက်နာ၍ ဂရိ သစ်ကတိမှ မဿဲ အခန်းကြီး ၁ ကို ရိုးရှင်းသော မြန်မာဘာသာသို့ ဘာသာပြန်ဆိုပါ — ယေရှု နှင့် ဘုရားသခင် ကဲ့သို့ ရင်းနှီးသောနာမများ သုံးပါ၊ အလယ်တန်းကျောင်းသားအဆင့်တွင် ရေးပါ၊ ဝါကျတစ်ကြောင်းတွင် အတွေးတစ်ခု၊ နွေးထွေးပြီး ဖော်ရွေသောအသံ၊ ဘုရားသခင်၏ ကိုယ်ရေးကိုယ်တာနာမကို ရည်ညွှန်းသောအခါ သခင်ဘုရားကို အကြီးစာလုံးများဖြင့် ရေးပါ။ ဤသည်မှာ ရှိပြီးသောသမ္မာကျမ်းစာများ၏ အစားမဟုတ်ဘဲ ဖော်ရွေသော ဘာသာပြန်ဆိုမှု ဖြစ်သည်။"</p>
+          <p>အခန်းကြီးတစ်ခုချင်းစီကို သေချာစွာ ပြန်စစ်ဆေးပါ။ သင်၏ ဘာသာစကားတွင် သဘာဝကျကျ မကြားရသောအရာ မည်သည်မဆို ပြင်ဆင်ပါ။ ပြီးမြောက်သောအခန်းကြီးကို Google Docs တွင် ကူးထည့်ပါ။ သိမ်းဆည်းပါ။ နောက်အခန်းကြီးသို့ ဆက်သွားပါ။</p>
+          <p>သင်၏ ဘာသာပြန်ဆိုမှု ပြီးမြောက်ပြီး သင်၏ ဝဘ်ဆိုဒ် တည်ဆောက်ရန် အသင့်ဖြစ်သောအခါ — ထိုအချိန်တွင် claude.ai တွင် Claude ကို ယူဆောင်လာပါ။ Claude သည် HTML စာမျက်နှာများ တည်ဆောက်ခြင်း၊ ရိုးရှင်းသောဘာသာစကားကို ပြန်လည်ပြင်ဆင်ခြင်း နှင့် နည်းပညာဆိုင်ရာ ပြဿနာများ ဖြေရှင်းခြင်းတွင် ထူးချွန်သည်။ ကိရိယာတစ်ခုစီကို သူ အကောင်းဆုံးလုပ်ဆောင်နိုင်သောအရာအတွက် အသုံးပြုပါ။</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">4</span><span class="step-title">စာအုပ်တစ်အုပ်စီ လုပ်ဆောင်ပါ</span></div>
+          <p>တစ်ကြိမ်တွင် စာအုပ်တစ်အုပ် ဘာသာပြန်ဆိုပါ။ မာကုခရစ်ဝင်မှ စတင်ပါ — အတိုဆုံး ခရစ်ဝင်ကျမ်း နှင့် အဖြောင့်ဆုံး ဇာတ်ကြောင်း ဖြစ်သည်။ မာကုကို ပြီးမြောက်ပြီးနောက် ဘာသာပြန်ဆိုမှု အသံ နှင့်ပတ်သက်၍ ခိုင်မာသောခံစားချက် ရရှိမည်ဖြစ်ပြီး ကျန်သောအရာများ ပိုမြန်မည်။</p>
+          <p>ပြီးမြောက်သောစာအုပ်တစ်အုပ်စီကို Google Docs တွင် သီးခြားစာရွက်စာတမ်းအနေဖြင့် သိမ်းဆည်းပါ။ သင်၏ လုပ်ဆောင်ချက်သည် cloud တွင် အလိုအလျောက် သိမ်းဆည်းပြီး မည်သည့် device မှမဆို ဝင်ရောက်နိုင်သည်။ ဘယ်တော့မှ ဆုံးရှုံးမည်မဟုတ်ပါ။</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">5</span><span class="step-title">SeaMonkey Composer ကို ဒေါင်းလုဒ်ဆွဲပါ</span></div>
+          <p>ဝဘ်ဆိုဒ် တည်းဖြတ်မှုအားလုံးအတွက် SeaMonkey ကို အကြံပြုသည်။ Microsoft Word နှင့် အတိအကျ တူညီစွာ လုပ်ဆောင်သော အစွမ်းထက်သော ရှေးကျသောပုံစံ ကိရိယာ ဖြစ်သည်။ သင်သည် စာရွက်စာတမ်းတစ်ခုမှ စာသားကို ကူးယူပြီး ဝင်းဒိုးအသစ်တွင် ကူးထည့်နိုင်ပါက SeaMonkey ဖြင့် ဝဘ်ဆိုဒ် တည်ဆောက်ရန် ကျွမ်းကျင်မှု ရှိပြီးဖြစ်သည်။ <strong>coding ဗဟုသုတ မလိုအပ်ပါ</strong>။</p>
+          <p>စတင်ရန် seamonkey-project.org သို့ သွားပြီး ဆော့ဖ်ဝဲကို အခမဲ့ ဒေါင်းလုဒ်ဆွဲပါ။ ထည့်သွင်းပြီးနောက် သင်၏ Google Docs စာသားကို ကျွမ်းကျင်ပိုင်နိုင်သော HTML ဝဘ်စာမျက်နှာများသို့ ပြောင်းလဲရန် <strong>Composer</strong> ကိရိယာကို အသုံးပြုပါ။</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">6</span><span class="step-title">သင်၏ HTML စာမျက်နှာများ တည်ဆောက်ပါ</span></div>
+          <p>သင်၏ ကိုယ်ပိုင် ဘာသာပြန်ဆိုမှု ပရောဂျက် စတင်လိုပါက အခမဲ့ <strong>AENT HTML နမူနာ</strong> ရရှိရန် <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> တွင် ကျွနု်ပ်တို့ကို ဆက်သွယ်ပါ။ ဤ ကြိုတင်ဖော်မတ်ချထားသော ဖိုင်သည် code တစ်ကြောင်းမျှ မသင်ဘဲ သင်၏ ဆိုဒ်သည် ကွန်ပျူတာနှင့် ဖုန်းနှစ်ခုစလုံးတွင် သပ်ရပ်၊ ကျွမ်းကျင်ပိုင်နိုင် နှင့် ဖတ်ရှုရ လွယ်ကူ ဖြစ်ကြောင်း အာမခံပေးသည်။</p>
+          <p>နမူနာသည် သင်အတွက် "နည်းပညာဆိုင်ရာ လုပ်ငန်းများ" ကို ကိုင်တွယ်သည်။ <strong>SeaMonkey Composer</strong> တွင် ဖွင့်ပါ၊ သင်၏ ဘာသာပြန်ဆိုထားသော စာသားကို <strong>ပုံမှန်မြင်ကွင်း</strong> တွင် ကူးထည့်ပြီး HTML ဖိုင်အနေဖြင့် သိမ်းဆည်းပါ။ အခန်းကြီးအားလုံးပါဝင်သော စာအုပ်တစ်အုပ်စီအတွက် HTML ဖိုင်တစ်ခု တည်ဆောက်ရန် အကြံပြုသည်။</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">7</span><span class="step-title">GitHub ကို သတ်မှတ်ပြီး ထုတ်ဝေပါ</span></div>
+          <p>github.com သို့ သွားပြီး အခမဲ့ အကောင့် ဖန်တီးပါ။ ဘဏ္ဍာတိုက်အသစ် တည်ဆောက်ပြီး ဘဏ္ဍာတိုက် ဆက်တင်များတွင် GitHub Pages ကို ဖွင့်ပါ။ သင်၏ HTML ဖိုင်အားလုံးကို တင်ပါ။ သင်၏ ဘာသာပြန်ဆိုမှုသည် ချက်ချင်း အင်တာနက်တွင် live ဖြစ်သည် — အခမဲ့၊ ဆက်လက်ရှိနေ နှင့် ကမ္ဘာတစ်ဝန်းရှိ မည်သူမဆို ဝင်ရောက်နိုင်သည်။</p>
+          <p>ထိုအချိန်မှ ကျွနု်ပ်တို့ ပြောချင်သည့်အချက်မှာ — ထိုမှတ်တိုင်မှ သင်၏ ဝဘ်ဆိုဒ်ကို တွေ့ရှိသောမည်သူမဆို သင်၏ ဘာသာစကားဖြင့် ရိုးရှင်းသောဘာသာစကားဖြင့် သစ်ကတိကို အခမဲ့ ဖတ်ရှုနိုင်မည်။</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">8</span><span class="step-title">ကျွနု်ပ်တို့ကို ဆက်သွယ်ပါ — ကူညီရန် ဆန္ဒရှိသည်</span></div>
+          <p>ဤအရာကို တစ်ယောက်တည်း ရှာဖွေနိုင်ရန် မလိုအပ်ပါ။ ကျွနု်ပ်တို့သည် ဤ လုပ်ငန်းစဉ်၏ တစ်ဆင့်ချင်းစီကို ကျော်ဖြတ်ခဲ့ပြီး သင့်အား အောင်မြင်ရန် ကူညီလိုသည်။ မေးခွန်းများနှင့်အတူ၊ HTML နမူနာ ရရှိရန် သို့မဟုတ် ဘာသာပြန်ဆိုမှုတစ်ခုတွင် လုပ်ဆောင်နေကြောင်း ကျွနု်ပ်တို့ကို အသိပေးရန် <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> တွင် အီးမေးလ် ပို့ပါ။ ကျွနု်ပ်တို့သည် လုပ်ငန်းစဉ်တစ်ခုလုံးတွင် သင်နှင့်အတူ ဆက်သွားမည်။</p>
+        </div>
+
+      </div>
+
+      <div class="section-box">
+        <h2>ကျွနု်ပ်တို့ အကြံပြုသော AI ကိရိယာများ</h2>
+        <p><strong>Claude (Anthropic)</strong> — claude.ai — AENT ပရောဂျက်၏ နှလုံးသား။ Claude သည် ဘာသာပြန်ဆိုမှု၊ ရိုးရှင်းသောဘာသာစကား ပြန်လည်ပြင်ဆင်ခြင်းကို ကိုင်တွယ်ပြီး ဤ ဝဘ်ဆိုဒ်ရှိ HTML စာမျက်နှာတိုင်းကို တည်ဆောက်ခဲ့သည်။ Claude သည် nuances၊ tone နှင့် ပညာရှင် တစ်ဦးက သင်ကြားသကဲ့သို့မဟုတ်ဘဲ ယုံကြည်ရသောသူငယ်ချင်းတစ်ဦးက ကျမ်းစာကိုရှင်းပြသကဲ့သို့ ခံစားရသောနွေးထွေးပြီး ဖတ်ရှုရ လွယ်ကူသောဘာသာစကားဖြင့် အဓိပ္ပာယ်ကို ဖော်ညွှန်ရာတွင် ထူးချွန်သည်။ ဘာသာပြန်ဆိုမှု ပြန်လည်ပြင်ဆင်ခြင်း၊ ရိုးရှင်းသောဘာသာစကား၊ ဝဘ်ဆိုဒ် တည်ဆောက်ခြင်း နှင့် ကိုယ်ရေးကိုယ်တာ နှင့် ဝင်ရောက်နိုင်သောအသံ လိုအပ်သည့်အရာ မည်သည်မဆိုအတွက် အကောင်းဆုံး ဖြစ်သည်။ ဤပရောဂျက်အတွက် AI ကိရိယာတစ်ခုသာ အသုံးပြုမည်ဆိုလျှင် Claude ဖြစ်ပါစေ။</p>
+        <p><strong>Gemini (Google)</strong> — gemini.google.com — နက်ရှိုင်းသောသုတေသန ကျွမ်းကျင်သူ။ ဘာသာပြန်ဆိုမှု မေးခွန်းသည် မျက်နှာပြင်ကျော်သောအခါ — ပထမ ရာစုနှစ် အခြေအနေတွင် ဂရိစကားလုံး တစ်ခုသည် မည်သည့် အဓိပ္ပာယ်ကို ဆိုလိုကြောင်း နားလည်ရန် သို့မဟုတ် ခက်ခဲသောနေရာတစ်ခုနှင့်ပတ်သက်သော နိဿဲဆိုင်ရာ ငြင်းခုန်မှုကို ဖြေရှင်းရန် — Gemini သည် သင်၏ ကိရိယာ ဖြစ်သည်။ စကားလုံးလေ့လာမှုများ၊ နိဿဲဆိုင်ရာ သုတေသနနှင့် နည်းပညာဆိုင်ရာ ဘာသာပြန်ဆိုမှု မေးခွန်းများအတွက် အကောင်းဆုံး ဖြစ်သည်။</p>
+        <p><strong>ChatGPT (OpenAI)</strong> — chatgpt.com — အဖွဲ့ရဲ့ အနုပညာသည်။ ChatGPT သည် AENT လိုဂို — မီးခွက် နှင့် ရွှေရောင် အလင်းလမ်းကြောင်းရှိသော ဖွင့်ထားသော သမ္မာကျမ်းစာ — ကို ဖန်တီးခဲ့ပြီး သင်၏ ပရောဂျက်အတွက်လည်း တူညီသောအရာ ပြုလုပ်နိုင်သည်။ သင်၏ ကဒ်ထုပ်ထားသော စာမျက်နှာတွင် အကောင်းဆုံး ရလဒ်ရရှိရန် ဖောက်ထွင်းမြင်ရသော နောက်ခံပါသော PNG ကို တောင်းဆိုပါ။ logo များ၊ ပုံများ နှင့် သင်၏ ပရောဂျက် လိုအပ်သော မြင်ကွင်းဆိုင်ရာ ပိုင်ဆိုင်မှုမည်သည်မဆိုအတွက် အကောင်းဆုံး ဖြစ်သည်။</p>
+        <p><strong>Grok (xAI)</strong> — grok.com — အဖွဲ့တွင် အဆင်သင့် အဆင့်မြင့်ဆုံး အဖွဲ့ဝင်။ AI တစ်ခုသည် သတ်သတ်မှတ်မှတ် နေရာတစ်ခုတွင် ဆုတ်ဆိုင်းသောအခါ သို့မဟုတ် session အချိန် ကုန်ဆုံးသောအခါ Grok သည် တိုင်ကြားမှုမရှိဘဲ ဝင်ရောက်ပြီး ခိုင်မာသော ဘာသာပြန်ဆိုမှု လုပ်ငန်းကို ပေးဆောင်သည်။ အများအပြားဘာသာပြန်ဆိုမှု၊ သတ်သတ်မှတ်မှတ် တောင်းဆိုချက်များ လိုက်နာမှု နှင့် အခြားသူများ ရပ်တန့်ခဲ့သောနေရာမှ ဆက်လက်ဆောင်ရွက်ရန် အကောင်းဆုံး ဖြစ်သည်။</p>
+      </div>
+
+      <div class="section-box">
+        <h2>အခမဲ့ ထုတ်ဝေရေး ကိရိယာများ</h2>
+        <p><strong>Google Docs</strong> — docs.google.com — အခမဲ့ cloud-based စကားနိုင်ငံ ပြုပြင်သည့်ကိရိယာ။ သင်၏ ဘာသာပြန်ဆိုမှုကို အခန်းကြီးတစ်ခုချင်းစီ ရေးသား၊ သိမ်းဆည်း နှင့် ကြည့်ရှုသည့် နေရာ ဖြစ်သည်။ သင်၏ လုပ်ဆောင်ချက်သည် အလိုအလျောက် သိမ်းဆည်း၊ မည်သည့် device မှမဆို ဝင်ရောက်နိုင် နှင့် ဘယ်တော့မှ ဆုံးရှုံးမည်မဟုတ်ပါ။ အခန်းကြီး အသင့်ဖြစ်သောအခါ Google Docs မှ ကူးယူပြီး SeaMonkey Composer တွင် တိုက်ရိုက် ကူးထည့်ပါ — format သည် သပ်ရပ်စွာ ပြောင်းရွှေ့သည်။</p>
+        <p><strong>Gmail</strong> — gmail.com — Google မှ အခမဲ့ အီးမေးလ်။ သင်၏ ဘာသာပြန်ဆိုမှု ဝတ်ကျောင်းအတွက် ရည်ရွယ်ချက်သတ်မှတ်ထားသော အီးမေးလ်လိပ်စာ တည်ဆောက်ပါ။ Gmail နှင့် Google Docs သည် တူညီသော Google အကောင့်ကို မျှဝေသောကြောင့် နှစ်ခုစလုံးကို ရရှိရန် တစ်ကြိမ်သာ မှတ်ပုံတင်ရန် လိုအပ်သည်။</p>
+        <p><strong>SeaMonkey Composer</strong> — seamonkey-project.org — အခမဲ့ HTML တည်းဖြတ်ကိရိယာ။ Microsoft Word ကဲ့သို့ လုပ်ဆောင်သည်။ သင်၏ ဘာသာပြန်ဆိုထားသော စာသားကို ကူးထည့်ပါ၊ ခေါင်းစဉ်များ ထည့်သွင်းပါ၊ HTML အနေဖြင့် သိမ်းဆည်းပါ။ coding ဗဟုသုတ မလိုအပ်ပါ။</p>
+        <p><strong>GitHub Pages</strong> — github.com — လူတိုင်းအတွက် အခမဲ့ ဝဘ်ဟောစ်တင်။ သင်၏ HTML ဖိုင်များကို တင်ပြီး သင်၏ ဘာသာပြန်ဆိုမှုသည် ချက်ချင်း အချိန်မကန့်ဘဲ အင်တာနက်တွင် ရှိသည်။</p>
+        <p><strong>AENT HTML နမူနာ</strong> — အခမဲ့ နမူနာ ရရှိရန် <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> တွင် ကျွနု်ပ်တို့ကို ဆက်သွယ်ပါ။ styling၊ navigation နှင့် formatting အားလုံး ပါဝင်သည် — သင်၏ ဘာသာပြန်ဆိုထားသောစာသားအတွက် အသင့်ဖြစ်သည်။</p>
+      </div>
+
+      <div class="section-box">
+        <h2>ကျွနု်ပ်တို့ကို ဆက်သွယ်ပါ</h2>
+        <p>မည်သည့် ဘာသာစကားမဆို ရိုးရှင်းသောဘာသာစကားဖြင့် သစ်ကတိတစ်ခုပေါ်တွင် လုပ်ဆောင်နေပြီး လမ်းညွှန်မှု၊ HTML နမူနာ၊ အားပေးမှု သို့မဟုတ် လုပ်ငန်းစဉ်တစ်ခုလုံးတွင် သင်နှင့်အတူ လျှောက်မည့် တစ်ဦးကို လိုချင်ပါက — ဆက်သွယ်ပါ။ ကူညီရန် ဆန္ဒရှိသည်။</p>
+        <p><a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></p>
+      </div>
+
+      <div class="nav-title">ဆောင်ရွက်နေဆဲ ဘာသာပြန်ဆိုမှုများ</div>
+      <p class="nav-subtitle">အခြားဘာသာစကားများဖြင့် ဤ ထုတ်ဝေမှုများကို စီစဉ်ဆောင်ရွက်နေဆဲ သို့မဟုတ် ဖွံ့ဖြိုးတိုးတက်မှုတွင် ရှိသည်။ ထုတ်ဝေမှုတစ်ခုစီ ပြီးမြောက်သောအခါ links များ အသက်ဝင်မည်။ သင်၏ ဘာသာစကားအတွက် ဘာသာပြန်ဆိုမှုကို ဦးဆောင်လိုပါသလား? aentproject@gmail.com တွင် ကျွနု်ပ်တို့ကို ဆက်သွယ်ပါ။</p>
+
+      <div class="section-label">အာဖရိက</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Kiswahili</span><span class="english">စွာဟီလီ</span></span>
+        <span class="lang-btn coming"><span class="native">Hausa</span><span class="english">ဟောင်ဆာ</span></span>
+        <span class="lang-btn coming"><span class="native">Yorùbá</span><span class="english">ယိုရူဘာ</span></span>
+        <span class="lang-btn coming"><span class="native">Igbo</span><span class="english">အိဂ်ဘို</span></span>
+        <span class="lang-btn coming"><span class="native">አማርኛ</span><span class="english">အမ်ဟာရစ်</span></span>
+        <span class="lang-btn coming"><span class="native">isiZulu</span><span class="english">ဇူလူ</span></span>
+      </div>
+
+      <div class="section-label">အမေရိက</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Español</span><span class="english">စပိန်</span></span>
+        <span class="lang-btn coming"><span class="native">Português</span><span class="english">ပေါ်တူဂီ</span></span>
+        <span class="lang-btn coming"><span class="native">Français</span><span class="english">ပြင်သစ်</span></span>
+        <span class="lang-btn coming"><span class="native">Kreyòl Ayisyen</span><span class="english">ဟေတီကရီအိုး</span></span>
+      </div>
+
+      <div class="section-label">ဥရောပ</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Deutsch</span><span class="english">ဂျာမန်</span></span>
+        <span class="lang-btn coming"><span class="native">Italiano</span><span class="english">အီတလီ</span></span>
+        <span class="lang-btn coming"><span class="native">Русский</span><span class="english">ရုရှား</span></span>
+        <span class="lang-btn coming"><span class="native">Українська</span><span class="english">ယူကရိန်း</span></span>
+        <span class="lang-btn coming"><span class="native">Polski</span><span class="english">ပိုလန်</span></span>
+        <span class="lang-btn coming"><span class="native">Română</span><span class="english">ရိုမေးနီးယား</span></span>
+      </div>
+
+      <div class="section-label">အလယ်ပိုင်းအရှေ့</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">العربية</span><span class="english">အာရပ်</span></span>
+        <span class="lang-btn coming"><span class="native">فارسی</span><span class="english">ပါရှန်</span></span>
+        <span class="lang-btn coming"><span class="native">Türkçe</span><span class="english">တူရကီ</span></span>
+        <span class="lang-btn coming"><span class="native">עברית</span><span class="english">ဟေဗြဲ</span></span>
+      </div>
+
+      <div class="section-label">အာရှ နှင့် ပစိဖိတ်</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">हिन्दी</span><span class="english">ဟိန္ဒူ</span></span>
+        <span class="lang-btn coming"><span class="native">বাংলা</span><span class="english">ဘင်္ဂါလီ</span></span>
+        <span class="lang-btn coming"><span class="native">中文</span><span class="english">မန်ဒရင်</span></span>
+        <span class="lang-btn coming"><span class="native">日本語</span><span class="english">ဂျပန်</span></span>
+        <span class="lang-btn coming"><span class="native">한국어</span><span class="english">ကိုရီးယား</span></span>
+        <span class="lang-btn coming"><span class="native">Bahasa Indonesia</span><span class="english">အင်ဒိုနီးရှား</span></span>
+        <span class="lang-btn coming"><span class="native">Filipino</span><span class="english">ဖိလစ်ပိုင်</span></span>
+        <span class="lang-btn coming"><span class="native">Tiếng Việt</span><span class="english">ဗီယက်နမ်</span></span>
+        <span class="lang-btn coming"><span class="native">ภาษาไทย</span><span class="english">ထိုင်း</span></span>
+        <span class="lang-btn coming"><span class="native">မြန်မာဘာသာ</span><span class="english">မြန်မာ</span></span>
+      </div>
+
+      <div style="text-align:center;">
+        <a class="home-btn" href="index.html">&#8962; မူလစာမျက်နှာသို့ ပြန်သွားရန်</a>
+      </div>
+
+      <footer class="site-footer">
+        လူတိုင်းအတွက် အခမဲ့ &#8212; လွတ်လပ်စွာ မျှဝေပါ &#8212; ဘုရားသခင်၏ ဘုန်းတော်အတွက်
+        <div class="contact-line">ဆက်သွယ်ရန်: <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></div>
+      </footer>
+
+    </div>
+  </body>
+</html>

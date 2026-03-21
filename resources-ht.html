@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ht">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resous — AENT</title>
+    <style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background-color: #f5f0e8; color: #2c1f0e; line-height: 1.8; }
+  .page-wrapper { max-width: 740px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+  .site-header { text-align: center; border-bottom: 2px solid #8b6914; padding-bottom: 1.5rem; margin-bottom: 1.75rem; }
+  .site-header a { text-decoration: none; }
+  .site-title { font-size: 2.2rem; font-weight: 700; color: #5c3a00; letter-spacing: 0.15em; margin-bottom: 0.25rem; }
+  .site-tagline { font-style: italic; font-size: 0.95rem; color: #6b4c1e; }
+  .lang-notice { background: #e8dfc8; border: 1px solid #c4a35a; border-radius: 6px; padding: 0.6rem 1rem; text-align: center; font-size: 0.85rem; color: #5c3a00; margin-bottom: 1.5rem; }
+  .lang-notice a { color: #8b6914; font-weight: 700; }
+  .page-title { font-size: 1.5rem; font-weight: 700; color: #5c3a00; text-align: center; margin-bottom: 0.5rem; letter-spacing: 0.05em; }
+  .page-subtitle { text-align: center; font-style: italic; color: #6b4c1e; font-size: 0.95rem; margin-bottom: 2rem; }
+  .section-box { background: #ede5d0; border-left: 4px solid #8b6914; padding: 1.25rem 1.5rem; border-radius: 0 6px 6px 0; margin-bottom: 1.5rem; }
+  .section-box h2 { font-size: 1.1rem; font-weight: 700; color: #5c3a00; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .section-box p { margin-bottom: 0.75rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box p:last-child { margin-bottom: 0; }
+  .section-box a { color: #8b6914; font-weight: 700; }
+  .section-box ul { margin: 0.5rem 0 0.75rem 1.5rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box ul li { margin-bottom: 0.5rem; }
+  .principle-box { background: #5c3a00; color: #f5f0e8; padding: 1.25rem 1.5rem; border-radius: 6px; margin-bottom: 1.5rem; }
+  .principle-box h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.75rem; letter-spacing: 0.08em; color: #f5f0e8; }
+  .principle-box ul { margin: 0 0 0 1.5rem; font-size: 0.95rem; color: #e8dfc8; }
+  .principle-box ul li { margin-bottom: 0.6rem; }
+  .principle-box p { font-size: 0.95rem; color: #e8dfc8; margin-bottom: 0.5rem; }
+  .step-block { margin-bottom: 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid #c4a35a; }
+  .step-block:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .step-header { margin-bottom: 0.5rem; }
+  .step-number { display: inline-block; background: #8b6914; color: #f5f0e8; font-weight: 700; font-size: 0.85rem; width: 28px; height: 28px; border-radius: 50%; text-align: center; line-height: 28px; margin-right: 0.5rem; vertical-align: middle; }
+  .step-title { font-size: 1rem; font-weight: 700; color: #5c3a00; vertical-align: middle; }
+  .step-block p { font-size: 0.95rem; color: #3a2a0e; margin-bottom: 0.5rem; }
+  .step-block p:last-child { margin-bottom: 0; }
+  .step-block a { color: #8b6914; font-weight: 700; }
+  .nav-title { font-size: 1.1rem; font-weight: 700; color: #5c3a00; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; border-bottom: 1px solid #c4a35a; padding-bottom: 0.5rem; }
+  .nav-subtitle { font-size: 0.88rem; color: #6b4c1e; font-style: italic; margin-bottom: 1.25rem; }
+  .section-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #8b6914; margin: 1.5rem 0 0.5rem; }
+  .lang-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; margin-bottom: 0.5rem; }
+  .lang-btn { display: block; padding: 0.7rem 0.9rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.95rem; text-align: center; cursor: default; opacity: 0.7; }
+  .lang-btn .native { font-size: 1.05rem; font-weight: 700; display: block; }
+  .lang-btn .english { font-size: 0.75rem; color: #8b6914; display: block; margin-top: 0.1rem; }
+  .lang-btn.coming::after { content: 'Ap Vini Byento'; font-size: 0.65rem; color: #8b6914; display: block; margin-top: 0.2rem; font-style: italic; }
+  .home-btn { display: inline-block; margin-top: 2rem; padding: 0.6rem 1.2rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.92rem; }
+  .home-btn:hover { background: #ddd0b0; border-color: #8b6914; }
+  .site-footer { text-align: center; font-size: 0.8rem; color: #8b6914; border-top: 1px solid #c4a35a; padding-top: 1rem; margin-top: 2rem; font-style: italic; }
+  .contact-line { margin-top: 0.5rem; font-style: normal; }
+  .contact-line a { color: #8b6914; }
+  @media (max-width: 480px) { .site-title { font-size: 1.8rem; } .lang-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); } }
+</style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+
+      <header class="site-header">
+        <a href="index.html">
+          <div class="site-title">AENT</div>
+          <p class="site-tagline">Pawòl ou se yon chandèl pou pye m ak yon limyè pou wout mwen — Sòm 119:105</p>
+        </a>
+      </header>
+
+      <div class="lang-notice">
+        Paj sa a disponib nan lòt lang tou. <a href="resources.html">Wè li an Anglè</a>
+      </div>
+
+      <h1 class="page-title">Resous</h1>
+      <p class="page-subtitle">Tout sa ou bezwen pou pote Bib la nan lang senp bay pèp ou a — gratis nèt.<br>
+        <br>
+        Si ou se nouvo, ou gen kèk kwestyon, oswa ou ap chèche klarifikasyon sèlman — kòmanse isit la. Resous sa yo la pou ede ou konprann — pa pou akable ou.</p>
+
+      <div class="section-box">
+        <h2>Vizyon An</h2>
+        <p>AENT — Nouvo Testaman Angle Ki Aksesib — te bati pou pwouve yon bagay senp. Tout Nouvo Testaman an ka tradui nan lang ki klè ak senp epi pibliye ba lemond antye gratis ak zouti nenpòt moun ka jwenn. Pa bezwen diplòm seminè. Pa bezwen bidjè pou piblikasyon. Pa bezwen konesans teknik.</p>
+        <p>Nou te bati edisyon angle a depi nan kòmansman ak sèlman zouti AI gratis, lojisyèl gratis, ak òdinè entènèt gratis. Tout pwojè a — tradiksyon, sit entènèt, ak piblikasyon — pa t koute anyen pou nou eksepte tan ak fidelite.</p>
+        <p>Koulye a nou vle montre ou egzakteman kijan nou te fè sa pou ou ka fè menm bagay la pou pèp ou a nan lang ou. Pawòl Bondye se pou tout moun. Nan mond Bondye a nou tout se frè, sè ak vwazen. Chak moun sou latè merite li nan lang yo vrèman konprann. Renmen Bondye ak tout kè ou, nanm ou, lespri ou ak tout fòs ou. Gaye bon nouvèl li toupatou.</p>
+      </div>
+
+      <div class="principle-box">
+        <h2>Prensip Tradiksyon AENT Yo</h2>
+        <p>Sa yo se direktiv nou te swiv nan chak chapit chak liv. Swiv yo epi tradiksyon ou pral gen menm kalite cho, klè ak fasil pou li tankou edisyon angle a.</p>
+        <ul>
+          <li><strong>Lang senp toujou.</strong> Si yon elèv lekòl segondè pa ka konprann fraz la, ekri li ankò. Pinga janm itilize lang ansyen oswa relijye lè gen yon mo senp ki egziste.</li>
+          <li><strong>Itilize non ki famye.</strong> Itilize non moun deja konnen — Jezi, pa Yeshua. Bondye, pa Elohim. Objektif la se konpreyansyon pa konesans akademik.</li>
+          <li><strong>Yon lide nan chak fraz.</strong> Fraz long ak konplèks fè lektè yo pèdi. Divize yo. Kenbe yo klè.</li>
+          <li><strong>SEYÈ ak lèt majiskil.</strong> Lè tèks la fè referans nan non pèsonèl ak sen Bondye a itilize SEYÈ ak lèt majiskil. Lè se yon tit respè itilize Seyè ak lèt òdinè.</li>
+          <li><strong>Kad konpayon.</strong> Tradiksyon sa a se yon konpayon pou Bib prefere lektè a — pa yon ranplasman. Di sa klèman nan kòmansman chak liv.</li>
+          <li><strong>Vwa cho ak fasil pou li.</strong> Ekri jan yon zanmi ou ka fye a ta eksplike Ekriti a — pa jan yon akademisyen ta ekri yon kòmantè.</li>
+          <li><strong>Rete fidèl ak siyifikasyon an.</strong> Lang senp pa vle di parafraz lib. Chak chwa tradiksyon dwe respekte siyifikasyon tèks grèk orijinal la.</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <h2>Etap pa Etap — Kijan pou Bati Edisyon Pa Ou a</h2>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">1</span><span class="step-title">Kreye Kont Google Gratis Ou a</span></div>
+          <p>Al nan google.com epi kreye yon kont gratis. Kont sèl sa a ba ou Gmail pou adrès imèl pwojè ou a ak Google Docs pou ekri ak konsève tradiksyon ou. Ba imèl ou yon non klè — tankou haitianaent@gmail.com oswa aenthaitian@gmail.com.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">2</span><span class="step-title">Jwenn Tèks Sous Ou a</span></div>
+          <p>Ou bezwen yon Nouvo Testaman grèk ki fyab kòm fondasyon. Nou rekòmande SBL Grèk Nouvo Testaman — chèche sou entènèt "SBL Greek New Testament free PDF" pou jwenn li. Ou pa bezwen li grèk ou menm. Zouti AI yo pral jere tradiksyon nan grèk la. Ou sèlman bezwen tèks sous la disponib kòm referans.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">3</span><span class="step-title">Louvri Grok oswa Gemini epi Kòmanse Tradui</span></div>
+          <p>Al nan grok.com oswa gemini.google.com epi kreye yon kont gratis. De zouti yo ekselan pou travay tradiksyon epi yo gen nivo gratis jenere ki pral mennen ou nan tout Nouvo Testaman an san ou pa fin tan sesyon an.</p>
+          <p>Pou chak chapit ba Grok oswa Gemini yon enstriksyon tankou sa — "Tanpri tradui Matye Chapit 1 nan Nouvo Testaman Grèk la nan Kreyòl Ayisyen senp swivan prensip sa yo — itilize non ki famye tankou Jezi ak Bondye, ekri nan nivo segondè, yon lide nan chak fraz, vwa cho ak zanmitay, SEYÈ ak lèt majiskil lè w ap fè referans nan non pèsonèl Bondye a. Sa a se yon tradiksyon konpayon pa yon ranplasman pou Bib ki deja egziste yo."</p>
+          <p>Pase chak chapit an revi avèk atansyon. Ajiste nenpòt bagay ki pa sone natirèl nan lang ou. Kole chapit ki fini an nan Google Docs. Konsève li. Pase nan pwochen chapit la.</p>
+          <p>Lè tradiksyon ou a fini epi ou prèt pou bati sit entènèt ou a — se lè sa a ou mennen Claude sou claude.ai. Claude ekselan nan bati paj HTML, rafine lang senp, ak rezoud pwoblèm teknik. Itilize chak zouti pou sa li fè pi byen.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">4</span><span class="step-title">Travay Liv pa Liv</span></div>
+          <p>Tradui yon liv alafwa. Kòmanse ak Levanjil Mak — se pi kout levanjil la ak istwa ki pi dirèk la. Apre ou fin Mak ou pral gen yon sans fò pou vwa tradiksyon an epi rès la pral ale pi vit.</p>
+          <p>Konsève chak liv ki fini an kòm yon dokiman separe nan Google Docs. Travay ou a konsève otomatikman nan nwaj la epi aksesib soti nan nenpòt aparèy. Li p ap janm pèdi.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">5</span><span class="step-title">Telechaje SeaMonkey Composer</span></div>
+          <p>Pou tout edisyon sit entènèt nou rekòmande SeaMonkey. Se yon zouti ansyen estil ki pwisan ki travay egzakteman tankou Microsoft Word. Si ou kapab kopye tèks nan yon dokiman epi kole li nan yon fenèt nouvo ou deja gen konpetans pou bati yon sit entènèt ak SeaMonkey. Li respekte fòma ou kenbe bagay yo senp epi li mande <strong>zewo konesans kodaj</strong>.</p>
+          <p>Pou kòmanse al nan seamonkey-project.org epi telechaje lojisyèl la gratis. Apre ou enstale li itilize zouti <strong>Composer</strong> a pou konvèti tèks Google Docs ou a nan paj wèb HTML pwofesyonèl.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">6</span><span class="step-title">Bati Paj HTML Ou Yo</span></div>
+          <p>Si ou vle kòmanse pwòp pwojè tradiksyon ou a kontakte nou nan <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> pou resevwa <strong>Modèl HTML AENT gratis la</strong>. Fichye ki deja fòmate sa a asire sit ou a rete pwòp pwofesyonèl ak fasil pou li sou òdinè ak telefòn — san ou pa bezwen aprann yon sèl liy kòd.</p>
+          <p>Modèl la jere travay teknik la pou ou. Jis louvri li nan <strong>SeaMonkey Composer</strong> kole tèks tradui ou a nan <strong>vi Nòmal la</strong> epi konsève li kòm yon fichye HTML. Nou rekòmande bati yon fichye HTML pou chak liv ki gen tout chapit yo.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">7</span><span class="step-title">Konfigire GitHub epi Pibliye</span></div>
+          <p>Al nan github.com epi kreye yon kont gratis. Kreye yon depo nouvo epi aktive GitHub Pages nan paramèt depo a. Telechaje tout fichye HTML ou yo. Tradiksyon ou a imedyatman an liy sou entènèt — gratis pèmanan ak aksesib pou nenpòt moun nan mond lan.</p>
+          <p>Se sa a. Depi moman sa a nenpòt moun ki jwenn sit entènèt ou a ka li Nouvo Testaman an nan lang senp nan lang ou gratis.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">8</span><span class="step-title">Kontakte Nou — Nou Vle Ede</span></div>
+          <p>Ou pa oblije dekouvri tout sa ou sèl. Nou te pase nan chak etap pwosesis sa a epi nou vle ede ou reyisi. Voye nou yon imèl nan <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> ak kwestyon yo pou resevwa modèl HTML la oswa jis pou fè nou konnen ou ap travay sou yon tradiksyon. Nou pral mache avèk ou nan tout pwosesis la.</p>
+        </div>
+
+      </div>
+
+      <div class="section-box">
+        <h2>Zouti AI Nou Rekòmande Yo</h2>
+        <p><strong>Claude (Anthropic)</strong> — claude.ai — Kè pwojè AENT la. Claude te jere tradiksyon an rafineye lang senp epi te bati chak paj HTML sou sit entènèt sa a. Claude ekselan nan nüans ton ak eksprime siyifikasyon nan lang cho ak fasil pou li ki santi tankou yon zanmi ou ka fye ap eksplike Ekriti a olye de yon akademisyen k ap fè yon lekti. Pi bon pou rafineye tradiksyon lang senp bati sit entènèt ak nenpòt bagay ki bezwen yon vwa pèsonèl ak aksesib. Si ou pral sèlman itilize yon zouti AI pou pwojè sa a se Claude pou sa.</p>
+        <p><strong>Gemini (Google)</strong> — gemini.google.com — Espesyalis rechèch pwofon. Lè yon kesyon tradiksyon depase sifas la — lè ou bezwen konprann sa yon mo grèk te reyèlman vle di nan kontèks premye syèk la oswa rezoud yon deba teyolojik sou yon pasaj difisil — Gemini se zouti ou a. Pi bon pou etid mo rechèch teyolojik ak kesyon tradiksyon teknik.</p>
+        <p><strong>ChatGPT (OpenAI)</strong> — chatgpt.com — Atis ekip la. ChatGPT te kreye logo AENT la — Bib louvri a ak chandelye ak chemen limyè dore a — epi li ka fè menm bagay la pou pwojè ou a. Mande yon PNG ak yon fon transparan pou pi bon rezilta sou paj pafen ou a. Pi bon pou logo ilustrasyon ak nenpòt aktif vizyal pwojè ou a bezwen.</p>
+        <p><strong>Grok (xAI)</strong> — grok.com — Manm ki pi disponib nan ekip la. Lè yon lòt AI ezite sou yon pasaj patikilye oswa tan sesyon an fini Grok antre san plent epi bay travay tradiksyon solid. Pi bon pou tradiksyon gwo volim konfòmite ak demann espesifik ak kontinye kote lòt yo te kanpe.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Zouti Piblikasyon Gratis</h2>
+        <p><strong>Google Docs</strong> — docs.google.com — Pwosesè tèks gratis ki baze sou nwaj. Se isit ou ekri konsève ak poli tradiksyon ou a chapit pa chapit. Travay ou a konsève otomatikman aksesib soti nan nenpòt aparèy epi p ap janm pèdi. Lè yon chapit prèt jis kopye li soti nan Google Docs epi kole li dirèkteman nan SeaMonkey Composer — fòma a transfere pwòpman.</p>
+        <p><strong>Gmail</strong> — gmail.com — Imèl gratis soti nan Google. Konfigire yon adrès imèl dedye pou ministè tradiksyon ou a. Depi Gmail ak Google Docs pataje menm kont Google a ou sèlman bezwen enskri yon fwa pou jwenn de yo.</p>
+        <p><strong>SeaMonkey Composer</strong> — seamonkey-project.org — Editè HTML gratis. Travay tankou Microsoft Word. Kole tèks tradui ou a aplike tit konsève kòm HTML. Pa bezwen konesans kodaj.</p>
+        <p><strong>GitHub Pages</strong> — github.com — Òdinè wèb gratis pou tout moun. Telechaje fichye HTML ou yo epi tradiksyon ou a imedyatman disponib sou entènèt gratis pou toutan.</p>
+        <p><strong>Modèl HTML AENT</strong> — Kontakte nou nan <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> pou resevwa modèl gratis la. Li gen tout estil navigasyon ak fòmataj — prèt pou tèks tradui ou a.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Kontakte Nou</h2>
+        <p>Si ou ap travay sou yon Nouvo Testaman nan lang senp nan nenpòt lang epi ou vle gidans modèl HTML ankourajman oswa jis yon moun pou mache avèk ou nan pwosesis la — kontakte nou. Nou vle ede.</p>
+        <p><a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></p>
+      </div>
+
+      <div class="nav-title">Tradiksyon Ki Ap Fèt Koulye A</div>
+      <p class="nav-subtitle">Edisyon nan lòt lang sa yo planifye oswa ap devlope. Lyen yo pral aktive lè chak edisyon fini. Ou vle dirije tradiksyon nan lang ou a? Kontakte nou nan aentproject@gmail.com.</p>
+
+      <div class="section-label">Afrik</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Kiswahili</span><span class="english">Swahili</span></span>
+        <span class="lang-btn coming"><span class="native">Hausa</span><span class="english">Haoussa</span></span>
+        <span class="lang-btn coming"><span class="native">Yorùbá</span><span class="english">Yoruba</span></span>
+        <span class="lang-btn coming"><span class="native">Igbo</span><span class="english">Igbo</span></span>
+        <span class="lang-btn coming"><span class="native">አማርኛ</span><span class="english">Amarik</span></span>
+        <span class="lang-btn coming"><span class="native">isiZulu</span><span class="english">Zoulou</span></span>
+      </div>
+
+      <div class="section-label">Amerik</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Español</span><span class="english">Espanyòl</span></span>
+        <span class="lang-btn coming"><span class="native">Português</span><span class="english">Pòtigè</span></span>
+        <span class="lang-btn coming"><span class="native">Français</span><span class="english">Fransè</span></span>
+        <span class="lang-btn coming"><span class="native">Kreyòl Ayisyen</span><span class="english">Kreyòl Ayisyen</span></span>
+      </div>
+
+      <div class="section-label">Ewòp</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Deutsch</span><span class="english">Alman</span></span>
+        <span class="lang-btn coming"><span class="native">Italiano</span><span class="english">Italian</span></span>
+        <span class="lang-btn coming"><span class="native">Русский</span><span class="english">Ris</span></span>
+        <span class="lang-btn coming"><span class="native">Українська</span><span class="english">Ikrenyen</span></span>
+        <span class="lang-btn coming"><span class="native">Polski</span><span class="english">Polonè</span></span>
+        <span class="lang-btn coming"><span class="native">Română</span><span class="english">Woumen</span></span>
+      </div>
+
+      <div class="section-label">Mwayen Oryan</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">العربية</span><span class="english">Arab</span></span>
+        <span class="lang-btn coming"><span class="native">فارسی</span><span class="english">Pèsyen</span></span>
+        <span class="lang-btn coming"><span class="native">Türkçe</span><span class="english">Tik</span></span>
+        <span class="lang-btn coming"><span class="native">עברית</span><span class="english">Ebre</span></span>
+      </div>
+
+      <div class="section-label">Azi ak Pasifik</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">हिन्दी</span><span class="english">Endou</span></span>
+        <span class="lang-btn coming"><span class="native">বাংলা</span><span class="english">Bengali</span></span>
+        <span class="lang-btn coming"><span class="native">中文</span><span class="english">Mandaren</span></span>
+        <span class="lang-btn coming"><span class="native">日本語</span><span class="english">Japonè</span></span>
+        <span class="lang-btn coming"><span class="native">한국어</span><span class="english">Koreyen</span></span>
+        <span class="lang-btn coming"><span class="native">Bahasa Indonesia</span><span class="english">Endonezyen</span></span>
+        <span class="lang-btn coming"><span class="native">Filipino</span><span class="english">Filipen</span></span>
+        <span class="lang-btn coming"><span class="native">Tiếng Việt</span><span class="english">Vyetnamyen</span></span>
+        <span class="lang-btn coming"><span class="native">ภาษาไทย</span><span class="english">Taylandè</span></span>
+        <span class="lang-btn coming"><span class="native">မြန်မာဘာသာ</span><span class="english">Birmàn</span></span>
+      </div>
+
+      <div style="text-align:center;">
+        <a class="home-btn" href="index.html">&#8962; Retounen nan Paj Dakèy</a>
+      </div>
+
+      <footer class="site-footer">
+        Gratis pou tout moun &#8212; pataje lib &#8212; pou glwa Bondye
+        <div class="contact-line">Kontakte: <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></div>
+      </footer>
+
+    </div>
+  </body>
+</html>

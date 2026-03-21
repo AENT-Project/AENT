@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fil">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mga Mapagkukunan — AENT</title>
+    <style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background-color: #f5f0e8; color: #2c1f0e; line-height: 1.8; }
+  .page-wrapper { max-width: 740px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+  .site-header { text-align: center; border-bottom: 2px solid #8b6914; padding-bottom: 1.5rem; margin-bottom: 1.75rem; }
+  .site-header a { text-decoration: none; }
+  .site-title { font-size: 2.2rem; font-weight: 700; color: #5c3a00; letter-spacing: 0.15em; margin-bottom: 0.25rem; }
+  .site-tagline { font-style: italic; font-size: 0.95rem; color: #6b4c1e; }
+  .lang-notice { background: #e8dfc8; border: 1px solid #c4a35a; border-radius: 6px; padding: 0.6rem 1rem; text-align: center; font-size: 0.85rem; color: #5c3a00; margin-bottom: 1.5rem; }
+  .lang-notice a { color: #8b6914; font-weight: 700; }
+  .page-title { font-size: 1.5rem; font-weight: 700; color: #5c3a00; text-align: center; margin-bottom: 0.5rem; letter-spacing: 0.05em; }
+  .page-subtitle { text-align: center; font-style: italic; color: #6b4c1e; font-size: 0.95rem; margin-bottom: 2rem; }
+  .section-box { background: #ede5d0; border-left: 4px solid #8b6914; padding: 1.25rem 1.5rem; border-radius: 0 6px 6px 0; margin-bottom: 1.5rem; }
+  .section-box h2 { font-size: 1.1rem; font-weight: 700; color: #5c3a00; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .section-box p { margin-bottom: 0.75rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box p:last-child { margin-bottom: 0; }
+  .section-box a { color: #8b6914; font-weight: 700; }
+  .section-box ul { margin: 0.5rem 0 0.75rem 1.5rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box ul li { margin-bottom: 0.5rem; }
+  .principle-box { background: #5c3a00; color: #f5f0e8; padding: 1.25rem 1.5rem; border-radius: 6px; margin-bottom: 1.5rem; }
+  .principle-box h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.75rem; letter-spacing: 0.08em; color: #f5f0e8; }
+  .principle-box ul { margin: 0 0 0 1.5rem; font-size: 0.95rem; color: #e8dfc8; }
+  .principle-box ul li { margin-bottom: 0.6rem; }
+  .principle-box p { font-size: 0.95rem; color: #e8dfc8; margin-bottom: 0.5rem; }
+  .step-block { margin-bottom: 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid #c4a35a; }
+  .step-block:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .step-header { margin-bottom: 0.5rem; }
+  .step-number { display: inline-block; background: #8b6914; color: #f5f0e8; font-weight: 700; font-size: 0.85rem; width: 28px; height: 28px; border-radius: 50%; text-align: center; line-height: 28px; margin-right: 0.5rem; vertical-align: middle; }
+  .step-title { font-size: 1rem; font-weight: 700; color: #5c3a00; vertical-align: middle; }
+  .step-block p { font-size: 0.95rem; color: #3a2a0e; margin-bottom: 0.5rem; }
+  .step-block p:last-child { margin-bottom: 0; }
+  .step-block a { color: #8b6914; font-weight: 700; }
+  .nav-title { font-size: 1.1rem; font-weight: 700; color: #5c3a00; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; border-bottom: 1px solid #c4a35a; padding-bottom: 0.5rem; }
+  .nav-subtitle { font-size: 0.88rem; color: #6b4c1e; font-style: italic; margin-bottom: 1.25rem; }
+  .section-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #8b6914; margin: 1.5rem 0 0.5rem; }
+  .lang-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; margin-bottom: 0.5rem; }
+  .lang-btn { display: block; padding: 0.7rem 0.9rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.95rem; text-align: center; cursor: default; opacity: 0.7; }
+  .lang-btn .native { font-size: 1.05rem; font-weight: 700; display: block; }
+  .lang-btn .english { font-size: 0.75rem; color: #8b6914; display: block; margin-top: 0.1rem; }
+  .lang-btn.coming::after { content: 'Paparating Na'; font-size: 0.65rem; color: #8b6914; display: block; margin-top: 0.2rem; font-style: italic; }
+  .home-btn { display: inline-block; margin-top: 2rem; padding: 0.6rem 1.2rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.92rem; }
+  .home-btn:hover { background: #ddd0b0; border-color: #8b6914; }
+  .site-footer { text-align: center; font-size: 0.8rem; color: #8b6914; border-top: 1px solid #c4a35a; padding-top: 1rem; margin-top: 2rem; font-style: italic; }
+  .contact-line { margin-top: 0.5rem; font-style: normal; }
+  .contact-line a { color: #8b6914; }
+  @media (max-width: 480px) { .site-title { font-size: 1.8rem; } .lang-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); } }
+</style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+
+      <header class="site-header">
+        <a href="index.html">
+          <div class="site-title">AENT</div>
+          <p class="site-tagline">Ang iyong salita ay ilawan sa aking mga paa at liwanag sa aking landas — Awit 119:105</p>
+        </a>
+      </header>
+
+      <div class="lang-notice">
+        Ang pahinang ito ay makukuha sa ibang mga wika. <a href="resources.html">Basahin sa Ingles</a>
+      </div>
+
+      <h1 class="page-title">Mga Mapagkukunan</h1>
+      <p class="page-subtitle">Lahat ng kailangan mo upang dalhin ang Kasulatan sa simpleng wika sa iyong mga tao — libre.<br>
+        <br>
+        Kung bago ka, mausisa, o naghahanap lamang ng kalinawan — magsimula rito. Ang mga mapagkukunang ito ay nandito upang tulungan kang maunawaan — hindi para pahirapan ka.</p>
+
+      <div class="section-box">
+        <h2>Ang Pangitain</h2>
+        <p>Ang AENT — Accessible English New Testament — ay itinayo upang patunayan ang isang simpleng bagay. Ang buong Bagong Tipan ay maaaring isalin sa malinaw at simpleng wika at mailathala sa buong mundo nang libre gamit ang mga kagamitan na maaaring ma-access ng sinuman. Hindi kailangan ng degree mula sa seminaryo. Hindi kailangan ng badyet sa pagpapalathala. Hindi kailangan ng teknikal na kaalaman.</p>
+        <p>Itinayo namin ang edisyong Ingles mula sa simula gamit lamang ang mga libreng kagamitan ng artificial intelligence, libreng software, at libreng web hosting. Ang buong proyekto — pagsasalin, website, at paglalathala — walang gastos maliban sa oras at katapatan.</p>
+        <p>Ngayon gusto naming ipakita sa iyo kung paano namin ito ginawa upang magawa mo ang parehong bagay para sa iyong mga tao sa iyong wika. Ang salita ng Diyos ay pag-aari ng lahat. Sa mundo ng Diyos tayong lahat ay magkakapatid at magkakatabing. Bawat tao sa mundo ay may karapatang basahin ito sa wikang tunay nilang naiintindihan. Ibigin ang Diyos nang buong puso, buong kaluluwa, buong isip at buong lakas. Ikalat ang Kanyang mabuting balita sa lahat ng dako.</p>
+      </div>
+
+      <div class="principle-box">
+        <h2>Mga Prinsipyo ng Pagsasalin ng AENT</h2>
+        <p>Ito ang mga alituntunin na sinunod namin sa bawat kabanata ng bawat aklat. Sundin ang mga ito at ang iyong pagsasalin ay magtataglay ng parehong mainit, malinaw, at madaling basahing kalidad ng edisyong Ingles.</p>
+        <ul>
+          <li><strong>Simpleng wika palagi.</strong> Kung hindi maunawaan ng isang estudyante sa hayskul ang pangungusap, isulat muli ito. Huwag kailanman gumamit ng makalumang o relihiyosong wika kapag may simpleng salitang magagamit.</li>
+          <li><strong>Gumamit ng pamilyar na mga pangalan.</strong> Gumamit ng mga pangalang alam na ng mga tao — Jesus, hindi Yeshua. Diyos, hindi Elohim. Ang layunin ay pag-unawa, hindi pagpapakita ng karunungan.</li>
+          <li><strong>Isang ideya sa bawat pangungusap.</strong> Ang mahabang kumplikadong pangungusap ay nagpapalayo sa mga mambabasa. Hatiin ang mga ito. Panatilihing malinaw.</li>
+          <li><strong>PANGINOON sa malaking titik.</strong> Kapag ang teksto ay tumutukoy sa personal na sagradong pangalan ng Diyos gamitin ang PANGINOON sa malaking titik. Kapag ito ay titulo ng paggalang gamitin ang Panginoon sa karaniwang titik.</li>
+          <li><strong>Balangkas ng kasama.</strong> Ang pagsasaling ito ay kasama ng paboritong Bibliya ng mambabasa — hindi kapalit. Sabihin ito nang malinaw sa simula ng bawat aklat.</li>
+          <li><strong>Mainit at madaling basahing boses.</strong> Sumulat tulad ng pagpapaliwanag ng isang mapagkakatiwalaang kaibigan sa Kasulatan — hindi tulad ng isang akademiko na sumusulat ng komentaryo.</li>
+          <li><strong>Manatiling tapat sa kahulugan.</strong> Ang simpleng wika ay hindi nangangahulugang libreng paraphrasing. Ang bawat pagpili sa pagsasalin ay dapat igalang ang kahulugan ng orihinal na tekstong Griyego.</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <h2>Hakbang sa Hakbang — Paano Gumawa ng Sariling Edisyon</h2>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">1</span><span class="step-title">Gumawa ng Libreng Google Account</span></div>
+          <p>Pumunta sa google.com at gumawa ng libreng account. Ang account na ito ay nagbibigay sa iyo ng Gmail para sa email address ng iyong proyekto at Google Docs para sa pagsusulat at pag-iimbak ng iyong pagsasalin. Bigyan ng malinaw na pangalan ang iyong email — tulad ng filipinoaent@gmail.com o aentfilipino@gmail.com.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">2</span><span class="step-title">Kunin ang Iyong Pinagmumulang Teksto</span></div>
+          <p>Kailangan mo ng mapagkakatiwalaang Griyegong Bagong Tipan bilang pundasyon. Inirerekomenda namin ang SBL Greek New Testament — maghanap online ng "SBL Greek New Testament free PDF" upang mahanap ito. Hindi mo kailangang basahin ang Griyego nang mag-isa. Ang mga kagamitan ng AI ang hahawak ng pagsasalin mula sa Griyego. Kailangan mo lamang ang pinagmumulang teksto bilang sanggunian.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">3</span><span class="step-title">Buksan ang Grok o Gemini at Simulan ang Pagsasalin</span></div>
+          <p>Pumunta sa grok.com o gemini.google.com at gumawa ng libreng account. Ang parehong kagamitan ay mahusay para sa gawaing pagsasalin at may mapagbigay na libreng antas na magdadala sa iyo sa buong Bagong Tipan nang hindi nauubos ang oras ng session.</p>
+          <p>Para sa bawat kabanata bigyan ng tagubilin ang Grok o Gemini tulad nito — "Mangyaring isalin ang Mateo Kabanata 1 mula sa Griyegong Bagong Tipan sa simpleng Filipino ayon sa mga prinsipyong ito — gumamit ng pamilyar na mga pangalan tulad ng Jesus at Diyos, sumulat sa antas ng hayskul, isang ideya sa bawat pangungusap, mainit at magiliw na boses, PANGINOON sa malaking titik kapag tumutukoy sa personal na pangalan ng Diyos. Ito ay isang kasamang pagsasalin at hindi kapalit ng mga umiiral na Bibliya."</p>
+          <p>Maingat na suriin ang bawat kabanata. Ayusin ang anumang hindi natural na tunog sa iyong wika. I-paste ang natapos na kabanata sa Google Docs. I-save ito. Magpatuloy sa susunod na kabanata.</p>
+          <p>Kapag kumpleto na ang iyong pagsasalin at handa ka nang gumawa ng iyong website — doon mo na dalhin si Claude sa claude.ai. Si Claude ay mahusay sa pagbuo ng mga HTML page, pagpapino ng simpleng wika, at paglutas ng mga teknikal na problema. Gamitin ang bawat kagamitan para sa kung saan ito pinakamahusay.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">4</span><span class="step-title">Magtrabaho Aklat sa Aklat</span></div>
+          <p>Magsalin ng isang aklat sa isang pagkakataon. Magsimula sa Ebanghelyo ni Marcos — ito ang pinakamaikling Ebanghelyo at ang pinaka-direktang salaysay. Kapag natapos mo si Marcos magkakaroon ka ng malakas na pakiramdam para sa boses ng pagsasalin at ang natitira ay magiging mas mabilis.</p>
+          <p>Itago ang bawat natapos na aklat bilang hiwalay na dokumento sa Google Docs. Ang iyong gawa ay awtomatikong nai-save sa cloud at maa-access mula sa anumang device. Hindi kailanman mawawala.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">5</span><span class="step-title">I-download ang SeaMonkey Composer</span></div>
+          <p>Para sa lahat ng pag-edit ng website inirerekomenda namin ang SeaMonkey. Ito ay isang makapangyarihang lumang-paaralang kagamitan na gumagana nang eksakto tulad ng Microsoft Word. Kung maaari kang mag-copy ng teksto mula sa isang dokumento at i-paste ito sa isang bagong window mayroon ka na ng mga kasanayan upang gumawa ng website gamit ang SeaMonkey. Iginagalang nito ang iyong format, pinapanatiling simple ang mga bagay, at nangangailangan ng <strong>zero na kaalaman sa coding</strong>.</p>
+          <p>Upang makapagsimula pumunta sa seamonkey-project.org at i-download ang software nang libre. Kapag naka-install na gamitin ang kagamitang <strong>Composer</strong> upang gawing propesyonal na HTML web page ang iyong Google Docs na teksto.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">6</span><span class="step-title">Gumawa ng Iyong Mga HTML Page</span></div>
+          <p>Kung gusto mong simulan ang iyong sariling proyektong pagsasalin makipag-ugnayan sa amin sa <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> upang makatanggap ng libreng <strong>AENT HTML Template</strong>. Ang pre-formatted na file na ito ay tinitiyak na ang iyong site ay mananatiling malinis, propesyonal, at madaling basahin sa mga computer at telepono — nang hindi kailangang matuto ng kahit isang linya ng code.</p>
+          <p>Ang template ang hahawak ng "teknikal na gawa" para sa iyo. Buksan lamang ito sa <strong>SeaMonkey Composer</strong>, i-paste ang iyong isinalin na teksto sa <strong>Normal na view</strong>, at i-save ito bilang HTML file. Inirerekomenda namin ang pagbuo ng isang HTML file bawat aklat na naglalaman ng lahat ng kabanata.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">7</span><span class="step-title">I-set Up ang GitHub at Mag-publish</span></div>
+          <p>Pumunta sa github.com at gumawa ng libreng account. Gumawa ng bagong repository at i-enable ang GitHub Pages sa mga setting ng repository. I-upload ang lahat ng iyong HTML file. Ang iyong pagsasalin ay agad na available sa internet — libre, permanente, at maa-access ng sinuman sa buong mundo.</p>
+          <p>Iyon na. Mula sa sandaling iyon sinumang makahanap ng iyong website ay maaaring basahin ang Bagong Tipan sa simpleng wika sa iyong wika nang libre.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">8</span><span class="step-title">Makipag-ugnayan sa Amin — Gusto Naming Tumulong</span></div>
+          <p>Hindi mo kailangang alamin ito nang mag-isa. Dumaan kami sa bawat hakbang ng prosesong ito at gusto naming tulungan kang magtagumpay. Mag-email sa amin sa <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> na may mga tanong, upang makatanggap ng HTML template, o para lamang ipaalam sa amin na nagtatrabaho ka sa isang pagsasalin. Sasamahan ka namin sa buong proseso.</p>
+        </div>
+
+      </div>
+
+      <div class="section-box">
+        <h2>Mga Kagamitan ng AI na Inirerekomenda Namin</h2>
+        <p><strong>Claude (Anthropic)</strong> — claude.ai — Ang puso ng proyektong AENT. Hinawakan ni Claude ang pagsasalin, pagpapino ng simpleng wika, at itinayo ang bawat HTML page sa website na ito. Si Claude ay mahusay sa mga nuance, tono, at pagpapahayag ng kahulugan sa mainit at madaling basahing wika na pakiramdam ay tulad ng isang mapagkakatiwalaang kaibigan na nagpapaliwanag ng Kasulatan kaysa isang akademiko na nagbibigay ng lektura. Pinakamahusay para sa pagpapino ng pagsasalin, simpleng wika, pagbuo ng website, at anumang nangangailangan ng personal at madaling lapitang boses. Kung isang kagamitan lamang ng AI ang gagamitin mo para sa proyektong ito gawin itong Claude.</p>
+        <p><strong>Gemini (Google)</strong> — gemini.google.com — Ang espesyalista sa malalim na pananaliksik. Kapag ang tanong sa pagsasalin ay lumampas sa ibabaw — kapag kailangan mong maunawaan kung ano ang tunay na ibig sabihin ng isang salitang Griyego sa konteksto ng unang siglo o resolbahin ang isang teolohikal na debate tungkol sa isang mahirap na talata — si Gemini ang iyong kagamitan. Pinakamahusay para sa pag-aaral ng salita, teolohikal na pananaliksik, at teknikal na mga tanong sa pagsasalin.</p>
+        <p><strong>ChatGPT (OpenAI)</strong> — chatgpt.com — Ang artista ng koponan. Ginawa ni ChatGPT ang logo ng AENT — ang bukas na Bibliya na may ilawan at gintong landas ng liwanag — at maaari nitong gawin ang parehong bagay para sa iyong proyekto. Humingi ng PNG na may transparent na background para sa pinakamahusay na resulta sa iyong pahina ng pergamino. Pinakamahusay para sa mga logo, ilustrasyon, at anumang visual na asset na kailangan ng iyong proyekto.</p>
+        <p><strong>Grok (xAI)</strong> — grok.com — Ang pinaka-handang miyembro ng koponan. Kapag ang ibang AI ay nag-aatubili sa isang partikular na talata o naubos ang oras ng session si Grok ay sumasali nang walang reklamo at nagbibigay ng matibay na gawaing pagsasalin. Pinakamahusay para sa malalaking dami ng pagsasalin, pagsunod sa mga tiyak na kahilingan, at pagpapatuloy mula sa tinahanan ng iba.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Mga Libreng Kagamitan sa Paglalathala</h2>
+        <p><strong>Google Docs</strong> — docs.google.com — Libreng cloud-based na word processor. Dito mo isusulat, itatago, at pagbubutihin ang iyong pagsasalin kabanata sa kabanata. Ang iyong gawa ay awtomatikong nai-save, maa-access mula sa anumang device, at hindi kailanman mawawala. Kapag handa na ang isang kabanata kopyahin lamang ito mula sa Google Docs at i-paste nang direkta sa SeaMonkey Composer — ang format ay malinis na nililipat.</p>
+        <p><strong>Gmail</strong> — gmail.com — Libreng email mula sa Google. Mag-set up ng dedikadong email address para sa iyong ministeryo ng pagsasalin. Dahil ang Gmail at Google Docs ay nagbabahagi ng parehong Google account kailangan mo lamang mag-sign up nang isang beses upang makuha ang dalawa.</p>
+        <p><strong>SeaMonkey Composer</strong> — seamonkey-project.org — Libreng HTML editor. Gumagana tulad ng Microsoft Word. I-paste ang iyong isinalin na teksto, mag-apply ng mga heading, i-save bilang HTML. Hindi kailangan ng kaalaman sa coding.</p>
+        <p><strong>GitHub Pages</strong> — github.com — Libreng web hosting para sa lahat. I-upload ang iyong mga HTML file at ang iyong pagsasalin ay agad na available sa internet nang libre magpakailanman.</p>
+        <p><strong>Ang AENT HTML Template</strong> — Makipag-ugnayan sa amin sa <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> upang makatanggap ng libreng template. Kasama na ang lahat ng styling, navigation, at formatting — handa na para sa iyong isinalin na teksto.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Makipag-ugnayan sa Amin</h2>
+        <p>Kung nagtatrabaho ka sa isang Bagong Tipan sa simpleng wika sa anumang wika at gusto ng gabay, HTML template, lakas ng loob, o isang taong sasamahan sa iyo sa proseso — makipag-ugnayan sa amin. Gusto naming tumulong.</p>
+        <p><a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></p>
+      </div>
+
+      <div class="nav-title">Mga Pagsasalin na Isinasagawa</div>
+      <p class="nav-subtitle">Ang mga edisyong ito sa ibang mga wika ay pinaplano o pinauunlad. Ang mga link ay magiging aktibo habang nakukumpleto ang bawat edisyon. Gusto mo bang manguna sa pagsasalin para sa iyong wika? Makipag-ugnayan sa amin sa aentproject@gmail.com.</p>
+
+      <div class="section-label">Africa</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Kiswahili</span><span class="english">Swahili</span></span>
+        <span class="lang-btn coming"><span class="native">Hausa</span><span class="english">Hausa</span></span>
+        <span class="lang-btn coming"><span class="native">Yorùbá</span><span class="english">Yoruba</span></span>
+        <span class="lang-btn coming"><span class="native">Igbo</span><span class="english">Igbo</span></span>
+        <span class="lang-btn coming"><span class="native">አማርኛ</span><span class="english">Amharic</span></span>
+        <span class="lang-btn coming"><span class="native">isiZulu</span><span class="english">Zulu</span></span>
+      </div>
+
+      <div class="section-label">Amerika</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Español</span><span class="english">Espanyol</span></span>
+        <span class="lang-btn coming"><span class="native">Português</span><span class="english">Portuges</span></span>
+        <span class="lang-btn coming"><span class="native">Français</span><span class="english">Pranses</span></span>
+        <span class="lang-btn coming"><span class="native">Kreyòl Ayisyen</span><span class="english">Haitian Creole</span></span>
+      </div>
+
+      <div class="section-label">Europa</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Deutsch</span><span class="english">Aleman</span></span>
+        <span class="lang-btn coming"><span class="native">Italiano</span><span class="english">Italyano</span></span>
+        <span class="lang-btn coming"><span class="native">Русский</span><span class="english">Ruso</span></span>
+        <span class="lang-btn coming"><span class="native">Українська</span><span class="english">Ukranyano</span></span>
+        <span class="lang-btn coming"><span class="native">Polski</span><span class="english">Polako</span></span>
+        <span class="lang-btn coming"><span class="native">Română</span><span class="english">Rumano</span></span>
+      </div>
+
+      <div class="section-label">Gitnang Silangan</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">العربية</span><span class="english">Arabiko</span></span>
+        <span class="lang-btn coming"><span class="native">فارسی</span><span class="english">Persyano</span></span>
+        <span class="lang-btn coming"><span class="native">Türkçe</span><span class="english">Turko</span></span>
+        <span class="lang-btn coming"><span class="native">עברית</span><span class="english">Hebreo</span></span>
+      </div>
+
+      <div class="section-label">Asya at Pasipiko</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">हिन्दी</span><span class="english">Hindi</span></span>
+        <span class="lang-btn coming"><span class="native">বাংলা</span><span class="english">Bengali</span></span>
+        <span class="lang-btn coming"><span class="native">中文</span><span class="english">Mandarin</span></span>
+        <span class="lang-btn coming"><span class="native">日本語</span><span class="english">Hapon</span></span>
+        <span class="lang-btn coming"><span class="native">한국어</span><span class="english">Koreano</span></span>
+        <span class="lang-btn coming"><span class="native">Bahasa Indonesia</span><span class="english">Indonesyano</span></span>
+        <span class="lang-btn coming"><span class="native">Filipino</span><span class="english">Filipino</span></span>
+        <span class="lang-btn coming"><span class="native">Tiếng Việt</span><span class="english">Byetnamis</span></span>
+        <span class="lang-btn coming"><span class="native">ภาษาไทย</span><span class="english">Thai</span></span>
+        <span class="lang-btn coming"><span class="native">မြန်မာဘာသာ</span><span class="english">Burmese</span></span>
+      </div>
+
+      <div style="text-align:center;">
+        <a class="home-btn" href="index.html">&#8962; Bumalik sa Tahanan</a>
+      </div>
+
+      <footer class="site-footer">
+        Libre para sa lahat &#8212; ibahagi nang malaya &#8212; para sa kaluwalhatian ng Diyos
+        <div class="contact-line">Makipag-ugnayan: <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></div>
+      </footer>
+
+    </div>
+  </body>
+</html>

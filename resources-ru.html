@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ресурсы — AENT</title>
+    <style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background-color: #f5f0e8; color: #2c1f0e; line-height: 1.8; }
+  .page-wrapper { max-width: 740px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+  .site-header { text-align: center; border-bottom: 2px solid #8b6914; padding-bottom: 1.5rem; margin-bottom: 1.75rem; }
+  .site-header a { text-decoration: none; }
+  .site-title { font-size: 2.2rem; font-weight: 700; color: #5c3a00; letter-spacing: 0.15em; margin-bottom: 0.25rem; }
+  .site-tagline { font-style: italic; font-size: 0.95rem; color: #6b4c1e; }
+  .lang-notice { background: #e8dfc8; border: 1px solid #c4a35a; border-radius: 6px; padding: 0.6rem 1rem; text-align: center; font-size: 0.85rem; color: #5c3a00; margin-bottom: 1.5rem; }
+  .lang-notice a { color: #8b6914; font-weight: 700; }
+  .page-title { font-size: 1.5rem; font-weight: 700; color: #5c3a00; text-align: center; margin-bottom: 0.5rem; letter-spacing: 0.05em; }
+  .page-subtitle { text-align: center; font-style: italic; color: #6b4c1e; font-size: 0.95rem; margin-bottom: 2rem; }
+  .section-box { background: #ede5d0; border-left: 4px solid #8b6914; padding: 1.25rem 1.5rem; border-radius: 0 6px 6px 0; margin-bottom: 1.5rem; }
+  .section-box h2 { font-size: 1.1rem; font-weight: 700; color: #5c3a00; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .section-box p { margin-bottom: 0.75rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box p:last-child { margin-bottom: 0; }
+  .section-box a { color: #8b6914; font-weight: 700; }
+  .section-box ul { margin: 0.5rem 0 0.75rem 1.5rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box ul li { margin-bottom: 0.5rem; }
+  .principle-box { background: #5c3a00; color: #f5f0e8; padding: 1.25rem 1.5rem; border-radius: 6px; margin-bottom: 1.5rem; }
+  .principle-box h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.75rem; letter-spacing: 0.08em; color: #f5f0e8; }
+  .principle-box ul { margin: 0 0 0 1.5rem; font-size: 0.95rem; color: #e8dfc8; }
+  .principle-box ul li { margin-bottom: 0.6rem; }
+  .principle-box p { font-size: 0.95rem; color: #e8dfc8; margin-bottom: 0.5rem; }
+  .step-block { margin-bottom: 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid #c4a35a; }
+  .step-block:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .step-header { margin-bottom: 0.5rem; }
+  .step-number { display: inline-block; background: #8b6914; color: #f5f0e8; font-weight: 700; font-size: 0.85rem; width: 28px; height: 28px; border-radius: 50%; text-align: center; line-height: 28px; margin-right: 0.5rem; vertical-align: middle; }
+  .step-title { font-size: 1rem; font-weight: 700; color: #5c3a00; vertical-align: middle; }
+  .step-block p { font-size: 0.95rem; color: #3a2a0e; margin-bottom: 0.5rem; }
+  .step-block p:last-child { margin-bottom: 0; }
+  .step-block a { color: #8b6914; font-weight: 700; }
+  .nav-title { font-size: 1.1rem; font-weight: 700; color: #5c3a00; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; border-bottom: 1px solid #c4a35a; padding-bottom: 0.5rem; }
+  .nav-subtitle { font-size: 0.88rem; color: #6b4c1e; font-style: italic; margin-bottom: 1.25rem; }
+  .section-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #8b6914; margin: 1.5rem 0 0.5rem; }
+  .lang-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; margin-bottom: 0.5rem; }
+  .lang-btn { display: block; padding: 0.7rem 0.9rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.95rem; text-align: center; cursor: default; opacity: 0.7; }
+  .lang-btn .native { font-size: 1.05rem; font-weight: 700; display: block; }
+  .lang-btn .english { font-size: 0.75rem; color: #8b6914; display: block; margin-top: 0.1rem; }
+  .lang-btn.coming::after { content: 'Скоро'; font-size: 0.65rem; color: #8b6914; display: block; margin-top: 0.2rem; font-style: italic; }
+  .home-btn { display: inline-block; margin-top: 2rem; padding: 0.6rem 1.2rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.92rem; }
+  .home-btn:hover { background: #ddd0b0; border-color: #8b6914; }
+  .site-footer { text-align: center; font-size: 0.8rem; color: #8b6914; border-top: 1px solid #c4a35a; padding-top: 1rem; margin-top: 2rem; font-style: italic; }
+  .contact-line { margin-top: 0.5rem; font-style: normal; }
+  .contact-line a { color: #8b6914; }
+  @media (max-width: 480px) { .site-title { font-size: 1.8rem; } .lang-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); } }
+</style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+
+      <header class="site-header">
+        <a href="index.html">
+          <div class="site-title">AENT</div>
+          <p class="site-tagline">Слово Твоё — светильник ноге моей и свет стезе моей — Псалом 118:105</p>
+        </a>
+      </header>
+
+      <div class="lang-notice">
+        Эта страница доступна на других языках. <a href="resources.html">Читать на английском</a>
+      </div>
+
+      <h1 class="page-title">Ресурсы</h1>
+      <p class="page-subtitle">Всё необходимое для того, чтобы донести Писание на простом языке до своего народа — бесплатно.<br>
+        <br>
+        Если вы новичок, любопытны или просто ищете ясности — начните здесь. Эти ресурсы здесь, чтобы помочь вам понять — а не перегрузить вас.</p>
+
+      <div class="section-box">
+        <h2>Видение</h2>
+        <p>AENT — Доступный Новый Завет на английском языке — был создан, чтобы доказать одну простую вещь. Весь Новый Завет можно перевести на ясный, понятный язык и бесплатно опубликовать для всего мира, используя инструменты, доступные каждому. Не нужна семинарская степень. Не нужен издательский бюджет. Не нужен технический опыт.</p>
+        <p>Мы создали английское издание с нуля, используя только бесплатные инструменты искусственного интеллекта, бесплатное программное обеспечение и бесплатный веб-хостинг. Весь проект — перевод, сайт и публикация — не стоил ничего, кроме времени и верности.</p>
+        <p>Теперь мы хотим показать вам именно то, как мы это сделали, чтобы вы могли сделать то же самое для своего народа на своём языке. Слово Божье принадлежит всем. В мире Бога мы все братья, сёстры и соседи. Каждый человек на земле заслуживает читать его на языке, который он действительно понимает. Возлюбите Бога всем сердцем своим, душою, разумом и силою. Несите Его благую весть повсюду.</p>
+      </div>
+
+      <div class="principle-box">
+        <h2>Принципы перевода AENT</h2>
+        <p>Это руководящие принципы, которым мы следовали в каждой главе каждой книги. Следуйте им, и ваш перевод будет обладать той же тёплой, ясной и читабельной качеством, что и английское издание.</p>
+        <ul>
+          <li><strong>Простой язык всегда.</strong> Если ученик средней школы не может понять предложение, перепишите его. Никогда не используйте архаичный или религиозный язык, когда есть простое слово.</li>
+          <li><strong>Используйте знакомые имена.</strong> Используйте имена, которые люди уже знают — Иисус, а не Йешуа. Бог, а не Элохим. Цель — понимание, а не учёность.</li>
+          <li><strong>Одна мысль в предложении.</strong> Длинные сложные предложения теряют читателей. Разбивайте их. Делайте их ясными.</li>
+          <li><strong>ГОСПОДЬ прописными буквами.</strong> Когда в тексте упоминается личное святое имя Бога, пишите ГОСПОДЬ прописными буквами. Когда это почётный титул — пишите Господь обычными буквами.</li>
+          <li><strong>Формат сопровождения.</strong> Этот перевод является спутником любимой Библии читателя — а не заменой. Чётко скажите об этом в начале каждой книги.</li>
+          <li><strong>Тёплый, читабельный голос.</strong> Пишите так, как доверенный друг объяснил бы Писание — а не так, как учёный пишет комментарий.</li>
+          <li><strong>Оставайтесь верными смыслу.</strong> Простой язык не означает свободного пересказа. Каждый переводческий выбор должен уважать смысл оригинального греческого текста.</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <h2>Шаг за шагом — как создать своё издание</h2>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">1</span><span class="step-title">Создайте бесплатный аккаунт Google</span></div>
+          <p>Зайдите на google.com и создайте бесплатный аккаунт. Этот аккаунт даёт вам Gmail для адреса электронной почты вашего проекта и Google Docs для написания и хранения вашего перевода. Дайте своей почте понятное имя — например, russiannaent@gmail.com или aentrussian@gmail.com.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">2</span><span class="step-title">Получите исходный текст</span></div>
+          <p>Вам нужен надёжный греческий Новый Завет как основа. Мы рекомендуем греческий Новый Завет SBL — найдите его в интернете по запросу "SBL Greek New Testament free PDF". Вам не нужно самому читать по-гречески. Инструменты ИИ возьмут на себя перевод с греческого. Вам лишь нужно иметь исходный текст под рукой для справки.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">3</span><span class="step-title">Откройте Grok или Gemini и начните переводить</span></div>
+          <p>Зайдите на grok.com или gemini.google.com и создайте бесплатный аккаунт. Оба инструмента отлично подходят для переводческой работы и имеют щедрые бесплатные уровни, которые позволят вам пройти весь Новый Завет без исчерпания времени сеанса.</p>
+          <p>Для каждой главы давайте Grok или Gemini такое задание — "Пожалуйста, переведите Евангелие от Матфея, глава 1, с греческого Нового Завета на простой русский язык, следуя этим принципам — используйте знакомые имена, такие как Иисус и Бог, пишите на уровне ученика средней школы, одна мысль в предложении, тёплый и дружеский голос, ГОСПОДЬ прописными буквами при упоминании личного имени Бога. Это сопроводительный перевод, а не замена существующих Библий."</p>
+          <p>Внимательно просматривайте каждую главу. Корректируйте всё, что звучит неестественно на вашем языке. Вставьте готовую главу в Google Docs. Сохраните. Переходите к следующей главе.</p>
+          <p>Когда ваш перевод будет готов и вы будете готовы создать сайт — тогда подключайте Claude на claude.ai. Claude превосходно справляется с созданием HTML-страниц, улучшением простого языка и решением технических проблем. Используйте каждый инструмент для того, в чём он лучше всего.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">4</span><span class="step-title">Работайте книга за книгой</span></div>
+          <p>Переводите по одной книге за раз. Начните с Евангелия от Марка — это самое короткое Евангелие и наиболее прямолинейное повествование. Закончив Марка, вы хорошо почувствуете голос перевода, и остальное пойдёт быстрее.</p>
+          <p>Храните каждую готовую книгу как отдельный документ в Google Docs. Ваша работа автоматически сохраняется в облаке и доступна с любого устройства. Никогда не потеряется.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">5</span><span class="step-title">Скачайте SeaMonkey Composer</span></div>
+          <p>Для редактирования сайта мы рекомендуем SeaMonkey. Это мощный инструмент в старом стиле, который работает точно как Microsoft Word. Если вы умеете копировать текст из документа и вставлять его в новое окно — у вас уже есть все навыки для создания сайта с помощью SeaMonkey. Он уважает ваше форматирование, всё просто, и требует <strong>нулевых знаний программирования</strong>.</p>
+          <p>Для начала зайдите на seamonkey-project.org и бесплатно скачайте программу. После установки используйте инструмент <strong>Composer</strong>, чтобы превратить текст из Google Docs в профессиональные HTML-страницы.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">6</span><span class="step-title">Создайте свои HTML-страницы</span></div>
+          <p>Если вы хотите начать свой переводческий проект, напишите нам на <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a>, чтобы получить бесплатный <strong>HTML-шаблон AENT</strong>. Этот готовый файл гарантирует, что ваш сайт будет оставаться чистым, профессиональным и удобным для чтения как на компьютерах, так и на телефонах — без необходимости учить хоть одну строку кода.</p>
+          <p>Шаблон берёт на себя всю "техническую работу". Просто откройте его в <strong>SeaMonkey Composer</strong>, вставьте переведённый текст в <strong>обычный вид</strong> и сохраните как HTML-файл. Мы рекомендуем создавать один HTML-файл на книгу, содержащий все главы.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">7</span><span class="step-title">Настройте GitHub и опубликуйте</span></div>
+          <p>Зайдите на github.com и создайте бесплатный аккаунт. Создайте новый репозиторий и включите GitHub Pages в настройках репозитория. Загрузите все HTML-файлы. Ваш перевод сразу окажется в интернете — бесплатно, навсегда и доступен для всех в мире.</p>
+          <p>Вот и всё. С этого момента любой человек, нашедший ваш сайт, сможет читать Новый Завет на простом языке бесплатно.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">8</span><span class="step-title">Свяжитесь с нами — мы хотим помочь</span></div>
+          <p>Вам не нужно разбираться во всём этом в одиночку. Мы прошли каждый шаг этого процесса и хотим помочь вам добиться успеха. Напишите нам на <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> с вопросами, чтобы получить HTML-шаблон или просто сообщить, что вы работаете над переводом. Мы будем рядом на протяжении всего пути.</p>
+        </div>
+
+      </div>
+
+      <div class="section-box">
+        <h2>Рекомендуемые инструменты ИИ</h2>
+        <p><strong>Claude (Anthropic)</strong> — claude.ai — Сердце проекта AENT. Claude занимался переводом, совершенствованием простого языка и создал каждую HTML-страницу на этом сайте. Claude превосходно справляется с нюансами, тоном и выражением смысла тёплым и читабельным языком, который ощущается как объяснение Писания доверенным другом, а не лекция учёного. Лучший для совершенствования переводов, простого языка, создания сайтов и всего, что требует личного и доступного голоса. Если вы будете использовать только один инструмент ИИ для этого проекта — пусть это будет Claude.</p>
+        <p><strong>Gemini (Google)</strong> — gemini.google.com — Специалист по глубоким исследованиям. Когда переводческий вопрос выходит за пределы поверхности — когда нужно понять, что греческое слово означало в контексте первого века, или разрешить богословскую дискуссию о сложном отрывке — Gemini ваш инструмент. Лучший для изучения слов, богословских исследований и технических вопросов перевода.</p>
+        <p><strong>ChatGPT (OpenAI)</strong> — chatgpt.com — Художник команды. ChatGPT создал логотип AENT — открытая Библия с лампой и золотым светящимся путём — и может сделать то же самое для вашего проекта. Попросите PNG с прозрачным фоном для лучших результатов на вашей пергаментной странице. Лучший для логотипов, иллюстраций и любых визуальных материалов для вашего проекта.</p>
+        <p><strong>Grok (xAI)</strong> — grok.com — Самый готовый помочь член команды. Когда другой ИИ колеблется с определённым отрывком или заканчивается время сеанса, Grok вступает без жалоб и выполняет качественную переводческую работу. Лучший для больших объёмов перевода, выполнения конкретных запросов и продолжения там, где остановились другие.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Бесплатные инструменты публикации</h2>
+        <p><strong>Google Docs</strong> — docs.google.com — Бесплатный облачный текстовый редактор. Здесь вы пишете, храните и шлифуете перевод глава за главой. Ваша работа автоматически сохраняется, доступна с любого устройства и никогда не теряется. Когда глава готова, просто скопируйте её из Google Docs и вставьте прямо в SeaMonkey Composer — форматирование переносится чисто.</p>
+        <p><strong>Gmail</strong> — gmail.com — Бесплатная электронная почта от Google. Создайте специальный адрес для вашего переводческого служения. Поскольку Gmail и Google Docs используют один аккаунт Google, вам нужно зарегистрироваться только один раз, чтобы получить оба сервиса.</p>
+        <p><strong>SeaMonkey Composer</strong> — seamonkey-project.org — Бесплатный HTML-редактор. Работает как Microsoft Word. Вставьте переведённый текст, примените заголовки, сохраните как HTML. Знания программирования не требуются.</p>
+        <p><strong>GitHub Pages</strong> — github.com — Бесплатный веб-хостинг для всех. Загрузите HTML-файлы — и ваш перевод мгновенно окажется в интернете, бесплатно, навсегда.</p>
+        <p><strong>HTML-шаблон AENT</strong> — Напишите нам на <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a>, чтобы получить бесплатный шаблон. В нём уже есть всё оформление, навигация и форматирование — готово для вашего переведённого текста.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Свяжитесь с нами</h2>
+        <p>Если вы работаете над Новым Заветом на простом языке на любом языке и хотите получить руководство, HTML-шаблон, поддержку или просто кого-то, кто пройдёт этот путь вместе с вами — напишите нам. Мы хотим помочь.</p>
+        <p><a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></p>
+      </div>
+
+      <div class="nav-title">Переводы в процессе</div>
+      <p class="nav-subtitle">Эти издания на других языках планируются или находятся в разработке. Ссылки станут активными по мере завершения каждого издания. Хотите возглавить перевод на свой язык? Свяжитесь с нами по адресу aentproject@gmail.com.</p>
+
+      <div class="section-label">Африка</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Kiswahili</span><span class="english">Суахили</span></span>
+        <span class="lang-btn coming"><span class="native">Hausa</span><span class="english">Хауса</span></span>
+        <span class="lang-btn coming"><span class="native">Yorùbá</span><span class="english">Йоруба</span></span>
+        <span class="lang-btn coming"><span class="native">Igbo</span><span class="english">Игбо</span></span>
+        <span class="lang-btn coming"><span class="native">አማርኛ</span><span class="english">Амхарский</span></span>
+        <span class="lang-btn coming"><span class="native">isiZulu</span><span class="english">Зулу</span></span>
+      </div>
+
+      <div class="section-label">Америка</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Español</span><span class="english">Испанский</span></span>
+        <span class="lang-btn coming"><span class="native">Português</span><span class="english">Португальский</span></span>
+        <span class="lang-btn coming"><span class="native">Français</span><span class="english">Французский</span></span>
+        <span class="lang-btn coming"><span class="native">Kreyòl Ayisyen</span><span class="english">Гаитянский креольский</span></span>
+      </div>
+
+      <div class="section-label">Европа</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Deutsch</span><span class="english">Немецкий</span></span>
+        <span class="lang-btn coming"><span class="native">Italiano</span><span class="english">Итальянский</span></span>
+        <span class="lang-btn coming"><span class="native">Русский</span><span class="english">Русский</span></span>
+        <span class="lang-btn coming"><span class="native">Українська</span><span class="english">Украинский</span></span>
+        <span class="lang-btn coming"><span class="native">Polski</span><span class="english">Польский</span></span>
+        <span class="lang-btn coming"><span class="native">Română</span><span class="english">Румынский</span></span>
+      </div>
+
+      <div class="section-label">Ближний Восток</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">العربية</span><span class="english">Арабский</span></span>
+        <span class="lang-btn coming"><span class="native">فارسی</span><span class="english">Персидский</span></span>
+        <span class="lang-btn coming"><span class="native">Türkçe</span><span class="english">Турецкий</span></span>
+        <span class="lang-btn coming"><span class="native">עברית</span><span class="english">Иврит</span></span>
+      </div>
+
+      <div class="section-label">Азия и Тихоокеанский регион</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">हिन्दी</span><span class="english">Хинди</span></span>
+        <span class="lang-btn coming"><span class="native">বাংলা</span><span class="english">Бенгальский</span></span>
+        <span class="lang-btn coming"><span class="native">中文</span><span class="english">Китайский</span></span>
+        <span class="lang-btn coming"><span class="native">日本語</span><span class="english">Японский</span></span>
+        <span class="lang-btn coming"><span class="native">한국어</span><span class="english">Корейский</span></span>
+        <span class="lang-btn coming"><span class="native">Bahasa Indonesia</span><span class="english">Индонезийский</span></span>
+        <span class="lang-btn coming"><span class="native">Filipino</span><span class="english">Филиппинский</span></span>
+        <span class="lang-btn coming"><span class="native">Tiếng Việt</span><span class="english">Вьетнамский</span></span>
+        <span class="lang-btn coming"><span class="native">ภาษาไทย</span><span class="english">Тайский</span></span>
+        <span class="lang-btn coming"><span class="native">မြန်မာဘာသာ</span><span class="english">Бирманский</span></span>
+      </div>
+
+      <div style="text-align:center;">
+        <a class="home-btn" href="index.html">&#8962; Вернуться на главную</a>
+      </div>
+
+      <footer class="site-footer">
+        Бесплатно для всех &#8212; делитесь свободно &#8212; во славу Божью
+        <div class="contact-line">Контакт: <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></div>
+      </footer>
+
+    </div>
+  </body>
+</html>

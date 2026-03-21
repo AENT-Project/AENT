@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ressourcen — AENT</title>
+    <style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background-color: #f5f0e8; color: #2c1f0e; line-height: 1.8; }
+  .page-wrapper { max-width: 740px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+  .site-header { text-align: center; border-bottom: 2px solid #8b6914; padding-bottom: 1.5rem; margin-bottom: 1.75rem; }
+  .site-header a { text-decoration: none; }
+  .site-title { font-size: 2.2rem; font-weight: 700; color: #5c3a00; letter-spacing: 0.15em; margin-bottom: 0.25rem; }
+  .site-tagline { font-style: italic; font-size: 0.95rem; color: #6b4c1e; }
+  .lang-notice { background: #e8dfc8; border: 1px solid #c4a35a; border-radius: 6px; padding: 0.6rem 1rem; text-align: center; font-size: 0.85rem; color: #5c3a00; margin-bottom: 1.5rem; }
+  .lang-notice a { color: #8b6914; font-weight: 700; }
+  .page-title { font-size: 1.5rem; font-weight: 700; color: #5c3a00; text-align: center; margin-bottom: 0.5rem; letter-spacing: 0.05em; }
+  .page-subtitle { text-align: center; font-style: italic; color: #6b4c1e; font-size: 0.95rem; margin-bottom: 2rem; }
+  .section-box { background: #ede5d0; border-left: 4px solid #8b6914; padding: 1.25rem 1.5rem; border-radius: 0 6px 6px 0; margin-bottom: 1.5rem; }
+  .section-box h2 { font-size: 1.1rem; font-weight: 700; color: #5c3a00; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .section-box p { margin-bottom: 0.75rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box p:last-child { margin-bottom: 0; }
+  .section-box a { color: #8b6914; font-weight: 700; }
+  .section-box ul { margin: 0.5rem 0 0.75rem 1.5rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box ul li { margin-bottom: 0.5rem; }
+  .principle-box { background: #5c3a00; color: #f5f0e8; padding: 1.25rem 1.5rem; border-radius: 6px; margin-bottom: 1.5rem; }
+  .principle-box h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.75rem; letter-spacing: 0.08em; color: #f5f0e8; }
+  .principle-box ul { margin: 0 0 0 1.5rem; font-size: 0.95rem; color: #e8dfc8; }
+  .principle-box ul li { margin-bottom: 0.6rem; }
+  .principle-box p { font-size: 0.95rem; color: #e8dfc8; margin-bottom: 0.5rem; }
+  .step-block { margin-bottom: 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid #c4a35a; }
+  .step-block:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .step-header { margin-bottom: 0.5rem; }
+  .step-number { display: inline-block; background: #8b6914; color: #f5f0e8; font-weight: 700; font-size: 0.85rem; width: 28px; height: 28px; border-radius: 50%; text-align: center; line-height: 28px; margin-right: 0.5rem; vertical-align: middle; }
+  .step-title { font-size: 1rem; font-weight: 700; color: #5c3a00; vertical-align: middle; }
+  .step-block p { font-size: 0.95rem; color: #3a2a0e; margin-bottom: 0.5rem; }
+  .step-block p:last-child { margin-bottom: 0; }
+  .step-block a { color: #8b6914; font-weight: 700; }
+  .nav-title { font-size: 1.1rem; font-weight: 700; color: #5c3a00; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; border-bottom: 1px solid #c4a35a; padding-bottom: 0.5rem; }
+  .nav-subtitle { font-size: 0.88rem; color: #6b4c1e; font-style: italic; margin-bottom: 1.25rem; }
+  .section-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #8b6914; margin: 1.5rem 0 0.5rem; }
+  .lang-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; margin-bottom: 0.5rem; }
+  .lang-btn { display: block; padding: 0.7rem 0.9rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.95rem; text-align: center; cursor: default; opacity: 0.7; }
+  .lang-btn .native { font-size: 1.05rem; font-weight: 700; display: block; }
+  .lang-btn .english { font-size: 0.75rem; color: #8b6914; display: block; margin-top: 0.1rem; }
+  .lang-btn.coming::after { content: 'Demnächst'; font-size: 0.65rem; color: #8b6914; display: block; margin-top: 0.2rem; font-style: italic; }
+  .home-btn { display: inline-block; margin-top: 2rem; padding: 0.6rem 1.2rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.92rem; }
+  .home-btn:hover { background: #ddd0b0; border-color: #8b6914; }
+  .site-footer { text-align: center; font-size: 0.8rem; color: #8b6914; border-top: 1px solid #c4a35a; padding-top: 1rem; margin-top: 2rem; font-style: italic; }
+  .contact-line { margin-top: 0.5rem; font-style: normal; }
+  .contact-line a { color: #8b6914; }
+  @media (max-width: 480px) { .site-title { font-size: 1.8rem; } .lang-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); } }
+</style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+
+      <header class="site-header">
+        <a href="index.html">
+          <div class="site-title">AENT</div>
+          <p class="site-tagline">Dein Wort ist meines Fußes Leuchte und ein Licht auf meinem Weg — Psalm 119:105</p>
+        </a>
+      </header>
+
+      <div class="lang-notice">
+        Diese Seite ist in anderen Sprachen verfügbar. <a href="resources.html">Auf Englisch lesen</a>
+      </div>
+
+      <h1 class="page-title">Ressourcen</h1>
+      <p class="page-subtitle">Alles, was Sie brauchen, um die Heilige Schrift in einfacher Sprache zu Ihrem Volk zu bringen — kostenlos.<br>
+        <br>
+        Wenn Sie neu sind, neugierig sind oder einfach nur Klarheit suchen, beginnen Sie hier. Diese Ressourcen sind dazu da, Ihnen zu helfen zu verstehen — nicht um Sie zu überlasten.</p>
+
+      <div class="section-box">
+        <h2>Die Vision</h2>
+        <p>Das AENT — Zugängliches Englisches Neues Testament — wurde gebaut, um etwas Einfaches zu beweisen. Das gesamte Neue Testament kann in klare, verständliche Sprache übersetzt und der Welt kostenlos veröffentlicht werden, mit Werkzeugen, auf die jeder zugreifen kann. Kein Seminarabschluss erforderlich. Kein Verlagsbudget erforderlich. Kein technischer Hintergrund erforderlich.</p>
+        <p>Wir haben die englische Ausgabe von Grund auf nur mit kostenlosen KI-Werkzeugen, kostenloser Software und kostenlosem Webhosting erstellt. Das gesamte Projekt — Übersetzung, Website und Veröffentlichung — hat nichts gekostet außer Zeit und Treue.</p>
+        <p>Jetzt möchten wir Ihnen genau zeigen, wie wir das gemacht haben, damit Sie dasselbe für Ihr Volk in Ihrer Sprache tun können. Das Wort Gottes gehört allen. In Gottes Welt sind wir alle Brüder, Schwestern und Nachbarn. Jeder Mensch auf der Erde verdient es, es in der Sprache zu lesen, die er wirklich versteht. Lieben Sie Gott von ganzem Herzen, mit ganzer Seele, mit ganzem Verstand und mit aller Kraft. Verbreiten Sie seine gute Botschaft überall.</p>
+      </div>
+
+      <div class="principle-box">
+        <h2>Die AENT-Übersetzungsprinzipien</h2>
+        <p>Dies sind die Richtlinien, denen wir in jedem Kapitel jedes Buches gefolgt sind. Befolgen Sie sie und Ihre Übersetzung wird dieselbe warme, klare und lesbare Qualität wie die englische Ausgabe haben.</p>
+        <ul>
+          <li><strong>Immer einfache Sprache.</strong> Wenn ein Mittelschüler den Satz nicht verstehen kann, schreiben Sie ihn neu. Verwenden Sie niemals archaische oder religiöse Sprache, wenn ein einfaches Wort existiert.</li>
+          <li><strong>Vertraute Namen verwenden.</strong> Verwenden Sie Namen, die die Menschen bereits kennen — Jesus, nicht Jeschua. Gott, nicht Elohim. Das Ziel ist Verständnis, nicht Gelehrsamkeit.</li>
+          <li><strong>Ein Gedanke pro Satz.</strong> Lange, komplexe Sätze verlieren die Leser. Teilen Sie sie auf. Halten Sie sie klar.</li>
+          <li><strong>HERR in Großbuchstaben.</strong> Wenn der Text auf den persönlichen heiligen Namen Gottes verweist, schreiben Sie HERR in Großbuchstaben. Wenn es ein Ehrentitel ist, schreiben Sie Herr in normalen Buchstaben.</li>
+          <li><strong>Begleitungsrahmen.</strong> Diese Übersetzung ist ein Begleiter zur Lieblingsbibel des Lesers — kein Ersatz. Sagen Sie das deutlich am Anfang jedes Buches.</li>
+          <li><strong>Warme, lesbare Stimme.</strong> Schreiben Sie so, wie ein vertrauenswürdiger Freund die Schrift erklären würde — nicht wie ein Akademiker einen Kommentar schreibt.</li>
+          <li><strong>Dem Sinn treu bleiben.</strong> Einfache Sprache bedeutet keine freie Paraphrase. Jede Übersetzungsentscheidung sollte den Sinn des ursprünglichen griechischen Textes ehren.</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <h2>Schritt für Schritt — So erstellen Sie Ihre eigene Ausgabe</h2>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">1</span><span class="step-title">Erstellen Sie Ihr kostenloses Google-Konto</span></div>
+          <p>Gehen Sie zu google.com und erstellen Sie ein kostenloses Konto. Dieses Konto gibt Ihnen Gmail für die E-Mail-Adresse Ihres Projekts und Google Docs zum Schreiben und Speichern Ihrer Übersetzung. Geben Sie Ihrer E-Mail einen klaren Namen — zum Beispiel germanaent@gmail.com oder aentdeutsch@gmail.com.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">2</span><span class="step-title">Holen Sie sich Ihren Quelltext</span></div>
+          <p>Sie brauchen ein zuverlässiges griechisches Neues Testament als Grundlage. Wir empfehlen das griechische Neue Testament der SBL — suchen Sie online nach "SBL Greek New Testament free PDF", um es zu finden. Sie müssen selbst kein Griechisch lesen. Die KI-Werkzeuge übernehmen die Übersetzung aus dem Griechischen. Sie brauchen nur den Quelltext als Referenz verfügbar zu haben.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">3</span><span class="step-title">Öffnen Sie Grok oder Gemini und beginnen Sie zu übersetzen</span></div>
+          <p>Gehen Sie zu grok.com oder gemini.google.com und erstellen Sie ein kostenloses Konto. Beide Werkzeuge sind hervorragend für Übersetzungsarbeiten geeignet und haben großzügige kostenlose Stufen, die Sie durch das gesamte Neue Testament führen, ohne die Sitzungszeit zu erschöpfen.</p>
+          <p>Geben Sie Grok oder Gemini für jedes Kapitel eine Anweisung wie diese — "Bitte übersetzen Sie Matthäus Kapitel 1 aus dem griechischen Neuen Testament in einfaches Deutsch nach diesen Grundsätzen — verwenden Sie vertraute Namen wie Jesus und Gott, schreiben Sie auf Mittelschulniveau, ein Gedanke pro Satz, warme und freundliche Stimme, HERR in Großbuchstaben bei Bezug auf den persönlichen Namen Gottes. Dies ist eine Begleitübersetzung, kein Ersatz für bestehende Bibeln."</p>
+          <p>Überprüfen Sie jedes Kapitel sorgfältig. Passen Sie alles an, was sich in Ihrer Sprache nicht natürlich anhört. Fügen Sie das fertige Kapitel in Google Docs ein. Speichern Sie es. Fahren Sie mit dem nächsten Kapitel fort.</p>
+          <p>Wenn Ihre Übersetzung fertig ist und Sie bereit sind, Ihre Website zu erstellen — dann holen Sie Claude bei claude.ai dazu. Claude ist hervorragend beim Erstellen von HTML-Seiten, beim Verfeinern einfacher Sprache und beim Lösen technischer Probleme. Verwenden Sie jedes Werkzeug für das, was es am besten kann.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">4</span><span class="step-title">Arbeiten Sie Buch für Buch</span></div>
+          <p>Übersetzen Sie jeweils ein Buch. Beginnen Sie mit dem Markusevangelium — es ist das kürzeste Evangelium und die geradlinigste Erzählung. Nachdem Sie Markus fertiggestellt haben, werden Sie ein gutes Gespür für die Übersetzungsstimme haben, und der Rest wird schneller gehen.</p>
+          <p>Speichern Sie jedes fertige Buch als separates Dokument in Google Docs. Ihre Arbeit wird automatisch in der Cloud gespeichert und ist von jedem Gerät aus zugänglich. Sie geht nie verloren.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">5</span><span class="step-title">Laden Sie SeaMonkey Composer herunter</span></div>
+          <p>Für alle Website-Bearbeitungen empfehlen wir SeaMonkey. Es ist ein leistungsstarkes altmodisches Werkzeug, das genau wie Microsoft Word funktioniert. Wenn Sie Text aus einem Dokument kopieren und in ein neues Fenster einfügen können, haben Sie bereits die Fähigkeiten, um mit SeaMonkey eine Website zu erstellen. Es respektiert Ihre Formatierung, hält die Dinge einfach und erfordert <strong>null Programmierkenntnisse</strong>.</p>
+          <p>Um anzufangen, gehen Sie zu seamonkey-project.org und laden Sie die Software kostenlos herunter. Verwenden Sie nach der Installation das <strong>Composer</strong>-Werkzeug, um Ihren Google Docs-Text in professionelle HTML-Webseiten umzuwandeln.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">6</span><span class="step-title">Erstellen Sie Ihre HTML-Seiten</span></div>
+          <p>Wenn Sie Ihr eigenes Übersetzungsprojekt starten möchten, kontaktieren Sie uns unter <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a>, um die kostenlose <strong>AENT HTML-Vorlage</strong> zu erhalten. Diese vorformatierte Datei stellt sicher, dass Ihre Website auf Computern und Telefonen sauber, professionell und leicht lesbar bleibt — ohne eine einzige Zeile Code lernen zu müssen.</p>
+          <p>Die Vorlage erledigt die "technische Arbeit" für Sie. Öffnen Sie sie einfach im <strong>SeaMonkey Composer</strong>, fügen Sie Ihren übersetzten Text in die <strong>Normalansicht</strong> ein und speichern Sie sie als HTML-Datei. Wir empfehlen, eine HTML-Datei pro Buch zu erstellen, die alle Kapitel enthält.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">7</span><span class="step-title">Richten Sie GitHub ein und veröffentlichen Sie</span></div>
+          <p>Gehen Sie zu github.com und erstellen Sie ein kostenloses Konto. Erstellen Sie ein neues Repository und aktivieren Sie GitHub Pages in den Repository-Einstellungen. Laden Sie alle Ihre HTML-Dateien hoch. Ihre Übersetzung ist sofort im Internet verfügbar — kostenlos, dauerhaft und für jeden auf der Welt zugänglich.</p>
+          <p>Das ist alles. Von diesem Moment an kann jeder, der Ihre Website findet, das Neue Testament in einfacher Sprache in Ihrer Sprache kostenlos lesen.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">8</span><span class="step-title">Kontaktieren Sie uns — wir möchten helfen</span></div>
+          <p>Sie müssen das nicht alleine herausfinden. Wir haben jeden Schritt dieses Prozesses durchlaufen und möchten Ihnen helfen, erfolgreich zu sein. Schreiben Sie uns eine E-Mail an <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> mit Fragen, um die HTML-Vorlage zu erhalten oder uns einfach mitzuteilen, dass Sie an einer Übersetzung arbeiten. Wir begleiten Sie durch den gesamten Prozess.</p>
+        </div>
+
+      </div>
+
+      <div class="section-box">
+        <h2>KI-Werkzeuge, die wir empfehlen</h2>
+        <p><strong>Claude (Anthropic)</strong> — claude.ai — Das Herzstück des AENT-Projekts. Claude hat die Übersetzung, die Verfeinerung der einfachen Sprache übernommen und jede HTML-Seite auf dieser Website erstellt. Claude ist hervorragend in Nuancen, Ton und der Wiedergabe von Bedeutung in warmer, lesbarer Sprache, die sich anfühlt wie ein vertrauenswürdiger Freund, der die Schrift erklärt, statt wie ein Akademiker, der eine Vorlesung hält. Am besten für Übersetzungsverfeinerung, einfache Sprache, Website-Erstellung und alles, was eine persönliche und zugängliche Stimme erfordert. Wenn Sie nur ein KI-Werkzeug für dieses Projekt verwenden, dann Claude.</p>
+        <p><strong>Gemini (Google)</strong> — gemini.google.com — Der Spezialist für Tiefenforschung. Wenn eine Übersetzungsfrage über die Oberfläche hinausgeht — wenn Sie verstehen müssen, was ein griechisches Wort im Kontext des ersten Jahrhunderts wirklich bedeutete, oder eine theologische Debatte über eine schwierige Passage lösen müssen — ist Gemini Ihr Werkzeug. Am besten für Wortforschung, theologische Forschung und technische Übersetzungsfragen.</p>
+        <p><strong>ChatGPT (OpenAI)</strong> — chatgpt.com — Der Künstler des Teams. ChatGPT hat das AENT-Logo erstellt — die aufgeschlagene Bibel mit der Lampe und dem goldenen Lichtpfad — und kann dasselbe für Ihr Projekt tun. Bitten Sie um ein PNG mit transparentem Hintergrund für beste Ergebnisse auf Ihrer Pergamentseite. Am besten für Logos, Illustrationen und alle visuellen Elemente, die Ihr Projekt benötigt.</p>
+        <p><strong>Grok (xAI)</strong> — grok.com — Das bereitwilligste Mitglied des Teams. Wenn ein anderes KI-Tool bei einer bestimmten Passage zögert oder die Sitzungszeit ausläuft, tritt Grok ohne Klagen ein und liefert solide Übersetzungsarbeit. Am besten für große Übersetzungsmengen, die Einhaltung spezifischer Anfragen und das Weitermachen dort, wo andere aufgehört haben.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Kostenlose Veröffentlichungswerkzeuge</h2>
+        <p><strong>Google Docs</strong> — docs.google.com — Kostenloser cloudbasierter Textverarbeiter. Hier schreiben, speichern und verfeinern Sie Ihre Übersetzung Kapitel für Kapitel. Ihre Arbeit wird automatisch gespeichert, ist von jedem Gerät zugänglich und geht nie verloren. Wenn ein Kapitel fertig ist, kopieren Sie es einfach aus Google Docs und fügen Sie es direkt in SeaMonkey Composer ein — die Formatierung wird sauber übertragen.</p>
+        <p><strong>Gmail</strong> — gmail.com — Kostenlose E-Mail von Google. Richten Sie eine dedizierte E-Mail-Adresse für Ihren Übersetzungsdienst ein. Da Gmail und Google Docs dasselbe Google-Konto teilen, müssen Sie sich nur einmal anmelden, um beides zu erhalten.</p>
+        <p><strong>SeaMonkey Composer</strong> — seamonkey-project.org — Kostenloser HTML-Editor. Funktioniert wie Microsoft Word. Fügen Sie Ihren übersetzten Text ein, wenden Sie Überschriften an, speichern Sie als HTML. Keine Programmierkenntnisse erforderlich.</p>
+        <p><strong>GitHub Pages</strong> — github.com — Kostenloses Webhosting für jeden. Laden Sie Ihre HTML-Dateien hoch und Ihre Übersetzung ist sofort kostenlos und für immer im Internet verfügbar.</p>
+        <p><strong>Die AENT HTML-Vorlage</strong> — Kontaktieren Sie uns unter <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a>, um die kostenlose Vorlage zu erhalten. Sie enthält alle Stile, Navigation und Formatierung — bereit für Ihren übersetzten Text.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Kontaktieren Sie uns</h2>
+        <p>Wenn Sie an einem Neuen Testament in einfacher Sprache in einer beliebigen Sprache arbeiten und Anleitung, die HTML-Vorlage, Ermutigung oder einfach jemanden suchen, der Sie durch den Prozess begleitet — melden Sie sich. Wir möchten helfen.</p>
+        <p><a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></p>
+      </div>
+
+      <div class="nav-title">Übersetzungen in Arbeit</div>
+      <p class="nav-subtitle">Diese Ausgaben in anderen Sprachen sind geplant oder in Entwicklung. Links werden aktiv, sobald jede Ausgabe fertiggestellt ist. Möchten Sie die Übersetzung für Ihre Sprache leiten? Kontaktieren Sie uns unter aentproject@gmail.com.</p>
+
+      <div class="section-label">Afrika</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Kiswahili</span><span class="english">Suaheli</span></span>
+        <span class="lang-btn coming"><span class="native">Hausa</span><span class="english">Hausa</span></span>
+        <span class="lang-btn coming"><span class="native">Yorùbá</span><span class="english">Yoruba</span></span>
+        <span class="lang-btn coming"><span class="native">Igbo</span><span class="english">Igbo</span></span>
+        <span class="lang-btn coming"><span class="native">አማርኛ</span><span class="english">Amharisch</span></span>
+        <span class="lang-btn coming"><span class="native">isiZulu</span><span class="english">Zulu</span></span>
+      </div>
+
+      <div class="section-label">Amerika</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Español</span><span class="english">Spanisch</span></span>
+        <span class="lang-btn coming"><span class="native">Português</span><span class="english">Portugiesisch</span></span>
+        <span class="lang-btn coming"><span class="native">Français</span><span class="english">Französisch</span></span>
+        <span class="lang-btn coming"><span class="native">Kreyòl Ayisyen</span><span class="english">Haitianisches Kreol</span></span>
+      </div>
+
+      <div class="section-label">Europa</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Deutsch</span><span class="english">Deutsch</span></span>
+        <span class="lang-btn coming"><span class="native">Italiano</span><span class="english">Italienisch</span></span>
+        <span class="lang-btn coming"><span class="native">Русский</span><span class="english">Russisch</span></span>
+        <span class="lang-btn coming"><span class="native">Українська</span><span class="english">Ukrainisch</span></span>
+        <span class="lang-btn coming"><span class="native">Polski</span><span class="english">Polnisch</span></span>
+        <span class="lang-btn coming"><span class="native">Română</span><span class="english">Rumänisch</span></span>
+      </div>
+
+      <div class="section-label">Naher Osten</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">العربية</span><span class="english">Arabisch</span></span>
+        <span class="lang-btn coming"><span class="native">فارسی</span><span class="english">Persisch / Farsi</span></span>
+        <span class="lang-btn coming"><span class="native">Türkçe</span><span class="english">Türkisch</span></span>
+        <span class="lang-btn coming"><span class="native">עברית</span><span class="english">Hebräisch</span></span>
+      </div>
+
+      <div class="section-label">Asien und Pazifik</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">हिन्दी</span><span class="english">Hindi</span></span>
+        <span class="lang-btn coming"><span class="native">বাংলা</span><span class="english">Bengalisch</span></span>
+        <span class="lang-btn coming"><span class="native">中文</span><span class="english">Mandarin-Chinesisch</span></span>
+        <span class="lang-btn coming"><span class="native">日本語</span><span class="english">Japanisch</span></span>
+        <span class="lang-btn coming"><span class="native">한국어</span><span class="english">Koreanisch</span></span>
+        <span class="lang-btn coming"><span class="native">Bahasa Indonesia</span><span class="english">Indonesisch</span></span>
+        <span class="lang-btn coming"><span class="native">Filipino</span><span class="english">Filipino / Tagalog</span></span>
+        <span class="lang-btn coming"><span class="native">Tiếng Việt</span><span class="english">Vietnamesisch</span></span>
+        <span class="lang-btn coming"><span class="native">ภาษาไทย</span><span class="english">Thailändisch</span></span>
+        <span class="lang-btn coming"><span class="native">မြန်မာဘာသာ</span><span class="english">Burmesisch</span></span>
+      </div>
+
+      <div style="text-align:center;">
+        <a class="home-btn" href="index.html">&#8962; Zurück zur Startseite</a>
+      </div>
+
+      <footer class="site-footer">
+        Kostenlos für alle &#8212; teilen Sie frei &#8212; zur Ehre Gottes
+        <div class="contact-line">Kontakt: <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></div>
+      </footer>
+
+    </div>
+  </body>
+</html>

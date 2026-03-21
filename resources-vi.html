@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tài Nguyên — AENT</title>
+    <style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background-color: #f5f0e8; color: #2c1f0e; line-height: 1.8; }
+  .page-wrapper { max-width: 740px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+  .site-header { text-align: center; border-bottom: 2px solid #8b6914; padding-bottom: 1.5rem; margin-bottom: 1.75rem; }
+  .site-header a { text-decoration: none; }
+  .site-title { font-size: 2.2rem; font-weight: 700; color: #5c3a00; letter-spacing: 0.15em; margin-bottom: 0.25rem; }
+  .site-tagline { font-style: italic; font-size: 0.95rem; color: #6b4c1e; }
+  .lang-notice { background: #e8dfc8; border: 1px solid #c4a35a; border-radius: 6px; padding: 0.6rem 1rem; text-align: center; font-size: 0.85rem; color: #5c3a00; margin-bottom: 1.5rem; }
+  .lang-notice a { color: #8b6914; font-weight: 700; }
+  .page-title { font-size: 1.5rem; font-weight: 700; color: #5c3a00; text-align: center; margin-bottom: 0.5rem; letter-spacing: 0.05em; }
+  .page-subtitle { text-align: center; font-style: italic; color: #6b4c1e; font-size: 0.95rem; margin-bottom: 2rem; }
+  .section-box { background: #ede5d0; border-left: 4px solid #8b6914; padding: 1.25rem 1.5rem; border-radius: 0 6px 6px 0; margin-bottom: 1.5rem; }
+  .section-box h2 { font-size: 1.1rem; font-weight: 700; color: #5c3a00; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .section-box p { margin-bottom: 0.75rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box p:last-child { margin-bottom: 0; }
+  .section-box a { color: #8b6914; font-weight: 700; }
+  .section-box ul { margin: 0.5rem 0 0.75rem 1.5rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box ul li { margin-bottom: 0.5rem; }
+  .principle-box { background: #5c3a00; color: #f5f0e8; padding: 1.25rem 1.5rem; border-radius: 6px; margin-bottom: 1.5rem; }
+  .principle-box h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.75rem; letter-spacing: 0.08em; color: #f5f0e8; }
+  .principle-box ul { margin: 0 0 0 1.5rem; font-size: 0.95rem; color: #e8dfc8; }
+  .principle-box ul li { margin-bottom: 0.6rem; }
+  .principle-box p { font-size: 0.95rem; color: #e8dfc8; margin-bottom: 0.5rem; }
+  .step-block { margin-bottom: 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid #c4a35a; }
+  .step-block:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .step-header { margin-bottom: 0.5rem; }
+  .step-number { display: inline-block; background: #8b6914; color: #f5f0e8; font-weight: 700; font-size: 0.85rem; width: 28px; height: 28px; border-radius: 50%; text-align: center; line-height: 28px; margin-right: 0.5rem; vertical-align: middle; }
+  .step-title { font-size: 1rem; font-weight: 700; color: #5c3a00; vertical-align: middle; }
+  .step-block p { font-size: 0.95rem; color: #3a2a0e; margin-bottom: 0.5rem; }
+  .step-block p:last-child { margin-bottom: 0; }
+  .step-block a { color: #8b6914; font-weight: 700; }
+  .nav-title { font-size: 1.1rem; font-weight: 700; color: #5c3a00; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; border-bottom: 1px solid #c4a35a; padding-bottom: 0.5rem; }
+  .nav-subtitle { font-size: 0.88rem; color: #6b4c1e; font-style: italic; margin-bottom: 1.25rem; }
+  .section-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #8b6914; margin: 1.5rem 0 0.5rem; }
+  .lang-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; margin-bottom: 0.5rem; }
+  .lang-btn { display: block; padding: 0.7rem 0.9rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.95rem; text-align: center; cursor: default; opacity: 0.7; }
+  .lang-btn .native { font-size: 1.05rem; font-weight: 700; display: block; }
+  .lang-btn .english { font-size: 0.75rem; color: #8b6914; display: block; margin-top: 0.1rem; }
+  .lang-btn.coming::after { content: 'Sắp Ra Mắt'; font-size: 0.65rem; color: #8b6914; display: block; margin-top: 0.2rem; font-style: italic; }
+  .home-btn { display: inline-block; margin-top: 2rem; padding: 0.6rem 1.2rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.92rem; }
+  .home-btn:hover { background: #ddd0b0; border-color: #8b6914; }
+  .site-footer { text-align: center; font-size: 0.8rem; color: #8b6914; border-top: 1px solid #c4a35a; padding-top: 1rem; margin-top: 2rem; font-style: italic; }
+  .contact-line { margin-top: 0.5rem; font-style: normal; }
+  .contact-line a { color: #8b6914; }
+  @media (max-width: 480px) { .site-title { font-size: 1.8rem; } .lang-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); } }
+</style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+
+      <header class="site-header">
+        <a href="index.html">
+          <div class="site-title">AENT</div>
+          <p class="site-tagline">Lời Chúa là ngọn đèn cho chân tôi và ánh sáng cho đường tôi — Thi Thiên 119:105</p>
+        </a>
+      </header>
+
+      <div class="lang-notice">
+        Trang này có sẵn bằng các ngôn ngữ khác. <a href="resources.html">Xem bằng tiếng Anh</a>
+      </div>
+
+      <h1 class="page-title">Tài Nguyên</h1>
+      <p class="page-subtitle">Tất cả những gì bạn cần để mang Kinh Thánh bằng ngôn ngữ đơn giản đến với người dân của bạn — hoàn toàn miễn phí.<br>
+        <br>
+        Nếu bạn mới bắt đầu, tò mò, hoặc chỉ đang tìm kiếm sự rõ ràng — hãy bắt đầu từ đây. Những tài nguyên này ở đây để giúp bạn hiểu — không phải để làm bạn choáng ngợp.</p>
+
+      <div class="section-box">
+        <h2>Tầm Nhìn</h2>
+        <p>AENT — Tân Ước Tiếng Anh Dễ Tiếp Cận — được xây dựng để chứng minh một điều đơn giản. Toàn bộ Tân Ước có thể được dịch sang ngôn ngữ rõ ràng, dễ hiểu và xuất bản miễn phí cho toàn thế giới bằng các công cụ mà bất kỳ ai cũng có thể tiếp cận. Không cần bằng cấp thần học. Không cần ngân sách xuất bản. Không cần nền tảng kỹ thuật.</p>
+        <p>Chúng tôi đã xây dựng phiên bản tiếng Anh từ đầu chỉ sử dụng các công cụ AI miễn phí, phần mềm miễn phí và lưu trữ web miễn phí. Toàn bộ dự án — dịch thuật, trang web và xuất bản — không tốn gì ngoài thời gian và lòng trung thành.</p>
+        <p>Bây giờ chúng tôi muốn chỉ cho bạn thấy chính xác cách chúng tôi đã làm điều đó để bạn có thể làm điều tương tự cho người dân của bạn bằng ngôn ngữ của bạn. Lời Đức Chúa Trời thuộc về tất cả mọi người. Trong thế giới của Đức Chúa Trời chúng ta đều là anh chị em và hàng xóm. Mỗi người trên trái đất đều xứng đáng được đọc nó bằng ngôn ngữ mà họ thực sự hiểu. Hãy yêu mến Đức Chúa Trời hết lòng hết linh hồn hết trí khôn và hết sức lực. Hãy truyền bá tin lành của Ngài khắp nơi.</p>
+      </div>
+
+      <div class="principle-box">
+        <h2>Các Nguyên Tắc Dịch Thuật AENT</h2>
+        <p>Đây là những hướng dẫn chúng tôi đã tuân theo trong mỗi chương của mỗi cuốn sách. Hãy tuân theo chúng và bản dịch của bạn sẽ có chất lượng ấm áp, rõ ràng và dễ đọc như phiên bản tiếng Anh.</p>
+        <ul>
+          <li><strong>Ngôn ngữ đơn giản luôn luôn.</strong> Nếu một học sinh trung học không thể hiểu câu đó hãy viết lại. Không bao giờ dùng ngôn ngữ cổ xưa hoặc tôn giáo khi có một từ đơn giản tồn tại.</li>
+          <li><strong>Dùng tên quen thuộc.</strong> Dùng những tên mà mọi người đã biết — Chúa Giê-xu chứ không phải Yeshua. Đức Chúa Trời chứ không phải Elohim. Mục tiêu là sự hiểu biết không phải học thuật.</li>
+          <li><strong>Một ý tưởng mỗi câu.</strong> Những câu dài phức tạp làm độc giả bối rối. Hãy chia nhỏ chúng. Giữ cho chúng rõ ràng.</li>
+          <li><strong>CHÚA bằng chữ in hoa.</strong> Khi văn bản đề cập đến tên cá nhân thiêng liêng của Đức Chúa Trời hãy dùng CHÚA bằng chữ in hoa. Khi đó là danh hiệu tôn trọng hãy dùng Chúa bằng chữ thường.</li>
+          <li><strong>Khung đồng hành.</strong> Bản dịch này là người đồng hành với Kinh Thánh yêu thích của độc giả — không phải để thay thế. Hãy nói rõ điều này ở đầu mỗi cuốn sách.</li>
+          <li><strong>Giọng điệu ấm áp dễ đọc.</strong> Viết theo cách một người bạn đáng tin cậy sẽ giải thích Kinh Thánh — không phải theo cách một học giả viết bình luận.</li>
+          <li><strong>Trung thành với ý nghĩa.</strong> Ngôn ngữ đơn giản không có nghĩa là diễn giải tự do. Mỗi lựa chọn dịch thuật phải tôn trọng ý nghĩa của văn bản Hy Lạp gốc.</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <h2>Từng Bước Một — Cách Xây Dựng Phiên Bản Của Riêng Bạn</h2>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">1</span><span class="step-title">Tạo Tài Khoản Google Miễn Phí</span></div>
+          <p>Truy cập google.com và tạo một tài khoản miễn phí. Tài khoản duy nhất này cung cấp cho bạn Gmail cho địa chỉ email của dự án và Google Docs để viết và lưu trữ bản dịch của bạn. Đặt cho email của bạn một tên rõ ràng — như vietnameseaent@gmail.com hoặc aentvietnam@gmail.com.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">2</span><span class="step-title">Lấy Văn Bản Nguồn Của Bạn</span></div>
+          <p>Bạn cần một Tân Ước tiếng Hy Lạp đáng tin cậy làm nền tảng. Chúng tôi khuyên dùng Tân Ước Hy Lạp SBL — tìm kiếm trực tuyến "SBL Greek New Testament free PDF" để tìm nó. Bạn không cần tự đọc tiếng Hy Lạp. Các công cụ AI sẽ xử lý việc dịch từ tiếng Hy Lạp. Bạn chỉ cần văn bản nguồn có sẵn để tham khảo.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">3</span><span class="step-title">Mở Grok hoặc Gemini và Bắt Đầu Dịch</span></div>
+          <p>Truy cập grok.com hoặc gemini.google.com và tạo tài khoản miễn phí. Cả hai công cụ đều xuất sắc cho công việc dịch thuật và có các cấp miễn phí hào phóng sẽ đưa bạn qua toàn bộ Tân Ước mà không hết thời gian phiên.</p>
+          <p>Cho mỗi chương hãy đưa cho Grok hoặc Gemini hướng dẫn như thế này — "Vui lòng dịch Ma-thi-ơ Chương 1 từ Tân Ước Hy Lạp sang tiếng Việt đơn giản theo các nguyên tắc này — sử dụng tên quen thuộc như Chúa Giê-xu và Đức Chúa Trời viết ở trình độ học sinh trung học một ý tưởng mỗi câu giọng ấm áp và thân thiện CHÚA bằng chữ in hoa khi đề cập đến tên cá nhân của Đức Chúa Trời. Đây là bản dịch đồng hành không phải để thay thế các Kinh Thánh hiện có."</p>
+          <p>Xem xét kỹ lưỡng từng chương. Điều chỉnh bất cứ điều gì không nghe tự nhiên trong ngôn ngữ của bạn. Dán chương đã hoàn thành vào Google Docs. Lưu lại. Chuyển sang chương tiếp theo.</p>
+          <p>Khi bản dịch của bạn hoàn chỉnh và bạn sẵn sàng xây dựng trang web — đó là lúc bạn đưa Claude vào tại claude.ai. Claude xuất sắc trong việc xây dựng các trang HTML tinh chỉnh ngôn ngữ đơn giản và giải quyết các vấn đề kỹ thuật. Hãy sử dụng từng công cụ cho những gì nó làm tốt nhất.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">4</span><span class="step-title">Làm Việc Từng Sách Một</span></div>
+          <p>Dịch từng cuốn sách một lần. Bắt đầu với Phúc Âm Mác — đây là Phúc Âm ngắn nhất và câu chuyện trực tiếp nhất. Sau khi bạn hoàn thành Mác bạn sẽ có cảm nhận mạnh mẽ về giọng điệu dịch thuật và phần còn lại sẽ diễn ra nhanh hơn.</p>
+          <p>Lưu từng cuốn sách đã hoàn thành dưới dạng tài liệu riêng biệt trong Google Docs. Công việc của bạn được tự động lưu vào đám mây và có thể truy cập từ bất kỳ thiết bị nào. Sẽ không bao giờ bị mất.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">5</span><span class="step-title">Tải Xuống SeaMonkey Composer</span></div>
+          <p>Để chỉnh sửa trang web chúng tôi khuyên dùng SeaMonkey. Đây là một công cụ mạnh mẽ kiểu cũ hoạt động chính xác như Microsoft Word. Nếu bạn có thể sao chép văn bản từ tài liệu và dán vào cửa sổ mới bạn đã có kỹ năng để xây dựng trang web với SeaMonkey. Nó tôn trọng định dạng của bạn giữ mọi thứ đơn giản và yêu cầu <strong>kiến thức lập trình bằng không</strong>.</p>
+          <p>Để bắt đầu hãy truy cập seamonkey-project.org và tải xuống phần mềm miễn phí. Sau khi cài đặt hãy sử dụng công cụ <strong>Composer</strong> để chuyển đổi văn bản Google Docs của bạn thành các trang web HTML chuyên nghiệp.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">6</span><span class="step-title">Xây Dựng Các Trang HTML Của Bạn</span></div>
+          <p>Nếu bạn muốn bắt đầu dự án dịch thuật của riêng mình hãy liên hệ với chúng tôi tại <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> để nhận <strong>Mẫu HTML AENT</strong> miễn phí. Tệp được định dạng sẵn này đảm bảo trang web của bạn luôn sạch sẽ chuyên nghiệp và dễ đọc trên cả máy tính và điện thoại — mà không cần học một dòng code nào.</p>
+          <p>Mẫu xử lý "công việc kỹ thuật" cho bạn. Chỉ cần mở nó trong <strong>SeaMonkey Composer</strong> dán văn bản đã dịch của bạn vào <strong>chế độ xem Thông thường</strong> và lưu dưới dạng tệp HTML. Chúng tôi khuyên bạn nên tạo một tệp HTML cho mỗi cuốn sách chứa tất cả các chương.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">7</span><span class="step-title">Thiết Lập GitHub và Xuất Bản</span></div>
+          <p>Truy cập github.com và tạo tài khoản miễn phí. Tạo một kho lưu trữ mới và bật GitHub Pages trong cài đặt kho lưu trữ. Tải lên tất cả các tệp HTML của bạn. Bản dịch của bạn ngay lập tức có mặt trên internet — miễn phí vĩnh viễn và bất kỳ ai trên thế giới đều có thể truy cập.</p>
+          <p>Chỉ vậy thôi. Từ khoảnh khắc đó bất kỳ ai tìm thấy trang web của bạn đều có thể đọc Tân Ước bằng ngôn ngữ đơn giản trong ngôn ngữ của bạn miễn phí.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">8</span><span class="step-title">Liên Hệ Với Chúng Tôi — Chúng Tôi Muốn Giúp Đỡ</span></div>
+          <p>Bạn không phải tự mình tìm hiểu tất cả điều này. Chúng tôi đã trải qua mọi bước của quá trình này và muốn giúp bạn thành công. Gửi email cho chúng tôi tại <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> với câu hỏi để nhận mẫu HTML hoặc chỉ để cho chúng tôi biết bạn đang làm việc trên một bản dịch. Chúng tôi sẽ đồng hành cùng bạn trong suốt quá trình.</p>
+        </div>
+
+      </div>
+
+      <div class="section-box">
+        <h2>Các Công Cụ AI Chúng Tôi Khuyên Dùng</h2>
+        <p><strong>Claude (Anthropic)</strong> — claude.ai — Trái tim của dự án AENT. Claude đã xử lý bản dịch tinh chỉnh ngôn ngữ đơn giản và xây dựng mọi trang HTML trên trang web này. Claude xuất sắc trong các sắc thái giọng điệu và diễn đạt ý nghĩa bằng ngôn ngữ ấm áp dễ đọc cảm giác như một người bạn đáng tin cậy đang giải thích Kinh Thánh thay vì một học giả đang giảng bài. Tốt nhất cho tinh chỉnh bản dịch ngôn ngữ đơn giản xây dựng trang web và bất cứ điều gì đòi hỏi giọng nói cá nhân và dễ tiếp cận. Nếu bạn chỉ sử dụng một công cụ AI cho dự án này hãy để đó là Claude.</p>
+        <p><strong>Gemini (Google)</strong> — gemini.google.com — Chuyên gia nghiên cứu sâu. Khi câu hỏi dịch thuật vượt ra ngoài bề mặt — khi bạn cần hiểu một từ Hy Lạp thực sự có nghĩa gì trong bối cảnh thế kỷ đầu tiên hoặc giải quyết một cuộc tranh luận thần học về một đoạn văn khó — Gemini là công cụ của bạn. Tốt nhất cho nghiên cứu từ ngữ nghiên cứu thần học và các câu hỏi dịch thuật kỹ thuật.</p>
+        <p><strong>ChatGPT (OpenAI)</strong> — chatgpt.com — Nghệ sĩ của nhóm. ChatGPT đã tạo logo AENT — cuốn Kinh Thánh mở với ngọn đèn và con đường ánh sáng vàng — và có thể làm điều tương tự cho dự án của bạn. Yêu cầu PNG với nền trong suốt để có kết quả tốt nhất trên trang da thuộc của bạn. Tốt nhất cho logo minh họa và bất kỳ tài sản hình ảnh nào dự án của bạn cần.</p>
+        <p><strong>Grok (xAI)</strong> — grok.com — Thành viên sẵn lòng nhất của nhóm. Khi một AI khác do dự ở một đoạn văn cụ thể hoặc hết thời gian phiên Grok bước vào mà không phàn nàn và cung cấp công việc dịch thuật chắc chắn. Tốt nhất cho dịch thuật khối lượng lớn tuân thủ các yêu cầu cụ thể và tiếp tục từ nơi người khác dừng lại.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Công Cụ Xuất Bản Miễn Phí</h2>
+        <p><strong>Google Docs</strong> — docs.google.com — Trình xử lý văn bản miễn phí dựa trên đám mây. Đây là nơi bạn viết lưu trữ và hoàn thiện bản dịch của mình từng chương một. Công việc của bạn được tự động lưu có thể truy cập từ bất kỳ thiết bị nào và sẽ không bao giờ bị mất. Khi một chương đã sẵn sàng chỉ cần sao chép từ Google Docs và dán trực tiếp vào SeaMonkey Composer — định dạng được chuyển giao gọn gàng.</p>
+        <p><strong>Gmail</strong> — gmail.com — Email miễn phí từ Google. Thiết lập địa chỉ email chuyên dụng cho chức vụ dịch thuật của bạn. Vì Gmail và Google Docs dùng chung tài khoản Google bạn chỉ cần đăng ký một lần để có cả hai.</p>
+        <p><strong>SeaMonkey Composer</strong> — seamonkey-project.org — Trình chỉnh sửa HTML miễn phí. Hoạt động như Microsoft Word. Dán văn bản đã dịch áp dụng tiêu đề lưu dưới dạng HTML. Không cần kiến thức lập trình.</p>
+        <p><strong>GitHub Pages</strong> — github.com — Lưu trữ web miễn phí cho mọi người. Tải lên các tệp HTML của bạn và bản dịch của bạn ngay lập tức có mặt trên internet miễn phí mãi mãi.</p>
+        <p><strong>Mẫu HTML AENT</strong> — Liên hệ với chúng tôi tại <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> để nhận mẫu miễn phí. Nó bao gồm tất cả kiểu dáng điều hướng và định dạng — sẵn sàng cho văn bản đã dịch của bạn.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Liên Hệ Với Chúng Tôi</h2>
+        <p>Nếu bạn đang làm việc trên Tân Ước bằng ngôn ngữ đơn giản bằng bất kỳ ngôn ngữ nào và muốn hướng dẫn mẫu HTML sự khích lệ hoặc chỉ ai đó đồng hành cùng bạn trong quá trình — hãy liên hệ. Chúng tôi muốn giúp đỡ.</p>
+        <p><a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></p>
+      </div>
+
+      <div class="nav-title">Các Bản Dịch Đang Tiến Hành</div>
+      <p class="nav-subtitle">Các phiên bản bằng ngôn ngữ khác này đang được lên kế hoạch hoặc đang phát triển. Các liên kết sẽ hoạt động khi mỗi phiên bản hoàn thành. Bạn có muốn dẫn đầu bản dịch cho ngôn ngữ của mình không? Liên hệ với chúng tôi tại aentproject@gmail.com.</p>
+
+      <div class="section-label">Châu Phi</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Kiswahili</span><span class="english">Swahili</span></span>
+        <span class="lang-btn coming"><span class="native">Hausa</span><span class="english">Hausa</span></span>
+        <span class="lang-btn coming"><span class="native">Yorùbá</span><span class="english">Yoruba</span></span>
+        <span class="lang-btn coming"><span class="native">Igbo</span><span class="english">Igbo</span></span>
+        <span class="lang-btn coming"><span class="native">አማርኛ</span><span class="english">Amharic</span></span>
+        <span class="lang-btn coming"><span class="native">isiZulu</span><span class="english">Zulu</span></span>
+      </div>
+
+      <div class="section-label">Châu Mỹ</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Español</span><span class="english">Tây Ban Nha</span></span>
+        <span class="lang-btn coming"><span class="native">Português</span><span class="english">Bồ Đào Nha</span></span>
+        <span class="lang-btn coming"><span class="native">Français</span><span class="english">Pháp</span></span>
+        <span class="lang-btn coming"><span class="native">Kreyòl Ayisyen</span><span class="english">Creole Haiti</span></span>
+      </div>
+
+      <div class="section-label">Châu Âu</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Deutsch</span><span class="english">Đức</span></span>
+        <span class="lang-btn coming"><span class="native">Italiano</span><span class="english">Ý</span></span>
+        <span class="lang-btn coming"><span class="native">Русский</span><span class="english">Nga</span></span>
+        <span class="lang-btn coming"><span class="native">Українська</span><span class="english">Ukraine</span></span>
+        <span class="lang-btn coming"><span class="native">Polski</span><span class="english">Ba Lan</span></span>
+        <span class="lang-btn coming"><span class="native">Română</span><span class="english">Romania</span></span>
+      </div>
+
+      <div class="section-label">Trung Đông</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">العربية</span><span class="english">Ả Rập</span></span>
+        <span class="lang-btn coming"><span class="native">فارسی</span><span class="english">Ba Tư</span></span>
+        <span class="lang-btn coming"><span class="native">Türkçe</span><span class="english">Thổ Nhĩ Kỳ</span></span>
+        <span class="lang-btn coming"><span class="native">עברית</span><span class="english">Do Thái</span></span>
+      </div>
+
+      <div class="section-label">Châu Á và Thái Bình Dương</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">हिन्दी</span><span class="english">Hindi</span></span>
+        <span class="lang-btn coming"><span class="native">বাংলা</span><span class="english">Bengali</span></span>
+        <span class="lang-btn coming"><span class="native">中文</span><span class="english">Quan Thoại</span></span>
+        <span class="lang-btn coming"><span class="native">日本語</span><span class="english">Nhật Bản</span></span>
+        <span class="lang-btn coming"><span class="native">한국어</span><span class="english">Hàn Quốc</span></span>
+        <span class="lang-btn coming"><span class="native">Bahasa Indonesia</span><span class="english">Indonesia</span></span>
+        <span class="lang-btn coming"><span class="native">Filipino</span><span class="english">Filipino</span></span>
+        <span class="lang-btn coming"><span class="native">Tiếng Việt</span><span class="english">Việt Nam</span></span>
+        <span class="lang-btn coming"><span class="native">ภาษาไทย</span><span class="english">Thái Lan</span></span>
+        <span class="lang-btn coming"><span class="native">မြန်မာဘာသာ</span><span class="english">Miến Điện</span></span>
+      </div>
+
+      <div style="text-align:center;">
+        <a class="home-btn" href="index.html">&#8962; Quay Lại Trang Chủ</a>
+      </div>
+
+      <footer class="site-footer">
+        Miễn phí cho tất cả mọi người &#8212; chia sẻ tự do &#8212; vì sự vinh hiển của Đức Chúa Trời
+        <div class="contact-line">Liên hệ: <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></div>
+      </footer>
+
+    </div>
+  </body>
+</html>

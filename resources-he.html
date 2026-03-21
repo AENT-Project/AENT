@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>משאבים — AENT</title>
+    <style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Arial', 'David', 'Noto Sans Hebrew', Georgia, serif; background-color: #f5f0e8; color: #2c1f0e; line-height: 2.0; direction: rtl; }
+  .page-wrapper { max-width: 740px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+  .site-header { text-align: center; border-bottom: 2px solid #8b6914; padding-bottom: 1.5rem; margin-bottom: 1.75rem; }
+  .site-header a { text-decoration: none; }
+  .site-title { font-size: 2.2rem; font-weight: 700; color: #5c3a00; letter-spacing: 0.15em; margin-bottom: 0.25rem; }
+  .site-tagline { font-style: italic; font-size: 0.95rem; color: #6b4c1e; }
+  .lang-notice { background: #e8dfc8; border: 1px solid #c4a35a; border-radius: 6px; padding: 0.6rem 1rem; text-align: center; font-size: 0.85rem; color: #5c3a00; margin-bottom: 1.5rem; }
+  .lang-notice a { color: #8b6914; font-weight: 700; }
+  .page-title { font-size: 1.5rem; font-weight: 700; color: #5c3a00; text-align: center; margin-bottom: 0.5rem; }
+  .page-subtitle { text-align: center; font-style: italic; color: #6b4c1e; font-size: 0.95rem; margin-bottom: 2rem; }
+  .section-box { background: #ede5d0; border-right: 4px solid #8b6914; border-left: none; padding: 1.25rem 1.5rem; border-radius: 6px 0 0 6px; margin-bottom: 1.5rem; }
+  .section-box h2 { font-size: 1.1rem; font-weight: 700; color: #5c3a00; margin-bottom: 0.75rem; letter-spacing: 0.08em; }
+  .section-box p { margin-bottom: 0.75rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box p:last-child { margin-bottom: 0; }
+  .section-box a { color: #8b6914; font-weight: 700; }
+  .section-box ul { margin: 0.5rem 1.5rem 0.75rem 0; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box ul li { margin-bottom: 0.5rem; }
+  .principle-box { background: #5c3a00; color: #f5f0e8; padding: 1.25rem 1.5rem; border-radius: 6px; margin-bottom: 1.5rem; }
+  .principle-box h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.75rem; color: #f5f0e8; }
+  .principle-box ul { margin: 0 1.5rem 0 0; font-size: 0.95rem; color: #e8dfc8; }
+  .principle-box ul li { margin-bottom: 0.6rem; }
+  .principle-box p { font-size: 0.95rem; color: #e8dfc8; margin-bottom: 0.5rem; }
+  .step-block { margin-bottom: 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid #c4a35a; }
+  .step-block:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .step-header { margin-bottom: 0.5rem; }
+  .step-number { display: inline-block; background: #8b6914; color: #f5f0e8; font-weight: 700; font-size: 0.85rem; width: 28px; height: 28px; border-radius: 50%; text-align: center; line-height: 28px; margin-left: 0.5rem; margin-right: 0; vertical-align: middle; }
+  .step-title { font-size: 1rem; font-weight: 700; color: #5c3a00; vertical-align: middle; }
+  .step-block p { font-size: 0.95rem; color: #3a2a0e; margin-bottom: 0.5rem; }
+  .step-block p:last-child { margin-bottom: 0; }
+  .step-block a { color: #8b6914; font-weight: 700; }
+  .nav-title { font-size: 1.1rem; font-weight: 700; color: #5c3a00; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; border-bottom: 1px solid #c4a35a; padding-bottom: 0.5rem; }
+  .nav-subtitle { font-size: 0.88rem; color: #6b4c1e; font-style: italic; margin-bottom: 1.25rem; }
+  .section-label { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.12em; color: #8b6914; margin: 1.5rem 0 0.5rem; }
+  .lang-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; margin-bottom: 0.5rem; }
+  .lang-btn { display: block; padding: 0.7rem 0.9rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.95rem; text-align: center; cursor: default; opacity: 0.7; }
+  .lang-btn .native { font-size: 1.05rem; font-weight: 700; display: block; }
+  .lang-btn .english { font-size: 0.75rem; color: #8b6914; display: block; margin-top: 0.1rem; }
+  .lang-btn.coming::after { content: 'בקרוב'; font-size: 0.65rem; color: #8b6914; display: block; margin-top: 0.2rem; font-style: italic; }
+  .home-btn { display: inline-block; margin-top: 2rem; padding: 0.6rem 1.2rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.92rem; }
+  .home-btn:hover { background: #ddd0b0; border-color: #8b6914; }
+  .site-footer { text-align: center; font-size: 0.8rem; color: #8b6914; border-top: 1px solid #c4a35a; padding-top: 1rem; margin-top: 2rem; font-style: italic; }
+  .contact-line { margin-top: 0.5rem; font-style: normal; }
+  .contact-line a { color: #8b6914; }
+  @media (max-width: 480px) { .site-title { font-size: 1.8rem; } .lang-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); } }
+</style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+
+      <header class="site-header">
+        <a href="index.html">
+          <div class="site-title">AENT</div>
+          <p class="site-tagline">דְּבָרְךָ נֵר לְרַגְלִי וְאוֹר לִנְתִיבָתִי — תהילים קיט:קה</p>
+        </a>
+      </header>
+
+      <div class="lang-notice">
+        דף זה זמין בשפות אחרות. <a href="resources.html">צפה באנגלית</a>
+      </div>
+
+      <h1 class="page-title">משאבים</h1>
+      <p class="page-subtitle">כל מה שאתה צריך כדי להביא את הכתובים בשפה פשוטה לעמך — בחינם לגמרי.<br>
+        <br>
+        אם אתה חדש, סקרן, או פשוט מחפש הבנה — התחל כאן. משאבים אלה נמצאים כאן כדי לעזור לך להבין — לא כדי להכביד עליך.</p>
+
+      <div class="section-box">
+        <h2>החזון</h2>
+        <p>AENT — הברית החדשה באנגלית נגישה — נבנה כדי להוכיח דבר פשוט. ניתן לתרגם את כל הברית החדשה לשפה ברורה ופשוטה ולפרסם אותה לעולם בחינם באמצעות כלים שכל אחד יכול להשתמש בהם. אין צורך בתואר מבית ספר תיאולוגי. אין צורך בתקציב הוצאה לאור. אין צורך ברקע טכני.</p>
+        <p>בנינו את המהדורה האנגלית מאפס תוך שימוש רק בכלי AI חינמיים, תוכנות חינמיות ואירוח אתרים חינמי. הפרויקט כולו — תרגום, אתר אינטרנט ופרסום — לא עלה דבר מלבד זמן ואמונה.</p>
+        <p>כעת אנו רוצים להראות לך בדיוק כיצד עשינו זאת כדי שתוכל לעשות את אותו הדבר עבור עמך בשפתך. דבר ה' שייך לכולם. בעולמו של ה' כולנו אחים ואחיות ושכנים. כל אדם על פני האדמה ראוי לקרוא אותו בשפה שהוא באמת מבין. אהוב את ה' אלוהיך בכל לבבך ובכל נפשך ובכל מאודך. פרוש את הבשורה הטובה שלו בכל מקום.</p>
+      </div>
+
+      <div class="principle-box">
+        <h2>עקרונות התרגום של AENT</h2>
+        <p>אלה ההנחיות שפעלנו לפיהן בכל פרק של כל ספר. עקוב אחריהן והתרגום שלך יהיה בעל אותה איכות חמה, ברורה וקריאה כמו המהדורה האנגלית.</p>
+        <ul>
+          <li><strong>שפה פשוטה תמיד.</strong> אם תלמיד חטיבת ביניים אינו יכול להבין את המשפט, כתוב אותו מחדש. לעולם אל תשתמש בשפה ארכאית או דתית כאשר קיימת מילה פשוטה.</li>
+          <li><strong>השתמש בשמות מוכרים.</strong> השתמש בשמות שאנשים כבר מכירים — ישוע, לא Yeshua. אלוהים, לא Elohim. המטרה היא הבנה, לא ידע אקדמי.</li>
+          <li><strong>רעיון אחד בכל משפט.</strong> משפטים ארוכים ומורכבים מאבדים את הקוראים. חלק אותם. שמור אותם ברורים.</li>
+          <li><strong>ה' באותיות גדולות.</strong> כאשר הטקסט מתייחס לשמו האישי והקדוש של אלוהים, כתוב ה' באותיות גדולות. כאשר מדובר בתואר של כבוד, כתוב אדון באותיות רגילות.</li>
+          <li><strong>מסגרת מלווה.</strong> תרגום זה הוא מלווה לתנ"ך האהוב על הקורא — לא תחליף. אמור זאת בבירור בתחילת כל ספר.</li>
+          <li><strong>קול חם וקריא.</strong> כתוב כפי שחבר נאמן היה מסביר את הכתובים — לא כפי שאקדמאי כותב פירוש.</li>
+          <li><strong>הישאר נאמן למשמעות.</strong> שפה פשוטה אינה אומרת פרפרזה חופשית. כל בחירת תרגום צריכה לכבד את משמעות הטקסט היווני המקורי.</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <h2>שלב אחר שלב — כיצד לבנות את המהדורה שלך</h2>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">١</span><span class="step-title">צור את חשבון ה-Google החינמי שלך</span></div>
+          <p>עבור אל google.com וצור חשבון חינמי. חשבון יחיד זה נותן לך Gmail לכתובת הדוא"ל של הפרויקט ו-Google Docs לכתיבה ואחסון התרגום שלך. תן לדוא"ל שלך שם ברור — כמו hebrewaent@gmail.com או aenthebrew@gmail.com.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">٢</span><span class="step-title">השג את טקסט המקור שלך</span></div>
+          <p>אתה צריך ברית חדשה יוונית אמינה כבסיס. אנו ממליצים על ה-SBL Greek New Testament — חפש באינטרנט "SBL Greek New Testament free PDF" כדי למצוא אותו. אינך צריך לקרוא יוונית בעצמך. כלי ה-AI יטפלו בתרגום מהיוונית. אתה רק צריך שהטקסט המקורי יהיה זמין כהפניה.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">٣</span><span class="step-title">פתח את Grok או Gemini והתחל לתרגם</span></div>
+          <p>עבור אל grok.com או gemini.google.com וצור חשבון חינמי. שני הכלים מצוינים לעבודת תרגום ויש להם רמות חינמיות נדיבות שיוליכו אותך דרך כל הברית החדשה מבלי שתגמר לך זמן הסשן.</p>
+          <p>לכל פרק תן ל-Grok או ל-Gemini הנחיה כמו זו — "אנא תרגם את מתי פרק 1 מהברית החדשה היוונית לעברית פשוטה תוך ביצוע העקרונות הבאים — השתמש בשמות מוכרים כמו ישוע ואלוהים, כתוב ברמת תלמיד חטיבת ביניים, רעיון אחד בכל משפט, קול חם וידידותי, ה' באותיות גדולות בהתייחסות לשמו האישי של אלוהים. זהו תרגום מלווה ולא תחליף לכתבי הקודש הקיימים."</p>
+          <p>עבור על כל פרק בקפידה. התאם כל דבר שאינו נשמע טבעי בשפתך. הדבק את הפרק שהושלם ב-Google Docs. שמור אותו. עבור לפרק הבא.</p>
+          <p>כאשר התרגום שלך הושלם ואתה מוכן לבנות את האתר שלך — זה הזמן להביא את Claude ל-claude.ai. Claude מצטיין בבניית דפי HTML, בשיפור שפה פשוטה ובפתרון בעיות טכניות. השתמש בכל כלי למה שהוא עושה הכי טוב.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">٤</span><span class="step-title">עבוד ספר אחרי ספר</span></div>
+          <p>תרגם ספר אחד בכל פעם. התחל עם הבשורה על פי מרקוס — זוהי הבשורה הקצרה ביותר וסיפור הישיר ביותר. לאחר שתסיים את מרקוס תהיה לך הרגשה חזקה לגבי קול התרגום והשאר ילכו מהר יותר.</p>
+          <p>אחסן כל ספר שהושלם כמסמך נפרד ב-Google Docs. עבודתך נשמרת אוטומטית בענן ונגישה מכל מכשיר. לעולם לא תאבד.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">٥</span><span class="step-title">הורד את SeaMonkey Composer</span></div>
+          <p>לכל עריכות האתר אנו ממליצים על SeaMonkey. זהו כלי עוצמתי מסגנון ישן שעובד בדיוק כמו Microsoft Word. אם אתה יכול להעתיק טקסט ממסמך ולהדביק אותו בחלון חדש כבר יש לך את הכישורים לבנות אתר אינטרנט עם SeaMonkey. הוא מכבד את העיצוב שלך, שומר על פשטות ודורש <strong>אפס ידע בתכנות</strong>.</p>
+          <p>כדי להתחיל, עבור אל seamonkey-project.org והורד את התוכנה בחינם. לאחר ההתקנה השתמש בכלי <strong>Composer</strong> כדי להמיר את טקסט ה-Google Docs שלך לדפי אינטרנט HTML מקצועיים.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">٦</span><span class="step-title">בנה את דפי ה-HTML שלך</span></div>
+          <p>אם אתה רוצה להתחיל פרויקט תרגום משלך, צור קשר איתנו ב-<a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> כדי לקבל את <strong>תבנית ה-HTML של AENT</strong> בחינם. קובץ מעוצב מראש זה מבטיח שהאתר שלך יישאר נקי, מקצועי וקל לקריאה הן במחשבים והן בטלפונים — מבלי שתצטרך ללמוד שורת קוד אחת.</p>
+          <p>התבנית מטפלת ב"עבודה הטכנית" עבורך. פשוט פתח אותה ב-<strong>SeaMonkey Composer</strong>, הדבק את הטקסט המתורגם שלך ב<strong>תצוגה הרגילה</strong> ושמור אותו כקובץ HTML. אנו ממליצים לבנות קובץ HTML אחד לכל ספר המכיל את כל הפרקים.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">٧</span><span class="step-title">הגדר את GitHub ופרסם</span></div>
+          <p>עבור אל github.com וצור חשבון חינמי. צור מאגר חדש ואפשר את GitHub Pages בהגדרות המאגר. העלה את כל קובצי ה-HTML שלך. התרגום שלך מיד חי באינטרנט — בחינם, קבוע ונגיש לכל אחד בעולם.</p>
+          <p>זה הכל. מאותו רגע כל מי שמוצא את האתר שלך יכול לקרוא את הברית החדשה בשפה פשוטה בשפתך בחינם.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">٨</span><span class="step-title">צור קשר איתנו — אנו רוצים לעזור</span></div>
+          <p>אינך צריך להבין את כל זה לבד. עברנו כל שלב בתהליך זה ואנו רוצים לעזור לך להצליח. שלח לנו דוא"ל ל-<a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> עם שאלות, לקבל את תבנית ה-HTML, או פשוט להודיע לנו שאתה עובד על תרגום. נלך איתך לאורך כל התהליך.</p>
+        </div>
+
+      </div>
+
+      <div class="section-box">
+        <h2>כלי ה-AI שאנו ממליצים עליהם</h2>
+        <p><strong>Claude (Anthropic)</strong> — claude.ai — לב פרויקט AENT. Claude טיפל בתרגום, בשיפור השפה הפשוטה ובנה כל דף HTML באתר זה. Claude מצטיין בניואנסים, בטון ובביטוי משמעות בשפה חמה וקריאה המרגישה כמו חבר נאמן המסביר את הכתובים ולא כאקדמאי המרצה. הטוב ביותר לשיפור תרגומים, שפה פשוטה, בניית אתרים וכל דבר הדורש קול אישי ונגיש. אם תשתמש בכלי AI אחד בלבד לפרויקט זה, שיהיה Claude.</p>
+        <p><strong>Gemini (Google)</strong> — gemini.google.com — המומחה למחקר מעמיק. כאשר שאלת תרגום חורגת מעל לפני השטח — כאשר אתה צריך להבין מה מילה יוונית אכן אמרה בהקשר של המאה הראשונה, או לפתור ויכוח תיאולוגי על קטע קשה — Gemini הוא הכלי שלך. הטוב ביותר ללימוד מילים, מחקר תיאולוגי ושאלות תרגום טכניות.</p>
+        <p><strong>ChatGPT (OpenAI)</strong> — chatgpt.com — האמן של הצוות. ChatGPT יצר את הלוגו של AENT — הביבליה הפתוחה עם הנר ונתיב האור הזהוב — ויכול לעשות את אותו הדבר עבור הפרויקט שלך. בקש PNG עם רקע שקוף לקבלת התוצאות הטובות ביותר על דף הקלף שלך. הטוב ביותר ללוגואים, איורים וכל נכס חזותי שהפרויקט שלך צריך.</p>
+        <p><strong>Grok (xAI)</strong> — grok.com — החבר המוכן ביותר בצוות. כאשר AI אחר מהסס בקטע מסוים או שנגמר לו זמן הסשן, Grok נכנס ללא תלונות ומספק עבודת תרגום מוצקה. הטוב ביותר לתרגומים בנפח גדול, עמידה בבקשות ספציפיות והמשך ממקום שאחרים עצרו.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>כלי פרסום חינמיים</h2>
+        <p><strong>Google Docs</strong> — docs.google.com — מעבד תמלילים חינמי מבוסס ענן. כאן אתה כותב, מאחסן ומלטש את התרגום שלך פרק אחר פרק. עבודתך נשמרת אוטומטית, נגישה מכל מכשיר ולעולם לא תאבד. כאשר פרק מוכן, פשוט העתק אותו מ-Google Docs והדבק אותו ישירות ב-SeaMonkey Composer — העיצוב מועבר בצורה נקייה.</p>
+        <p><strong>Gmail</strong> — gmail.com — דוא"ל חינמי מ-Google. הגדר כתובת דוא"ל ייעודית לשירות התרגום שלך. מאחר ש-Gmail ו-Google Docs חולקים את אותו חשבון Google, אתה צריך להירשם פעם אחת בלבד כדי לקבל את שניהם.</p>
+        <p><strong>SeaMonkey Composer</strong> — seamonkey-project.org — עורך HTML חינמי. עובד כמו Microsoft Word. הדבק את הטקסט המתורגם שלך, החל כותרות, שמור כ-HTML. אין צורך בידע בתכנות.</p>
+        <p><strong>GitHub Pages</strong> — github.com — אירוח אתרים חינמי לכולם. העלה את קובצי ה-HTML שלך והתרגום שלך מיד באינטרנט בחינם לנצח.</p>
+        <p><strong>תבנית ה-HTML של AENT</strong> — צור קשר איתנו ב-<a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> כדי לקבל את התבנית החינמית. היא כוללת את כל הסגנונות, הניווט והעיצוב — מוכנה לטקסט המתורגם שלך.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>צור קשר איתנו</h2>
+        <p>אם אתה עובד על ברית חדשה בשפה פשוטה בכל שפה ורוצה הדרכה, תבנית HTML, עידוד או פשוט מישהו שילך איתך בתהליך — צור קשר. אנחנו רוצים לעזור.</p>
+        <p><a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></p>
+      </div>
+
+      <div class="nav-title">תרגומים בתהליך</div>
+      <p class="nav-subtitle">מהדורות אלה בשפות אחרות מתוכננות או בפיתוח. הקישורים יופעלו עם השלמת כל מהדורה. רוצה להוביל את התרגום לשפתך? צור קשר איתנו ב-aentproject@gmail.com.</p>
+
+      <div class="section-label">אפריקה</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Kiswahili</span><span class="english">סווהילי</span></span>
+        <span class="lang-btn coming"><span class="native">Hausa</span><span class="english">האוסה</span></span>
+        <span class="lang-btn coming"><span class="native">Yorùbá</span><span class="english">יורובה</span></span>
+        <span class="lang-btn coming"><span class="native">Igbo</span><span class="english">איגבו</span></span>
+        <span class="lang-btn coming"><span class="native">አማርኛ</span><span class="english">אמהרית</span></span>
+        <span class="lang-btn coming"><span class="native">isiZulu</span><span class="english">זולו</span></span>
+      </div>
+
+      <div class="section-label">אמריקה</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Español</span><span class="english">ספרדית</span></span>
+        <span class="lang-btn coming"><span class="native">Português</span><span class="english">פורטוגזית</span></span>
+        <span class="lang-btn coming"><span class="native">Français</span><span class="english">צרפתית</span></span>
+        <span class="lang-btn coming"><span class="native">Kreyòl Ayisyen</span><span class="english">קריאולית הייטית</span></span>
+      </div>
+
+      <div class="section-label">אירופה</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Deutsch</span><span class="english">גרמנית</span></span>
+        <span class="lang-btn coming"><span class="native">Italiano</span><span class="english">איטלקית</span></span>
+        <span class="lang-btn coming"><span class="native">Русский</span><span class="english">רוסית</span></span>
+        <span class="lang-btn coming"><span class="native">Українська</span><span class="english">אוקראינית</span></span>
+        <span class="lang-btn coming"><span class="native">Polski</span><span class="english">פולנית</span></span>
+        <span class="lang-btn coming"><span class="native">Română</span><span class="english">רומנית</span></span>
+      </div>
+
+      <div class="section-label">המזרח התיכון</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">العربية</span><span class="english">ערבית</span></span>
+        <span class="lang-btn coming"><span class="native">فارسی</span><span class="english">פרסית</span></span>
+        <span class="lang-btn coming"><span class="native">Türkçe</span><span class="english">טורקית</span></span>
+        <span class="lang-btn coming"><span class="native">עברית</span><span class="english">עברית</span></span>
+      </div>
+
+      <div class="section-label">אסיה והשקט</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">हिन्दी</span><span class="english">הינדי</span></span>
+        <span class="lang-btn coming"><span class="native">বাংলা</span><span class="english">בנגלית</span></span>
+        <span class="lang-btn coming"><span class="native">中文</span><span class="english">מנדרינית</span></span>
+        <span class="lang-btn coming"><span class="native">日本語</span><span class="english">יפנית</span></span>
+        <span class="lang-btn coming"><span class="native">한국어</span><span class="english">קורנית</span></span>
+        <span class="lang-btn coming"><span class="native">Bahasa Indonesia</span><span class="english">אינדונזית</span></span>
+        <span class="lang-btn coming"><span class="native">Filipino</span><span class="english">פיליפינית</span></span>
+        <span class="lang-btn coming"><span class="native">Tiếng Việt</span><span class="english">וייטנאמית</span></span>
+        <span class="lang-btn coming"><span class="native">ภาษาไทย</span><span class="english">תאילנדית</span></span>
+        <span class="lang-btn coming"><span class="native">မြန်မာဘာသာ</span><span class="english">בורמזית</span></span>
+      </div>
+
+      <div style="text-align:center;">
+        <a class="home-btn" href="index.html">&#8962; חזור לדף הבית</a>
+      </div>
+
+      <footer class="site-footer">
+        חינם לכולם &#8212; שתף בחופשיות &#8212; לכבוד אלוהים
+        <div class="contact-line">צור קשר: <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></div>
+      </footer>
+
+    </div>
+  </body>
+</html>

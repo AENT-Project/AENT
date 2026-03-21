@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resurse — AENT</title>
+    <style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background-color: #f5f0e8; color: #2c1f0e; line-height: 1.8; }
+  .page-wrapper { max-width: 740px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+  .site-header { text-align: center; border-bottom: 2px solid #8b6914; padding-bottom: 1.5rem; margin-bottom: 1.75rem; }
+  .site-header a { text-decoration: none; }
+  .site-title { font-size: 2.2rem; font-weight: 700; color: #5c3a00; letter-spacing: 0.15em; margin-bottom: 0.25rem; }
+  .site-tagline { font-style: italic; font-size: 0.95rem; color: #6b4c1e; }
+  .lang-notice { background: #e8dfc8; border: 1px solid #c4a35a; border-radius: 6px; padding: 0.6rem 1rem; text-align: center; font-size: 0.85rem; color: #5c3a00; margin-bottom: 1.5rem; }
+  .lang-notice a { color: #8b6914; font-weight: 700; }
+  .page-title { font-size: 1.5rem; font-weight: 700; color: #5c3a00; text-align: center; margin-bottom: 0.5rem; letter-spacing: 0.05em; }
+  .page-subtitle { text-align: center; font-style: italic; color: #6b4c1e; font-size: 0.95rem; margin-bottom: 2rem; }
+  .section-box { background: #ede5d0; border-left: 4px solid #8b6914; padding: 1.25rem 1.5rem; border-radius: 0 6px 6px 0; margin-bottom: 1.5rem; }
+  .section-box h2 { font-size: 1.1rem; font-weight: 700; color: #5c3a00; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .section-box p { margin-bottom: 0.75rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box p:last-child { margin-bottom: 0; }
+  .section-box a { color: #8b6914; font-weight: 700; }
+  .section-box ul { margin: 0.5rem 0 0.75rem 1.5rem; font-size: 0.95rem; color: #3a2a0e; }
+  .section-box ul li { margin-bottom: 0.5rem; }
+  .principle-box { background: #5c3a00; color: #f5f0e8; padding: 1.25rem 1.5rem; border-radius: 6px; margin-bottom: 1.5rem; }
+  .principle-box h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.75rem; letter-spacing: 0.08em; color: #f5f0e8; }
+  .principle-box ul { margin: 0 0 0 1.5rem; font-size: 0.95rem; color: #e8dfc8; }
+  .principle-box ul li { margin-bottom: 0.6rem; }
+  .principle-box p { font-size: 0.95rem; color: #e8dfc8; margin-bottom: 0.5rem; }
+  .step-block { margin-bottom: 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid #c4a35a; }
+  .step-block:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .step-header { margin-bottom: 0.5rem; }
+  .step-number { display: inline-block; background: #8b6914; color: #f5f0e8; font-weight: 700; font-size: 0.85rem; width: 28px; height: 28px; border-radius: 50%; text-align: center; line-height: 28px; margin-right: 0.5rem; vertical-align: middle; }
+  .step-title { font-size: 1rem; font-weight: 700; color: #5c3a00; vertical-align: middle; }
+  .step-block p { font-size: 0.95rem; color: #3a2a0e; margin-bottom: 0.5rem; }
+  .step-block p:last-child { margin-bottom: 0; }
+  .step-block a { color: #8b6914; font-weight: 700; }
+  .nav-title { font-size: 1.1rem; font-weight: 700; color: #5c3a00; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; border-bottom: 1px solid #c4a35a; padding-bottom: 0.5rem; }
+  .nav-subtitle { font-size: 0.88rem; color: #6b4c1e; font-style: italic; margin-bottom: 1.25rem; }
+  .section-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #8b6914; margin: 1.5rem 0 0.5rem; }
+  .lang-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; margin-bottom: 0.5rem; }
+  .lang-btn { display: block; padding: 0.7rem 0.9rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.95rem; text-align: center; cursor: default; opacity: 0.7; }
+  .lang-btn .native { font-size: 1.05rem; font-weight: 700; display: block; }
+  .lang-btn .english { font-size: 0.75rem; color: #8b6914; display: block; margin-top: 0.1rem; }
+  .lang-btn.coming::after { content: 'În Curând'; font-size: 0.65rem; color: #8b6914; display: block; margin-top: 0.2rem; font-style: italic; }
+  .home-btn { display: inline-block; margin-top: 2rem; padding: 0.6rem 1.2rem; background: #ede5d0; border: 1px solid #c4a35a; border-radius: 6px; color: #5c3a00; text-decoration: none; font-size: 0.92rem; }
+  .home-btn:hover { background: #ddd0b0; border-color: #8b6914; }
+  .site-footer { text-align: center; font-size: 0.8rem; color: #8b6914; border-top: 1px solid #c4a35a; padding-top: 1rem; margin-top: 2rem; font-style: italic; }
+  .contact-line { margin-top: 0.5rem; font-style: normal; }
+  .contact-line a { color: #8b6914; }
+  @media (max-width: 480px) { .site-title { font-size: 1.8rem; } .lang-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); } }
+</style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+
+      <header class="site-header">
+        <a href="index.html">
+          <div class="site-title">AENT</div>
+          <p class="site-tagline">Cuvântul Tău este o candelă pentru picioarele mele și o lumină pe cărarea mea — Psalmul 119:105</p>
+        </a>
+      </header>
+
+      <div class="lang-notice">
+        Această pagină este disponibilă în alte limbi. <a href="resources.html">Vezi în engleză</a>
+      </div>
+
+      <h1 class="page-title">Resurse</h1>
+      <p class="page-subtitle">Tot ce ai nevoie pentru a aduce Scriptura în limbaj simplu poporului tău — complet gratuit.<br>
+        <br>
+        Dacă ești nou, curios sau cauți doar claritate — începe aici. Aceste resurse sunt aici pentru a te ajuta să înțelegi — nu pentru a te copleși.</p>
+
+      <div class="section-box">
+        <h2>Viziunea</h2>
+        <p>AENT — Noul Testament în Engleză Accesibilă — a fost construit pentru a dovedi ceva simplu. Întregul Nou Testament poate fi tradus în limbaj clar și simplu și publicat gratuit în toată lumea folosind instrumente accesibile oricui. Nu este nevoie de diplomă de seminar. Nu este nevoie de buget de publicare. Nu este nevoie de pregătire tehnică.</p>
+        <p>Am construit ediția în engleză de la zero folosind doar instrumente AI gratuite, software gratuit și găzduire web gratuită. Întregul proiect — traducere, site web și publicare — nu a costat nimic în afară de timp și credincioșie.</p>
+        <p>Acum vrem să îți arătăm exact cum am făcut-o pentru ca și tu să poți face același lucru pentru poporul tău în limba ta. Cuvântul lui Dumnezeu aparține tuturor. În lumea lui Dumnezeu suntem cu toții frați, surori și vecini. Fiecare persoană de pe pământ merită să îl citească în limba pe care o înțelege cu adevărat. Iubește-L pe Dumnezeu cu toată inima ta, cu tot sufletul, cu toată mintea și cu toată puterea. Răspândește vestea bună a Lui pretutindeni.</p>
+      </div>
+
+      <div class="principle-box">
+        <h2>Principiile de Traducere AENT</h2>
+        <p>Acestea sunt liniile directoare pe care le-am urmat în fiecare capitol al fiecărei cărți. Urmează-le și traducerea ta va avea aceeași calitate caldă, clară și ușor de citit ca ediția în engleză.</p>
+        <ul>
+          <li><strong>Limbaj simplu întotdeauna.</strong> Dacă un elev de gimnaziu nu poate înțelege propoziția, rescrie-o. Nu folosi niciodată un limbaj arhaic sau religios când există un cuvânt simplu.</li>
+          <li><strong>Folosește nume familiare.</strong> Folosește numele pe care oamenii le cunosc deja — Isus, nu Yeshua. Dumnezeu, nu Elohim. Scopul este înțelegerea, nu erudiția.</li>
+          <li><strong>O idee per propoziție.</strong> Propozițiile lungi și complexe pierd cititorii. Împarte-le. Păstrează-le clare.</li>
+          <li><strong>DOMNUL cu majuscule.</strong> Când textul face referire la numele personal și sfânt al lui Dumnezeu, scrie DOMNUL cu majuscule. Când este un titlu de respect, scrie Domnul cu litere normale.</li>
+          <li><strong>Cadru de însoțire.</strong> Această traducere este un companion al Bibliei preferate a cititorului — nu un înlocuitor. Spune asta clar la începutul fiecărei cărți.</li>
+          <li><strong>Voce caldă și ușor de citit.</strong> Scrie așa cum ar explica Scriptura un prieten de încredere — nu cum ar scrie un academic un comentariu.</li>
+          <li><strong>Rămâi fidel sensului.</strong> Limbajul simplu nu înseamnă parafrază liberă. Fiecare alegere de traducere trebuie să respecte sensul textului grec original.</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <h2>Pas cu Pas — Cum să Construiești Propria Ediție</h2>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">1</span><span class="step-title">Creează-ți Contul Google Gratuit</span></div>
+          <p>Mergi la google.com și creează un cont gratuit. Acest cont îți oferă Gmail pentru adresa de email a proiectului și Google Docs pentru a scrie și stoca traducerea. Dă emailului tău un nume clar — precum romaniaent@gmail.com sau aentromanian@gmail.com.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">2</span><span class="step-title">Obține Textul Sursă</span></div>
+          <p>Ai nevoie de un Nou Testament grecesc de încredere ca fundament. Recomandăm Noul Testament Grec SBL — caută online "SBL Greek New Testament free PDF" pentru a-l găsi. Nu trebuie să citești singur greaca. Instrumentele AI se vor ocupa de traducerea din greacă. Ai nevoie doar ca textul sursă să fie disponibil ca referință.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">3</span><span class="step-title">Deschide Grok sau Gemini și Începe Traducerea</span></div>
+          <p>Mergi la grok.com sau gemini.google.com și creează un cont gratuit. Ambele instrumente sunt excelente pentru munca de traducere și au niveluri gratuite generoase care te vor ghida prin întregul Nou Testament fără să rămâi fără timp de sesiune.</p>
+          <p>Pentru fiecare capitol dă lui Grok sau Gemini o instrucțiune de genul — "Te rog să traduci Matei Capitolul 1 din Noul Testament grec în română simplă urmând aceste principii — folosește nume familiare precum Isus și Dumnezeu, scrie la nivel de gimnaziu, o idee per propoziție, ton cald și prietenos, DOMNUL cu majuscule când faci referire la numele personal al lui Dumnezeu. Aceasta este o traducere companion nu un înlocuitor al Bibliilor existente."</p>
+          <p>Revizuiește cu atenție fiecare capitol. Ajustează orice nu sună natural în limba ta. Lipește capitolul finalizat în Google Docs. Salvează-l. Treci la următorul capitol.</p>
+          <p>Când traducerea ta este completă și ești gata să construiești site-ul tău web — atunci îl aduci pe Claude la claude.ai. Claude excelează în construirea paginilor HTML, rafinarea limbajului simplu și rezolvarea problemelor tehnice. Folosește fiecare instrument pentru ceea ce face cel mai bine.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">4</span><span class="step-title">Lucrează Carte cu Carte</span></div>
+          <p>Traduce câte o carte pe rând. Începe cu Evanghelia lui Marcu — este cea mai scurtă Evanghelie și narațiunea cea mai directă. După ce termini Marcu vei avea un simț puternic pentru vocea traducerii și restul va merge mai repede.</p>
+          <p>Stochează fiecare carte finalizată ca document separat în Google Docs. Munca ta se salvează automat în cloud și este accesibilă de pe orice dispozitiv. Nu se va pierde niciodată.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">5</span><span class="step-title">Descarcă SeaMonkey Composer</span></div>
+          <p>Pentru toate editările site-ului web recomandăm SeaMonkey. Este un instrument puternic de modă veche care funcționează exact ca Microsoft Word. Dacă poți copia text dintr-un document și îl poți lipi într-o fereastră nouă ai deja abilitățile necesare pentru a construi un site web cu SeaMonkey. Îți respectă formatarea, păstrează lucrurile simple și necesită <strong>zero cunoștințe de programare</strong>.</p>
+          <p>Pentru a începe mergi la seamonkey-project.org și descarcă software-ul gratuit. După instalare folosește instrumentul <strong>Composer</strong> pentru a converti textul tău din Google Docs în pagini web HTML profesionale.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">6</span><span class="step-title">Construiește Paginile Tale HTML</span></div>
+          <p>Dacă vrei să îți începi propriul proiect de traducere contactează-ne la <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> pentru a primi gratuit <strong>Șablonul HTML AENT</strong>. Acest fișier pre-formatat asigură că site-ul tău rămâne curat, profesional și ușor de citit atât pe computere cât și pe telefoane — fără să fie nevoie să înveți o singură linie de cod.</p>
+          <p>Șablonul se ocupă de "munca tehnică" pentru tine. Deschide-l pur și simplu în <strong>SeaMonkey Composer</strong>, lipește textul tradus în <strong>vizualizarea Normală</strong> și salvează-l ca fișier HTML. Recomandăm să construiești un fișier HTML per carte care conține toate capitolele.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">7</span><span class="step-title">Configurează GitHub și Publică</span></div>
+          <p>Mergi la github.com și creează un cont gratuit. Creează un nou depozit și activează GitHub Pages în setările depozitului. Încarcă toate fișierele tale HTML. Traducerea ta este imediat live pe internet — gratuită, permanentă și accesibilă oricui din lume.</p>
+          <p>Asta e tot. Din acel moment oricine găsește site-ul tău poate citi Noul Testament în limbaj simplu în limba ta gratuit.</p>
+        </div>
+
+        <div class="step-block">
+          <div class="step-header"><span class="step-number">8</span><span class="step-title">Contactează-ne — Vrem să Ajutăm</span></div>
+          <p>Nu trebuie să descoperi toate acestea singur. Am trecut prin fiecare pas al acestui proces și vrem să te ajutăm să reușești. Trimite-ne un email la <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> cu întrebări, pentru a primi șablonul HTML sau doar pentru a ne anunța că lucrezi la o traducere. Vom merge cu tine prin întregul proces.</p>
+        </div>
+
+      </div>
+
+      <div class="section-box">
+        <h2>Instrumente AI pe care le Recomandăm</h2>
+        <p><strong>Claude (Anthropic)</strong> — claude.ai — Inima proiectului AENT. Claude a gestionat traducerea, rafinarea limbajului simplu și a construit fiecare pagină HTML de pe acest site. Claude excelează în nuanțe, ton și exprimarea sensului într-un limbaj cald și ușor de citit care pare un prieten de încredere explicând Scriptura mai degrabă decât un academic ținând o prelegere. Cel mai bun pentru rafinarea traducerilor, limbaj simplu, construirea de site-uri web și orice necesită o voce personală și accesibilă. Dacă vei folosi un singur instrument AI pentru acest proiect să fie Claude.</p>
+        <p><strong>Gemini (Google)</strong> — gemini.google.com — Specialistul în cercetare profundă. Când o întrebare de traducere depășește suprafața — când trebuie să înțelegi ce a însemnat cu adevărat un cuvânt grecesc în contextul secolului întâi sau să rezolvi o dezbatere teologică despre un pasaj dificil — Gemini este instrumentul tău. Cel mai bun pentru studii de cuvinte, cercetare teologică și întrebări tehnice de traducere.</p>
+        <p><strong>ChatGPT (OpenAI)</strong> — chatgpt.com — Artistul echipei. ChatGPT a creat logo-ul AENT — Biblia deschisă cu lampa și calea luminoasă aurie — și poate face același lucru pentru proiectul tău. Solicită un PNG cu fundal transparent pentru cele mai bune rezultate pe pagina ta de pergament. Cel mai bun pentru logo-uri, ilustrații și orice activ vizual de care are nevoie proiectul tău.</p>
+        <p><strong>Grok (xAI)</strong> — grok.com — Cel mai disponibil membru al echipei. Când un alt AI ezită la un pasaj anume sau se epuizează timpul sesiunii Grok intervine fără a se plânge și livrează o muncă solidă de traducere. Cel mai bun pentru traduceri de volum mare, conformarea cu solicitări specifice și continuarea de unde au lăsat alții.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Instrumente Gratuite de Publicare</h2>
+        <p><strong>Google Docs</strong> — docs.google.com — Procesor de text gratuit bazat pe cloud. Aici scrii, stochezi și șlefuiești traducerea capitol cu capitol. Munca ta se salvează automat, este accesibilă de pe orice dispozitiv și nu se va pierde niciodată. Când un capitol este gata copiază-l din Google Docs și lipește-l direct în SeaMonkey Composer — formatarea se transferă curat.</p>
+        <p><strong>Gmail</strong> — gmail.com — Email gratuit de la Google. Configurează o adresă de email dedicată pentru ministerul tău de traducere. Deoarece Gmail și Google Docs partajează același cont Google trebuie să te înregistrezi o singură dată pentru a le obține pe ambele.</p>
+        <p><strong>SeaMonkey Composer</strong> — seamonkey-project.org — Editor HTML gratuit. Funcționează ca Microsoft Word. Lipește textul tradus, aplică titluri, salvează ca HTML. Nu sunt necesare cunoștințe de programare.</p>
+        <p><strong>GitHub Pages</strong> — github.com — Găzduire web gratuită pentru toți. Încarcă fișierele tale HTML și traducerea ta este imediat pe internet gratuit pentru totdeauna.</p>
+        <p><strong>Șablonul HTML AENT</strong> — Contactează-ne la <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a> pentru a primi șablonul gratuit. Include toate stilurile, navigarea și formatarea — gata pentru textul tău tradus.</p>
+      </div>
+
+      <div class="section-box">
+        <h2>Contactează-ne</h2>
+        <p>Dacă lucrezi la un Nou Testament în limbaj simplu în orice limbă și dorești îndrumare, șablonul HTML, încurajare sau pur și simplu pe cineva care să meargă cu tine în proces — contactează-ne. Vrem să ajutăm.</p>
+        <p><a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></p>
+      </div>
+
+      <div class="nav-title">Traduceri în Progres</div>
+      <p class="nav-subtitle">Aceste ediții în alte limbi sunt planificate sau în curs de dezvoltare. Linkurile vor deveni active pe măsură ce fiecare ediție este finalizată. Vrei să conduci traducerea pentru limba ta? Contactează-ne la aentproject@gmail.com.</p>
+
+      <div class="section-label">Africa</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Kiswahili</span><span class="english">Swahili</span></span>
+        <span class="lang-btn coming"><span class="native">Hausa</span><span class="english">Hausa</span></span>
+        <span class="lang-btn coming"><span class="native">Yorùbá</span><span class="english">Yoruba</span></span>
+        <span class="lang-btn coming"><span class="native">Igbo</span><span class="english">Igbo</span></span>
+        <span class="lang-btn coming"><span class="native">አማርኛ</span><span class="english">Amharică</span></span>
+        <span class="lang-btn coming"><span class="native">isiZulu</span><span class="english">Zulu</span></span>
+      </div>
+
+      <div class="section-label">America</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Español</span><span class="english">Spaniolă</span></span>
+        <span class="lang-btn coming"><span class="native">Português</span><span class="english">Portugheză</span></span>
+        <span class="lang-btn coming"><span class="native">Français</span><span class="english">Franceză</span></span>
+        <span class="lang-btn coming"><span class="native">Kreyòl Ayisyen</span><span class="english">Creolă Haitiană</span></span>
+      </div>
+
+      <div class="section-label">Europa</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">Deutsch</span><span class="english">Germană</span></span>
+        <span class="lang-btn coming"><span class="native">Italiano</span><span class="english">Italiană</span></span>
+        <span class="lang-btn coming"><span class="native">Русский</span><span class="english">Rusă</span></span>
+        <span class="lang-btn coming"><span class="native">Українська</span><span class="english">Ucraineană</span></span>
+        <span class="lang-btn coming"><span class="native">Polski</span><span class="english">Poloneză</span></span>
+        <span class="lang-btn coming"><span class="native">Română</span><span class="english">Română</span></span>
+      </div>
+
+      <div class="section-label">Orientul Mijlociu</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">العربية</span><span class="english">Arabă</span></span>
+        <span class="lang-btn coming"><span class="native">فارسی</span><span class="english">Persană</span></span>
+        <span class="lang-btn coming"><span class="native">Türkçe</span><span class="english">Turcă</span></span>
+        <span class="lang-btn coming"><span class="native">עברית</span><span class="english">Ebraică</span></span>
+      </div>
+
+      <div class="section-label">Asia și Pacific</div>
+      <div class="lang-grid">
+        <span class="lang-btn coming"><span class="native">हिन्दी</span><span class="english">Hindi</span></span>
+        <span class="lang-btn coming"><span class="native">বাংলা</span><span class="english">Bengaleză</span></span>
+        <span class="lang-btn coming"><span class="native">中文</span><span class="english">Mandarină</span></span>
+        <span class="lang-btn coming"><span class="native">日本語</span><span class="english">Japoneză</span></span>
+        <span class="lang-btn coming"><span class="native">한국어</span><span class="english">Coreeană</span></span>
+        <span class="lang-btn coming"><span class="native">Bahasa Indonesia</span><span class="english">Indoneziană</span></span>
+        <span class="lang-btn coming"><span class="native">Filipino</span><span class="english">Filipineză</span></span>
+        <span class="lang-btn coming"><span class="native">Tiếng Việt</span><span class="english">Vietnameză</span></span>
+        <span class="lang-btn coming"><span class="native">ภาษาไทย</span><span class="english">Tailandeză</span></span>
+        <span class="lang-btn coming"><span class="native">မြန်မာဘာသာ</span><span class="english">Birmaneză</span></span>
+      </div>
+
+      <div style="text-align:center;">
+        <a class="home-btn" href="index.html">&#8962; Înapoi la Pagina Principală</a>
+      </div>
+
+      <footer class="site-footer">
+        Gratuit pentru toți &#8212; împărtășiți liber &#8212; spre slava lui Dumnezeu
+        <div class="contact-line">Contact: <a href="mailto:aentproject@gmail.com">aentproject@gmail.com</a></div>
+      </footer>
+
+    </div>
+  </body>
+</html>
